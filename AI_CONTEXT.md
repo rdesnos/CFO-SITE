@@ -6,13 +6,25 @@ Derniere mise a jour : 27 aout 2026
 
 Ce fichier est la memoire de reprise rapide du projet CFO. Il complete la documentation detaillee de `docs/` et doit permettre de reprendre le chantier dans une nouvelle session sans reconstruire le contexte.
 
+## Nomenclature structurante
+
+**CFO est le nom du projet et du socle commun.**
+
+Chaque declinaison consacree a un artiste est une instance CFO nommee selon la convention : `CFO_<artiste>`.
+
+Exemples :
+- `CFO_Marine` : instance actuelle, POC de reference.
+- `CFO_Julien_Lieb` : prochain POC envisage apres finalisation de CFO_Marine.
+
+Cette convention doit etre utilisee autant que possible dans Git, Supabase, plugins, documentation et futurs environnements afin de distinguer clairement le socle CFO d'une instance artiste.
+
+Le chantier actuel reste exclusivement CFO_Marine. Ne pas lancer ni melanger le prochain POC avant stabilisation du POC actuel.
+
 ## POC actuel
 
-CFO / Marine est le POC en cours et la priorite absolue. CFO est un media libre, independant et non officiel consacre a Marine.
+CFO_Marine est le POC en cours et la priorite absolue. Il correspond au media libre, independant et non officiel consacre a Marine.
 
-Ne pas transformer le chantier actuel en plateforme multi-artistes. La plateforme editoriale multicanale generique sera un projet distinct, lance seulement apres stabilisation du POC CFO.
-
-Prochain POC envisage apres CFO : Julien Lieb.
+Ne pas transformer le chantier actuel en plateforme multi-artistes. Une plateforme editoriale multicanale generique pourra constituer un projet distinct apres stabilisation de CFO_Marine et retour d'experience des POC.
 
 ## Priorite actuelle
 
@@ -75,9 +87,13 @@ Le site CFO lui-meme n'a pas vocation a etre monetise agressivement. La strategi
 
 ## Regle de travail
 
+Le POC CFO_Marine doit etre **stable et reproductible**.
+
 Avancer une priorite a la fois et valider sur le rendu reel. Une modification de base de donnees ou de back-office n'est pas consideree comme terminee tant que le comportement public n'a pas ete controle.
 
 Ne pas annoncer qu'une correction est en production sans verification effective du rendu public.
+
+Chaque composant important doit tendre vers trois proprietes : installable, testable, restaurable.
 
 ## Documentation existante
 
