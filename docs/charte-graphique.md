@@ -44,9 +44,27 @@ Le bleu `#183d4b` est la référence graphique principale validée pour le hero 
 - Accent brique réservé aux CTA, états actifs, repères éditoriaux et filets
 - Cartes à fond blanc avec bord supérieur alterné brique / bleu
 
+## Actualités — règle de sélection des visuels
+
+Chaque actualité CFO doit disposer d'un visuel contextualisé. Le choix du visuel respecte obligatoirement l'ordre de priorité suivant :
+
+1. **Visuel exact de l'actualité** : photographie ou image directement liée à l'événement, à l'annonce ou à l'information traitée.
+2. **Visuel publié par l'artiste ou l'organisateur** : publication, photographie, affiche ou image officielle directement relative à cette actualité.
+3. **Snapshot pertinent de la publication ou de la source** : capture permettant d'identifier et de contextualiser clairement l'information.
+4. **Logo exact de l'émetteur** : uniquement lorsque les trois niveaux précédents ne fournissent aucun visuel exploitable.
+5. **Visuel générique CFO** : dernier recours uniquement.
+
+### Principes d'application
+
+- Le recours au logo doit rester exceptionnel : un logo ne remplace jamais un visuel contextualisé disponible aux niveaux 1 à 3.
+- Les photographies génériques de concert, studio, microphone, festival ou public ne doivent pas être utilisées lorsqu'un visuel directement lié à l'information existe.
+- La source doit être identifiée à son niveau exact. Des entités proches ne sont pas interchangeables : par exemple **NRJ France** et **NRJ Belgique** sont deux émetteurs distincts et doivent être traités comme tels.
+- Un logo, lorsqu'il est nécessaire, doit être celui de l'entité effectivement à l'origine de l'information et dans sa version officielle correcte.
+- La même hiérarchie s'applique aux actualités anciennes lors de leur remise au standard CFO.
+
 ## Règle de gestion de configuration
 
-Toute modification de couleur, typographie, règle de composition, positionnement du hero ou asset maître doit :
+Toute modification de couleur, typographie, règle de composition, positionnement du hero, règle éditoriale visuelle ou asset maître doit :
 1. être testée en preview ;
 2. être validée visuellement ;
 3. être commitée dans Git ;
