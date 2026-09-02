@@ -1,0 +1,18 @@
+/* CFO HEADER — baseline validée 2026-09-02
+ * Bandeau supérieur ivoire, filet blanc 4px.
+ * Typographie niveau 0 renforcée.
+ * Structure du menu WordPress : À l'affiche reste la Home ; Actualités et Agenda sont ses enfants.
+ */
+.cfo-site-header{position:sticky;top:0;z-index:100;background:#fbf4ef;border-bottom:4px solid #fff;backdrop-filter:none}
+.cfo-header-inner{max-width:1240px;margin:auto;min-height:112px;padding:0 28px;display:flex;align-items:center;justify-content:space-between;gap:32px}
+.cfo-brand{display:block;text-decoration:none;flex:0 0 auto}
+.cfo-logo{width:290px;height:auto;max-height:100px;object-fit:contain;object-position:left center}
+.cfo-primary-nav ul{list-style:none;margin:0;padding:0}
+.cfo-menu{display:flex;align-items:center;gap:22px}
+.cfo-menu>li{position:relative}
+.cfo-menu a{display:block;padding:31px 0 27px;text-decoration:none;color:#304750;font-weight:700;font-size:clamp(1.25rem,1.55vw,1.5rem);line-height:.75;letter-spacing:.01em;white-space:nowrap;border-bottom:3px solid transparent}
+.cfo-menu>li:hover>a,.cfo-menu>.current-menu-item>a,.cfo-menu>.current-menu-ancestor>a{color:#8a3328;border-bottom-color:#8a3328}
+.cfo-menu .sub-menu{display:none;position:absolute;top:100%;left:-18px;min-width:230px;background:#fffdfa;border:1px solid #e6d9d1;box-shadow:0 18px 45px rgba(45,41,39,.13);padding:9px}
+.cfo-menu li:hover>.sub-menu,.cfo-menu li:focus-within>.sub-menu{display:block}
+.cfo-menu .sub-menu a{padding:11px 13px;border:0;font-weight:600;white-space:normal}
+.cfo-menu .sub-menu a:hover{background:#f6eee9;color:#8a3328}
