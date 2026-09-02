@@ -2,10 +2,11 @@
  * Source: draft WordPress validé visuellement.
  * Bleu de charte figé: #183d4b
  * Transition du dégradé oblique alignée sur la tête / oreille de Marine.
+ * Overlay bleu parasite supprimé pour éviter toute rupture verticale entre les bleus.
  */
 .cfo-home{--wine:#8a3328;--wine-dark:#5c211b;--blue:#183d4b;--blue-soft:#e8f0f2;--gold:#b38b55;--ink:#2d2927;--muted:#6e6661;--paper:#fffdfa;--cream:#f5eee8}
 .cfo-home .hero{min-height:640px;display:flex;align-items:flex-end;color:#fff;background:linear-gradient(108deg,#183d4b 0%,#183d4b 50%,#245364 57%,#d8d6d1 68%,#fffdfa 79%,#fffdfa 100%);position:relative;overflow:hidden}
-.cfo-home .hero:before{content:"";position:absolute;z-index:0;top:0;right:0;bottom:0;width:54%;background:linear-gradient(90deg,rgba(36,83,100,.35) 0%,rgba(255,253,250,0) 58%)}
+.cfo-home .hero:before{content:none}
 .cfo-home .cfo-hero-portrait{position:absolute!important;z-index:1!important;right:25%!important;top:50%!important;bottom:auto!important;width:36%!important;max-width:630px!important;height:auto!important;display:block!important;opacity:1!important;visibility:visible!important;object-fit:contain!important;object-position:center center!important;transform:translateY(-50%)!important;pointer-events:none!important}
 .cfo-home .hero:after{content:"";position:absolute;inset:0;opacity:.13;background-image:repeating-linear-gradient(110deg,transparent 0 17px,rgba(255,255,255,.25) 18px 19px)}
 .cfo-home .hero .wrap{position:relative;z-index:2;padding-bottom:74px}
