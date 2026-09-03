@@ -1,0 +1,42 @@
+/* CFO responsive hero baseline — validated 2026-09-03.
+ * Production source: theme.css.
+ * Desktop baseline remains in home-hero.css; these rules freeze tablet/mobile behavior.
+ */
+@media(max-width:1100px) and (min-width:781px){
+  .cfo-header-inner{min-height:96px;padding:0 20px;gap:18px}
+  .cfo-logo{width:205px}
+  .cfo-menu{gap:12px}
+  .cfo-menu a{font-size:1.05rem}
+  .cfo-home .hero{min-height:0;height:auto;padding:0;align-items:flex-start;background:linear-gradient(108deg,#183d4b 0%,#183d4b 56%,#245364 65%,#d8d6d1 79%,#fffdfa 100%)}
+  .cfo-home .hero .wrap{padding-top:24px;padding-bottom:18px;min-height:0}
+  .cfo-home .hero h1{font-size:clamp(3rem,5.6vw,4.15rem);max-width:58%;margin-bottom:14px}
+  .cfo-home .hero .lead{max-width:50%;font-size:1.03rem;margin-bottom:6px}
+  .cfo-home .cfo-hero-portrait{right:4%!important;top:50%!important;width:37%!important;max-width:390px!important}
+  .cfo-home .universe-grid{grid-template-columns:repeat(3,1fr)}
+  .cfo-news-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+
+@media(max-width:780px){
+  .cfo-header-inner{min-height:82px;padding:0 16px;gap:12px}
+  .cfo-logo{width:190px;max-height:74px}
+  .cfo-menu-toggle{display:block}
+  .cfo-primary-nav{display:none;position:absolute;top:82px;left:0;right:0;max-height:calc(100vh - 82px);overflow-y:auto;background:#fffdfa;border-bottom:1px solid #e5d9d2;padding:12px 20px}
+  .cfo-primary-nav.is-open{display:block}
+  .cfo-menu{display:block}
+  .cfo-menu a{padding:11px 4px;border:0;line-height:1.15;font-size:1.05rem}
+  .cfo-menu .sub-menu{display:block;position:static;border:0;box-shadow:none;padding:0 0 4px 16px;background:transparent}
+  .cfo-menu .sub-menu a{padding:8px 4px;font-size:.92rem;font-weight:600}
+  .cfo-home .hero{min-height:650px;align-items:flex-start;background:linear-gradient(108deg,#183d4b 0%,#183d4b 58%,#245364 68%,#d8d6d1 82%,#fffdfa 100%)}
+  .cfo-home .hero .wrap{padding-top:72px;padding-bottom:230px}
+  .cfo-home .hero h1{font-size:clamp(2.65rem,7vw,4rem);max-width:78%;margin-bottom:20px}
+  .cfo-home .hero .lead{font-size:1.05rem;line-height:1.55;max-width:58%}
+  .cfo-home .cfo-hero-portrait{right:2%!important;top:auto!important;bottom:18px!important;width:43%!important;max-width:390px!important;transform:none!important}
+}
+
+@media(max-width:560px){
+  .cfo-home .hero{min-height:760px;background:linear-gradient(180deg,#183d4b 0%,#183d4b 68%,#245364 78%,#eeeae5 100%)}
+  .cfo-home .hero .wrap{padding-top:48px;padding-bottom:330px}
+  .cfo-home .hero h1{max-width:100%;font-size:clamp(2.35rem,12vw,3.35rem)}
+  .cfo-home .hero .lead{max-width:100%;font-size:1rem}
+  .cfo-home .cfo-hero-portrait{right:50%!important;bottom:12px!important;width:74%!important;max-width:340px!important;transform:translateX(50%)!important}
+}
