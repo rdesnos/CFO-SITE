@@ -15,3 +15,9 @@
 .cfo-home .hero .lead{font-size:1.18rem;max-width:760px}
 .cfo-home .btn{display:inline-block;margin:14px 9px 0 0;padding:12px 18px;background:var(--wine);color:#fff!important;text-decoration:none;font-weight:800;border:1px solid var(--wine)}
 .cfo-home .btn.alt{background:transparent;border-color:rgba(255,255,255,.65)}
+
+/* CFO — intertitres : liseré brique */
+.cfo-home h2{
+  border-left:4px solid var(--wine);
+  padding-left:14px;
+}
