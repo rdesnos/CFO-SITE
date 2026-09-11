@@ -1,6 +1,6 @@
 # CFO — AI Context
 
-Derniere mise a jour : 27 aout 2026
+Derniere mise a jour : 11 septembre 2026
 
 ## Objet
 
@@ -19,6 +19,16 @@ Exemples :
 Cette convention doit etre utilisee autant que possible dans Git, Supabase, plugins, documentation et futurs environnements afin de distinguer clairement le socle CFO d'une instance artiste.
 
 Le chantier actuel reste exclusivement CFO_Marine. Ne pas lancer ni melanger le prochain POC avant stabilisation du POC actuel.
+
+## Identite graphique — logo officiel CFO
+
+Le logo officiel de **Chroniques d'une fille ordinaire** est le logo calligraphique fourni et valide par Rudy Desnos le 11 septembre 2026 : texte manuscrit bordeaux « Chroniques d'une fille ordinaire », accompagne d'une portee et de notes de musique bordeaux/or.
+
+**Regle absolue : ne jamais recreer, reinterpreteter ou remplacer ce logo par un logo genere par IA, un monogramme « CFO » ou une autre composition.**
+
+Pour tout visuel, page, document, illustration ou support CFO necessitant le logo, reutiliser systematiquement l'asset officiel de reference. Si l'asset n'est pas techniquement accessible dans le contexte courant, demander/retrouver l'original plutot que generer un substitut.
+
+Le logo « CFO Agence Media » est une identite distincte et ne doit jamais etre utilise a la place du logo de Chroniques d'une fille ordinaire.
 
 ## POC actuel
 
