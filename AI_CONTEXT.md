@@ -30,6 +30,19 @@ Pour tout visuel, page, document, illustration ou support CFO necessitant le log
 
 Le logo « CFO Agence Media » est une identite distincte et ne doit jamais etre utilise a la place du logo de Chroniques d'une fille ordinaire.
 
+## Mediatheque — regle structurante
+
+**Supabase est la source de verite pour les ressources visuelles utilisees par CFO.**
+
+Toute ressource visuelle destinee au site ou a un contenu CFO doit suivre la chaine suivante :
+1. stockage physique dans le bucket Supabase `cfo-media` ;
+2. referencement dans la table de mediatheque `cfo_media_assets` ;
+3. utilisation, dans WordPress ou ailleurs, de l'URL publique issue de Supabase.
+
+Ne pas utiliser GitHub Raw, WordPress Media Library, une Edge Function ou un service externe comme source finale d'affichage pour un asset editorial CFO. Git peut conserver la source de travail ou la version de reference, mais **le rendu public doit pointer vers la mediatheque Supabase**.
+
+Avant de modifier une page pour y afficher un visuel, verifier que l'asset Supabase existe reellement, que son fichier n'est pas corrompu et que son URL publique est accessible.
+
 ## POC actuel
 
 CFO_Marine est le POC en cours et la priorite absolue. Il correspond au media libre, independant et non officiel consacre a Marine.
@@ -51,8 +64,8 @@ MH Magazine reste le rollback tant que CFO Theme n'est pas valide et publie.
 - WordPress : publication et experience Web.
 - CFO Theme : presentation uniquement, sans logique metier strategique.
 - Plugins CFO : fonctionnalites du site.
-- Supabase : couche de donnees de reference pour Actus/Agenda et les donnees structurees CFO.
-- GitHub : documentation durable, historique des decisions et code versionne.
+- Supabase : couche de donnees de reference pour Actus/Agenda, les donnees structurees CFO et la mediatheque visuelle.
+- GitHub : documentation durable, historique des decisions, code versionne et sources de travail ; il n'est pas la source finale de diffusion des visuels editoriaux.
 
 ## CFO Actus — decisions figees
 
