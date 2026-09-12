@@ -9,6 +9,23 @@ Cette charte s’applique à tous les visuels éditoriaux des dossiers **Entre l
 
 Chaque illustration doit appartenir immédiatement à la même collection que le visuel **Dalida / Alzheimer**. Le sujet et la narration changent d’un dossier à l’autre ; la grammaire graphique reste constante.
 
+### Principe narratif fondamental
+
+**Le visuel illustre le fond de la chanson, jamais sa forme.**
+
+Il ne doit pas représenter littéralement un mot du titre, un accessoire, une scène de concert ou un élément superficiel des paroles simplement parce qu'il est facilement identifiable. Il doit traduire visuellement **l'histoire, l'émotion, la situation humaine ou la question profonde racontée par la chanson**.
+
+Le visuel et la chanson doivent pouvoir être lus comme deux expressions du même récit : **l'image raconte la même histoire que la chanson, avec son propre langage.**
+
+Conséquences :
+
+- partir du sens de la chanson avant de chercher une scène ;
+- identifier le conflit, l'émotion ou la situation humaine centrale ;
+- privilégier une scène qui raconte ce fond plutôt qu'une accumulation de symboles ;
+- éviter l'illustration littérale du titre ou d'une phrase isolée ;
+- éviter les références à la performance musicale lorsqu'elles ne constituent pas le sujet profond de la chanson ;
+- une personne qui ne connaît pas la chanson doit pouvoir ressentir ou comprendre quelque chose de son histoire en regardant l'image.
+
 ## 2. Style
 
 - Illustration **aquarelle éditoriale**.
@@ -48,13 +65,17 @@ Chaque illustration doit appartenir immédiatement à la même collection que le
 - Pas de cartouche, bouton, pictogramme décoratif ou élément d’interface.
 - Le titre, le chapô et les informations éditoriales restent du ressort de la page WordPress.
 
-## 7. Critère de validation
+## 7. Critères de validation
 
-Avant validation, poser une seule question :
+Chaque visuel doit réussir **deux tests** :
 
 > Si l’on place ce visuel à côté de « Dalida / Alzheimer », ressemble-t-il clairement à une autre illustration de la même collection ?
 
-Si la réponse est non, le visuel doit être repris avant intégration.
+et surtout :
+
+> Sans illustrer littéralement son titre ou sa forme, cette image raconte-t-elle la même histoire que la chanson ?
+
+Si l’une des réponses est non, le visuel doit être repris avant intégration.
 
 ## 8. Déclinaison prévue
 
@@ -72,4 +93,4 @@ Le master **Dalida / Alzheimer** sert de référence pour les visuels de :
 
 ## 9. Règle de production
 
-La direction artistique est figée dans ce document. Pour chaque nouveau dossier, seul le **brief narratif propre au sujet** doit être défini ; les principes de style, format, matière et intégration ne sont pas rediscutés.
+La direction artistique et le principe narratif sont figés dans ce document. Pour chaque nouveau dossier, on commence par définir **ce que raconte réellement la chanson**. Ce fond devient le brief narratif du visuel. Les principes de style, format, matière et intégration ne sont pas rediscutés.
