@@ -18,3 +18,17 @@ Date de validation : 2026-09-13
 ## Standard graphique
 
 La page a été alignée sur Dalida : même classe `cfo-dossier-illustration`, image sans dimensions HTML forcées et comportement confié au CSS commun Entre les lignes. Le contenu éditorial n'a pas été modifié lors de cette validation.
+
+## Écouter le morceau
+
+Le tuner audio CFO commun est actif en production et alimenté par `public.cfo_dossier_audio_links` dans Supabase.
+
+- Artiste : Marine
+- Titre : D'accord
+- ISRC : FRZ052500203
+- Durée : 166 s
+- Spotify : https://open.spotify.com/intl-fr/track/1Kx7Hdx6SH9VXvpcZTJ38I
+- YouTube officiel : https://www.youtube.com/watch?v=MU-1hK3mvAs
+- Deezer : https://www.deezer.com/track/3407298811
+- Emplacement : immédiatement après le visuel du dossier, avant le texte éditorial
+- Validation technique : tuner rendu en production avec les trois liens issus de Supabase
