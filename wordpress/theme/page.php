@@ -6,7 +6,8 @@ get_header();
 ?>
 <main id="main" class="cfo-page-shell">
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-		<article <?php post_class( 'cfo-page' ); ?>>
+		<?php $is_cfo_dossier = (bool) get_post_meta( get_the_ID(), '_cfo_dossier_illustration_attachment_id', true ); ?>
+		<article <?php post_class( $is_cfo_dossier ? 'cfo-page cfo-dossier-page' : 'cfo-page' ); ?>>
 			<header class="cfo-page-header">
 				<div class="cfo-page-header-inner">
 					<span class="cfo-page-kicker">Chroniques d’une fille ordinaire</span>
@@ -29,7 +30,8 @@ get_header();
 					<?php $author_blocks = parse_blocks( get_the_content() ); $author_lead = array_slice( $author_blocks, 0, 5 ); $author_rest = array_slice( $author_blocks, 5 ); ?>
 					<div class="cfo-page-content cfo-author-content"><div class="cfo-author-lead"><?php if ( has_post_thumbnail() ) : ?><figure class="cfo-author-portrait"><?php the_post_thumbnail( 'medium_large' ); ?></figure><?php endif; ?><div class="cfo-author-intro"><?php foreach ( $author_lead as $block ) { echo render_block( $block ); } ?></div></div><div class="cfo-author-rest"><?php foreach ( $author_rest as $block ) { echo render_block( $block ); } ?></div></div>
 				<?php else : ?>
-					<?php if ( has_post_thumbnail() ) : ?><figure class="cfo-page-visual"><?php the_post_thumbnail( 'large' ); ?></figure><?php endif; ?><div class="cfo-page-content"><?php the_content(); ?></div>
+					<?php if ( ! $is_cfo_dossier && has_post_thumbnail() ) : ?><figure class="cfo-page-visual"><?php the_post_thumbnail( 'large' ); ?></figure><?php endif; ?>
+					<div class="cfo-page-content<?php echo $is_cfo_dossier ? ' cfo-dossier-content' : ''; ?>"><?php the_content(); ?></div>
 				<?php endif; ?>
 			<?php endif; ?>
 		</article>
