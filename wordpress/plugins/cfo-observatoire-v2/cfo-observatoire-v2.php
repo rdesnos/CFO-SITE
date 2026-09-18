@@ -23,7 +23,9 @@ add_action('rest_api_init', function () {
 });
 
 add_action('admin_menu', function () {
-    add_menu_page('Cockpit CFO','Cockpit CFO','manage_options','cfo-cockpit-v1','cfo_observatoire_v2_admin_page','dashicons-chart-area',58);
+    add_menu_page('CFO','CFO','manage_options','cfo-admin','cfo_admin_v1_page','dashicons-chart-area',58);
+    add_submenu_page('cfo-admin','Administration CFO','Administration','manage_options','cfo-admin','cfo_admin_v1_page');
+    add_submenu_page('cfo-admin','Cockpit CFO','Cockpit','manage_options','cfo-cockpit-v1','cfo_observatoire_v2_admin_page');
 });
 
 function cfo_observatoire_v2_settings() {
@@ -236,4 +238,73 @@ function cfo_observatoire_v2_render($admin_preview = false) {
   <div class="cfo-version">Cockpit CFO · <?php echo esc_html(CFO_OBSERVATOIRE_V2_VERSION); ?></div>
 </div>
 <?php return ob_get_clean();
+}
+
+
+function cfo_admin_v1_get_status() {
+    $cfg = cfo_observatoire_v2_settings();
+    if (!$cfg['url'] || !$cfg['key']) return new WP_Error('configuration_missing', 'Configuration Supabase absente.');
+    $response = wp_remote_post($cfg['url'] . '/rest/v1/rpc/cfo_admin_data_status', [
+        'timeout' => 15,
+        'headers' => [
+            'apikey' => $cfg['key'],
+            'Authorization' => 'Bearer ' . $cfg['key'],
+            'Content-Type' => 'application/json',
+            'Accept' => 'application/json',
+        ],
+        'body' => '{}',
+    ]);
+    if (is_wp_error($response)) return $response;
+    $status = wp_remote_retrieve_response_code($response);
+    $body = json_decode(wp_remote_retrieve_body($response), true);
+    if ($status < 200 || $status >= 300 || !is_array($body)) return new WP_Error('supabase_response', 'Réponse Supabase invalide (' . intval($status) . ').');
+    return $body;
+}
+
+function cfo_admin_v1_page() {
+    if (!current_user_can('manage_options')) return;
+    $data = cfo_admin_v1_get_status();
+    $ok = !is_wp_error($data);
+    $summary = $ok ? ($data['summary'] ?? []) : [];
+    $artists = $ok ? ($data['artists'] ?? []) : [];
+    $completed = 0; $running = 0; $pending = 0; $failed = 0;
+    foreach ($artists as $a) {
+        $s = $a['init_status'] ?? 'pending';
+        if ($s === 'completed') $completed++;
+        elseif ($s === 'dispatched') $running++;
+        elseif ($s === 'failed') $failed++;
+        else $pending++;
+    }
+    ?>
+    <style>
+    .cfo-admin{--ink:#123744;--rust:#a53c2e;--green:#17855c;--amber:#b87918;--red:#b42318;--line:#e5ddd3;--paper:#fbf8f2;color:var(--ink);max-width:1500px;margin:18px 20px 30px 0}
+    .cfo-admin *{box-sizing:border-box}.cfo-admin h1{font-family:Georgia,serif;font-size:32px;margin:0}.cfo-admin .lead{color:#66777d;margin:6px 0 20px}
+    .cfo-admin-tabs{display:flex;gap:8px;margin:0 0 18px;flex-wrap:wrap}.cfo-admin-tab{padding:8px 13px;border:1px solid var(--line);border-radius:999px;background:#fff;font-weight:700}.cfo-admin-tab.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+    .cfo-admin-kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin-bottom:18px}.cfo-admin-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px}.cfo-admin-card b{display:block;font:700 26px Georgia,serif;margin-top:5px}.cfo-admin-card small{color:#718087}
+    .cfo-admin-status{display:inline-flex;align-items:center;gap:6px;font-weight:700}.cfo-admin-dot{width:9px;height:9px;border-radius:50%;background:#999}.done .cfo-admin-dot{background:var(--green)}.run .cfo-admin-dot{background:var(--amber)}.fail .cfo-admin-dot{background:var(--red)}
+    .cfo-admin-table-wrap{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:auto}.cfo-admin-table{width:100%;border-collapse:collapse}.cfo-admin-table th,.cfo-admin-table td{padding:10px 12px;border-bottom:1px solid #eee8e0;text-align:left;white-space:nowrap}.cfo-admin-table th{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:#687b82;background:#faf8f5}.cfo-admin-table tr:last-child td{border-bottom:0}.cfo-admin-alert{padding:13px;border:1px solid #e8cda9;background:#fff4e8;border-radius:10px}
+    @media(max-width:1000px){.cfo-admin-kpis{grid-template-columns:repeat(3,1fr)}}@media(max-width:650px){.cfo-admin-kpis{grid-template-columns:repeat(2,1fr)}}
+    </style>
+    <div class="cfo-admin">
+      <h1>Administration CFO</h1>
+      <div class="lead">Pilotage opérationnel du référentiel, de l’acquisition Soundcharts et de l’Observatoire.</div>
+      <div class="cfo-admin-tabs"><span class="cfo-admin-tab on">Data</span><span class="cfo-admin-tab">Catalogue</span><span class="cfo-admin-tab">MGP / Observatoire</span><span class="cfo-admin-tab">Éditorial</span><span class="cfo-admin-tab">Système</span></div>
+      <?php if (!$ok): ?><div class="cfo-admin-alert"><?php echo esc_html($data->get_error_message()); ?></div><?php else: ?>
+      <div class="cfo-admin-kpis">
+        <div class="cfo-admin-card"><small>Artistes panel</small><b><?php echo intval($summary['artists'] ?? 0); ?></b></div>
+        <div class="cfo-admin-card"><small>Objets catalogue</small><b><?php echo intval($summary['tracks'] ?? 0); ?></b></div>
+        <div class="cfo-admin-card"><small>À arbitrer</small><b><?php echo intval($summary['review'] ?? 0); ?></b></div>
+        <div class="cfo-admin-card"><small>Init terminées</small><b><?php echo intval($completed); ?>/<?php echo intval(count($artists)); ?></b></div>
+        <div class="cfo-admin-card"><small>En cours</small><b><?php echo intval($running); ?></b></div>
+        <div class="cfo-admin-card"><small>RAW Soundcharts</small><b><?php echo number_format_i18n(intval($summary['raw_responses'] ?? 0)); ?></b></div>
+      </div>
+      <div class="cfo-admin-table-wrap"><table class="cfo-admin-table"><thead><tr><th>Artiste</th><th>Init</th><th>Catalogue</th><th>ISRC</th><th>Inclus</th><th>Exclus</th><th>Review</th><th>RAW</th><th>Dernière collecte</th></tr></thead><tbody>
+      <?php foreach ($artists as $a):
+        $s=$a['init_status'] ?? 'pending'; $cls=$s==='completed'?'done':($s==='dispatched'?'run':($s==='failed'?'fail':''));
+        $label=$s==='completed'?'Terminé':($s==='dispatched'?'En cours':($s==='failed'?'Erreur':'En attente')); ?>
+        <tr><td><strong><?php echo esc_html($a['name'] ?? '—'); ?></strong></td><td><span class="cfo-admin-status <?php echo esc_attr($cls); ?>"><i class="cfo-admin-dot"></i><?php echo esc_html($label); ?></span></td><td><?php echo intval($a['tracks'] ?? 0); ?></td><td><?php echo intval($a['with_isrc'] ?? 0); ?></td><td><?php echo intval($a['included'] ?? 0); ?></td><td><?php echo intval($a['excluded'] ?? 0); ?></td><td><?php echo intval($a['review'] ?? 0); ?></td><td><?php echo number_format_i18n(intval($a['raw_count'] ?? 0)); ?></td><td><?php echo !empty($a['last_raw_at']) ? esc_html(wp_date('d/m/Y H:i', strtotime($a['last_raw_at']))) : '—'; ?></td></tr>
+      <?php endforeach; ?></tbody></table></div>
+      <?php endif; ?>
+    </div>
+    <?php
 }
