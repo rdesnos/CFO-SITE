@@ -62,6 +62,22 @@ Chaque actualité CFO doit disposer d'un visuel contextualisé. Le choix du visu
 - Un logo, lorsqu'il est nécessaire, doit être celui de l'entité effectivement à l'origine de l'information et dans sa version officielle correcte.
 - La même hiérarchie s'applique aux actualités anciennes lors de leur remise au standard CFO.
 
+
+## CFO Presse / Hebdo - règle des contrepoints de couverture
+
+Règle validée le 22 septembre 2026.
+
+Sur la couverture presse CFO, les contrepoints visuels suivent une hiérarchie fixe :
+
+- Le **contrepoint principal** peut volontairement rompre le gabarit pour créer un accent éditorial. Dans la maquette de référence, **Marine** conserve ce rôle : portrait plus libre, plus incarné et visuellement distinct.
+- Les **contrepoints secondaires** placés au même niveau éditorial doivent au contraire partager **strictement le même gabarit d'image**.
+- Deux contrepoints secondaires côte à côte doivent donc avoir : **même largeur, même hauteur, même ratio, même cadrage de bloc, même alignement et même poids visuel**.
+- Leur contenu, leur sujet et le style interne de l'illustration peuvent différer, mais **leurs proportions de mise en page ne varient pas**.
+- Référence validée : le bloc **Julien Doré** doit reprendre exactement les proportions du bloc **Bonnard**. Marine reste volontairement différente.
+- Cette règle prime sur toute génération automatique ou proposition graphique qui réintroduirait des formats d'images secondaires différents.
+
+Objectif : conserver le contrepoint et la richesse artistique de la couverture sans donner l'impression de cartes indépendantes ou de blocs composés sans grille commune.
+
 ## Règle de gestion de configuration
 
 Toute modification de couleur, typographie, règle de composition, positionnement du hero, règle éditoriale visuelle ou asset maître doit :
