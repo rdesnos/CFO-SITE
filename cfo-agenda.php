@@ -87,20 +87,20 @@ final class CFO_Agenda_Plugin {
                 <strong class="cfo-agenda__period" data-period>—</strong>
                 <div class="cfo-agenda__filters">
                     <button type="button" data-filter="all" class="is-active">Tout</button>
-                    <button type="button" data-filter="live">Live</button>
-                    <button type="button" data-filter="radio">Radio</button>
-                    <button type="button" data-filter="press">Médias</button>
-                    <button type="button" data-filter="collaboration">Collab.</button>
+                    <button type="button" data-filter="concert">Concert</button>
+                    <button type="button" data-filter="media">Média</button>
+                    <button type="button" data-filter="presse">Presse</button>
+                    <button type="button" data-filter="tele">Télé</button>
                 </div>
             </div>
 
             <div class="cfo-agenda__status" data-status>Chargement de l’agenda…</div>
             <div class="cfo-agenda__canvas" data-canvas aria-live="polite"></div>
             <div class="cfo-agenda__legend">
-                <span><i class="type-live"></i>Live</span>
-                <span><i class="type-radio"></i>Radio</span>
-                <span><i class="type-press"></i>Médias</span>
-                <span><i class="type-collaboration"></i>Collaboration</span>
+                <span><i class="type-concert"></i>Concert</span>
+                <span><i class="type-media"></i>Média</span>
+                <span><i class="type-presse"></i>Presse</span>
+                <span><i class="type-tele"></i>Télé</span>
                 <span class="cfo-agenda__verified">● Donnée CFO vérifiée</span>
             </div>
         </section>
