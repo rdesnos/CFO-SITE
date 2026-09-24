@@ -20,6 +20,30 @@
   const dayMonth = d => new Intl.DateTimeFormat(locale,{day:'2-digit',month:'short'}).format(d).replace('.','');
   const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
 
+  const TYPE_META = {
+    concert: { label: 'Concert', icon: '♪' },
+    media:   { label: 'Média',   icon: '🎙' },
+    presse:  { label: 'Presse',  icon: '📰' },
+    tele:    { label: 'Télé',    icon: '📺' },
+    other:   { label: 'Autre',   icon: '•' }
+  };
+
+  const normalizeType = e => {
+    const raw = String(e?.event_type || '').toLowerCase();
+    const hay = `${e?.title || ''} ${e?.source_name || ''} ${e?.description || ''}`.toLowerCase();
+
+    if (raw === 'live' || raw === 'concert') return 'concert';
+    if (['radio','podcast','interview','media'].includes(raw)) return 'media';
+    if (['press','presse'].includes(raw)) return 'presse';
+    if (['tv','tele','télé','television','télévision'].includes(raw)) return 'tele';
+
+    if (/star academy|starac|tf1|france 2|france tv|quotidien|c à vous|c a vous|télé|television|télévision/.test(hay)) {
+      return 'tele';
+    }
+
+    return raw === 'other' ? 'other' : 'media';
+  };
+
   class CFOAgenda {
     constructor(root){
       this.root = root;
@@ -95,7 +119,7 @@
     }
 
     visibleEvents(){
-      return this.events.filter(e => this.filter==='all' || e.event_type===this.filter);
+      return this.events.filter(e => this.filter==='all' || normalizeType(e)===this.filter);
     }
 
     paint(){
@@ -107,11 +131,14 @@
     }
 
     eventCard(e, compact=false){
-      const cls = 'type-' + esc(e.event_type || 'other');
+      const type = normalizeType(e);
+      const meta = TYPE_META[type] || TYPE_META.other;
+      const cls = 'type-' + esc(type);
       const city = e.city ? '<b>'+esc(e.city)+'</b>' : '<b>'+esc(e.title || 'Événement')+'</b>';
       const venue = e.venue ? '<span>'+esc(e.venue)+'</span>' : '';
       const verified = e.cfo_override || e.verified ? '<em title="Donnée CFO vérifiée">●</em>' : '';
-      return '<article class="cfo-agenda__event '+cls+(compact?' is-compact':'')+'">'+verified+city+venue+'</article>';
+      const badge = '<small class="cfo-agenda__badge '+cls+'"><i>'+esc(meta.icon)+'</i>'+esc(meta.label)+'</small>';
+      return '<article class="cfo-agenda__event '+cls+(compact?' is-compact':'')+'">'+verified+badge+city+venue+'</article>';
     }
 
     monthEvents(year,month){
@@ -133,7 +160,7 @@
         const inMonth=d.getMonth()===month;
         const ev=monthEvents.filter(e=>e.event_date===iso(d));
         html += '<div class="cfo-agenda__day'+(inMonth?'':' is-out')+(ev.length?' has-event':'')+'"><span>'+d.getDate()+'</span>';
-        if(ev.length) html += '<div class="cfo-agenda__dots">'+ev.slice(0,4).map(e=>'<i class="type-'+esc(e.event_type||'other')+'"></i>').join('')+'</div>';
+        if(ev.length) html += '<div class="cfo-agenda__dots">'+ev.slice(0,4).map(e=>'<i class="type-'+esc(normalizeType(e))+'"></i>').join('')+'</div>';
         html += '</div>';
       }
       html += '</div>';
