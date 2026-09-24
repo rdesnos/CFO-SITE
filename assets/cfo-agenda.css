@@ -11,9 +11,12 @@
 .cfo-agenda__status{padding:16px;border:1px dashed var(--line);color:var(--muted);text-align:center}
 .cfo-agenda__legend{display:flex;gap:18px;flex-wrap:wrap;margin-top:14px;color:var(--muted);font-size:11px}
 .cfo-agenda__legend i,.cfo-agenda__dots i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px}
-.type-live{--event:#a53026}.type-radio{--event:#2d6d86}.type-press{--event:#b8872d}.type-collaboration{--event:#2f7e5b}.type-other{--event:#7e8589}
-.cfo-agenda__legend .type-live,.cfo-agenda__dots .type-live{background:#a53026}.cfo-agenda__legend .type-radio,.cfo-agenda__dots .type-radio{background:#2d6d86}.cfo-agenda__legend .type-press,.cfo-agenda__dots .type-press{background:#b8872d}.cfo-agenda__legend .type-collaboration,.cfo-agenda__dots .type-collaboration{background:#2f7e5b}
+.type-concert{--event:#a53026}.type-media{--event:#2d6d86}.type-presse{--event:#b8872d}.type-tele{--event:#6b4c8f}.type-other{--event:#7e8589}
+.cfo-agenda__legend .type-concert,.cfo-agenda__dots .type-concert{background:#a53026}.cfo-agenda__legend .type-media,.cfo-agenda__dots .type-media{background:#2d6d86}.cfo-agenda__legend .type-presse,.cfo-agenda__dots .type-presse{background:#b8872d}.cfo-agenda__legend .type-tele,.cfo-agenda__dots .type-tele{background:#6b4c8f}
 .cfo-agenda__verified{margin-left:auto;color:var(--green)}
+.cfo-agenda__badge{display:inline-flex!important;align-items:center;gap:5px;width:max-content;margin:0 0 5px!important;padding:3px 7px;border-radius:999px;background:#f4efe9;color:var(--ink)!important;font:700 9px/1 Arial,sans-serif!important;text-transform:uppercase;letter-spacing:.04em}
+.cfo-agenda__badge i{display:inline-flex;align-items:center;justify-content:center;width:15px;height:15px;border-radius:50%;font-style:normal;font-size:9px;color:#fff;background:var(--event,#7e8589)}
+
 .cfo-agenda__year-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
 .cfo-agenda__quarter-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
 .cfo-agenda__mini{border:1px solid var(--line);background:#fff;padding:12px;min-width:0}
