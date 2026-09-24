@@ -1,0 +1,33 @@
+body.page-id-582 .mgp-formula{
+  font-family:"Cambria Math","STIX Two Math","Latin Modern Math","Times New Roman",serif;
+  font-size:clamp(1.45rem,2.45vw,2.15rem);
+  font-weight:400;
+  font-style:normal;
+  line-height:1.6;
+  letter-spacing:0;
+  font-kerning:normal;
+  text-rendering:optimizeLegibility;
+  text-align:center;
+  margin:1.55em auto;
+  padding:.7em 1em;
+  overflow-x:auto;
+  white-space:nowrap;
+  color:#20252a;
+}
+body.page-id-582 .mgp-formula-main{
+  font-family:"Cambria Math","STIX Two Math","Latin Modern Math","Times New Roman",serif;
+  font-size:clamp(1.75rem,3vw,2.55rem);
+  font-weight:400;
+  line-height:1.65;
+  padding:.95em 1em;
+  color:#171b1f;
+}
+@media(max-width:700px){
+  body.page-id-582 .mgp-formula{
+    white-space:normal;
+    font-size:clamp(1.25rem,5vw,1.7rem);
+  }
+  body.page-id-582 .mgp-formula-main{
+    font-size:clamp(1.45rem,6vw,2rem);
+  }
+}
