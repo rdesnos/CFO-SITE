@@ -7,7 +7,7 @@ get_header();
 		<?php $cfo_content = get_the_content(); $is_cfo_dossier = (bool) get_post_meta( get_the_ID(), '_cfo_dossier_illustration_attachment_id', true ) || false !== strpos( $cfo_content, 'cfo-dossier-illustration' ) || false !== strpos( $cfo_content, 'cfo-music-player' ); ?>
 		<article <?php post_class( $is_cfo_dossier ? 'cfo-page cfo-dossier-page' : 'cfo-page' ); ?>>
 			<header class="cfo-page-header"><div class="cfo-page-header-inner"><span class="cfo-page-kicker">Chroniques d’une fille ordinaire</span><h1><?php the_title(); ?></h1></div></header>
-			<?php if ( is_page( 'actualites' ) ) : ?>
+			<?php if ( is_page( 'actualites-legacy' ) ) : ?>
 				<div class="cfo-page-content"><p class="cfo-intro">Les informations publiées et contextualisées par CFO, avec une distinction claire entre faits établis, signaux et hypothèses.</p><div class="cfo-news-grid">
 				<?php $cfo_news = new WP_Query( array( 'post_type'=>'post','post_status'=>'publish','posts_per_page'=>18,'orderby'=>'date','order'=>'DESC' ) ); while ( $cfo_news->have_posts() ) : $cfo_news->the_post(); ?>
 				<article class="cfo-news-card"><a class="cfo-news-image" href="<?php the_permalink(); ?>"><?php if(has_post_thumbnail()){the_post_thumbnail('medium_large');}else{echo '<span>CFO</span>';} ?></a><div class="cfo-news-body"><time datetime="<?php echo esc_attr(get_the_date('c')); ?>"><?php echo esc_html(get_the_date('j F Y')); ?></time><h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2><p><?php echo esc_html(wp_trim_words(get_the_excerpt(),24)); ?></p><a class="cfo-arrow" href="<?php the_permalink(); ?>">Lire l’actualité →</a></div></article>
@@ -27,3 +27,4 @@ get_header();
 	<?php endwhile; endif; ?>
 </main>
 <?php get_footer(); ?>
+
