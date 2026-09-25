@@ -1,34 +1,44 @@
-# CFO-SITE — V1
+# CFO MGP Visualisation
 
-Référentiel de l’état figé du site CFO au 23 août 2026.
+Plugin WordPress dédié à la **visualisation** du Modèle Gravitationnel Polarisé.
 
-## Positionnement
+## Principe d'architecture
 
-CFO est un média libre, indépendant et non officiel dédié à Marine et à son œuvre musicale.
+Le calcul MGP reste dans le plugin / pipeline MGP existant.
 
-Architecture éditoriale validée :
+Ce plugin ne recalcule pas le modèle : il **lit les données disponibles** et les traduit en une représentation grand public.
 
-- **À l’affiche** — raconter et analyser ce que l’on voit.
-- **Entre les lignes** — partir des chansons de Marine pour explorer les histoires, émotions et questions humaines qu’elles font résonner.
-- **La Grand-Place** — espace communautaire, chantier à venir.
-- **L’Observatoire** — mesurer ce qui se passe via les données et le MGP.
-- **En coulisses** — expliquer ce que l’on ne voit pas derrière la musique.
+- **Marine** : point fixe au centre.
+- **Taille de Marine** : masse MGP globale.
+- **Galaxies** : domaines de l'écosystème.
+- **Astres** : objets internes à chaque galaxie.
+- **Événements** : impulsions datées qui apparaissent séparément.
+- **Temps** : curseur de lecture de l'évolution.
 
-## État des chantiers
+## Galaxies V1
 
-- L’Observatoire : **figé**
-- Entre les lignes : **figé**
-- En coulisses : base éditoriale validée, enrichissement possible
-- Le Radar : chantier technico-éditorial en cours
-- Forum / La Grand-Place : chantier suivant
-- Référencement : après le forum
-- Page d’accueil : en dernier
+- Musique
+- Médias
+- Artistes
+- Live
+- Réseaux
+- Cinéma
 
-## Règles éditoriales validées
+Une galaxie sans donnée MGP fiable reste visible mais apparaît comme **non mesurée**.
 
-1. Aucun appel à contenu ne doit mener vers une page vide, un « à venir » ou une promesse non tenue.
-2. Une seule balise H1 visible par page éditoriale : le titre WordPress ; le contenu commence par le chapô puis des H2/H3.
-3. Les intitulés de navigation doivent être accessibles et compréhensibles sans connaître le jargon interne ou le MGP.
-4. Le fait doit être distingué de l’interprétation, notamment dans Le Radar.
+## Shortcode
 
-Voir le dossier `docs/` pour les spécifications détaillées.
+```
+[cfo_mgp_visualisation]
+```
+
+## Sources V1
+
+- WordPress REST : `/wp-json/cfo-mgp/v1/snapshot?artist=marine&days=365`
+- Supabase Edge Function : `cfo-actu-feed`
+- Supabase Edge Function : `cfo-salles-feed`
+
+## Règle scientifique
+
+La visualisation ne doit jamais inventer une masse ou une causalité.
+Une donnée non couverte reste explicitement non mesurée.

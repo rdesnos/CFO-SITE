@@ -1,8 +1,0 @@
-.cfo-ticket-btn{display:inline-block;padding:.42rem .7rem;border-radius:.35rem;background:#8a3328;color:#fff!important;text-decoration:none;font-weight:700;line-height:1.2}
-.cfo-ticket-btn:hover{background:#6f281f}
-.cfo-salles-table td small{display:block;margin-top:.35rem;color:#66757d;font-size:.72rem}
-.cfo-status-pill{display:inline-flex;align-items:center;justify-content:center;min-width:74px;padding:.28rem .55rem;border-radius:999px;font-size:.68rem;line-height:1;font-weight:800;letter-spacing:.04em}
-.cfo-status-pill.is-sale{background:#def2e7;color:#17633f}.cfo-status-pill.is-soldout{background:#f5dddd;color:#872b23}.cfo-status-pill.is-coming{background:#fff1cc;color:#7a5a00}.cfo-status-pill.is-unavailable,.cfo-status-pill.is-unknown{background:#eceff1;color:#52616a}
-.cfo-freshness-dot{display:inline-block;width:.48rem;height:.48rem;margin-right:.35rem;border-radius:50%;vertical-align:middle;background:#aab3b8}.cfo-freshness-dot.is-fresh{background:#2f8f62}.cfo-freshness-dot.is-aging{background:#d89c2b}.cfo-freshness-dot.is-stale,.cfo-freshness-dot.is-missing{background:#b84a3c}
-.cfo-salles-kpi.is-ok{border-color:rgba(47,143,98,.35)}
-@media(max-width:780px){.cfo-ticket-btn{white-space:nowrap}.cfo-salles-table{min-width:980px}}
