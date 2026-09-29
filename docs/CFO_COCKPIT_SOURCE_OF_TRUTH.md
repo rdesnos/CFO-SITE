@@ -231,7 +231,50 @@ Conséquence actuelle :
 - elle ne doit pas être présentée comme dynamique tant que l'endpoint n'est pas réparé ;
 - la prochaine étape technique après validation UX est de reconnecter le rendu aux vues Supabase fiables sans changer la composition.
 
-## 11. Règles de production
+## 11. Grammaire visuelle du cockpit
+
+La grammaire visuelle fait partie du concept métier du Cockpit CFO. Elle n'est pas un habillage ajouté après coup : elle doit permettre à la donnée de parler sans exiger un commentaire éditorial externe.
+
+### Principe central
+
+Un bon cockpit ne se contente pas d'aligner des KPI. Il doit rendre perceptibles, par la seule organisation visuelle :
+- ce qui accélère ;
+- ce qui ralentit ;
+- ce qui résiste ;
+- ce qui diverge entre canaux ;
+- ce qui constitue une anomalie ;
+- ce qui devient structurant ;
+- ce qui mérite surveillance.
+
+Si un lecteur à l'aise avec les chiffres regarde le cockpit et ne voit aucune histoire se dégager, la restitution est considérée comme insuffisante, même si les données sont exactes.
+
+### Hiérarchie de lecture
+
+Le cockpit doit fonctionner en trois niveaux :
+
+1. **Signaux immédiats** — quelques éléments majeurs qui sautent aux yeux et donnent la dynamique générale.
+2. **Dynamiques explicatives** — blocs qui montrent les relations, contrastes et trajectoires derrière ces signaux.
+3. **Données d'appui** — détail, catalogue, historiques et métriques secondaires, accessibles sans concurrencer la lecture principale.
+
+Toutes les valeurs ne doivent donc pas avoir le même poids graphique.
+
+### Règles de mise en forme
+
+- La taille, la graisse, le contraste, l'espace et la couleur doivent porter du sens analytique.
+- Une hausse, une baisse, une stabilité ou une rupture doivent être repérables avant lecture détaillée des chiffres.
+- Les indicateurs secondaires doivent rester présents mais visuellement subordonnés.
+- Les blocs denses doivent être segmentés par logique analytique, pas seulement par source de données.
+- La couleur ne doit pas être décorative : elle doit aider à lire une dynamique, une tension, une vigilance ou un état neutre.
+- Les tableaux doivent faire ressortir les colonnes qui expliquent réellement le mouvement ; toutes les colonnes ne doivent pas avoir le même poids.
+- La densité est acceptée et même recherchée si elle reste hiérarchisée et lisible.
+
+### Conséquence fonctionnelle
+
+La prochaine évolution graphique du cockpit doit être évaluée sur une question simple : **qu'est-ce que l'œil comprend en 3 secondes, puis en 10 secondes ?**
+
+Le cockpit doit faire émerger une lecture du réel par la donnée elle-même. Le commentaire éditorial peut compléter cette lecture, mais ne doit jamais servir à compenser une grammaire visuelle insuffisante.
+
+## 12. Règles de production
 
 - Tout ce qui constitue une version de référence doit être dans Git.
 - Commit = publication / point de référence.
@@ -243,7 +286,7 @@ Conséquence actuelle :
 - Ne jamais supprimer un indicateur validé pour alléger la page sans décision explicite.
 - La forme est aussi importante que le fond.
 
-## 12. Règle de continuité
+## 13. Règle de continuité
 
 Avant toute intervention sur le Cockpit CFO :
 1. relire ce fichier ;
