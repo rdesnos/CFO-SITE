@@ -6,6 +6,7 @@
 - URL: https://chroniques-fille-ordinaire.com/a-ses-cotes-carnets-de-bord/
 - Editorial rule: CFO met en lumière Carnet de bord Marine sans l’absorber. Le média reste celui de Cynthia & Géraldine.
 - Visual rule: pas de photo de Cynthia & Géraldine ; leur incarnation passe par leurs prénoms, leur signature éditoriale et leurs propres publications.
+- Navigation principale: À ses côtés est positionné en 3e entrée, après Entre les lignes et avant La Grand-Place.
 
 ## Ligne éditoriale
 
