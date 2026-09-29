@@ -31,6 +31,7 @@ function cfo_scripts() {
 	if ( is_page( 'observatoire-des-salles' ) ) {
 		wp_enqueue_style( 'cfo-salles-live', get_theme_file_uri( 'assets/cfo-salles-live.css' ), array( 'cfo-style' ), '20260925-1' );
 	}
+	wp_enqueue_script( 'cfo-carnets-feed', get_theme_file_uri( 'assets/js/cfo-carnets-feed.js' ), array(), '20260929-2', true );
 	wp_enqueue_style( 'cfo-narration-player', get_theme_file_uri( 'assets/cfo-narration-player.css' ), array( 'cfo-style' ), '20260914-1' );
 	wp_enqueue_script(
 		'alpinejs',
@@ -40,6 +41,8 @@ function cfo_scripts() {
 		array( 'strategy' => 'defer' )
 	);
 
+	// Compiled Tailwind output. Present only after publish; skip in draft
+	// mode so the browser CDN can take over. filemtime() doubles as cache-bust.
 	$dist     = get_stylesheet_directory() . '/dist/styles.css';
 	$is_draft = get_option( 'wpvibe_draft_theme' ) === get_stylesheet();
 	if ( ! $is_draft && file_exists( $dist ) ) {
@@ -54,6 +57,7 @@ function cfo_scripts() {
 add_action( 'wp_enqueue_scripts', 'cfo_scripts' );
 require_once get_theme_file_path( 'cfo-audio-tuner.php' );
 
+/** CFO narration player — Entre les lignes. Audio is generated once and cached in Supabase. */
 function cfo_narration_player( $content ) {
 	if ( ! is_page() || ! in_the_loop() || ! is_main_query() || false === strpos( $content, 'cfo-dossier-illustration' ) ) {
 		return $content;
@@ -71,6 +75,18 @@ function cfo_narration_player( $content ) {
 }
 add_filter( 'the_content', 'cfo_narration_player', 8 );
 
+/* ───────────────────────────────────────────────────────────────────────────
+   Gutenberg integration — sync design tokens from theme.css.
+
+   theme.css's @theme block is the single source of truth. Tailwind reads it
+   on the frontend (inlined into a <style type="text/tailwindcss"> block by
+   template-parts/head.php). This function parses the same file and registers
+   the palette + font sizes with Gutenberg via add_theme_support(), so the
+   block editor's color picker / font selector show the same tokens.
+
+   No theme.json — single source of truth, zero drift.
+   ─────────────────────────────────────────────────────────────────────────── */
+
 function cfo_editor_tokens() {
 	$css_path = get_stylesheet_directory() . '/theme.css';
 	if ( ! file_exists( $css_path ) ) {
@@ -81,6 +97,8 @@ function cfo_editor_tokens() {
 		return;
 	}
 	$body = $m[1];
+
+	// --color-{slug}: {value};   (skip numeric shades like primary-50, primary-500)
 	$palette = array();
 	if ( preg_match_all( '/--color-([a-z0-9_-]+?)\s*:\s*([^;]+);/i', $body, $matches, PREG_SET_ORDER ) ) {
 		foreach ( $matches as $match ) {
@@ -97,6 +115,8 @@ function cfo_editor_tokens() {
 	if ( $palette ) {
 		add_theme_support( 'editor-color-palette', $palette );
 	}
+
+	// --text-{slug}: {value};
 	$sizes = array();
 	if ( preg_match_all( '/--text-([a-z0-9_-]+)\s*:\s*([^;]+);/i', $body, $matches, PREG_SET_ORDER ) ) {
 		foreach ( $matches as $match ) {
@@ -110,15 +130,30 @@ function cfo_editor_tokens() {
 	if ( $sizes ) {
 		add_theme_support( 'editor-font-sizes', $sizes );
 	}
+
+	// Editor stylesheet for prose styling inside the Gutenberg iframe.
 	add_editor_style( 'editor.css' );
+
+	// Lock users to the palette in the block editor color picker.
 	add_theme_support( 'disable-custom-colors' );
 }
 add_action( 'after_setup_theme', 'cfo_editor_tokens', 20 );
+
+/* ───────────────────────────────────────────────────────────────────────────
+   Auto-create Home + Blog pages on first activation.
+
+   WordPress defaults to blog-mode (homepage = latest posts). For ~80% of
+   AI-built sites the user wants a static homepage with a separate blog
+   page. On first activation we create the two pages (if they don't exist)
+   and point the static-front-page settings at them. Skipped entirely if
+   the user has already configured a static front page.
+   ─────────────────────────────────────────────────────────────────────────── */
 
 function cfo_setup_pages() {
 	if ( 'page' === get_option( 'show_on_front' ) && get_option( 'page_on_front' ) ) {
 		return;
 	}
+
 	$home = get_page_by_path( 'home' );
 	$home_id = $home ? (int) $home->ID : wp_insert_post( array(
 		'post_title'  => 'Home',
@@ -126,6 +161,7 @@ function cfo_setup_pages() {
 		'post_status' => 'publish',
 		'post_type'   => 'page',
 	) );
+
 	$blog = get_page_by_path( 'blog' );
 	$blog_id = $blog ? (int) $blog->ID : wp_insert_post( array(
 		'post_title'  => 'Blog',
@@ -133,6 +169,7 @@ function cfo_setup_pages() {
 		'post_status' => 'publish',
 		'post_type'   => 'page',
 	) );
+
 	if ( $home_id && ! is_wp_error( $home_id ) && $blog_id && ! is_wp_error( $blog_id ) ) {
 		update_option( 'show_on_front', 'page' );
 		update_option( 'page_on_front', $home_id );
@@ -140,6 +177,14 @@ function cfo_setup_pages() {
 	}
 }
 add_action( 'after_switch_theme', 'cfo_setup_pages' );
+
+/* ───────────────────────────────────────────────────────────────────────────
+   Editable surfaces (Settings -> WPVibe + per-page meta).
+
+   Wrapped in function_exists so the theme degrades gracefully if the
+   WPVibe plugin is deactivated. Read with get_option / get_post_meta
+   anywhere in templates.
+   ─────────────────────────────────────────────────────────────────────────── */
 
 if ( function_exists( 'wpvibe_setting_register' ) ) {
 	wpvibe_setting_register( 'cfo_tagline', array(
@@ -149,6 +194,7 @@ if ( function_exists( 'wpvibe_setting_register' ) ) {
 		'default'     => '',
 	) );
 }
+
 if ( function_exists( 'wpvibe_field_register' ) ) {
 	wpvibe_field_register( 'page', 'hero_heading', array(
 		'type'        => 'text',
@@ -161,3 +207,4 @@ if ( function_exists( 'wpvibe_field_register' ) ) {
 		'description' => 'Supporting text below the hero heading.',
 	) );
 }
+
