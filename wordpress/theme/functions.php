@@ -16,7 +16,7 @@ add_action( 'after_setup_theme', 'cfo_setup' );
 
 function cfo_scripts() {
 	wp_enqueue_style( 'cfo-style', get_stylesheet_uri(), array(), wp_get_theme()->get( 'Version' ) );
-	wp_enqueue_style( 'cfo-tuner-fonts', 'https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=DotGothic16&display=swap', array(), null );
+	wp_enqueue_style( 'cfo-tuner-fonts', 'https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Cormorant+Garamond:wght@500;600;700&family=DotGothic16&family=Source+Sans+3:wght@400;500;600;700&display=swap', array(), null );
 	wp_enqueue_style( 'cfo-timeline', get_theme_file_uri( 'assets/cfo-timeline.css' ), array( 'cfo-style' ), '1.0.0' );
 	wp_enqueue_style( 'cfo-certifications', get_theme_file_uri( 'assets/cfo-certifications.css' ), array( 'cfo-style' ), '1.0.0' );
 	wp_enqueue_style( 'cfo-audio-tuner', get_theme_file_uri( 'cfo-audio-tuner.css' ), array( 'cfo-style' ), '20260914-master11' );
