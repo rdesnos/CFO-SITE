@@ -1,0 +1,41 @@
+body.page-id-477 .mhs > .mhs-tabpanel{display:none}
+body.page-id-477 .mhs > #marine{display:block}
+body.page-id-477 .mhs.cfo-tabs-ready > .mhs-tabpanel{display:none!important}
+body.page-id-477 .mhs.cfo-tabs-ready > .mhs-tabpanel.is-active{display:block!important}
+body.page-id-477 .mhs.cfo-tabs-ready > #marine:not(.is-active){display:none!important}
+body.page-id-477 .mhs > .mhs-tabpanel[hidden]{display:none!important}
+
+body.page-id-477 .mhs-tabs{
+  display:flex;
+  align-items:center;
+  gap:26px;
+  padding:0 14px;
+  border-bottom:1px solid #e4d9d2;
+  background:#fffdfa;
+  overflow-x:auto;
+  scrollbar-width:thin;
+}
+body.page-id-477 .mhs-tabs .tab-methodologie{display:none!important}
+body.page-id-477 .mhs-tabs a{
+  display:inline-block;
+  flex:0 0 auto;
+  padding:12px 0 11px;
+  cursor:pointer;
+  font-family:"Cormorant Garamond",Georgia,serif;
+  font-size:1.75rem;
+  font-weight:600;
+  line-height:1;
+  letter-spacing:.01em;
+  color:#49616b;
+  text-decoration:none;
+  border-bottom:2px solid transparent;
+}
+body.page-id-477 .mhs-tabs a:hover{color:#183d4b}
+body.page-id-477 .mhs-tabs a.is-active{
+  color:#8a3328;
+  border-bottom-color:#8a3328;
+}
+@media(max-width:980px){
+  body.page-id-477 .mhs-tabs{gap:18px;padding:0 10px}
+  body.page-id-477 .mhs-tabs a{font-size:1.45rem}
+}
