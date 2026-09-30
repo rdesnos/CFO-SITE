@@ -31,6 +31,18 @@ function cfo_scripts() {
 	if ( is_page( 'observatoire-des-salles' ) ) {
 		wp_enqueue_style( 'cfo-salles-live', get_theme_file_uri( 'assets/cfo-salles-live.css' ), array( 'cfo-style' ), '20260925-1' );
 	}
+	if ( is_page( 477 ) ) {
+		wp_enqueue_style( 'cfo-observatoire-synthese', get_theme_file_uri( 'assets/cfo-observatoire-synthese.css' ), array( 'cfo-style' ), '20260930-3' );
+			wp_enqueue_style( 'cfo-observatoire-panel', get_theme_file_uri( 'assets/cfo-observatoire-panel.css' ), array( 'cfo-style' ), '20260930-1' );
+			wp_enqueue_style( 'cfo-observatoire-projections', get_theme_file_uri( 'assets/cfo-observatoire-projections.css' ), array( 'cfo-style' ), '20260930-1' );
+			wp_enqueue_style( 'cfo-observatoire-projections', get_theme_file_uri( 'assets/cfo-observatoire-projections.css' ), array( 'cfo-style' ), '20260930-1' );
+			wp_enqueue_style( 'cfo-observatoire-tabs', get_theme_file_uri( 'assets/cfo-observatoire-tabs.css' ), array( 'cfo-style' ), '20260930-6' );
+			wp_enqueue_script( 'cfo-observatoire-tabs', get_theme_file_uri( 'assets/js/cfo-observatoire-tabs.js' ), array(), '20260930-6', false );
+			wp_enqueue_script( 'cfo-observatoire-live', get_theme_file_uri( 'assets/js/cfo-observatoire-live.js' ), array(), '20260930-9', false );
+			wp_enqueue_style( 'cfo-observatoire-tooltips', get_theme_file_uri( 'assets/cfo-observatoire-tooltips.css' ), array( 'cfo-observatoire-synthese' ), '20260930-1' );
+			wp_enqueue_script( 'cfo-observatoire-tooltips', get_theme_file_uri( 'assets/js/cfo-observatoire-tooltips.js' ), array(), '20260930-2', false );
+			
+	}
 	wp_enqueue_script( 'cfo-carnets-feed', get_theme_file_uri( 'assets/js/cfo-carnets-feed.js' ), array(), '20260929-2', true );
 	wp_enqueue_style( 'cfo-narration-player', get_theme_file_uri( 'assets/cfo-narration-player.css' ), array( 'cfo-style' ), '20260914-1' );
 	wp_enqueue_script(
@@ -207,4 +219,41 @@ if ( function_exists( 'wpvibe_field_register' ) ) {
 		'description' => 'Supporting text below the hero heading.',
 	) );
 }
+
+function cfo_observatoire_synthese_content( $content ) {
+	if ( ! is_page( 477 ) || ! in_the_loop() || ! is_main_query() ) {
+		return $content;
+	}
+	$file = get_theme_file_path( 'assets/cfo-observatoire-synthese.html' );
+	if ( ! file_exists( $file ) ) {
+		return $content;
+	}
+	$replacement = file_get_contents( $file );
+	if ( false === $replacement || '' === trim( $replacement ) ) {
+		return $content;
+	}
+	$pattern = '#<section id="marine" class="mhs-tabpanel marine-default" data-panel="marine">.*?</section>\s*(?=<section id="panel")#s';
+	$content = preg_replace( $pattern, $replacement, $content, 1 );
+
+	$panel_file = get_theme_file_path( 'assets/cfo-observatoire-panel.html' );
+	if ( file_exists( $panel_file ) ) {
+		$panel_replacement = file_get_contents( $panel_file );
+		if ( false !== $panel_replacement && '' !== trim( $panel_replacement ) ) {
+			$panel_pattern = '#<section id="panel" class="mhs-tabpanel" data-panel="panel">.*?</section>\s*(?=<section id="projections")#s';
+			$content = preg_replace( $panel_pattern, $panel_replacement, $content, 1 );
+		}
+	}
+
+	$projections_file = get_theme_file_path( 'assets/cfo-observatoire-projections.html' );
+	if ( file_exists( $projections_file ) ) {
+		$projections_replacement = file_get_contents( $projections_file );
+		if ( false !== $projections_replacement && '' !== trim( $projections_replacement ) ) {
+			$projections_pattern = '#<section id="projections" class="mhs-tabpanel" data-panel="projections">.*?</section>\s*(?=<section id="these")#s';
+			$content = preg_replace( $projections_pattern, $projections_replacement, $content, 1 );
+		}
+	}
+
+	return $content;
+}
+add_filter( 'the_content', 'cfo_observatoire_synthese_content', 20 );
 
