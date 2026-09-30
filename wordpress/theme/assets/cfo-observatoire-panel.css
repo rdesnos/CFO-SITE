@@ -1,0 +1,33 @@
+
+body.page-id-477 #panel.cfo-panel-cards{padding:10px 0 14px}
+body.page-id-477 .cfo-panel-intro{display:flex;justify-content:space-between;align-items:flex-start;gap:24px;margin:4px 0 16px;padding:0 2px 14px;border-bottom:1px solid #e3d9d1}
+body.page-id-477 .cfo-panel-intro h2{margin:0!important;color:#183d4b;font-family:"Cormorant Garamond",Georgia,serif;font-size:2.2rem!important;line-height:1}
+body.page-id-477 .cfo-panel-intro p{margin:5px 0 0;max-width:700px;color:#5f686b;font-size:.88rem}
+body.page-id-477 .cfo-panel-summary{min-width:220px;padding:10px 14px;background:#f4eee6;border-left:3px solid #8a3328;text-align:left}
+body.page-id-477 .cfo-panel-summary strong{font-family:"Cormorant Garamond",Georgia,serif;color:#183d4b;font-size:2rem;line-height:1}
+body.page-id-477 .cfo-panel-summary span{margin-left:5px;color:#183d4b;font-weight:700}
+body.page-id-477 .cfo-panel-summary small{display:block;margin-top:4px;color:#766d67;font-size:.7rem}
+body.page-id-477 .cfo-panel-controls{display:flex;align-items:center;gap:18px;margin:0 0 14px;padding:0 2px}
+body.page-id-477 .cfo-panel-controls label{display:flex;align-items:center;gap:7px;color:#183d4b;font-size:.75rem;font-weight:700}
+body.page-id-477 .cfo-panel-controls select{border:1px solid #d8cec6;background:#fffdfa;color:#344b55;border-radius:2px;padding:6px 28px 6px 8px;font:inherit}
+body.page-id-477 .cfo-panel-legend{margin-left:auto;display:flex;gap:6px}
+body.page-id-477 .cfo-panel-legend span,body.page-id-477 .status{display:inline-block;padding:3px 8px;border-radius:999px;font-size:.62rem;font-weight:800;text-transform:uppercase;letter-spacing:.03em}
+body.page-id-477 .status.ok,body.page-id-477 .cfo-panel-legend .ok{background:#e6efe8;color:#4f6f57}
+body.page-id-477 .status.partial,body.page-id-477 .cfo-panel-legend .partial{background:#efe2c8;color:#8f6a38}
+body.page-id-477 .status.radio,body.page-id-477 .cfo-panel-legend .radio{background:#e5edf0;color:#183d4b}
+body.page-id-477 .cfo-panel-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+body.page-id-477 .cfo-artist-card{min-height:210px;display:grid;grid-template-columns:42% 58%;background:#fffdfa;border:1px solid #e1d7cf;border-top:3px solid #183d4b;box-shadow:0 2px 8px rgba(45,41,39,.04);overflow:hidden}
+body.page-id-477 .cfo-artist-card.marine-card{border-top-color:#8a3328;background:#fffaf6}
+body.page-id-477 .cfo-artist-card>img{width:100%;height:100%;min-height:210px;object-fit:cover;object-position:center top;background:#f4eee6}
+body.page-id-477 .cfo-artist-content{padding:12px 12px 11px;min-width:0}
+body.page-id-477 .cfo-artist-head{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;padding-bottom:8px;border-bottom:1px solid #eee7e2}
+body.page-id-477 .cfo-artist-head h3{margin:0!important;color:#183d4b;font-family:"Cormorant Garamond",Georgia,serif;font-size:1.25rem!important;line-height:1.05}
+body.page-id-477 .cfo-artist-kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px 8px;margin-top:11px}
+body.page-id-477 .cfo-artist-kpis div{min-width:0}
+body.page-id-477 .cfo-artist-kpis span{display:block;color:#7b716b;font-size:.58rem;line-height:1.15;text-transform:uppercase;letter-spacing:.03em}
+body.page-id-477 .cfo-artist-kpis b{display:block;margin-top:2px;color:#183d4b;font-family:"Cormorant Garamond",Georgia,serif;font-size:1rem;line-height:1;white-space:nowrap}
+body.page-id-477 .cfo-card-fresh{display:block;margin-top:10px;padding-top:7px;border-top:1px solid #eee7e2;color:#8a817b;font-size:.58rem;line-height:1.25}
+@media(max-width:1150px){body.page-id-477 .cfo-panel-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:850px){body.page-id-477 .cfo-panel-grid{grid-template-columns:repeat(2,minmax(0,1fr))}body.page-id-477 .cfo-panel-intro{display:block}body.page-id-477 .cfo-panel-summary{margin-top:12px;max-width:280px}body.page-id-477 .cfo-panel-controls{flex-wrap:wrap}body.page-id-477 .cfo-panel-legend{margin-left:0}}
+@media(max-width:560px){body.page-id-477 .cfo-panel-grid{grid-template-columns:1fr}body.page-id-477 .cfo-artist-card{grid-template-columns:38% 62%}}
+
