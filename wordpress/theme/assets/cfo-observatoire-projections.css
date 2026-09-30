@@ -1,0 +1,31 @@
+
+body.page-id-477 #projections.cfo-projections{padding:10px 0 16px}
+body.page-id-477 .cfo-proj-head{display:flex;justify-content:space-between;gap:24px;align-items:flex-start;margin:4px 0 16px;padding:0 2px 14px;border-bottom:1px solid #e3d9d1}
+body.page-id-477 .cfo-proj-head h2{margin:0!important;color:#183d4b;font-family:"Cormorant Garamond",Georgia,serif;font-size:2.2rem!important;line-height:1}
+body.page-id-477 .cfo-proj-head p{margin:5px 0 0;max-width:760px;color:#5f686b;font-size:.88rem}
+body.page-id-477 .cfo-proj-meta{min-width:250px;padding:10px 14px;background:#f4eee6;border-left:3px solid #8a3328}
+body.page-id-477 .cfo-proj-meta strong{font-family:"Cormorant Garamond",Georgia,serif;color:#183d4b;font-size:1.8rem}
+body.page-id-477 .cfo-proj-meta span{margin-left:6px;color:#183d4b;font-weight:700}
+body.page-id-477 .cfo-proj-meta small{display:block;margin-top:4px;color:#766d67;font-size:.67rem}
+body.page-id-477 .cfo-proj-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+body.page-id-477 .cfo-proj-card{background:#fffdfa;border:1px solid #e1d7cf;border-top:3px solid #183d4b;padding:16px 16px 14px;box-shadow:0 2px 8px rgba(45,41,39,.04)}
+body.page-id-477 .cfo-proj-card.lead{border-top-color:#8a3328;background:#fffaf6}
+body.page-id-477 .cfo-proj-title{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding-bottom:10px;border-bottom:1px solid #eee7e2}
+body.page-id-477 .cfo-proj-title h3{margin:0!important;color:#183d4b;font-family:"Cormorant Garamond",Georgia,serif;font-size:1.45rem!important;line-height:1}
+body.page-id-477 .cfo-proj-title .trend{font-size:.66rem;font-weight:800;padding:4px 8px;border-radius:999px;white-space:nowrap}
+body.page-id-477 .cfo-proj-title .trend.down{background:#f2dfdc;color:#8a3328}
+body.page-id-477 .cfo-proj-title .trend.neutral{background:#e8edef;color:#49616b}
+body.page-id-477 .cfo-proj-kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:13px}
+body.page-id-477 .cfo-proj-kpis span{display:block;color:#7b716b;font-size:.58rem;text-transform:uppercase;letter-spacing:.03em}
+body.page-id-477 .cfo-proj-kpis b{display:block;margin-top:3px;color:#183d4b;font-family:"Cormorant Garamond",Georgia,serif;font-size:1.05rem;white-space:nowrap}
+body.page-id-477 .cfo-proj-card>small{display:block;margin-top:10px;color:#8a817b;font-size:.6rem}
+body.page-id-477 .cfo-cert-note{margin-top:12px;padding:9px 10px;background:#eef2ed;border-left:3px solid #6b8d73}
+body.page-id-477 .cfo-cert-note b{display:block;color:#183d4b;font-size:.72rem}
+body.page-id-477 .cfo-cert-note span{display:block;margin-top:2px;color:#68716a;font-size:.62rem}
+body.page-id-477 .cfo-proj-bar{height:5px;background:#eee5de;margin-top:12px;overflow:hidden}
+body.page-id-477 .cfo-proj-bar i{display:block;height:100%;background:#8a3328}
+body.page-id-477 .cfo-proj-foot{margin-top:14px;padding:11px 14px;background:#f5f1ec;border-left:3px solid #b38b55;color:#665e59;font-size:.76rem}
+body.page-id-477 .cfo-proj-foot strong{color:#183d4b;margin-right:8px}
+@media(max-width:900px){body.page-id-477 .cfo-proj-grid{grid-template-columns:1fr}body.page-id-477 .cfo-proj-head{display:block}body.page-id-477 .cfo-proj-meta{margin-top:12px;max-width:320px}}
+@media(max-width:640px){body.page-id-477 .cfo-proj-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
