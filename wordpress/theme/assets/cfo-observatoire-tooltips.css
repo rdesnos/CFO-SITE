@@ -1,0 +1,76 @@
+body.page-id-477 .cfo-chart-tooltip{
+  position:fixed;
+  z-index:99999;
+  min-width:180px;
+  max-width:280px;
+  padding:10px 12px;
+  background:#183d4b;
+  color:#fffdfa;
+  border:1px solid rgba(255,255,255,.16);
+  border-radius:4px;
+  box-shadow:0 8px 24px rgba(24,61,75,.22);
+  pointer-events:none;
+  opacity:0;
+  transform:translateY(4px);
+  transition:opacity .12s ease,transform .12s ease;
+  font-family:"Source Sans 3","Segoe UI",sans-serif;
+  line-height:1.25;
+}
+body.page-id-477 .cfo-chart-tooltip.is-visible{opacity:1;transform:translateY(0)}
+body.page-id-477 .cfo-chart-tooltip strong{
+  display:block;
+  margin:0 0 2px;
+  font-family:"Cormorant Garamond",Georgia,serif;
+  font-size:1.05rem;
+  line-height:1.1;
+  color:#fff;
+}
+body.page-id-477 .cfo-chart-tooltip em{
+  display:block;
+  margin-bottom:7px;
+  font-size:.72rem;
+  font-style:normal;
+  color:#d7e0e3;
+}
+body.page-id-477 .cfo-chart-tooltip-value{
+  font-family:"Cormorant Garamond",Georgia,serif;
+  font-size:1.55rem;
+  font-weight:700;
+  color:#fff;
+}
+body.page-id-477 .cfo-chart-tooltip-delta{
+  margin-top:2px;
+  font-size:.82rem;
+  font-weight:800;
+  color:#f0d7b3;
+}
+body.page-id-477 .cfo-chart-tooltip small{
+  display:block;
+  margin-top:7px;
+  padding-top:6px;
+  border-top:1px solid rgba(255,255,255,.13);
+  font-size:.66rem;
+  color:#d7e0e3;
+}
+body.page-id-477 .cfo-chart-tooltip-row{
+  display:flex;
+  justify-content:space-between;
+  gap:14px;
+  padding:3px 0;
+  font-size:.76rem;
+}
+body.page-id-477 .cfo-chart-tooltip-row span{color:#d7e0e3}
+body.page-id-477 .cfo-chart-tooltip-row b{color:#fff}
+body.page-id-477 #marine .sparkline,
+body.page-id-477 #marine .mini-bars,
+body.page-id-477 #marine .motor-bars{
+  transition:opacity .12s ease,filter .12s ease;
+}
+body.page-id-477 #marine .cfo-chart-hover{
+  opacity:.9;
+  filter:brightness(.96);
+}
+body.page-id-477 #marine .sparkline .cfo-spark-point{fill:#fffdfa;stroke:#49616b;stroke-width:2;vector-effect:non-scaling-stroke;cursor:crosshair;pointer-events:all}
+body.page-id-477 #marine .mini-bars i[data-cfo-point="1"]{cursor:crosshair;transition:opacity .1s ease,transform .1s ease}
+body.page-id-477 #marine .mini-bars i[data-cfo-point="1"]:hover{opacity:.72;transform:translateY(-2px)}
+body.page-id-477 #marine [data-cfo-point="1"]:focus{outline:2px solid #b38b55;outline-offset:2px}
