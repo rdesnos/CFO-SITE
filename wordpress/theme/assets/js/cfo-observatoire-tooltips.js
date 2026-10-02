@@ -59,6 +59,13 @@
   });
 
   document.addEventListener('mouseleave',hide);
+  document.addEventListener('pointerdown',function(e){
+    if(e.pointerType==='mouse')return;
+    const el=e.target instanceof Element?e.target.closest('[data-cfo-point="1"]'):null;
+    if(el)show(el,e.clientX,e.clientY);else hide();
+  });
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')hide();});
+  window.addEventListener('scroll',hide,{passive:true});
 
   document.addEventListener('focusin',function(e){
     const el=e.target.closest('[data-cfo-point="1"]');
