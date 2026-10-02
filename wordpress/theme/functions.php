@@ -32,15 +32,16 @@ function cfo_scripts() {
 		wp_enqueue_style( 'cfo-salles-live', get_theme_file_uri( 'assets/cfo-salles-live.css' ), array( 'cfo-style' ), '20260925-1' );
 	}
 	if ( is_page( 477 ) ) {
+ wp_enqueue_style('cfo-data-health',get_theme_file_uri('assets/cfo-data-health.css'),array('cfo-style'),'20261003-1');
 		wp_enqueue_style( 'cfo-observatoire-synthese', get_theme_file_uri( 'assets/cfo-observatoire-synthese.css' ), array( 'cfo-style' ), '20260930-3' );
 			wp_enqueue_style( 'cfo-observatoire-panel', get_theme_file_uri( 'assets/cfo-observatoire-panel.css' ), array( 'cfo-style' ), '20260930-1' );
 			wp_enqueue_style( 'cfo-observatoire-projections', get_theme_file_uri( 'assets/cfo-observatoire-projections.css' ), array( 'cfo-style' ), '20260930-1' );
 			wp_enqueue_style( 'cfo-observatoire-projections', get_theme_file_uri( 'assets/cfo-observatoire-projections.css' ), array( 'cfo-style' ), '20260930-1' );
 			wp_enqueue_style( 'cfo-observatoire-tabs', get_theme_file_uri( 'assets/cfo-observatoire-tabs.css' ), array( 'cfo-style' ), '20260930-6' );
 			wp_enqueue_script( 'cfo-observatoire-tabs', get_theme_file_uri( 'assets/js/cfo-observatoire-tabs.js' ), array(), '20260930-6', false );
-			wp_enqueue_script( 'cfo-observatoire-live', get_theme_file_uri( 'assets/js/cfo-observatoire-live.js' ), array(), '20260930-9', false );
+			wp_enqueue_script( 'cfo-observatoire-live', get_theme_file_uri( 'assets/js/cfo-observatoire-live.js' ), array(), '20261003-1', false );
 			wp_enqueue_style( 'cfo-observatoire-tooltips', get_theme_file_uri( 'assets/cfo-observatoire-tooltips.css' ), array( 'cfo-observatoire-synthese' ), '20260930-1' );
-			wp_enqueue_script( 'cfo-observatoire-tooltips', get_theme_file_uri( 'assets/js/cfo-observatoire-tooltips.js' ), array(), '20260930-2', false );
+			wp_enqueue_script( 'cfo-observatoire-tooltips', get_theme_file_uri( 'assets/js/cfo-observatoire-tooltips.js' ), array(), '20261003-1', false );
 			
 	}
 	wp_enqueue_script( 'cfo-carnets-feed', get_theme_file_uri( 'assets/js/cfo-carnets-feed.js' ), array(), '20260929-2', true );
