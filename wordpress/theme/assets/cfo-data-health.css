@@ -1,0 +1,7 @@
+
+.cfo-data-health{margin:1.5rem 0;padding:1rem;border:1px solid #bccbd0;font-size:.9rem}
+.cfo-data-health summary{cursor:pointer;font-weight:600}
+.cfo-data-health dl>div{display:flex;justify-content:space-between;gap:1rem;padding:.4rem 0;border-bottom:1px solid #d7e0e3}
+.cfo-data-health dd{margin:0;text-align:right}
+.cfo-data-health [data-state="stale"],.cfo-data-health [data-state="missing"],.cfo-artist-card[data-freshness="stale"] .cfo-card-fresh{color:#8b4a13}
+@media(max-width:600px){.cfo-data-health dl>div{display:block}.cfo-data-health dd{text-align:left}}
