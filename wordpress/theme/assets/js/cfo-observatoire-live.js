@@ -29,7 +29,10 @@
       if(vals[2])vals[2].textContent=fmt(r.social_followers_total);
       if(vals[3])vals[3].textContent=fmt(r.airplay_7d);
       const fresh=card.querySelector('.cfo-card-fresh');
-      if(fresh)fresh.textContent='Donnée au '+datefr(r.latest_data_date)+' · Airplay '+pct(r.airplay_change_pct);
+      const stamp=Date.parse(String(r.latest_data_date||'')+'T12:00:00Z');
+      const old=!Number.isFinite(stamp)||Date.now()-stamp>7*86400000;
+      card.dataset.freshness=old?'stale':'current';
+      if(fresh)fresh.textContent='Relevé '+(r.latest_data_date||'sans date')+' · Soundcharts / CFO'+(old?' · Donnée ancienne':'')+' · Airplay '+pct(r.airplay_change_pct);
     });
     root.dataset.live='1';
   }
@@ -271,7 +274,8 @@
     const r=await fetch(RPC+name,{
       method:'POST',
       headers:{apikey:KEY,'Content-Type':'application/json'},
-      body:'{}'
+      body:'{}',
+      signal:AbortSignal.timeout(15000)
     });
     if(!r.ok)throw new Error(name+' HTTP '+r.status);
     return await r.json();
@@ -306,21 +310,42 @@
     return marine?.certification||{};
   }
 
+  function updateHealth(health){
+    const root=document.querySelector('#marine.cfo-synthese');
+    if(!root)return;
+    let details=root.querySelector('.cfo-data-health');
+    if(!details){details=document.createElement('details');details.className='cfo-data-health';root.append(details);}
+    details.replaceChildren();
+    const summary=document.createElement('summary');summary.textContent='Dates des relevés et état des sources';details.append(summary);
+    const note=document.createElement('p');note.textContent='Les abonnements des réseaux sont cumulés : ils ne représentent pas des personnes uniques. Chaque canal peut avoir une date de relevé différente.';details.append(note);
+    if(!health||!Array.isArray(health.items)){const p=document.createElement('p');p.textContent='Le contrôle de fraîcheur est temporairement indisponible.';details.append(p);return;}
+    const labels={fresh:'À jour',lagging:'Relevé en retard',stale:'Donnée ancienne',missing:'Relevé absent'};
+    const list=document.createElement('dl');
+    health.items.forEach(item=>{
+      const row=document.createElement('div');const dt=document.createElement('dt');const dd=document.createElement('dd');
+      dt.textContent=(item.platform||'Source')+' · '+(item.metric_type||item.metric_key);
+      dd.textContent=(labels[item.freshness_status]||'État inconnu')+' · '+(item.latest_observation_date||'Sans date')+' · '+(item.source_code||'CFO');
+      row.dataset.state=item.freshness_status;row.append(dt,dd);list.append(row);
+    });details.append(list);
+  }
+
   async function run(){
-    try{
-      const [dashboard,panel]=await Promise.all([
-        rpc('cfo_marine_dashboard_public_v1'),
-        rpc('cfo_panel_snapshot_v1')
-      ]);
-      const marine=dashboard?.marine||null;
-      const series=dashboard?.series||{};
-      updatePanel(Array.isArray(panel)?panel:[]);
+    const [dashboardResult,panelResult,healthResult]=await Promise.allSettled([
+      rpc('cfo_marine_dashboard_public_v1'),rpc('cfo_panel_snapshot_v1'),rpc('cfo_marine_data_health')
+    ]);
+    if(panelResult.status==='fulfilled')updatePanel(Array.isArray(panelResult.value)?panelResult.value:[]);
+    if(dashboardResult.status==='fulfilled'){
+      const marine=dashboardResult.value?.marine||null;
       updateProjections(projectionsFromMarine(marine),certificationFromMarine(marine));
-      updateMarine(marine,series);
-      document.documentElement.dataset.cfoObservatoryLive='1';
-    }catch(err){
-      console.warn('CFO Observatoire live indisponible',err);
-      document.documentElement.dataset.cfoObservatoryLive='0';
+      updateMarine(marine,dashboardResult.value?.series||{});
+    }
+    updateHealth(healthResult.status==='fulfilled'?healthResult.value:null);
+    const complete=dashboardResult.status==='fulfilled'&&panelResult.status==='fulfilled';
+    document.documentElement.dataset.cfoObservatoryLive=complete?'1':'partial';
+    if(!complete){
+      const notice=document.createElement('p');notice.setAttribute('role','status');notice.className='cfo-data-health';
+      notice.textContent='Une partie des relevés ne peut pas être actualisée. Les valeurs non actualisées correspondent à la dernière version enregistrée sur le site.';
+      document.querySelector('#marine.cfo-synthese')?.append(notice);
     }
   }
 
