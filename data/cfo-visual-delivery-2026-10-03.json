@@ -1,0 +1,333 @@
+{
+  "version": "2026-10-03",
+  "images": {
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/a-la-maison-la-nostalgie-de-lenfance/cfo-a-la-maison-visuel-valide-6291e0ab.png": {
+      "asset_id": "979289c0-26dd-45b4-b44e-0b217874bec6",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/a-la-maison-la-nostalgie-de-lenfance/a-la-maison-la-nostalgie-de-lenfance-webp-960-722391ad.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/a-la-maison-la-nostalgie-de-lenfance/a-la-maison-la-nostalgie-de-lenfance-webp-640-7aa3c97d.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/a-la-maison-la-nostalgie-de-lenfance/a-la-maison-la-nostalgie-de-lenfance-webp-960-722391ad.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/a-la-maison-la-nostalgie-de-lenfance/a-la-maison-la-nostalgie-de-lenfance-webp-1672-30cea2e0.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/a-la-maison-la-nostalgie-de-lenfance/cfo-a-la-maison-visuel-valide-6291e0ab.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/a-la-maison-la-nostalgie-de-lenfance/a-la-maison-la-nostalgie-de-lenfance-webp-640-7aa3c97d.webp": {
+      "asset_id": "979289c0-26dd-45b4-b44e-0b217874bec6",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/a-la-maison-la-nostalgie-de-lenfance/a-la-maison-la-nostalgie-de-lenfance-webp-960-722391ad.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/a-la-maison-la-nostalgie-de-lenfance/a-la-maison-la-nostalgie-de-lenfance-webp-640-7aa3c97d.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/a-la-maison-la-nostalgie-de-lenfance/a-la-maison-la-nostalgie-de-lenfance-webp-960-722391ad.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/a-la-maison-la-nostalgie-de-lenfance/a-la-maison-la-nostalgie-de-lenfance-webp-1672-30cea2e0.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/a-la-maison-la-nostalgie-de-lenfance/cfo-a-la-maison-visuel-valide-6291e0ab.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/a-la-maison-la-nostalgie-de-lenfance/a-la-maison-la-nostalgie-de-lenfance-webp-960-722391ad.webp": {
+      "asset_id": "979289c0-26dd-45b4-b44e-0b217874bec6",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/a-la-maison-la-nostalgie-de-lenfance/a-la-maison-la-nostalgie-de-lenfance-webp-960-722391ad.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/a-la-maison-la-nostalgie-de-lenfance/a-la-maison-la-nostalgie-de-lenfance-webp-640-7aa3c97d.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/a-la-maison-la-nostalgie-de-lenfance/a-la-maison-la-nostalgie-de-lenfance-webp-960-722391ad.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/a-la-maison-la-nostalgie-de-lenfance/a-la-maison-la-nostalgie-de-lenfance-webp-1672-30cea2e0.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/a-la-maison-la-nostalgie-de-lenfance/cfo-a-la-maison-visuel-valide-6291e0ab.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/a-la-maison-la-nostalgie-de-lenfance/a-la-maison-la-nostalgie-de-lenfance-webp-1672-30cea2e0.webp": {
+      "asset_id": "979289c0-26dd-45b4-b44e-0b217874bec6",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/a-la-maison-la-nostalgie-de-lenfance/a-la-maison-la-nostalgie-de-lenfance-webp-960-722391ad.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/a-la-maison-la-nostalgie-de-lenfance/a-la-maison-la-nostalgie-de-lenfance-webp-640-7aa3c97d.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/a-la-maison-la-nostalgie-de-lenfance/a-la-maison-la-nostalgie-de-lenfance-webp-960-722391ad.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/a-la-maison-la-nostalgie-de-lenfance/a-la-maison-la-nostalgie-de-lenfance-webp-1672-30cea2e0.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/a-la-maison-la-nostalgie-de-lenfance/cfo-a-la-maison-visuel-valide-6291e0ab.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/cfo-daccord-visuel-valide-b4c79a3f.png": {
+      "asset_id": "146e7f52-4254-4a94-b43f-1a7fa4a56651",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/daccord-quand-la-haine-en-ligne-reste-dans-la-tete-webp-960-0009b7df.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/daccord-quand-la-haine-en-ligne-reste-dans-la-tete-webp-640-b7e652b0.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/daccord-quand-la-haine-en-ligne-reste-dans-la-tete-webp-960-0009b7df.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/daccord-quand-la-haine-en-ligne-reste-dans-la-tete-webp-1672-a3225bfa.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/cfo-daccord-visuel-valide-b4c79a3f.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/daccord-quand-la-haine-en-ligne-reste-dans-la-tete-webp-640-b7e652b0.webp": {
+      "asset_id": "146e7f52-4254-4a94-b43f-1a7fa4a56651",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/daccord-quand-la-haine-en-ligne-reste-dans-la-tete-webp-960-0009b7df.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/daccord-quand-la-haine-en-ligne-reste-dans-la-tete-webp-640-b7e652b0.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/daccord-quand-la-haine-en-ligne-reste-dans-la-tete-webp-960-0009b7df.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/daccord-quand-la-haine-en-ligne-reste-dans-la-tete-webp-1672-a3225bfa.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/cfo-daccord-visuel-valide-b4c79a3f.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/daccord-quand-la-haine-en-ligne-reste-dans-la-tete-webp-960-0009b7df.webp": {
+      "asset_id": "146e7f52-4254-4a94-b43f-1a7fa4a56651",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/daccord-quand-la-haine-en-ligne-reste-dans-la-tete-webp-960-0009b7df.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/daccord-quand-la-haine-en-ligne-reste-dans-la-tete-webp-640-b7e652b0.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/daccord-quand-la-haine-en-ligne-reste-dans-la-tete-webp-960-0009b7df.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/daccord-quand-la-haine-en-ligne-reste-dans-la-tete-webp-1672-a3225bfa.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/cfo-daccord-visuel-valide-b4c79a3f.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/daccord-quand-la-haine-en-ligne-reste-dans-la-tete-webp-1672-a3225bfa.webp": {
+      "asset_id": "146e7f52-4254-4a94-b43f-1a7fa4a56651",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/daccord-quand-la-haine-en-ligne-reste-dans-la-tete-webp-960-0009b7df.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/daccord-quand-la-haine-en-ligne-reste-dans-la-tete-webp-640-b7e652b0.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/daccord-quand-la-haine-en-ligne-reste-dans-la-tete-webp-960-0009b7df.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/daccord-quand-la-haine-en-ligne-reste-dans-la-tete-webp-1672-a3225bfa.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/cfo-daccord-visuel-valide-b4c79a3f.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/dalida-alzheimer/cfo-dalida-visuel-valide-5a9250a5.png": {
+      "asset_id": "d5a62da0-6da0-464d-bbf4-6f5a2b3156de",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/dalida-alzheimer/dalida-alzheimer-webp-960-5ff2a435.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/dalida-alzheimer/dalida-alzheimer-webp-640-adffa947.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/dalida-alzheimer/dalida-alzheimer-webp-960-5ff2a435.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/dalida-alzheimer/dalida-alzheimer-webp-1672-7b8f0b6d.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/dalida-alzheimer/cfo-dalida-visuel-valide-5a9250a5.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/dalida-alzheimer/dalida-alzheimer-webp-640-adffa947.webp": {
+      "asset_id": "d5a62da0-6da0-464d-bbf4-6f5a2b3156de",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/dalida-alzheimer/dalida-alzheimer-webp-960-5ff2a435.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/dalida-alzheimer/dalida-alzheimer-webp-640-adffa947.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/dalida-alzheimer/dalida-alzheimer-webp-960-5ff2a435.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/dalida-alzheimer/dalida-alzheimer-webp-1672-7b8f0b6d.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/dalida-alzheimer/cfo-dalida-visuel-valide-5a9250a5.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/dalida-alzheimer/dalida-alzheimer-webp-960-5ff2a435.webp": {
+      "asset_id": "d5a62da0-6da0-464d-bbf4-6f5a2b3156de",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/dalida-alzheimer/dalida-alzheimer-webp-960-5ff2a435.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/dalida-alzheimer/dalida-alzheimer-webp-640-adffa947.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/dalida-alzheimer/dalida-alzheimer-webp-960-5ff2a435.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/dalida-alzheimer/dalida-alzheimer-webp-1672-7b8f0b6d.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/dalida-alzheimer/cfo-dalida-visuel-valide-5a9250a5.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/dalida-alzheimer/dalida-alzheimer-webp-1672-7b8f0b6d.webp": {
+      "asset_id": "d5a62da0-6da0-464d-bbf4-6f5a2b3156de",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/dalida-alzheimer/dalida-alzheimer-webp-960-5ff2a435.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/dalida-alzheimer/dalida-alzheimer-webp-640-adffa947.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/dalida-alzheimer/dalida-alzheimer-webp-960-5ff2a435.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/dalida-alzheimer/dalida-alzheimer-webp-1672-7b8f0b6d.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/dalida-alzheimer/cfo-dalida-visuel-valide-5a9250a5.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/des-gens-bien-marine-le-coeur-au-nord/cfo-des-gens-bien-visuel-valide-7b4e5057.png": {
+      "asset_id": "819cfe4b-a816-479e-8ebe-7c559cb6dbf3",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/des-gens-bien-marine-le-coeur-au-nord/des-gens-bien-marine-le-coeur-au-nord-webp-960-c993131d.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/des-gens-bien-marine-le-coeur-au-nord/des-gens-bien-marine-le-coeur-au-nord-webp-640-7a84523c.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/des-gens-bien-marine-le-coeur-au-nord/des-gens-bien-marine-le-coeur-au-nord-webp-960-c993131d.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/des-gens-bien-marine-le-coeur-au-nord/des-gens-bien-marine-le-coeur-au-nord-webp-1672-fc3bb90f.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/des-gens-bien-marine-le-coeur-au-nord/cfo-des-gens-bien-visuel-valide-7b4e5057.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/des-gens-bien-marine-le-coeur-au-nord/des-gens-bien-marine-le-coeur-au-nord-webp-640-7a84523c.webp": {
+      "asset_id": "819cfe4b-a816-479e-8ebe-7c559cb6dbf3",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/des-gens-bien-marine-le-coeur-au-nord/des-gens-bien-marine-le-coeur-au-nord-webp-960-c993131d.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/des-gens-bien-marine-le-coeur-au-nord/des-gens-bien-marine-le-coeur-au-nord-webp-640-7a84523c.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/des-gens-bien-marine-le-coeur-au-nord/des-gens-bien-marine-le-coeur-au-nord-webp-960-c993131d.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/des-gens-bien-marine-le-coeur-au-nord/des-gens-bien-marine-le-coeur-au-nord-webp-1672-fc3bb90f.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/des-gens-bien-marine-le-coeur-au-nord/cfo-des-gens-bien-visuel-valide-7b4e5057.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/des-gens-bien-marine-le-coeur-au-nord/des-gens-bien-marine-le-coeur-au-nord-webp-960-c993131d.webp": {
+      "asset_id": "819cfe4b-a816-479e-8ebe-7c559cb6dbf3",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/des-gens-bien-marine-le-coeur-au-nord/des-gens-bien-marine-le-coeur-au-nord-webp-960-c993131d.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/des-gens-bien-marine-le-coeur-au-nord/des-gens-bien-marine-le-coeur-au-nord-webp-640-7a84523c.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/des-gens-bien-marine-le-coeur-au-nord/des-gens-bien-marine-le-coeur-au-nord-webp-960-c993131d.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/des-gens-bien-marine-le-coeur-au-nord/des-gens-bien-marine-le-coeur-au-nord-webp-1672-fc3bb90f.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/des-gens-bien-marine-le-coeur-au-nord/cfo-des-gens-bien-visuel-valide-7b4e5057.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/des-gens-bien-marine-le-coeur-au-nord/des-gens-bien-marine-le-coeur-au-nord-webp-1672-fc3bb90f.webp": {
+      "asset_id": "819cfe4b-a816-479e-8ebe-7c559cb6dbf3",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/des-gens-bien-marine-le-coeur-au-nord/des-gens-bien-marine-le-coeur-au-nord-webp-960-c993131d.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/des-gens-bien-marine-le-coeur-au-nord/des-gens-bien-marine-le-coeur-au-nord-webp-640-7a84523c.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/des-gens-bien-marine-le-coeur-au-nord/des-gens-bien-marine-le-coeur-au-nord-webp-960-c993131d.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/des-gens-bien-marine-le-coeur-au-nord/des-gens-bien-marine-le-coeur-au-nord-webp-1672-fc3bb90f.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/des-gens-bien-marine-le-coeur-au-nord/cfo-des-gens-bien-visuel-valide-7b4e5057.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/cfo-escroc-visuel-valide-2d09a4e4.png": {
+      "asset_id": "20c1508b-d12a-42ec-bf5c-fe1f491be262",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime-webp-960-25fc4fc8.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime-webp-640-41d5f5de.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime-webp-960-25fc4fc8.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime-webp-1672-ee9d3559.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/cfo-escroc-visuel-valide-2d09a4e4.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime-webp-640-41d5f5de.webp": {
+      "asset_id": "20c1508b-d12a-42ec-bf5c-fe1f491be262",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime-webp-960-25fc4fc8.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime-webp-640-41d5f5de.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime-webp-960-25fc4fc8.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime-webp-1672-ee9d3559.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/cfo-escroc-visuel-valide-2d09a4e4.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime-webp-960-25fc4fc8.webp": {
+      "asset_id": "20c1508b-d12a-42ec-bf5c-fe1f491be262",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime-webp-960-25fc4fc8.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime-webp-640-41d5f5de.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime-webp-960-25fc4fc8.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime-webp-1672-ee9d3559.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/cfo-escroc-visuel-valide-2d09a4e4.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime-webp-1672-ee9d3559.webp": {
+      "asset_id": "20c1508b-d12a-42ec-bf5c-fe1f491be262",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime-webp-960-25fc4fc8.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime-webp-640-41d5f5de.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime-webp-960-25fc4fc8.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime-webp-1672-ee9d3559.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/cfo-escroc-visuel-valide-2d09a4e4.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/gemme-traverser-le-deuil-et-faire-vivre-le-lien/cfo-gemme-visuel-valide-f391d172.png": {
+      "asset_id": "25f47897-9bcc-4ea1-aa10-bd4b9798ed0e",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/gemme-traverser-le-deuil-et-faire-vivre-le-lien/gemme-traverser-le-deuil-et-faire-vivre-le-lien-webp-960-fdd1fbe0.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/gemme-traverser-le-deuil-et-faire-vivre-le-lien/gemme-traverser-le-deuil-et-faire-vivre-le-lien-webp-640-488353bc.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/gemme-traverser-le-deuil-et-faire-vivre-le-lien/gemme-traverser-le-deuil-et-faire-vivre-le-lien-webp-960-fdd1fbe0.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/gemme-traverser-le-deuil-et-faire-vivre-le-lien/gemme-traverser-le-deuil-et-faire-vivre-le-lien-webp-1672-5ce5a33d.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/gemme-traverser-le-deuil-et-faire-vivre-le-lien/cfo-gemme-visuel-valide-f391d172.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/gemme-traverser-le-deuil-et-faire-vivre-le-lien/gemme-traverser-le-deuil-et-faire-vivre-le-lien-webp-640-488353bc.webp": {
+      "asset_id": "25f47897-9bcc-4ea1-aa10-bd4b9798ed0e",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/gemme-traverser-le-deuil-et-faire-vivre-le-lien/gemme-traverser-le-deuil-et-faire-vivre-le-lien-webp-960-fdd1fbe0.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/gemme-traverser-le-deuil-et-faire-vivre-le-lien/gemme-traverser-le-deuil-et-faire-vivre-le-lien-webp-640-488353bc.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/gemme-traverser-le-deuil-et-faire-vivre-le-lien/gemme-traverser-le-deuil-et-faire-vivre-le-lien-webp-960-fdd1fbe0.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/gemme-traverser-le-deuil-et-faire-vivre-le-lien/gemme-traverser-le-deuil-et-faire-vivre-le-lien-webp-1672-5ce5a33d.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/gemme-traverser-le-deuil-et-faire-vivre-le-lien/cfo-gemme-visuel-valide-f391d172.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/gemme-traverser-le-deuil-et-faire-vivre-le-lien/gemme-traverser-le-deuil-et-faire-vivre-le-lien-webp-960-fdd1fbe0.webp": {
+      "asset_id": "25f47897-9bcc-4ea1-aa10-bd4b9798ed0e",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/gemme-traverser-le-deuil-et-faire-vivre-le-lien/gemme-traverser-le-deuil-et-faire-vivre-le-lien-webp-960-fdd1fbe0.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/gemme-traverser-le-deuil-et-faire-vivre-le-lien/gemme-traverser-le-deuil-et-faire-vivre-le-lien-webp-640-488353bc.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/gemme-traverser-le-deuil-et-faire-vivre-le-lien/gemme-traverser-le-deuil-et-faire-vivre-le-lien-webp-960-fdd1fbe0.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/gemme-traverser-le-deuil-et-faire-vivre-le-lien/gemme-traverser-le-deuil-et-faire-vivre-le-lien-webp-1672-5ce5a33d.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/gemme-traverser-le-deuil-et-faire-vivre-le-lien/cfo-gemme-visuel-valide-f391d172.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/gemme-traverser-le-deuil-et-faire-vivre-le-lien/gemme-traverser-le-deuil-et-faire-vivre-le-lien-webp-1672-5ce5a33d.webp": {
+      "asset_id": "25f47897-9bcc-4ea1-aa10-bd4b9798ed0e",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/gemme-traverser-le-deuil-et-faire-vivre-le-lien/gemme-traverser-le-deuil-et-faire-vivre-le-lien-webp-960-fdd1fbe0.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/gemme-traverser-le-deuil-et-faire-vivre-le-lien/gemme-traverser-le-deuil-et-faire-vivre-le-lien-webp-640-488353bc.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/gemme-traverser-le-deuil-et-faire-vivre-le-lien/gemme-traverser-le-deuil-et-faire-vivre-le-lien-webp-960-fdd1fbe0.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/gemme-traverser-le-deuil-et-faire-vivre-le-lien/gemme-traverser-le-deuil-et-faire-vivre-le-lien-webp-1672-5ce5a33d.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/gemme-traverser-le-deuil-et-faire-vivre-le-lien/cfo-gemme-visuel-valide-f391d172.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/cfo-ma-faute-visuel-valide-6bdf7fa5.png": {
+      "asset_id": "f669e507-d95f-4528-bece-731cf99f01be",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie-webp-960-09157cb9.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie-webp-640-db4a9db2.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie-webp-960-09157cb9.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie-webp-1672-82974bb9.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/cfo-ma-faute-visuel-valide-6bdf7fa5.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie-webp-640-db4a9db2.webp": {
+      "asset_id": "f669e507-d95f-4528-bece-731cf99f01be",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie-webp-960-09157cb9.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie-webp-640-db4a9db2.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie-webp-960-09157cb9.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie-webp-1672-82974bb9.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/cfo-ma-faute-visuel-valide-6bdf7fa5.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie-webp-960-09157cb9.webp": {
+      "asset_id": "f669e507-d95f-4528-bece-731cf99f01be",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie-webp-960-09157cb9.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie-webp-640-db4a9db2.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie-webp-960-09157cb9.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie-webp-1672-82974bb9.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/cfo-ma-faute-visuel-valide-6bdf7fa5.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie-webp-1672-82974bb9.webp": {
+      "asset_id": "f669e507-d95f-4528-bece-731cf99f01be",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie-webp-960-09157cb9.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie-webp-640-db4a9db2.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie-webp-960-09157cb9.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie-webp-1672-82974bb9.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/cfo-ma-faute-visuel-valide-6bdf7fa5.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/que-ca-dure-la-relation-entre-une-artiste-et-son-public/cfo-que-ca-dure-visuel-valide-10d7749b.png": {
+      "asset_id": "88ff6afe-4988-48df-be41-ad5049fdd6d4",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/que-ca-dure-la-relation-entre-une-artiste-et-son-public/que-ca-dure-la-relation-entre-une-artiste-et-son-public-webp-960-2c781cb4.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/que-ca-dure-la-relation-entre-une-artiste-et-son-public/que-ca-dure-la-relation-entre-une-artiste-et-son-public-webp-640-0d0378d6.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/que-ca-dure-la-relation-entre-une-artiste-et-son-public/que-ca-dure-la-relation-entre-une-artiste-et-son-public-webp-960-2c781cb4.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/que-ca-dure-la-relation-entre-une-artiste-et-son-public/que-ca-dure-la-relation-entre-une-artiste-et-son-public-webp-1672-05cbe059.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/que-ca-dure-la-relation-entre-une-artiste-et-son-public/cfo-que-ca-dure-visuel-valide-10d7749b.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/que-ca-dure-la-relation-entre-une-artiste-et-son-public/que-ca-dure-la-relation-entre-une-artiste-et-son-public-webp-640-0d0378d6.webp": {
+      "asset_id": "88ff6afe-4988-48df-be41-ad5049fdd6d4",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/que-ca-dure-la-relation-entre-une-artiste-et-son-public/que-ca-dure-la-relation-entre-une-artiste-et-son-public-webp-960-2c781cb4.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/que-ca-dure-la-relation-entre-une-artiste-et-son-public/que-ca-dure-la-relation-entre-une-artiste-et-son-public-webp-640-0d0378d6.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/que-ca-dure-la-relation-entre-une-artiste-et-son-public/que-ca-dure-la-relation-entre-une-artiste-et-son-public-webp-960-2c781cb4.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/que-ca-dure-la-relation-entre-une-artiste-et-son-public/que-ca-dure-la-relation-entre-une-artiste-et-son-public-webp-1672-05cbe059.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/que-ca-dure-la-relation-entre-une-artiste-et-son-public/cfo-que-ca-dure-visuel-valide-10d7749b.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/que-ca-dure-la-relation-entre-une-artiste-et-son-public/que-ca-dure-la-relation-entre-une-artiste-et-son-public-webp-960-2c781cb4.webp": {
+      "asset_id": "88ff6afe-4988-48df-be41-ad5049fdd6d4",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/que-ca-dure-la-relation-entre-une-artiste-et-son-public/que-ca-dure-la-relation-entre-une-artiste-et-son-public-webp-960-2c781cb4.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/que-ca-dure-la-relation-entre-une-artiste-et-son-public/que-ca-dure-la-relation-entre-une-artiste-et-son-public-webp-640-0d0378d6.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/que-ca-dure-la-relation-entre-une-artiste-et-son-public/que-ca-dure-la-relation-entre-une-artiste-et-son-public-webp-960-2c781cb4.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/que-ca-dure-la-relation-entre-une-artiste-et-son-public/que-ca-dure-la-relation-entre-une-artiste-et-son-public-webp-1672-05cbe059.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/que-ca-dure-la-relation-entre-une-artiste-et-son-public/cfo-que-ca-dure-visuel-valide-10d7749b.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/que-ca-dure-la-relation-entre-une-artiste-et-son-public/que-ca-dure-la-relation-entre-une-artiste-et-son-public-webp-1672-05cbe059.webp": {
+      "asset_id": "88ff6afe-4988-48df-be41-ad5049fdd6d4",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/que-ca-dure-la-relation-entre-une-artiste-et-son-public/que-ca-dure-la-relation-entre-une-artiste-et-son-public-webp-960-2c781cb4.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/que-ca-dure-la-relation-entre-une-artiste-et-son-public/que-ca-dure-la-relation-entre-une-artiste-et-son-public-webp-640-0d0378d6.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/que-ca-dure-la-relation-entre-une-artiste-et-son-public/que-ca-dure-la-relation-entre-une-artiste-et-son-public-webp-960-2c781cb4.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/que-ca-dure-la-relation-entre-une-artiste-et-son-public/que-ca-dure-la-relation-entre-une-artiste-et-son-public-webp-1672-05cbe059.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/que-ca-dure-la-relation-entre-une-artiste-et-son-public/cfo-que-ca-dure-visuel-valide-10d7749b.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/restes-daverses-quand-le-succes-devient-difficile-a-porter/cfo-restes-daverses-visuel-valide-577d3cf6.png": {
+      "asset_id": "2b22fb0c-3479-4e3f-bce3-91e96532c5f3",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/restes-daverses-quand-le-succes-devient-difficile-a-porter/restes-daverses-quand-le-succes-devient-difficile-a-porter-webp-960-0c1ab181.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/restes-daverses-quand-le-succes-devient-difficile-a-porter/restes-daverses-quand-le-succes-devient-difficile-a-porter-webp-640-0d3999e2.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/restes-daverses-quand-le-succes-devient-difficile-a-porter/restes-daverses-quand-le-succes-devient-difficile-a-porter-webp-960-0c1ab181.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/restes-daverses-quand-le-succes-devient-difficile-a-porter/restes-daverses-quand-le-succes-devient-difficile-a-porter-webp-1672-4235dc23.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/restes-daverses-quand-le-succes-devient-difficile-a-porter/cfo-restes-daverses-visuel-valide-577d3cf6.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/restes-daverses-quand-le-succes-devient-difficile-a-porter/restes-daverses-quand-le-succes-devient-difficile-a-porter-webp-640-0d3999e2.webp": {
+      "asset_id": "2b22fb0c-3479-4e3f-bce3-91e96532c5f3",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/restes-daverses-quand-le-succes-devient-difficile-a-porter/restes-daverses-quand-le-succes-devient-difficile-a-porter-webp-960-0c1ab181.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/restes-daverses-quand-le-succes-devient-difficile-a-porter/restes-daverses-quand-le-succes-devient-difficile-a-porter-webp-640-0d3999e2.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/restes-daverses-quand-le-succes-devient-difficile-a-porter/restes-daverses-quand-le-succes-devient-difficile-a-porter-webp-960-0c1ab181.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/restes-daverses-quand-le-succes-devient-difficile-a-porter/restes-daverses-quand-le-succes-devient-difficile-a-porter-webp-1672-4235dc23.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/restes-daverses-quand-le-succes-devient-difficile-a-porter/cfo-restes-daverses-visuel-valide-577d3cf6.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/restes-daverses-quand-le-succes-devient-difficile-a-porter/restes-daverses-quand-le-succes-devient-difficile-a-porter-webp-960-0c1ab181.webp": {
+      "asset_id": "2b22fb0c-3479-4e3f-bce3-91e96532c5f3",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/restes-daverses-quand-le-succes-devient-difficile-a-porter/restes-daverses-quand-le-succes-devient-difficile-a-porter-webp-960-0c1ab181.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/restes-daverses-quand-le-succes-devient-difficile-a-porter/restes-daverses-quand-le-succes-devient-difficile-a-porter-webp-640-0d3999e2.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/restes-daverses-quand-le-succes-devient-difficile-a-porter/restes-daverses-quand-le-succes-devient-difficile-a-porter-webp-960-0c1ab181.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/restes-daverses-quand-le-succes-devient-difficile-a-porter/restes-daverses-quand-le-succes-devient-difficile-a-porter-webp-1672-4235dc23.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/restes-daverses-quand-le-succes-devient-difficile-a-porter/cfo-restes-daverses-visuel-valide-577d3cf6.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/restes-daverses-quand-le-succes-devient-difficile-a-porter/restes-daverses-quand-le-succes-devient-difficile-a-porter-webp-1672-4235dc23.webp": {
+      "asset_id": "2b22fb0c-3479-4e3f-bce3-91e96532c5f3",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/restes-daverses-quand-le-succes-devient-difficile-a-porter/restes-daverses-quand-le-succes-devient-difficile-a-porter-webp-960-0c1ab181.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/restes-daverses-quand-le-succes-devient-difficile-a-porter/restes-daverses-quand-le-succes-devient-difficile-a-porter-webp-640-0d3999e2.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/restes-daverses-quand-le-succes-devient-difficile-a-porter/restes-daverses-quand-le-succes-devient-difficile-a-porter-webp-960-0c1ab181.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/restes-daverses-quand-le-succes-devient-difficile-a-porter/restes-daverses-quand-le-succes-devient-difficile-a-porter-webp-1672-4235dc23.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/restes-daverses-quand-le-succes-devient-difficile-a-porter/cfo-restes-daverses-visuel-valide-577d3cf6.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/cfo-tricheur-visuel-valide-13ed79a0.png": {
+      "asset_id": "71e5c332-752a-4820-8432-b44d22603433",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/tricheur-peut-on-aimer-deux-personnes-a-la-fois-webp-960-8a0bc61a.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/tricheur-peut-on-aimer-deux-personnes-a-la-fois-webp-640-20a13a3b.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/tricheur-peut-on-aimer-deux-personnes-a-la-fois-webp-960-8a0bc61a.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/tricheur-peut-on-aimer-deux-personnes-a-la-fois-webp-1536-2cc70068.webp 1536w",
+      "width": 1536,
+      "height": 1024,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/cfo-tricheur-visuel-valide-13ed79a0.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/tricheur-peut-on-aimer-deux-personnes-a-la-fois-webp-640-20a13a3b.webp": {
+      "asset_id": "71e5c332-752a-4820-8432-b44d22603433",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/tricheur-peut-on-aimer-deux-personnes-a-la-fois-webp-960-8a0bc61a.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/tricheur-peut-on-aimer-deux-personnes-a-la-fois-webp-640-20a13a3b.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/tricheur-peut-on-aimer-deux-personnes-a-la-fois-webp-960-8a0bc61a.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/tricheur-peut-on-aimer-deux-personnes-a-la-fois-webp-1536-2cc70068.webp 1536w",
+      "width": 1536,
+      "height": 1024,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/cfo-tricheur-visuel-valide-13ed79a0.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/tricheur-peut-on-aimer-deux-personnes-a-la-fois-webp-960-8a0bc61a.webp": {
+      "asset_id": "71e5c332-752a-4820-8432-b44d22603433",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/tricheur-peut-on-aimer-deux-personnes-a-la-fois-webp-960-8a0bc61a.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/tricheur-peut-on-aimer-deux-personnes-a-la-fois-webp-640-20a13a3b.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/tricheur-peut-on-aimer-deux-personnes-a-la-fois-webp-960-8a0bc61a.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/tricheur-peut-on-aimer-deux-personnes-a-la-fois-webp-1536-2cc70068.webp 1536w",
+      "width": 1536,
+      "height": 1024,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/cfo-tricheur-visuel-valide-13ed79a0.png"
+    },
+    "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/tricheur-peut-on-aimer-deux-personnes-a-la-fois-webp-1536-2cc70068.webp": {
+      "asset_id": "71e5c332-752a-4820-8432-b44d22603433",
+      "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/tricheur-peut-on-aimer-deux-personnes-a-la-fois-webp-960-8a0bc61a.webp",
+      "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/tricheur-peut-on-aimer-deux-personnes-a-la-fois-webp-640-20a13a3b.webp 640w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/tricheur-peut-on-aimer-deux-personnes-a-la-fois-webp-960-8a0bc61a.webp 960w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/tricheur-peut-on-aimer-deux-personnes-a-la-fois-webp-1536-2cc70068.webp 1536w",
+      "width": 1536,
+      "height": 1024,
+      "original_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/cfo-tricheur-visuel-valide-13ed79a0.png"
+    }
+  },
+  "hero": {
+    "asset_id": "8c475ff6-ed31-4ad0-96e3-1ae30648ee08",
+    "url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/editorial/2026/10/portrait-marine-webp-673-ec930d25.webp",
+    "srcset": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/editorial/2026/10/portrait-marine-webp-340-fc8ea4bf.webp 340w, https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/editorial/2026/10/portrait-marine-webp-673-ec930d25.webp 673w",
+    "width": 673,
+    "height": 736,
+    "original_url": "https://chroniques-fille-ordinaire.com/wp-content/uploads/2026/09/CFO-Portrait-Marine-Hero-1.png"
+  }
+}
