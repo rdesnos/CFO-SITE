@@ -21,22 +21,32 @@ Les dix dossiers Entre les lignes et la carte Tricheur de l’accueil utilisent 
 
 32 fichiers optimisés sont enregistrés et vérifiés dans cfo-media et cfo_media_assets : trois versions pour chacune des dix illustrations (640, 960, taille originale), plus deux versions du portrait Marine (340 et 673 pixels). Chaque fichier public a été téléchargé et son SHA-256 comparé à la version locale.
 
-Les dix illustrations en pleine taille passent de 27,22 à 4,00 Mo (−85,3 %). Les versions de 640 pixels totalisent 0,835 Mo. Le navigateur choisira le fichier selon le srcset et la densité de l’écran lorsque l’intégration du thème sera publiée.
+Les dix illustrations en pleine taille passent de 27,22 à 4,00 Mo (−85,3 %). Les versions de 640 pixels totalisent 0,835 Mo. Le navigateur choisit désormais le fichier selon le srcset et la densité de l’écran.
 
 Les originaux sont conservés. Les variantes WebP 960 sont référencées comme illustrations principales. Les données de livraison sont sauvegardées dans data/cfo-visual-delivery-2026-10-03.json ; WordPress lit leur projection via l’option cfo_visual_delivery.
 
 Le portrait est compressé sans perte : 101 614 octets en 340 pixels et 394 970 octets en 673 pixels. Les pixels décodés ont été comparés aux pixels attendus. Les illustrations utilisent une compression WebP qualité 90 ; une comparaison visuelle a été réalisée.
 
-## Thème préparé, publication en attente
+## Thème publié et vérifié
 
 Les modifications sont limitées à front-page.php, au chargement de cfo-visual-delivery.php dans functions.php et à ce nouveau module. Le module ajoute srcset et sizes au rendu WordPress ; ces attributs sont retirés lors de l’enregistrement des contenus par la voie utilisée.
 
-Le HTML de prévisualisation a été vérifié : portrait WebP avec srcset 340/673 et carte Tricheur avec srcset 640/960/1536. L’apparence CSS n’a pas été modifiée.
+Le HTML public de l’accueil a été vérifié après publication : portrait WebP avec srcset 340/673 et carte Tricheur avec srcset 640/960/1536. Le dossier À la maison sert également son WebP avec srcset et sizes. Aucun message d’erreur PHP n’a été détecté sur ces pages. Les règles CSS de mise en page ont été conservées.
 
-La publication du thème reste en attente d’autorisation explicite après prévisualisation. Le portrait public reste donc le PNG antérieur, et les images des dossiers sont déjà servies en WebP 960 sans la sélection responsive préparée.
+Le thème a été publié le 3 octobre 2026 après autorisation explicite de l’utilisateur. Le portrait public et la sélection des tailles d’images sont actifs.
 
 Une sauvegarde des onze contenus concernés et des métadonnées originales a été conservée séparément. Le mécanisme de publication du thème conserve également une sauvegarde du thème précédent.
 
 ## Vérification de vitesse
 
-Aucune nouvelle mesure Lighthouse n’est présentée à ce stade. La mesure précédente (performance mobile 59, LCP 16,3 secondes) précède ces modifications. La nouvelle mesure devra être réalisée après publication finale.
+Une nouvelle mesure PageSpeed Insights mobile a été réalisée après publication le 3 octobre 2026.
+
+| Mesure | Avant | Après |
+|---|---:|---:|
+| Performance mobile | 59/100 | 68/100 |
+| LCP | 16,3 s | 7,3 s |
+| FCP | 3,9 s | 3,0 s |
+| TBT | 150 ms | 60 ms |
+| CLS | 0 | 0 |
+
+Le LCP mesuré diminue d’environ 55 %. Ce sont des mesures de laboratoire, variables selon les essais ; aucune donnée terrain CrUX n’est disponible. Le LCP reste trop élevé. L’audit indique encore 31 KiB de CSS inutilisé, 6 KiB de CSS à minifier et 74 KiB de JavaScript inutilisé. Ces points constituent la suite du travail sur la vitesse et ne sont pas modifiés dans cette intervention centrée sur les images.
