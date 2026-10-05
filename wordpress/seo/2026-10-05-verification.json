@@ -1,4 +1,5 @@
 {
+  "verified_at": "2026-10-05T13:03:42.155312+00:00",
   "sitemap_urls": 74,
   "pages": [
     {
@@ -384,12 +385,18 @@
       "status": 200,
       "in_sitemap": false,
       "title": [
-        "Chroniques d’une fille ordinaire Forum - Chroniques d’une fille ordinaire"
+        "La Grand-Place"
       ],
-      "description": [],
-      "robots": [],
+      "description": [
+        "Ichi, c’est simple : on cause, on partage, on s’écoute… entre Gens Biens."
+      ],
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
       "canonical": [],
-      "og_image": [],
+      "og_image": [
+        "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/social/2026/10/cfo-marine-social-124cb732.jpg"
+      ],
       "h1": [
         "La Grand-Place",
         "Chroniques d'une fille ordinaire Forum Messages non lus | Forums | Sujets"
@@ -532,9 +539,27 @@
       "h1": [
         "La Grand-Place",
         "Les Estaminets"
-      ]
+      ],
+      "final_url": "https://chroniques-fille-ordinaire.com/community/les-estaminets/",
+      "og_image": [],
+      "in_sitemap": false
     }
   ],
-  "verified_at": "2026-10-05",
-  "final_remaining_issue": "Native wpForo cache purge is verified; landing page compatibility fix tested in draft, awaiting backup confirmation and publication."
+  "checks_passed": {
+    "all_http_200": true,
+    "one_robots_tag_per_page": true,
+    "nonindexable_pages_excluded_from_sitemap": true,
+    "landing_metadata_restored": true,
+    "native_forum_unchanged": true,
+    "home_metadata_preserved": true
+  },
+  "final_remaining_issue": null,
+  "publication": {
+    "status": "published",
+    "theme": "cfo",
+    "previous_theme_backup": "cfo-wpvibe-backup",
+    "site_backup_confirmed_from_user_screenshot": "2026-10-04 22:48",
+    "scope": "Site and database",
+    "source_commit": "21f17a5113f0cd3fe3417409fd0b23c960bd936d"
+  }
 }

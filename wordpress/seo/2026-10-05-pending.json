@@ -1,9 +1,1 @@
-[
-  {
-    "kind": "theme_publication",
-    "file": "wordpress/theme/cfo-forum-seo.php",
-    "status": "draft_tested_not_published",
-    "reason": "Recent full WordPress/host backup must be confirmed before WPVibe theme publication.",
-    "after_action": "Publish tested draft, then verify public landing page, native forum page and home metadata."
-  }
-]
+[]
