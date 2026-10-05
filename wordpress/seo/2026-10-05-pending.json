@@ -1,41 +1,10 @@
 [
   {
-    "kind": "option_patch",
-    "option": "wpforo_seo",
-    "current_patch": {
-      "seo_meta": false,
-      "seo_title": false
-    },
-    "patch": {
-      "seo_meta": true,
-      "seo_title": true,
-      "noindex": [
-        "https://chroniques-fille-ordinaire.com/la-grand-place/",
-        "https://chroniques-fille-ordinaire.com/community/",
-        "https://chroniques-fille-ordinaire.com/community/les-estaminets/",
-        "https://chroniques-fille-ordinaire.com/community/autour-des-chansons/",
-        "https://chroniques-fille-ordinaire.com/community/actualites-et-scenes/",
-        "https://chroniques-fille-ordinaire.com/community/observatoire-cfo/",
-        "https://chroniques-fille-ordinaire.com/community/entre-gens-biens/",
-        "https://chroniques-fille-ordinaire.com/community/comptoir-du-forum/",
-        "https://chroniques-fille-ordinaire.com/community/comptoir-du-forum/bienvenue-sur-la-grand-place-regles-et-mode-demploi/",
-        "https://chroniques-fille-ordinaire.com/community/autour-des-chansons/comment-ouvrir-une-discussion-sur-une-chanson/",
-        "https://chroniques-fille-ordinaire.com/community/actualites-et-scenes/partager-une-actualite-source-date-et-contexte/",
-        "https://chroniques-fille-ordinaire.com/community/observatoire-cfo/comprendre-les-chiffres-de-lobservatoire-cfo/",
-        "https://chroniques-fille-ordinaire.com/community/entre-gens-biens/bienvenue-entre-gens-biens-presentez-vous/"
-      ]
-    },
-    "normalize_noindex_urls": "Prefix each existing scheme-less URL with https://; preserve every listed URL",
-    "reason": "The attempted delegation to TSF did not restore public tags. wpForo native SEO must be enabled for its noindex rules to render. Automatic approval review rejected this adaptation.",
-    "source": "https://wpforo.com/docs/wpforo-v3/settings/wpforo-seo/"
-  },
-  {
-    "kind": "meta_update",
-    "post_id": 353,
-    "meta_key": "_genesis_description",
-    "current_value": "Marine Delplace sera en concert à Namur le 16 octobre 2026. Retrouvez le lieu, la source et les informations pratiques à vérifier avant votre déplacement.",
-    "value": "Marine Delplace au Théâtre Royal de Mons le 16 octobre 2026 à 20 h : informations de la salle, lien officiel et points à vérifier avant de venir.",
-    "source": "https://theatreroyalmons.be/agenda/marine-2/",
-    "reason": "Content and SEO title corrected; automatic approval review rejected this remaining SEO description as beyond the initially prepared scope."
+    "kind": "native_cache_purge",
+    "plugin": "wpForo",
+    "action": "Delete All Caches in wpForo dashboard",
+    "reason": "WordPress object cache purge cannot clear wpForo file-based option cache. SEO options and noindex URLs are correctly saved, but public forum robots remain absent.",
+    "after_action": "Verify robots on /la-grand-place/ and /community/les-estaminets/ and fix any remaining output issue.",
+    "access_requirement": "WPVibe has no wpForo ability or native cache purge support. Browser fallback requires user approval under the browser tool instructions."
   }
 ]

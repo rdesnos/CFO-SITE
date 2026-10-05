@@ -70,5 +70,7 @@
     "relevance_test_cases": 8
   },
   "sitemap_before_count": 88,
-  "sitemap_after_count": 74
+  "sitemap_after_count": 74,
+  "wpforo_seo_options_status": "seo_title and seo_meta true; all 13 existing noindex URL rules now contain https://. Confirmed in database. Public output still uses stale wpForo file option cache.",
+  "mons_16_october_description_status": "Updated and verified in public HTML"
 }

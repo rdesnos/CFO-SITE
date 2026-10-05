@@ -222,7 +222,7 @@
         "Marine Delplace à Mons — 16 octobre 2026"
       ],
       "description": [
-        "Marine Delplace sera en concert à Namur le 16 octobre 2026. Retrouvez le lieu, la source et les informations pratiques à vérifier avant votre déplacement."
+        "Marine Delplace au Théâtre Royal de Mons le 16 octobre 2026 à 20 h : informations de la salle, lien officiel et points à vérifier avant de venir."
       ],
       "robots": [
         "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
@@ -241,7 +241,8 @@
         "WebSite",
         "WebPage"
       ],
-      "publisher_logos": []
+      "publisher_logos": [],
+      "x_robots_tag": null
     },
     {
       "url": "https://chroniques-fille-ordinaire.com/events/marine-namur/",
@@ -395,7 +396,8 @@
       ],
       "json_ld_valid": false,
       "schema_types": [],
-      "publisher_logos": []
+      "publisher_logos": [],
+      "x_robots_tag": null
     },
     {
       "url": "https://chroniques-fille-ordinaire.com/observatoire-cfo-v1-preview/univers-mgp/",
@@ -510,7 +512,27 @@
       "publisher_logos": [
         "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/brand/2026/10/cfo-marine-logo-officiel-90d2fb27.webp"
       ]
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/community/les-estaminets/",
+      "status": 200,
+      "x_robots_tag": null,
+      "title": [
+        "Les Estaminets - Chroniques d’une fille ordinaire Forum"
+      ],
+      "robots": [],
+      "description": [
+        "Rejoignez Les Estaminets de La Grand-Place pour échanger autour de Marine, de ses chansons, des dossiers et de l’actualité du média."
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/community/les-estaminets/"
+      ],
+      "h1": [
+        "La Grand-Place",
+        "Les Estaminets"
+      ]
     }
   ],
-  "verified_at": "2026-10-05"
+  "verified_at": "2026-10-05",
+  "final_remaining_issue": "wpForo file option cache must be cleared through its native administration interface; root forum robots still absent"
 }
