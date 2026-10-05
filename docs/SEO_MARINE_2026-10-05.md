@@ -17,8 +17,8 @@ Le relevé des URL et balises se trouve dans `wordpress/seo/2026-10-05-audit.jso
 
 - `_genesis_noindex = 1` enregistré pour les 14 contenus listés dans `wordpress/seo/2026-10-05-settings.json`. Les réponses de chaque écriture WordPress ont confirmé leur succès. La restitution publique des robots et du sitemap reste à vérifier.
 - Actualité Marine Lorphelin `5314c68f-dd62-48c4-b4e2-3d12546fce5f` passée de `validated` à `ignored`, avec motif éditorial en base.
-- Collecteur : exclusion des homonymes Lorphelin, Le Pen, Tondelier, ainsi que Marine nationale et Marine Corps, sauf mention explicite de Marine Delplace. Huit cas de pertinence réussissent avec `node tests/news-relevance.test.cjs`. Le déploiement doit être confirmé séparément.
-- Visuel CFO existant optimisé, sans nouveau dessin : JPEG 1200 × 630, 77 496 octets, enregistré dans Supabase et confirmé dans `cfo_media_assets`. Réduction de poids de 97,3 %. Le logo officiel du site est conservé.
+- Collecteur : exclusion des homonymes Lorphelin, Le Pen, Tondelier, ainsi que Marine nationale et Marine Corps, sauf mention explicite de Marine Delplace. Huit cas de pertinence réussissent avec `node tests/news-relevance.test.cjs`. Version 6 déployée et active ; le code relu en production correspond au dépôt. Le flux public répond HTTP 200 et ne contient plus l’article Lorphelin (30 éléments retournés).
+- Visuel CFO existant optimisé, sans nouveau dessin : JPEG 1200 × 630, 77 496 octets, enregistré dans Supabase et confirmé dans `cfo_media_assets`. Réduction de poids de 97,3 %. Le fichier public répond HTTP 200 en image/jpeg et restitue exactement 77 496 octets. Le logo officiel du site est conservé.
 
 ## Opérations WordPress prêtes
 
