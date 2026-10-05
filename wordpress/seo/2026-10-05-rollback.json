@@ -1,0 +1,227 @@
+{
+  "date": "2026-10-05",
+  "site_url": "https://chroniques-fille-ordinaire.com",
+  "options": {
+    "tsf": {
+      "advanced_query_protection": 1,
+      "alter_archive_query_type": "in_query",
+      "alter_archive_query": 1,
+      "alter_search_query_type": "in_query",
+      "alter_search_query": 1,
+      "author_noarchive": 0,
+      "author_nofollow": 0,
+      "author_noindex": 1,
+      "auto_description_html_method": "fast",
+      "auto_description": 1,
+      "baidu_verification": "",
+      "bing_verification": "",
+      "breadcrumb_use_meta_title": 0,
+      "cache_sitemap": 1,
+      "canonical_scheme": "automatic",
+      "date_noarchive": 0,
+      "date_nofollow": 0,
+      "date_noindex": 1,
+      "disabled_post_types": [],
+      "disabled_taxonomies": [],
+      "display_character_counter": 1,
+      "display_list_edit_options": 1,
+      "display_pixel_counter": 1,
+      "display_seo_bar_metabox": 0,
+      "display_seo_bar_tables": 1,
+      "display_term_edit_options": 1,
+      "display_user_edit_options": 1,
+      "excerpt_the_feed": 1,
+      "facebook_author": "",
+      "facebook_publisher": "https://www.facebook.com/chroniques.fille.ordinaire",
+      "facebook_tags": 1,
+      "google_verification": "",
+      "home_paged_noindex": 1,
+      "home_title_location": "right",
+      "homepage_canonical": "",
+      "homepage_description": "Chroniques, analyses et données pour écouter autrement les chansons de Marine Delplace, suivre son actualité et comprendre ce qu’elles racontent.",
+      "homepage_noarchive": 0,
+      "homepage_nofollow": 0,
+      "homepage_noindex": 0,
+      "homepage_og_description": "Chroniques, analyses et données pour écouter autrement les chansons de Marine Delplace, suivre son actualité et comprendre ce qu’elles racontent.",
+      "homepage_og_title": "Chroniques d’une fille ordinaire — autour de Marine Delplace",
+      "homepage_redirect": "",
+      "homepage_social_image_id": 0,
+      "homepage_social_image_url": "",
+      "homepage_tagline": 0,
+      "homepage_title_tagline": "",
+      "homepage_title": "Marine Delplace : chansons, analyses et actualités",
+      "homepage_twitter_card_type": "",
+      "homepage_twitter_description": "Chroniques, analyses et données pour écouter autrement les chansons de Marine Delplace, suivre son actualité et comprendre ce qu’elles racontent.",
+      "homepage_twitter_title": "Chroniques d’une fille ordinaire — autour de Marine Delplace",
+      "index_the_feed": 0,
+      "knowledge_facebook": "https://www.facebook.com/chroniques.fille.ordinaire/",
+      "knowledge_instagram": "https://www.instagram.com/cfomarine/",
+      "knowledge_linkedin": "",
+      "knowledge_logo_id": 0,
+      "knowledge_logo_url": "",
+      "knowledge_logo": 1,
+      "knowledge_name": "Chroniques d’une fille ordinaire",
+      "knowledge_output": 1,
+      "knowledge_pinterest": "",
+      "knowledge_soundcloud": "",
+      "knowledge_tumblr": "",
+      "knowledge_twitter": "https://x.com/CFOMarine",
+      "knowledge_type": "organization",
+      "knowledge_youtube": "",
+      "ld_json_breadcrumbs": 1,
+      "ld_json_enabled": 1,
+      "ld_json_searchbox": 1,
+      "max_image_preview": "large",
+      "max_snippet_length": -1,
+      "max_video_preview": -1,
+      "multi_og_image": 0,
+      "oembed_remove_author": 1,
+      "oembed_scripts": 1,
+      "oembed_use_og_title": 1,
+      "oembed_use_social_image": 1,
+      "og_tags": 1,
+      "paged_noindex": 1,
+      "pint_verification": "",
+      "post_modify_time": 1,
+      "post_publish_time": 1,
+      "prev_next_archives": 1,
+      "prev_next_frontpage": 1,
+      "prev_next_posts": 1,
+      "pta": {
+        "sc_event": {
+          "doctitle": "Concerts de Marine Delplace : dates, villes et salles",
+          "title_no_blog_name": 1,
+          "description": "Retrouvez les prochaines dates de concert de Marine Delplace, avec les villes, les salles et les informations à vérifier avant chaque déplacement.",
+          "og_title": "Concerts de Marine Delplace : dates, villes et salles",
+          "og_description": "Prochaines dates de concert de Marine Delplace : villes, salles et informations pratiques à vérifier avant chaque déplacement.",
+          "tw_title": "Concerts de Marine Delplace : dates et villes",
+          "tw_description": "Prochaines dates de concert de Marine Delplace : villes, salles et informations pratiques.",
+          "tw_card_type": "",
+          "social_image_url": "",
+          "social_image_id": 0,
+          "canonical": "",
+          "noindex": 0,
+          "nofollow": 0,
+          "noarchive": 0,
+          "redirect": ""
+        }
+      },
+      "robotstxt_block_ai": 0,
+      "robotstxt_block_seo": 0,
+      "search_noarchive": 0,
+      "search_nofollow": 0,
+      "search_noindex": 1,
+      "seo_bar_low_contrast": 0,
+      "seo_bar_symbols": 0,
+      "set_copyright_directives": 1,
+      "shortlink_tag": 0,
+      "site_noarchive": 0,
+      "site_nofollow": 0,
+      "site_noindex": 0,
+      "site_title": "",
+      "sitemap_color_accent": "00a0d2",
+      "sitemap_color_main": "222222",
+      "sitemap_cron_prerender": 0,
+      "sitemap_logo_id": 0,
+      "sitemap_logo_url": "",
+      "sitemap_logo": 1,
+      "sitemap_query_limit": 250,
+      "sitemap_styles": 1,
+      "sitemaps_modified": 1,
+      "sitemaps_output": 1,
+      "sitemaps_robots": 1,
+      "social_image_fb_id": 0,
+      "social_image_fb_url": "chroniques-fille-ordinaire.com/wp-content/uploads/2026/02/cropped-banniere_20260208-scaled-2.png",
+      "social_title_rem_additions": 1,
+      "source_the_feed": 1,
+      "theme_color": "",
+      "timestamps_format": 1,
+      "title_location": "right",
+      "title_rem_additions": 0,
+      "title_rem_prefixes": 0,
+      "title_separator": "hyphen",
+      "title_strip_tags": 1,
+      "twitter_card": "summary_large_image",
+      "twitter_creator": "",
+      "twitter_site": "@CFOMarine",
+      "twitter_tags": 1,
+      "yandex_verification": "",
+      "noarchive_post_types": [],
+      "nofollow_post_types": [],
+      "noindex_post_types": {
+        "attachment": 1
+      },
+      "noarchive_taxonomies": [],
+      "nofollow_taxonomies": [],
+      "noindex_taxonomies": {
+        "category": 1,
+        "post_tag": 1,
+        "post_format": 1,
+        "sc_event_category": 1,
+        "sc_event_tags": 1
+      }
+    },
+    "wpforo_seo": {
+      "seo_title": true,
+      "seo_meta": true,
+      "seo_profile": false,
+      "forums_sitemap": false,
+      "topics_sitemap": false,
+      "members_sitemap": false,
+      "dofollow": [],
+      "noindex": [
+        "chroniques-fille-ordinaire.com/la-grand-place/",
+        "chroniques-fille-ordinaire.com/community/",
+        "chroniques-fille-ordinaire.com/community/les-estaminets/",
+        "chroniques-fille-ordinaire.com/community/autour-des-chansons/",
+        "chroniques-fille-ordinaire.com/community/actualites-et-scenes/",
+        "chroniques-fille-ordinaire.com/community/observatoire-cfo/",
+        "chroniques-fille-ordinaire.com/community/entre-gens-biens/",
+        "chroniques-fille-ordinaire.com/community/comptoir-du-forum/",
+        "chroniques-fille-ordinaire.com/community/comptoir-du-forum/bienvenue-sur-la-grand-place-regles-et-mode-demploi/",
+        "chroniques-fille-ordinaire.com/community/autour-des-chansons/comment-ouvrir-une-discussion-sur-une-chanson/",
+        "chroniques-fille-ordinaire.com/community/actualites-et-scenes/partager-une-actualite-source-date-et-contexte/",
+        "chroniques-fille-ordinaire.com/community/observatoire-cfo/comprendre-les-chiffres-de-lobservatoire-cfo/",
+        "chroniques-fille-ordinaire.com/community/entre-gens-biens/bienvenue-entre-gens-biens-presentez-vous/"
+      ]
+    }
+  },
+  "events": [
+    {
+      "post_id": 352,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"event_id\": 6,\n  \"edit_url\": \"https://chroniques-fille-ordinaire.com/wp-admin/post.php?post=352&action=edit\",\n  \"updated\": [\n    \"title\",\n    \"description\"\n  ],\n  \"previous\": {\n    \"title\": \"Marine — Namur\",\n    \"description\": \"<p><strong>Concert de Marine</strong></p><p>Théâtre Royal de Namur — Namur</p><p>Date issue de l’Observatoire CFO, source Soundcharts. Vérifiez les informations auprès de la billetterie officielle avant tout déplacement.</p>\"\n  },\n  \"assumptions\": [],\n  \"applied\": [],\n  \"errors\": []\n}"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "post_id": 353,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"event_id\": 7,\n  \"edit_url\": \"https://chroniques-fille-ordinaire.com/wp-admin/post.php?post=353&action=edit\",\n  \"updated\": [\n    \"title\",\n    \"description\"\n  ],\n  \"previous\": {\n    \"title\": \"Marine — Namur\",\n    \"description\": \"<p><strong>Concert de Marine</strong></p><p>Théâtre Royal de Namur — Namur</p><p>Date issue de l’Observatoire CFO, source Soundcharts. Vérifiez les informations auprès de la billetterie officielle avant tout déplacement.</p>\"\n  },\n  \"assumptions\": [],\n  \"applied\": [],\n  \"errors\": []\n}"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "post_id": 366,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"event_id\": 20,\n  \"edit_url\": \"https://chroniques-fille-ordinaire.com/wp-admin/post.php?post=366&action=edit\",\n  \"updated\": [\n    \"title\",\n    \"description\"\n  ],\n  \"previous\": {\n    \"title\": \"Marine — Amiens\",\n    \"description\": \"\"\n  },\n  \"assumptions\": [],\n  \"applied\": [],\n  \"errors\": []\n}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  ]
+}

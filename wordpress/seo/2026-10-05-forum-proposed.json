@@ -1,0 +1,24 @@
+{
+  "seo_title": true,
+  "seo_meta": true,
+  "seo_profile": false,
+  "forums_sitemap": false,
+  "topics_sitemap": false,
+  "members_sitemap": false,
+  "dofollow": [],
+  "noindex": [
+    "https://chroniques-fille-ordinaire.com/la-grand-place/",
+    "https://chroniques-fille-ordinaire.com/community/",
+    "https://chroniques-fille-ordinaire.com/community/les-estaminets/",
+    "https://chroniques-fille-ordinaire.com/community/autour-des-chansons/",
+    "https://chroniques-fille-ordinaire.com/community/actualites-et-scenes/",
+    "https://chroniques-fille-ordinaire.com/community/observatoire-cfo/",
+    "https://chroniques-fille-ordinaire.com/community/entre-gens-biens/",
+    "https://chroniques-fille-ordinaire.com/community/comptoir-du-forum/",
+    "https://chroniques-fille-ordinaire.com/community/comptoir-du-forum/bienvenue-sur-la-grand-place-regles-et-mode-demploi/",
+    "https://chroniques-fille-ordinaire.com/community/autour-des-chansons/comment-ouvrir-une-discussion-sur-une-chanson/",
+    "https://chroniques-fille-ordinaire.com/community/actualites-et-scenes/partager-une-actualite-source-date-et-contexte/",
+    "https://chroniques-fille-ordinaire.com/community/observatoire-cfo/comprendre-les-chiffres-de-lobservatoire-cfo/",
+    "https://chroniques-fille-ordinaire.com/community/entre-gens-biens/bienvenue-entre-gens-biens-presentez-vous/"
+  ]
+}

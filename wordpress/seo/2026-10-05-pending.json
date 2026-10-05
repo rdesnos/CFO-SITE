@@ -1,42 +1,41 @@
 [
   {
     "kind": "option_patch",
-    "option": "autodescription-site-settings",
-    "patch": {
-      "homepage_social_image_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/social/2026/10/cfo-marine-social-124cb732.jpg",
-      "homepage_social_image_id": 0,
-      "social_image_fb_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/social/2026/10/cfo-marine-social-124cb732.jpg",
-      "social_image_fb_id": 0
-    },
-    "reason": "Aperçu CFO de l’accueil et image de partage par défaut"
-  },
-  {
-    "kind": "option_patch",
     "option": "wpforo_seo",
-    "patch": {
+    "current_patch": {
       "seo_meta": false,
       "seo_title": false
     },
-    "reason": "Permettre à The SEO Framework de gérer la non-indexation, les balises et le titre du forum"
+    "patch": {
+      "seo_meta": true,
+      "seo_title": true,
+      "noindex": [
+        "https://chroniques-fille-ordinaire.com/la-grand-place/",
+        "https://chroniques-fille-ordinaire.com/community/",
+        "https://chroniques-fille-ordinaire.com/community/les-estaminets/",
+        "https://chroniques-fille-ordinaire.com/community/autour-des-chansons/",
+        "https://chroniques-fille-ordinaire.com/community/actualites-et-scenes/",
+        "https://chroniques-fille-ordinaire.com/community/observatoire-cfo/",
+        "https://chroniques-fille-ordinaire.com/community/entre-gens-biens/",
+        "https://chroniques-fille-ordinaire.com/community/comptoir-du-forum/",
+        "https://chroniques-fille-ordinaire.com/community/comptoir-du-forum/bienvenue-sur-la-grand-place-regles-et-mode-demploi/",
+        "https://chroniques-fille-ordinaire.com/community/autour-des-chansons/comment-ouvrir-une-discussion-sur-une-chanson/",
+        "https://chroniques-fille-ordinaire.com/community/actualites-et-scenes/partager-une-actualite-source-date-et-contexte/",
+        "https://chroniques-fille-ordinaire.com/community/observatoire-cfo/comprendre-les-chiffres-de-lobservatoire-cfo/",
+        "https://chroniques-fille-ordinaire.com/community/entre-gens-biens/bienvenue-entre-gens-biens-presentez-vous/"
+      ]
+    },
+    "normalize_noindex_urls": "Prefix each existing scheme-less URL with https://; preserve every listed URL",
+    "reason": "The attempted delegation to TSF did not restore public tags. wpForo native SEO must be enabled for its noindex rules to render. Automatic approval review rejected this adaptation.",
+    "source": "https://wpforo.com/docs/wpforo-v3/settings/wpforo-seo/"
   },
   {
-    "kind": "event_update",
-    "event_id": 6,
-    "post_id": 352,
-    "title": "Marine — Mons",
-    "description": "<p><strong>Marine Delplace en concert à Mons</strong></p><p>Le concert est annoncé au Théâtre Royal de Mons le 15 octobre 2026 à 20 h.</p><p><a href=\"https://theatreroyalmons.be/agenda/marine/\">Consulter la fiche de la salle et sa billetterie</a>. Source vérifiée le 5 octobre 2026 ; vérifier les conditions avant tout déplacement.</p>",
-    "seo_title": "Marine Delplace à Mons — 15 octobre 2026",
-    "seo_description": "Marine Delplace au Théâtre Royal de Mons le 15 octobre 2026 à 20 h : informations de la salle, lien officiel et points à vérifier avant de venir.",
-    "reason": "Correction Namur/Mons d’après la salle"
-  },
-  {
-    "kind": "event_update",
-    "event_id": 20,
-    "post_id": 366,
-    "title": "Marine — Lille",
-    "description": "<p><strong>Marine Delplace en concert à Lille</strong></p><p>Le concert est annoncé au Zénith de Lille le 26 mars 2027 à 20 h.</p><p><a href=\"https://www.fnacspectacles.com/event/marine-tournee-zenith-arena-de-lille-21102342/\">Consulter les informations et la billetterie Fnac Spectacles</a>. Source vérifiée le 5 octobre 2026 ; vérifier les conditions avant tout déplacement.</p>",
-    "seo_title": "Marine Delplace à Lille — 26 mars 2027",
-    "seo_description": "Marine Delplace au Zénith de Lille le 26 mars 2027 à 20 h : informations pratiques et billetterie. Vérifiez les conditions avant votre déplacement.",
-    "reason": "Correction Amiens/Lille d’après la billetterie"
+    "kind": "meta_update",
+    "post_id": 353,
+    "meta_key": "_genesis_description",
+    "current_value": "Marine Delplace sera en concert à Namur le 16 octobre 2026. Retrouvez le lieu, la source et les informations pratiques à vérifier avant votre déplacement.",
+    "value": "Marine Delplace au Théâtre Royal de Mons le 16 octobre 2026 à 20 h : informations de la salle, lien officiel et points à vérifier avant de venir.",
+    "source": "https://theatreroyalmons.be/agenda/marine-2/",
+    "reason": "Content and SEO title corrected; automatic approval review rejected this remaining SEO description as beyond the initially prepared scope."
   }
 ]

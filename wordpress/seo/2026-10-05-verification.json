@@ -1,0 +1,516 @@
+{
+  "sitemap_urls": 74,
+  "pages": [
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-amiens/",
+      "final_url": "https://chroniques-fille-ordinaire.com/events/marine-amiens/",
+      "status": 200,
+      "in_sitemap": true,
+      "title": [
+        "Marine Delplace à Lille — 26 mars 2027 - Chroniques d’une fille ordinaire"
+      ],
+      "description": [
+        "Marine Delplace au Zénith de Lille le 26 mars 2027 à 20 h : informations pratiques et billetterie. Vérifiez les conditions avant votre déplacement."
+      ],
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-amiens/"
+      ],
+      "og_image": [
+        "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/social/2026/10/cfo-marine-social-124cb732.jpg"
+      ],
+      "h1": [
+        "Marine — Lille"
+      ],
+      "json_ld_valid": true,
+      "schema_types": [
+        "WebSite",
+        "WebPage"
+      ],
+      "publisher_logos": []
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-bergerac/",
+      "final_url": "https://chroniques-fille-ordinaire.com/events/marine-bergerac/",
+      "status": 200,
+      "in_sitemap": false,
+      "title": [
+        "Marine — Bergerac - Chroniques d’une fille ordinaire"
+      ],
+      "description": [],
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [],
+      "og_image": [
+        "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/social/2026/10/cfo-marine-social-124cb732.jpg"
+      ],
+      "h1": [
+        "Marine — Bergerac"
+      ],
+      "json_ld_valid": true,
+      "schema_types": [
+        "WebSite",
+        "WebPage"
+      ],
+      "publisher_logos": []
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-boulogne-sur-mer-17-decembre/",
+      "final_url": "https://chroniques-fille-ordinaire.com/events/marine-boulogne-sur-mer-17-decembre/",
+      "status": 200,
+      "in_sitemap": false,
+      "title": [
+        "Marine — Boulogne-sur-Mer (17 décembre) - Chroniques d’une fille ordinaire"
+      ],
+      "description": [],
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [],
+      "og_image": [
+        "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/social/2026/10/cfo-marine-social-124cb732.jpg"
+      ],
+      "h1": [
+        "Marine — Boulogne-sur-Mer (17 décembre)"
+      ],
+      "json_ld_valid": true,
+      "schema_types": [
+        "WebSite",
+        "WebPage"
+      ],
+      "publisher_logos": []
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-boulogne-sur-mer-18-decembre/",
+      "final_url": "https://chroniques-fille-ordinaire.com/events/marine-boulogne-sur-mer-18-decembre/",
+      "status": 200,
+      "in_sitemap": false,
+      "title": [
+        "Marine — Boulogne-sur-Mer (18 décembre) - Chroniques d’une fille ordinaire"
+      ],
+      "description": [],
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [],
+      "og_image": [
+        "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/social/2026/10/cfo-marine-social-124cb732.jpg"
+      ],
+      "h1": [
+        "Marine — Boulogne-sur-Mer (18 décembre)"
+      ],
+      "json_ld_valid": true,
+      "schema_types": [
+        "WebSite",
+        "WebPage"
+      ],
+      "publisher_logos": []
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-bourg-en-bresse/",
+      "final_url": "https://chroniques-fille-ordinaire.com/events/marine-bourg-en-bresse/",
+      "status": 200,
+      "in_sitemap": false,
+      "title": [
+        "Marine — Bourg-en-Bresse - Chroniques d’une fille ordinaire"
+      ],
+      "description": [],
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [],
+      "og_image": [
+        "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/social/2026/10/cfo-marine-social-124cb732.jpg"
+      ],
+      "h1": [
+        "Marine — Bourg-en-Bresse"
+      ],
+      "json_ld_valid": true,
+      "schema_types": [
+        "WebSite",
+        "WebPage"
+      ],
+      "publisher_logos": []
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-forest-bruxelles/",
+      "final_url": "https://chroniques-fille-ordinaire.com/events/marine-forest-bruxelles/",
+      "status": 200,
+      "in_sitemap": false,
+      "title": [
+        "Marine — Forest / Bruxelles - Chroniques d’une fille ordinaire"
+      ],
+      "description": [],
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [],
+      "og_image": [
+        "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/social/2026/10/cfo-marine-social-124cb732.jpg"
+      ],
+      "h1": [
+        "Marine — Forest / Bruxelles"
+      ],
+      "json_ld_valid": true,
+      "schema_types": [
+        "WebSite",
+        "WebPage"
+      ],
+      "publisher_logos": []
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-frejus/",
+      "final_url": "https://chroniques-fille-ordinaire.com/events/marine-frejus/",
+      "status": 200,
+      "in_sitemap": false,
+      "title": [
+        "Marine — Fréjus - Chroniques d’une fille ordinaire"
+      ],
+      "description": [],
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [],
+      "og_image": [
+        "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/social/2026/10/cfo-marine-social-124cb732.jpg"
+      ],
+      "h1": [
+        "Marine — Fréjus"
+      ],
+      "json_ld_valid": true,
+      "schema_types": [
+        "WebSite",
+        "WebPage"
+      ],
+      "publisher_logos": []
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-ici-live-la-ciotat/",
+      "final_url": "https://chroniques-fille-ordinaire.com/events/marine-ici-live-la-ciotat/",
+      "status": 200,
+      "in_sitemap": false,
+      "title": [
+        "Marine — ICI Live, La Ciotat - Chroniques d’une fille ordinaire"
+      ],
+      "description": [],
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [],
+      "og_image": [
+        "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/social/2026/10/cfo-marine-social-124cb732.jpg"
+      ],
+      "h1": [
+        "Marine — ICI Live, La Ciotat"
+      ],
+      "json_ld_valid": true,
+      "schema_types": [
+        "WebSite",
+        "WebPage"
+      ],
+      "publisher_logos": []
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-namur-2/",
+      "final_url": "https://chroniques-fille-ordinaire.com/events/marine-namur-2/",
+      "status": 200,
+      "in_sitemap": true,
+      "title": [
+        "Marine Delplace à Mons — 16 octobre 2026"
+      ],
+      "description": [
+        "Marine Delplace sera en concert à Namur le 16 octobre 2026. Retrouvez le lieu, la source et les informations pratiques à vérifier avant votre déplacement."
+      ],
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-namur-2/"
+      ],
+      "og_image": [
+        "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/social/2026/10/cfo-marine-social-124cb732.jpg"
+      ],
+      "h1": [
+        "Marine — Mons"
+      ],
+      "json_ld_valid": true,
+      "schema_types": [
+        "WebSite",
+        "WebPage"
+      ],
+      "publisher_logos": []
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-namur/",
+      "final_url": "https://chroniques-fille-ordinaire.com/events/marine-namur/",
+      "status": 200,
+      "in_sitemap": true,
+      "title": [
+        "Marine Delplace à Mons — 15 octobre 2026"
+      ],
+      "description": [
+        "Marine Delplace au Théâtre Royal de Mons le 15 octobre 2026 à 20 h : informations de la salle, lien officiel et points à vérifier avant de venir."
+      ],
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-namur/"
+      ],
+      "og_image": [
+        "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/social/2026/10/cfo-marine-social-124cb732.jpg"
+      ],
+      "h1": [
+        "Marine — Mons"
+      ],
+      "json_ld_valid": true,
+      "schema_types": [
+        "WebSite",
+        "WebPage"
+      ],
+      "publisher_logos": []
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-paris/",
+      "final_url": "https://chroniques-fille-ordinaire.com/events/marine-paris/",
+      "status": 200,
+      "in_sitemap": false,
+      "title": [
+        "Marine — Paris - Chroniques d’une fille ordinaire"
+      ],
+      "description": [],
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [],
+      "og_image": [
+        "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/social/2026/10/cfo-marine-social-124cb732.jpg"
+      ],
+      "h1": [
+        "Marine — Paris"
+      ],
+      "json_ld_valid": true,
+      "schema_types": [
+        "WebSite",
+        "WebPage"
+      ],
+      "publisher_logos": []
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-pellicu-live-thuir/",
+      "final_url": "https://chroniques-fille-ordinaire.com/events/marine-pellicu-live-thuir/",
+      "status": 200,
+      "in_sitemap": false,
+      "title": [
+        "Marine — Pellicu-Live, Thuir - Chroniques d’une fille ordinaire"
+      ],
+      "description": [],
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [],
+      "og_image": [
+        "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/social/2026/10/cfo-marine-social-124cb732.jpg"
+      ],
+      "h1": [
+        "Marine — Pellicu-Live, Thuir"
+      ],
+      "json_ld_valid": true,
+      "schema_types": [
+        "WebSite",
+        "WebPage"
+      ],
+      "publisher_logos": []
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-rennes/",
+      "final_url": "https://chroniques-fille-ordinaire.com/events/marine-rennes/",
+      "status": 200,
+      "in_sitemap": false,
+      "title": [
+        "Marine — Rennes - Chroniques d’une fille ordinaire"
+      ],
+      "description": [],
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [],
+      "og_image": [
+        "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/social/2026/10/cfo-marine-social-124cb732.jpg"
+      ],
+      "h1": [
+        "Marine — Rennes"
+      ],
+      "json_ld_valid": true,
+      "schema_types": [
+        "WebSite",
+        "WebPage"
+      ],
+      "publisher_logos": []
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-yerres/",
+      "final_url": "https://chroniques-fille-ordinaire.com/events/marine-yerres/",
+      "status": 200,
+      "in_sitemap": false,
+      "title": [
+        "Marine — Yerres - Chroniques d’une fille ordinaire"
+      ],
+      "description": [],
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [],
+      "og_image": [
+        "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/social/2026/10/cfo-marine-social-124cb732.jpg"
+      ],
+      "h1": [
+        "Marine — Yerres"
+      ],
+      "json_ld_valid": true,
+      "schema_types": [
+        "WebSite",
+        "WebPage"
+      ],
+      "publisher_logos": []
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/la-grand-place/",
+      "final_url": "https://chroniques-fille-ordinaire.com/la-grand-place/",
+      "status": 200,
+      "in_sitemap": false,
+      "title": [
+        "Chroniques d’une fille ordinaire Forum - Chroniques d’une fille ordinaire"
+      ],
+      "description": [],
+      "robots": [],
+      "canonical": [],
+      "og_image": [],
+      "h1": [
+        "La Grand-Place",
+        "Chroniques d'une fille ordinaire Forum Messages non lus | Forums | Sujets"
+      ],
+      "json_ld_valid": false,
+      "schema_types": [],
+      "publisher_logos": []
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/observatoire-cfo-v1-preview/univers-mgp/",
+      "final_url": "https://chroniques-fille-ordinaire.com/observatoire-cfo-v1-preview/univers-mgp/",
+      "status": 200,
+      "in_sitemap": false,
+      "title": [
+        "Univers MGP - Chroniques d’une fille ordinaire"
+      ],
+      "description": [],
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [],
+      "og_image": [
+        "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/social/2026/10/cfo-marine-social-124cb732.jpg"
+      ],
+      "h1": [
+        "L’Univers de Marine"
+      ],
+      "json_ld_valid": true,
+      "schema_types": [
+        "WebSite",
+        "WebPage"
+      ],
+      "publisher_logos": []
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/observatoire-cfo/mgp-3d/",
+      "final_url": "https://chroniques-fille-ordinaire.com/observatoire-cfo/mgp-3d/",
+      "status": 200,
+      "in_sitemap": false,
+      "title": [
+        "MGP 3D - Chroniques d’une fille ordinaire"
+      ],
+      "description": [],
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [],
+      "og_image": [
+        "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/social/2026/10/cfo-marine-social-124cb732.jpg"
+      ],
+      "h1": [
+        "MGP 3D"
+      ],
+      "json_ld_valid": true,
+      "schema_types": [
+        "WebSite",
+        "WebPage"
+      ],
+      "publisher_logos": []
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/observatoire-cfo/observatoire-cfo-mgp/",
+      "final_url": "https://chroniques-fille-ordinaire.com/observatoire-cfo/observatoire-cfo-mgp/",
+      "status": 200,
+      "in_sitemap": false,
+      "title": [
+        "MGP — Orbite de carrière de Marine - Chroniques d’une fille ordinaire"
+      ],
+      "description": [
+        "Observatoire CFO · MGP Visualisation dynamique du Modèle Gravitationnel des Parcours. Cette page accueille la nouvelle expérience MGP de l’Observatoire CFO."
+      ],
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [],
+      "og_image": [
+        "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/social/2026/10/cfo-marine-social-124cb732.jpg"
+      ],
+      "h1": [
+        "MGP — Orbite de carrière de Marine",
+        "Orbite de carrière de Marine"
+      ],
+      "json_ld_valid": true,
+      "schema_types": [
+        "WebSite",
+        "WebPage"
+      ],
+      "publisher_logos": []
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/",
+      "final_url": "https://chroniques-fille-ordinaire.com/",
+      "status": 200,
+      "in_sitemap": true,
+      "title": [
+        "Marine Delplace : chansons, analyses et actualités"
+      ],
+      "description": [
+        "Chroniques, analyses et données pour écouter autrement les chansons de Marine Delplace, suivre son actualité et comprendre ce qu’elles racontent."
+      ],
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/"
+      ],
+      "og_image": [
+        "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/social/2026/10/cfo-marine-social-124cb732.jpg"
+      ],
+      "h1": [
+        "La musique de Marine,et tout ce qu’elle raconte"
+      ],
+      "json_ld_valid": true,
+      "schema_types": [
+        "WebSite",
+        "WebPage",
+        "Organization"
+      ],
+      "publisher_logos": [
+        "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/brand/2026/10/cfo-marine-logo-officiel-90d2fb27.webp"
+      ]
+    }
+  ],
+  "verified_at": "2026-10-05"
+}

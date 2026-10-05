@@ -32,6 +32,43 @@
     "status": "ignored",
     "reason": "Marine Lorphelin est une homonyme de Marine Delplace."
   },
-  "new_noindex_status": "Writes confirmed by WordPress; public robots and sitemap verification pending",
-  "social_image_status": "Uploaded and confirmed in Supabase; WordPress configuration pending"
+  "new_noindex_status": "Public HTML verified: all 14 pages have noindex and are excluded from sitemap",
+  "social_image_status": "Configured in WordPress and verified in public homepage Open Graph",
+  "logo_asset": {
+    "id": "d737c77b-9d27-4b6b-b7e5-ccae4fb1bc5d",
+    "bucket_id": "cfo-media",
+    "object_path": "brand/2026/10/cfo-marine-logo-officiel-90d2fb27.webp",
+    "public_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/brand/2026/10/cfo-marine-logo-officiel-90d2fb27.webp",
+    "title": "CFO Marine — logo officiel",
+    "alt_text": "Chroniques d’une fille ordinaire, média libre, indépendant et non officiel consacré à Marine Delplace.",
+    "caption": null,
+    "media_kind": "logo",
+    "usage_scope": "brand",
+    "dossier_slug": null,
+    "wp_post_id": null,
+    "wp_attachment_id": null,
+    "mime_type": "image/webp",
+    "width": 560,
+    "height": 303,
+    "file_size_bytes": 10576,
+    "source": "derived",
+    "source_ref": "Logo officiel actuellement affiché sur le site CFO Marine",
+    "status": "active",
+    "is_primary": false,
+    "metadata": {
+      "no_artwork_change": true,
+      "optimization_date": "2026-10-05",
+      "derived_from_validated_asset": true
+    },
+    "created_at": "2026-10-05T11:18:27.47561+00:00",
+    "updated_at": "2026-10-05T11:18:27.47561+00:00"
+  },
+  "collector_deployment": {
+    "version": 6,
+    "status": "ACTIVE",
+    "source_matches_git": true,
+    "relevance_test_cases": 8
+  },
+  "sitemap_before_count": 88,
+  "sitemap_after_count": 74
 }
