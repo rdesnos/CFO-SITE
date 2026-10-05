@@ -1,6 +1,6 @@
 # SEO CFO Marine — 5 octobre 2026
 
-Les corrections SEO et les deux dernières écritures autorisées sont publiées. La description de Mons est vérifiée. Il reste à vider le cache propre à wpForo, puis contrôler les robots du forum : les options sont correctes en base, mais le rendu public utilise encore les anciens réglages.
+Les corrections de contenu, médias et options SEO sont publiées. La purge native wpForo est confirmée et les robots des pages internes sont rétablis. Le correctif de compatibilité pour la page La Grand-Place est préparé et testé dans le thème brouillon ; sa publication attend la confirmation d’une sauvegarde récente du site.
 
 ## Résultats publiés et vérifiés
 
@@ -13,15 +13,17 @@ Les corrections SEO et les deux dernières écritures autorisées sont publiées
 - Article Marine Lorphelin `5314c68f-dd62-48c4-b4e2-3d12546fce5f` passé de `validated` à `ignored`, avec motif éditorial en base. Le flux public Supabase et le HTML serveur de la page Actualités ne le contiennent plus (HTTP 200 et canonical valide).
 - Filtre des homonymes déployé : collecteur version 6 active ; code relu en production identique au dépôt. Huit cas de pertinence passent avec `node tests/news-relevance.test.cjs`.
 
-## Forum : diagnostic et adaptation prête
+## Forum : purge vérifiée et correctif testé
 
-La tentative de déléguer les métadonnées du forum à The SEO Framework (`seo_meta=false`, `seo_title=false`) n’a pas restauré ses balises. Le contrôle public de La Grand-Place montre toujours l’absence de robots, description et canonical.
+Les options natives `seo_meta=true`, `seo_title=true` et les 13 URL `noindex` complètes avec `https://` sont enregistrées. La purge native wpForo a été confirmée par Rudy le 5 octobre puis contrôlée dans le HTML public : `/community/les-estaminets/` porte désormais `noindex`, une description et son canonical.
 
-L’examen du code officiel wpForo et de sa documentation confirme que sa gestion native doit produire les balises des forums. Les URL présentes dans sa liste `noindex` sont sans protocole, alors que le moteur les compare à des URL complètes. L’adaptation préparée consiste donc à réactiver les deux options natives et à ajouter `https://` à chacune des URL existantes, sans supprimer de règle ni modifier la visibilité des contenus.
+La page WordPress `/la-grand-place/` conserve un défaut distinct : l’intégration TSF désactive sa sortie sur les pages wpForo, tandis que wpForo ne produit pas ses propres balises sur les pages utilisant son shortcode. Le code officiel de TSF 5.1.4 et wpForo 3.2.2 confirme cette interaction.
 
-Cette adaptation a été explicitement autorisée le 5 octobre à 13 h 33 puis enregistrée. Une lecture SQL confirme `seo_meta=true`, `seo_title=true` et les 13 URL complètes avec `https://`. Le contrôle public après écriture, y compris une requête sans cache HTTP, montre toutefois toujours l’absence de robots.
+Le fichier `wordpress/theme/cfo-forum-seo.php` restaure la sortie TSF uniquement sur le chemin exact de la page 138. Le thème brouillon passe le contrôle de syntaxe PHP. Son HTML de test confirme le titre « La Grand-Place », la description et `noindex`. Le canonical reste omis conformément au réglage TSF d’une page non indexable. Les métadonnées natives des Estaminets et celles de l’accueil sont conservées. Ces résultats concernent le brouillon ; le correctif n’est pas encore publié.
 
-Le code officiel `wpforo_get_option()` lit d’abord un fichier de cache indépendant ; `wpforo_update_option()` purge ce cache, mais un appel WordPress `update_option()` ne le fait pas. La purge WordPress exécutée répond « No known cache plugin detected » et ne purge que le cache objet. Aucune capacité wpForo n’est exposée dans l’API Abilities. Il reste donc à utiliser le bouton natif « Delete All Caches » de wpForo. L’accès au navigateur en remplacement du connecteur demande une autorisation spécifique selon les instructions de l’outil navigateur. Le forum n’est pas déclaré finalisé tant que ses balises publiques ne sont pas vérifiées.
+`wordpress/theme/functions.php` intègre le nouveau correctif et synchronise aussi l’inclusion du fichier `cfo-visual-delivery.php`, déjà présent en production. Ce dernier est ajouté au dépôt sans changer son comportement.
+
+Avant publication, WPVibe exige la confirmation d’une sauvegarde récente. Sa sauvegarde automatique couvre le thème précédent, pas la base de données ; aucune sauvegarde complète récente n’est confirmée dans cette session.
 
 ## Sources des concerts
 
@@ -37,7 +39,8 @@ La seconde date de Mons, initialement non confirmée, a été vérifiée auprès
 - `wordpress/seo/2026-10-05-verification.json` : contrôles publics après corrections.
 - `wordpress/seo/2026-10-05-settings.json` : contenus non indexables, médias persistés et état du collecteur.
 - `wordpress/seo/2026-10-05-rollback.json` : options et valeurs précédentes des événements.
-- `wordpress/seo/2026-10-05-pending.json` : le seul point restant : purge native wpForo, puis vérification des balises du forum.
+- `wordpress/seo/2026-10-05-pending.json` : confirmation de sauvegarde, publication du correctif de thème et contrôle public final.
+- `wordpress/seo/2026-10-05-forum-draft-verification.json` : contrôle du correctif en brouillon, distinct des résultats publics.
 
 ## Validation Google encore indisponible
 

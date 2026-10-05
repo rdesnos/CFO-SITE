@@ -520,7 +520,9 @@
       "title": [
         "Les Estaminets - Chroniques d’une fille ordinaire Forum"
       ],
-      "robots": [],
+      "robots": [
+        "noindex"
+      ],
       "description": [
         "Rejoignez Les Estaminets de La Grand-Place pour échanger autour de Marine, de ses chansons, des dossiers et de l’actualité du média."
       ],
@@ -534,5 +536,5 @@
     }
   ],
   "verified_at": "2026-10-05",
-  "final_remaining_issue": "wpForo file option cache must be cleared through its native administration interface; root forum robots still absent"
+  "final_remaining_issue": "Native wpForo cache purge is verified; landing page compatibility fix tested in draft, awaiting backup confirmation and publication."
 }

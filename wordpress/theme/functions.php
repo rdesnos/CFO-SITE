@@ -13,6 +13,8 @@ function cfo_setup() {
 	) );
 }
 add_action( 'after_setup_theme', 'cfo_setup' );
+require_once get_theme_file_path( 'cfo-visual-delivery.php' );
+require_once get_theme_file_path( 'cfo-forum-seo.php' );
 
 function cfo_scripts() {
 	wp_enqueue_style( 'cfo-style', get_stylesheet_uri(), array(), wp_get_theme()->get( 'Version' ) );
@@ -257,4 +259,3 @@ function cfo_observatoire_synthese_content( $content ) {
 	return $content;
 }
 add_filter( 'the_content', 'cfo_observatoire_synthese_content', 20 );
-

@@ -1,10 +1,9 @@
 [
   {
-    "kind": "native_cache_purge",
-    "plugin": "wpForo",
-    "action": "Delete All Caches in wpForo dashboard",
-    "reason": "WordPress object cache purge cannot clear wpForo file-based option cache. SEO options and noindex URLs are correctly saved, but public forum robots remain absent.",
-    "after_action": "Verify robots on /la-grand-place/ and /community/les-estaminets/ and fix any remaining output issue.",
-    "access_requirement": "WPVibe has no wpForo ability or native cache purge support. Browser fallback requires user approval under the browser tool instructions."
+    "kind": "theme_publication",
+    "file": "wordpress/theme/cfo-forum-seo.php",
+    "status": "draft_tested_not_published",
+    "reason": "Recent full WordPress/host backup must be confirmed before WPVibe theme publication.",
+    "after_action": "Publish tested draft, then verify public landing page, native forum page and home metadata."
   }
 ]
