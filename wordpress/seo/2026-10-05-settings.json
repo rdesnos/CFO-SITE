@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-05",
+  "site_url": "https://chroniques-fille-ordinaire.com",
+  "seo_plugin": "autodescription",
+  "new_noindex_posts": [
+    696,
+    694,
+    695,
+    689,
+    699,
+    693,
+    700,
+    697,
+    684,
+    698,
+    688,
+    1092,
+    577,
+    561
+  ],
+  "reason": "Fiches événement vides et expériences MGP inabouties : conserver les URL publiques, exclure de l’indexation et du sitemap tant que le contenu n’est pas exploitable.",
+  "social_image_asset": {
+    "id": "351eb9d0-d027-4513-bfa6-bfdbee7b37d6",
+    "public_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/social/2026/10/cfo-marine-social-124cb732.jpg",
+    "object_path": "social/2026/10/cfo-marine-social-124cb732.jpg",
+    "width": 1200,
+    "height": 630,
+    "file_size_bytes": 77496
+  },
+  "homonym_correction": {
+    "source_title": "Hospitalisée après une opération, l’ex-Miss France Marine Lorphelin donne de ses nouvelles",
+    "status": "ignored",
+    "reason": "Marine Lorphelin est une homonyme de Marine Delplace."
+  },
+  "new_noindex_status": "Writes confirmed by WordPress; public robots and sitemap verification pending",
+  "social_image_status": "Uploaded and confirmed in Supabase; WordPress configuration pending"
+}

@@ -1,0 +1,1293 @@
+{
+  "stage": "before_changes",
+  "date": "2026-10-05",
+  "urls_checked": 101,
+  "sitemap_urls": 88,
+  "pages": [
+    {
+      "url": "https://chroniques-fille-ordinaire.com/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/a-la-maison-la-nostalgie-de-lenfance/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/a-la-maison-la-nostalgie-de-lenfance/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/a-propos-de-lauteur/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/a-propos-de-lauteur/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/a-propos/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/a-propos/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/a-ses-cotes-carnets-de-bord/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/a-ses-cotes-carnets-de-bord/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/a-ses-cotes-test/",
+      "status": 200,
+      "in_sitemap": false,
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/actualites/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/actualites/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/agenda/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/agenda/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/charte-editoriale/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/charte-editoriale/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/charte-ia/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/charte-ia/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/charte-numerique-ecoresponsable/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/charte-numerique-ecoresponsable/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/chroniques/",
+      "status": 200,
+      "in_sitemap": false,
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/cockpit-cfo-v0/",
+      "status": 200,
+      "in_sitemap": false,
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/coeur-maladroit-disque-platine-marine-2026/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/coeur-maladroit-disque-platine-marine-2026/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/contact/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/contact/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/dalida-alzheimer/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/dalida-alzheimer/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/des-gens-bien-marine-le-coeur-au-nord/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/des-gens-bien-marine-le-coeur-au-nord/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/details-du-billet/",
+      "status": 200,
+      "in_sitemap": false,
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [],
+      "title_count": 1,
+      "description_count": 0
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/en-coulisses/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/en-coulisses/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/en-coulisses/comment-se-fabrique-une-chanson/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/en-coulisses/comment-se-fabrique-une-chanson/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/arrangeur-realisateur-artistique/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/arrangeur-realisateur-artistique/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/attache-presse-promotion-musique/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/attache-presse-promotion-musique/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/auteur-compositeur-interprete-qui-cree-quoi/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/auteur-compositeur-interprete-qui-cree-quoi/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/distributeur-musical/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/distributeur-musical/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/editeur-musical-role/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/editeur-musical-role/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/manager-artiste-musique/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/manager-artiste-musique/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/producteur-phonographique-label/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/producteur-phonographique-label/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/producteur-spectacle-tourneur/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/producteur-spectacle-tourneur/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/programmateur-salle-festival/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/programmateur-salle-festival/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-lombre-derriere-un-artiste/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-lombre-derriere-un-artiste/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/en-coulisses/observatoire-des-salles/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/en-coulisses/observatoire-des-salles/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/en-coulisses/pourquoi-une-chanson-devient-visible/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/en-coulisses/pourquoi-une-chanson-devient-visible/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/entre-les-lignes/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/entre-les-lignes/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-amiens/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-amiens/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-annecy/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-annecy/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-aurillac/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-aurillac/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-bergerac/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-bergerac/"
+      ],
+      "title_count": 1,
+      "description_count": 0
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-blois/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-blois/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-boulogne-sur-mer-17-decembre/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-boulogne-sur-mer-17-decembre/"
+      ],
+      "title_count": 1,
+      "description_count": 0
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-boulogne-sur-mer-18-decembre/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-boulogne-sur-mer-18-decembre/"
+      ],
+      "title_count": 1,
+      "description_count": 0
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-bourg-en-bresse/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-bourg-en-bresse/"
+      ],
+      "title_count": 1,
+      "description_count": 0
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-chalons-en-champagne/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-chalons-en-champagne/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-deols/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-deols/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-forest-bruxelles/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-forest-bruxelles/"
+      ],
+      "title_count": 1,
+      "description_count": 0
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-frejus/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-frejus/"
+      ],
+      "title_count": 1,
+      "description_count": 0
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-grenoble/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-grenoble/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-ici-live-la-ciotat/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-ici-live-la-ciotat/"
+      ],
+      "title_count": 1,
+      "description_count": 0
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-lanester/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-lanester/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-laval/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-laval/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-le-blanc-mesnil/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-le-blanc-mesnil/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-longjumeau/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-longjumeau/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-lyon/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-lyon/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-namur-2/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-namur-2/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-namur/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-namur/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-niort/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-niort/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-paris/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-paris/"
+      ],
+      "title_count": 1,
+      "description_count": 0
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-pellicu-live-thuir/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-pellicu-live-thuir/"
+      ],
+      "title_count": 1,
+      "description_count": 0
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-quimper/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-quimper/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-rennes/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-rennes/"
+      ],
+      "title_count": 1,
+      "description_count": 0
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-saint-herblain/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-saint-herblain/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-toulouse/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-toulouse/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-vichy/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-vichy/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/events/marine-yerres/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/events/marine-yerres/"
+      ],
+      "title_count": 1,
+      "description_count": 0
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/gemme-traverser-le-deuil-et-faire-vivre-le-lien/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/gemme-traverser-le-deuil-et-faire-vivre-le-lien/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/ipi-identifier-les-auteurs-compositeurs-et-editeurs/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/ipi-identifier-les-auteurs-compositeurs-et-editeurs/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/isrc-la-carte-didentite-de-lenregistrement/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/isrc-la-carte-didentite-de-lenregistrement/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/iswc-la-carte-didentite-de-loeuvre-musicale/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/iswc-la-carte-didentite-de-loeuvre-musicale/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/la-grand-place/",
+      "status": 200,
+      "in_sitemap": false,
+      "robots": [],
+      "canonical": [],
+      "title_count": 1,
+      "description_count": 0
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/marine-attrapsons-29-aout-2026/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/marine-attrapsons-29-aout-2026/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/marine-deuxieme-album-termine/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/marine-deuxieme-album-termine/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/marine-documentaire-a-la-maison-doutes-succes-2026/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/marine-documentaire-a-la-maison-doutes-succes-2026/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/marine-invitee-star-academy-tour-accor-arena-2026/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/marine-invitee-star-academy-tour-accor-arena-2026/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/marine-nrj-music-tour-toulouse-retour-images-2026/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/marine-nrj-music-tour-toulouse-retour-images-2026/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/marine-pellicu-live-4-septembre-2026/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/marine-pellicu-live-4-septembre-2026/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/marine-pierre-de-maere-duo-toulouse-2026/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/marine-pierre-de-maere-duo-toulouse-2026/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/marine-princesse-chaos-yoa-reprise-2026/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/marine-princesse-chaos-yoa-reprise-2026/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/marine-star-academy-all-stars-nrj-2026/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/marine-star-academy-all-stars-nrj-2026/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/mentions-legales/",
+      "status": 200,
+      "in_sitemap": false,
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/methodologie-de-lobservatoire-cfo/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/methodologie-de-lobservatoire-cfo/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/mgp-laboratoire-gravitationnel/",
+      "status": 200,
+      "in_sitemap": false,
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [],
+      "title_count": 3,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/mgp-orbite-carriere-marine/",
+      "status": 200,
+      "in_sitemap": false,
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/observatoire-cfo-v1-preview/",
+      "status": 200,
+      "in_sitemap": false,
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/observatoire-cfo-v1-preview/univers-mgp/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/observatoire-cfo-v1-preview/univers-mgp/"
+      ],
+      "title_count": 1,
+      "description_count": 0
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/observatoire-cfo/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/observatoire-cfo/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/observatoire-cfo/methodologie-mgp/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/observatoire-cfo/methodologie-mgp/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/observatoire-cfo/mgp-3d/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/observatoire-cfo/mgp-3d/"
+      ],
+      "title_count": 1,
+      "description_count": 0
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/observatoire-cfo/observatoire-cfo-mgp/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/observatoire-cfo/observatoire-cfo-mgp/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/politique-de-confidentialite/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/politique-de-confidentialite/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/que-ca-dure-la-relation-entre-une-artiste-et-son-public/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/que-ca-dure-la-relation-entre-une-artiste-et-son-public/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/recu-de-billet/",
+      "status": 200,
+      "in_sitemap": false,
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [],
+      "title_count": 1,
+      "description_count": 0
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/restes-daverses-quand-le-succes-devient-difficile-a-porter/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/restes-daverses-quand-le-succes-devient-difficile-a-porter/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/test-cockpit-cfo-150-exact/",
+      "status": 200,
+      "in_sitemap": false,
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/test-cockpit-cfo-150-historique/",
+      "status": 200,
+      "in_sitemap": false,
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/test-mgp/",
+      "status": 200,
+      "in_sitemap": false,
+      "robots": [
+        "noindex,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/tricheur-elle-le-savait-deja/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/tricheur-elle-le-savait-deja/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/tricheur-peut-on-aimer-deux-personnes-a-la-fois/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/tricheur-peut-on-aimer-deux-personnes-a-la-fois/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    },
+    {
+      "url": "https://chroniques-fille-ordinaire.com/une-chanson-plusieurs-identites-comprendre-iswc-isrc-et-ipi/",
+      "status": 200,
+      "in_sitemap": true,
+      "robots": [
+        "max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chroniques-fille-ordinaire.com/une-chanson-plusieurs-identites-comprendre-iswc-isrc-et-ipi/"
+      ],
+      "title_count": 1,
+      "description_count": 1
+    }
+  ]
+}

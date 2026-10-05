@@ -5,7 +5,7 @@ const supabase = createClient(Deno.env.get("SUPABASE_URL")!, Deno.env.get("SUPAB
 const UA = "CFO-News-Radar/1.1 (+https://chroniques-fille-ordinaire.com)";
 const terms = ["marine", "marine delplace", "star academy", "coeur maladroit", "ma faute", "reste d'averse", "des gens biens"];
 function clean(s:string){return s.replace(/<[^>]+>/g," ").replace(/&nbsp;/g," ").replace(/&amp;/g,"&").replace(/\s+/g," ").trim()}
-function relevant(s:string){const x=s.toLowerCase(); return terms.some(t=>x.includes(t));}
+function relevant(s:string){const x=s.normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase(); if(/\bmarine[\s-]+(?:lorphelin|le[\s-]+pen|tondelier|nationale|corps)\b/.test(x)&&!/\bmarine[\s-]+delplace\b/.test(x))return false; return terms.some(t=>x.includes(t));}
 function category(s:string){const x=s.toLowerCase(); if(/concert|festival|tournée|tournee|scène|scene/.test(x)) return "live"; if(/interview|entretien|confie|confidences/.test(x)) return "interview"; if(/album|single|chanson|titre|musique|clip/.test(x)) return "musique"; if(/radio|télé|tele|émission|emission|presse|média|media/.test(x)) return "media"; return "actu";}
 function abs(base:string,u:string){try{return new URL(u,base).href}catch{return ""}}
 function meta(html:string,key:string){const esc=key.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");const a=new RegExp(`<meta[^>]+(?:property|name)=["']${esc}["'][^>]+content=["']([^"']+)["']`,`i`).exec(html);const b=new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]+(?:property|name)=["']${esc}["']`,`i`).exec(html);return clean(a?.[1]||b?.[1]||"");}
