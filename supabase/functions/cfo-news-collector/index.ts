@@ -5,7 +5,7 @@ const supabase = createClient(Deno.env.get("SUPABASE_URL")!, Deno.env.get("SUPAB
 const UA = "CFO-News-Radar/1.2 (+https://chroniques-fille-ordinaire.com)";
 const directTerms = ["marine delplace", "coeur maladroit", "ma faute", "reste d'averse", "des gens biens", "tricheur"];
 function clean(s:string){return s.replace(/<[^>]+>/g," ").replace(/&nbsp;/g," ").replace(/&amp;/g,"&").replace(/\s+/g," ").trim()}
-function normalize(s:string){return s.normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase();}
+function normalize(s:string){return s.normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/œ/g,"oe");}
 function relevant(title:string,description:string){const t=normalize(title);const d=normalize(description);const x=t+" "+d;if(/\bmarine[\s-]+(?:lorphelin|le[\s-]+pen|tondelier|nationale|corps)\b/.test(x)&&!/\bmarine[\s-]+delplace\b/.test(x))return false;if(directTerms.some(term=>x.includes(term)))return true;return /\bmarine\b/.test(t);}
 function category(s:string){const x=s.toLowerCase(); if(/concert|festival|tournée|tournee|scène|scene/.test(x)) return "live"; if(/interview|entretien|confie|confidences/.test(x)) return "interview"; if(/album|single|chanson|titre|musique|clip/.test(x)) return "musique"; if(/radio|télé|tele|émission|emission|presse|média|media/.test(x)) return "media"; return "actu";}
 function abs(base:string,u:string){try{return new URL(u,base).href}catch{return ""}}
