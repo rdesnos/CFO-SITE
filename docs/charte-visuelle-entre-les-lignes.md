@@ -44,6 +44,21 @@ Conséquences :
 - Les bords de l’illustration doivent être **diffus / fondus vers un fond clair**, dans l’esprit du master Dalida.
 - Pas de cadre graphique dur autour de l’image.
 
+
+### 3.1. Finition des bordures — règle confirmée le 11 octobre 2026
+
+Les visuels de la collection doivent se terminer par un **contour organique d'aquarelle** : lavis irréguliers, effilochage du pigment, éclaboussures discrètes et disparition progressive de la matière vers le fond clair de la page.
+
+- **Aucun bord rectangulaire net** ne doit rester visible dans l'illustration finale, y compris sur les vignettes de pages regroupant plusieurs dossiers.
+- **Ne pas masquer ce défaut par des coins arrondis**, un cadre, une ombre ou un recadrage CSS. Les images sont présentées sans arrondi.
+- Si une illustration déjà approuvée présente des bords francs, **corriger uniquement la périphérie** : préserver le sujet, les visages, la composition, les couleurs et la narration au centre de l'œuvre.
+- Harmoniser visuellement les bordures avec les autres aquarelles de la collection, sans imposer un contour géométrique identique à toutes les images.
+- Contrôler le résultat **en situation réelle**, sur la page du dossier et sur toute page d'entrée éditoriale où l'image est réutilisée. La transition vers le fond doit rester naturelle, sur ordinateur comme sur mobile.
+
+**Cas de référence :** « Marine, le phénix et le néant ». La reprise validée porte sur l'adoucissement aquarellé des bordures du visuel initial, sans refonte de sa scène. Le rendu de « Gemme » sert de comparaison pour l'intégration harmonieuse dans une même page.
+
+**Décision de méthode :** l'image doit être corrigée à la source plutôt que de compenser un défaut de finition par la mise en page. La validation du sujet et de la composition ne vaut pas validation automatique des bordures.
+
 ## 4. Couleur et matière
 
 - Palette douce et légèrement désaturée.
