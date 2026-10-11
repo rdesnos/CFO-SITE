@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-11T14:17:36.014Z",
+  "artist": "Marine",
+  "project": "fjpcuxsezeuajhlotzij",
+  "source": "acquisition.metric_observations / soundcharts / instagram / followers",
+  "interpolated": false,
+  "previous": {
+    "date": "2026-10-03",
+    "value": 709414
+  },
+  "current": {
+    "date": "2026-10-10",
+    "value": 709719
+  },
+  "formula": "(709719 / 709414 - 1) * 100",
+  "percentage": 0.042993231032939505,
+  "display": "+0,04 %",
+  "productionPublished": false,
+  "scope": "Repères / Instagram only"
+}

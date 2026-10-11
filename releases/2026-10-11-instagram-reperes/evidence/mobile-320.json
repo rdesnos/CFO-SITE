@@ -1,0 +1,41 @@
+{
+  "rows": [
+    {
+      "gap": -5.749996185302734,
+      "grid": "2",
+      "inside": true,
+      "strongTextWidth": 64.89582824707031,
+      "text": "Spotify mensuels\n871 477\n-3,7 %"
+    },
+    {
+      "gap": -11.083343505859377,
+      "grid": "2",
+      "inside": true,
+      "strongTextWidth": 67.65625,
+      "text": "Catalogue semaine\n954,6 k\n+0,5 %"
+    },
+    {
+      "gap": 1.916664123535156,
+      "grid": "2",
+      "inside": true,
+      "strongTextWidth": 57.22916793823242,
+      "text": "YouTube vues / jour\n63 275\n-5,1 %"
+    },
+    {
+      "gap": -17.354171752929688,
+      "grid": "2",
+      "inside": true,
+      "strongTextWidth": 67,
+      "text": "Instagram\n709 719\n+0,04 %"
+    },
+    {
+      "gap": 12.552085876464844,
+      "grid": "2",
+      "inside": true,
+      "strongTextWidth": 44.02083206176758,
+      "text": "Airplay\n2 179\n+5,1 %"
+    }
+  ],
+  "scrollWidth": 305,
+  "width": 320
+}

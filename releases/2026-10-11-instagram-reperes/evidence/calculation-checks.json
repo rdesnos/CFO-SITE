@@ -1,0 +1,26 @@
+[
+  {
+    "name": "weekly-observations",
+    "expected": "+0,04 %",
+    "actual": "+0,04 %",
+    "passed": true
+  },
+  {
+    "name": "missing-previous",
+    "expected": "—",
+    "actual": "—",
+    "passed": true
+  },
+  {
+    "name": "zero-previous",
+    "expected": "—",
+    "actual": "—",
+    "passed": true
+  },
+  {
+    "name": "invalid-comparison",
+    "expected": "—",
+    "actual": "—",
+    "passed": true
+  }
+]

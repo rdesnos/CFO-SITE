@@ -1,0 +1,70 @@
+/* CFO home: editorial timelines, single column in existing right-hand feature */
+.cfo-weekly-pulse.cfo-pulse-timeline{padding:22px 26px}
+.cfo-pulse-timeline h3{font-size:clamp(1.85rem,2.6vw,2.5rem);line-height:1.05;margin-bottom:8px}
+.cfo-pulse-timeline .pulse{padding:15px 0;border-bottom:1px solid #e9ddd4}
+.cfo-pulse-timeline .pulse>span{display:block;font-size:1rem;margin-bottom:7px}
+.cfo-pulse-timeline .pulse>strong{display:block;font-size:clamp(2.2rem,3vw,2.85rem);line-height:1.04}
+.cfo-pulse-timeline .pulse>em{display:block;font-size:.95rem;margin-top:5px}
+.cfo-pulse-timeline .cfo-pulse-history{margin-top:17px}
+.cfo-pulse-timeline .cfo-pulse-history svg{display:block;width:100%;height:auto;max-height:130px}
+.cfo-pulse-timeline .cfo-pulse-axis{display:flex;justify-content:space-between;font-size:.7rem;color:#697f86;margin-top:0}
+.cfo-pulse-timeline .cfo-pulse-insight{margin:12px 0 4px;color:#304750;font-size:.9rem;line-height:1.4}
+.cfo-pulse-timeline .cfo-pulse-history small{display:block;font-size:.75rem;color:#71808a;line-height:1.4}
+.cfo-pulse-timeline .cfo-pulse-unavailable{padding:17px 12px;background:#f9f2ed;border-left:2px solid #c6aaa0;color:#4d5a61;font-size:.86rem;line-height:1.4}
+.cfo-pulse-timeline .cfo-pulse-unavailable span{display:block;margin-bottom:6px}
+.cfo-pulse-timeline .cfo-pulse-unavailable small{font-size:.77rem}
+@media(max-width:780px){.cfo-weekly-pulse.cfo-pulse-timeline{padding:22px}}
+
+/* Editorial home snapshot — visually reliable even before optional JS enhancement. */
+
+/* Compact editorial stack: preserve typography while removing inherited empty space. */
+/* Five-state variation badge next to the main value. */
+/* Dedicated editorial rows: intentionally excluded from legacy .pulse live updater. */
+.cfo-weekly-pulse.cfo-pulse-timeline .cfo-editorial-pulse{padding:12px 0!important;margin:0!important;border-bottom:1px solid #e9ddd4!important;min-height:0!important;display:block!important}
+.cfo-weekly-pulse.cfo-pulse-timeline .cfo-editorial-pulse>span{display:block;font-size:1rem;margin:0 0 4px!important;color:#637b83}
+.cfo-weekly-pulse.cfo-pulse-timeline .cfo-editorial-pulse>.cfo-pulse-insight{margin:5px 0 0!important;font-size:calc(1rem + 2pt)!important;line-height:1.5!important;color:#304750}
+.cfo-weekly-pulse.cfo-pulse-timeline .cfo-editorial-pulse .cfo-pulse-change{font-size:clamp(1.35rem,1.8vw,1.65rem)!important}
+.cfo-weekly-pulse.cfo-pulse-timeline .cfo-editorial-pulse .cfo-pulse-change>span{font-size:inherit!important;line-height:inherit!important;font-weight:inherit!important;color:inherit!important}
+@media(max-width:780px){.cfo-weekly-pulse.cfo-pulse-timeline .cfo-editorial-pulse .cfo-pulse-change{font-size:1.35rem!important}}
+
+.cfo-weekly-pulse.cfo-pulse-timeline .cfo-pulse-value-row{display:flex!important;align-items:baseline!important;justify-content:space-between!important;gap:12px!important;flex-wrap:wrap!important}
+.cfo-weekly-pulse.cfo-pulse-timeline .cfo-pulse-value-row>strong{display:block;color:#0B3447!important;font-size:clamp(1.95rem,2.3vw,2.35rem)!important;line-height:1.08!important}
+.cfo-weekly-pulse.cfo-pulse-timeline .cfo-pulse-change{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;font-size:clamp(2.2rem,3vw,2.85rem)!important;font-weight:700;line-height:1.08;transform:none}
+.cfo-weekly-pulse.cfo-pulse-timeline .cfo-pulse-arrow{font-size:inherit!important;line-height:1;font-weight:700}
+.cfo-weekly-pulse.cfo-pulse-timeline .cfo-pulse-change>span{font-size:inherit!important;font-weight:inherit!important;line-height:inherit!important;color:inherit!important}
+.cfo-weekly-pulse.cfo-pulse-timeline .is-up-significant,.cfo-weekly-pulse.cfo-pulse-timeline .is-up-moderate{color:#188051}
+.cfo-weekly-pulse.cfo-pulse-timeline .is-down-significant,.cfo-weekly-pulse.cfo-pulse-timeline .is-down-moderate{color:#aa352f}
+.cfo-weekly-pulse.cfo-pulse-timeline .is-stable{color:#65777e}
+@media(max-width:780px){.cfo-weekly-pulse.cfo-pulse-timeline .cfo-pulse-change{font-size:2.15rem!important}.cfo-weekly-pulse.cfo-pulse-timeline .cfo-pulse-value-row>strong{font-size:2.15rem!important}}
+
+.cfo-weekly-pulse.cfo-pulse-timeline{padding:20px 24px!important;align-self:start!important;height:auto!important;min-height:0!important;display:block!important;justify-content:initial!important}
+.cfo-weekly-pulse.cfo-pulse-timeline h3{margin:0 0 7px!important;line-height:1.12!important;font-size:clamp(2.15rem,3vw,2.85rem)!important}
+.cfo-weekly-pulse.cfo-pulse-timeline .cfo-weekly-period{margin:0 0 14px!important}
+.cfo-weekly-pulse.cfo-pulse-timeline .pulse{padding:12px 0!important;margin:0!important;min-height:0!important;display:block!important}
+.cfo-weekly-pulse.cfo-pulse-timeline .pulse>span{margin:0 0 4px!important}
+.cfo-weekly-pulse.cfo-pulse-timeline .pulse>strong{margin:0!important}
+.cfo-weekly-pulse.cfo-pulse-timeline .pulse>em{margin:2px 0 0!important}
+.cfo-weekly-pulse.cfo-pulse-timeline .pulse>.cfo-pulse-insight{margin:5px 0 0!important;font-size:1rem!important;line-height:1.5!important}
+.cfo-weekly-pulse.cfo-pulse-timeline .pulse:has(.cfo-pulse-insight)::after{display:none!important}
+.cfo-weekly-pulse.cfo-pulse-timeline .cfo-weekly-observatory-link{margin-top:12px!important}
+
+.cfo-weekly-pulse .cfo-weekly-mini-chart,
+.cfo-weekly-pulse .cfo-pulse-history svg{display:none!important}
+.cfo-weekly-pulse .pulse>strong{color:#0B3447!important}
+.cfo-weekly-pulse .pulse{position:relative}
+.cfo-weekly-pulse .pulse::after{display:block;color:#304750;font-size:.91rem;line-height:1.45;margin-top:13px;font-weight:400}
+.cfo-weekly-pulse .pulse:nth-of-type(1)::after{content:"Le recul des auditeurs s'accentue depuis la fin septembre."}
+.cfo-weekly-pulse .pulse:nth-of-type(2)::after{content:"Les écoutes restent globalement stables, malgré le recul de l'audience mensuelle."}
+.cfo-weekly-pulse .pulse:nth-of-type(3)::after{content:"La présence radio progresse légèrement sur la semaine, malgré des fluctuations quotidiennes."}
+/* When JS has added the semantic paragraph, do not duplicate it. */
+.cfo-weekly-pulse .pulse:has(.cfo-pulse-insight)::after{content:none}
+
+/* Repères : valeur en drapeau à gauche, variation en drapeau à droite. */
+.cfo-home .cfo-weekly-reperes > div:not(.rep-title){display:grid!important;grid-template-columns:minmax(0,1fr) auto!important;grid-template-rows:auto auto!important;align-content:start!important;align-items:baseline!important;column-gap:8px!important}
+.cfo-home .cfo-weekly-reperes > div:not(.rep-title) > span{grid-column:1 / -1!important;grid-row:1!important}
+.cfo-home .cfo-weekly-reperes > div:not(.rep-title) > strong{display:block!important;grid-column:1!important;grid-row:2!important;margin:0!important;min-width:0!important;white-space:nowrap!important}
+.cfo-home .cfo-weekly-reperes > div:not(.rep-title) > em{display:block!important;grid-column:2!important;grid-row:2!important;justify-self:end!important;text-align:right!important;white-space:nowrap!important;font-size:clamp(.85rem,1.05vw,1.05rem)!important;line-height:1.2!important;margin:0!important;font-weight:700!important}
+/* Instagram has an absolute change AND an observation date: give it its own row to avoid collision. */
+.cfo-home .cfo-weekly-reperes > div:nth-child(5) > strong{grid-column:1 / -1!important}
+.cfo-home .cfo-weekly-reperes > div:nth-child(5) > em{grid-column:1 / -1!important;grid-row:3!important;justify-self:start!important;text-align:left!important;margin-top:3px!important}
+@media(max-width:950px){.cfo-home .cfo-weekly-reperes > div:not(.rep-title){column-gap:4px!important}.cfo-home .cfo-weekly-reperes > div:not(.rep-title) > em{font-size:.82rem!important}}
