@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "asset": {
+    "id": "801922eb-9a8c-4e1f-90b9-6bea7cbaebdc",
+    "bucket_id": "cfo-media",
+    "object_path": "dossiers/marine-le-phenix-et-le-neant/marine-le-phenix-et-le-neant-bordures-diffuses-484c79e4.png",
+    "public_url": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/marine-le-phenix-et-le-neant/marine-le-phenix-et-le-neant-bordures-diffuses-484c79e4.png",
+    "title": "Marine, le phénix et le néant — aquarelle aux bordures diffuses",
+    "alt_text": "Aquarelle de Marine pensive entre un disque sombre et un phénix lumineux.",
+    "caption": null,
+    "media_kind": "illustration",
+    "usage_scope": "dossier",
+    "dossier_slug": "marine-le-phenix-et-le-neant",
+    "wp_post_id": 1516,
+    "wp_attachment_id": null,
+    "mime_type": "image/png",
+    "width": 1672,
+    "height": 941,
+    "file_size_bytes": 2529367,
+    "source": "generated",
+    "source_ref": "user-validated:2026-10-11",
+    "status": "active",
+    "is_primary": true,
+    "metadata": {
+      "sha256": "b081b44638fdfd061a235467b0fa01319b4a5c1dbd82acb1653d60d001ea5204",
+      "validated_by": "user",
+      "used_on_pages": [
+        1516,
+        1704
+      ],
+      "validated_date": "2026-10-11",
+      "original_url_preserved": "https://chroniques-fille-ordinaire.com/wp-content/uploads/2026/10/Marine-le-phenix-et-le-neant-—-aquarelle.png"
+    },
+    "created_at": "2026-10-11T10:08:02.143546+00:00",
+    "updated_at": "2026-10-11T10:08:02.143546+00:00"
+  }
+}
