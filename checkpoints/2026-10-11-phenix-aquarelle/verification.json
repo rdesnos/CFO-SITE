@@ -1,0 +1,32 @@
+{
+  "verified_on": "2026-10-11",
+  "pages": [
+    {
+      "id": 1516,
+      "url": "https://chroniques-fille-ordinaire.com/marine-le-phenix-et-le-neant/",
+      "only_image_url_changed": true,
+      "title_unchanged": true,
+      "featured_media": 1717,
+      "image_loaded": true,
+      "natural_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": 1704,
+      "url": "https://chroniques-fille-ordinaire.com/gemme-entre-les-lignes/",
+      "only_image_url_changed": true,
+      "title_unchanged": true,
+      "featured_media": 0,
+      "image_loaded": true,
+      "natural_size": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "original_preserved": true,
+  "source_png_matches_public_sha256": true,
+  "existing_gemme_issue": "CSS text already present in pre-update post_content; unchanged per scope"
+}
