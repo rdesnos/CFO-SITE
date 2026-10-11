@@ -1,0 +1,31 @@
+{
+  "charts": 0,
+  "overflow": false,
+  "rows": [
+    {
+      "change": "↘\n−3,7 %",
+      "changeTop": 2059.96875,
+      "color": "rgb(11, 52, 71)",
+      "rowWidth": 261.3333435058594,
+      "value": "871 477",
+      "valueTop": 2047.96875
+    },
+    {
+      "change": "→\n+0,5 %",
+      "changeTop": 2211.572998046875,
+      "color": "rgb(11, 52, 71)",
+      "rowWidth": 261.3333435058594,
+      "value": "954 610",
+      "valueTop": 2199.572998046875
+    },
+    {
+      "change": "↗\n+3,9 %",
+      "changeTop": 2391.17724609375,
+      "color": "rgb(11, 52, 71)",
+      "rowWidth": 261.3333435058594,
+      "value": "2 164",
+      "valueTop": 2379.17724609375
+    }
+  ],
+  "viewport": 390
+}

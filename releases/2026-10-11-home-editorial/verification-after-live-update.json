@@ -1,0 +1,26 @@
+{
+  "charts": 0,
+  "rows": [
+    {
+      "alignment": "baseline",
+      "change": "↘ −3,7 %",
+      "color": "rgb(11, 52, 71)",
+      "insight": "Le recul des auditeurs se renforce depuis la fin septembre.",
+      "value": "871 477"
+    },
+    {
+      "alignment": "baseline",
+      "change": "→ +0,5 %",
+      "color": "rgb(11, 52, 71)",
+      "insight": "Les écoutes restent globalement stables, malgré le recul de l’audience mensuelle.",
+      "value": "954 610"
+    },
+    {
+      "alignment": "baseline",
+      "change": "↗ +3,9 %",
+      "color": "rgb(11, 52, 71)",
+      "insight": "La présence radio progresse légèrement sur la semaine, malgré les fluctuations quotidiennes.",
+      "value": "2 164"
+    }
+  ]
+}

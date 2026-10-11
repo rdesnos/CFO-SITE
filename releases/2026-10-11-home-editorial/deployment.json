@@ -1,0 +1,25 @@
+{
+  "files": [
+    {
+      "path": "wp-content/themes/cfo/assets/cfo-home-trends.css",
+      "bytes": 6176,
+      "sha256": "3fbde0e5b4666bfb186f2d0712f93faa23056a16df2bad0e2320439944f00368",
+      "uploaded": true
+    },
+    {
+      "path": "wp-content/themes/cfo/functions.php",
+      "bytes": 13492,
+      "sha256": "b07867a3ad4a10d5843b50578fe12659623c41f60f9bea589b2cd4d031bd4b0d",
+      "uploaded": true
+    },
+    {
+      "path": "wp-content/themes/cfo/front-page.php",
+      "bytes": 3599,
+      "sha256": "bbb69d6a55aa9485ce59970cb35d9e9a81e8fdbe7a0c43ae3196dff7665cb9a7",
+      "uploaded": true
+    }
+  ],
+  "method": "Hostinger targeted TUS upload",
+  "reference_commit": "8546534",
+  "home_post_content_modified": false
+}

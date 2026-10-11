@@ -1,0 +1,359 @@
+{
+  "images": [
+    {
+      "alt": "Chroniques d'une fille ordinaire",
+      "src": "data:image/webp;base64,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"
+    },
+    {
+      "alt": "Portrait de Marine",
+      "src": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/editorial/2026/10/portrait-marine-webp-673-ec930d25.webp"
+    },
+    {
+      "alt": "Marine nommée aux NRJ Music Awards 2026 : le vote est ouvert",
+      "src": "https://chroniques-fille-ordinaire.com/wp-content/uploads/2026/09/NRJ-Music-Awards-2026-—-visuel-NRJ.jpg"
+    },
+    {
+      "alt": "Illustration aquarelle du dossier Tricheur : un homme face à un miroir où apparaissent deux relations amoureuses.",
+      "src": "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/tricheur-peut-on-aimer-deux-personnes-a-la-fois-webp-960-8a0bc61a.webp"
+    },
+    {
+      "alt": "Illustration du dossier Gemme",
+      "src": "/wp-content/uploads/2026/08/cfo-gemme.jpg"
+    },
+    {
+      "alt": "Illustration du dossier D’accord",
+      "src": "/wp-content/uploads/2026/08/cfo-daccord.jpg"
+    },
+    {
+      "alt": "Illustration du dossier Restes d’averses",
+      "src": "/wp-content/uploads/2026/08/cfo-restes-daverses.jpg"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://chroniques-fille-ordinaire.com/",
+      "text": ""
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/",
+      "text": "À l’affiche"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/agenda/",
+      "text": "Agenda"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/actualites/",
+      "text": "Actualités"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/entre-les-lignes/",
+      "text": "Entre les lignes"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/dalida-alzheimer/",
+      "text": "Dalida"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/",
+      "text": "D’accord"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/",
+      "text": "Escroc"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/que-ca-dure-la-relation-entre-une-artiste-et-son-public/",
+      "text": "Que ça dure"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/des-gens-bien-marine-le-coeur-au-nord/",
+      "text": "Des gens bien"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/",
+      "text": "Ma faute"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/gemme-entre-les-lignes/",
+      "text": "Gemme"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/gemme-traverser-le-deuil-et-faire-vivre-le-lien/",
+      "text": "« Gemme » : traverser le deuil et faire vivre le lien"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/marine-le-phenix-et-le-neant/",
+      "text": "Le phénix et le néant"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/a-la-maison-la-nostalgie-de-lenfance/",
+      "text": "À la maison"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/restes-daverses-quand-le-succes-devient-difficile-a-porter/",
+      "text": "Restes d’averses"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/tricheur-peut-on-aimer-deux-personnes-a-la-fois/",
+      "text": "Tricheur"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/a-ses-cotes-carnets-de-bord/",
+      "text": "À ses côtés"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/la-grand-place/",
+      "text": "La Grand-Place"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/observatoire-cfo/",
+      "text": "L’Observatoire"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/observatoire-cfo/",
+      "text": "Le tableau de bord"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/observatoire-cfo/observatoire-cfo-mgp/",
+      "text": "Les trajectoires"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/observatoire-cfo/mgp-3d/",
+      "text": "La carte 3D"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/observatoire-cfo/methodologie-mgp/",
+      "text": "Comment ça marche ?"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/en-coulisses/observatoire-des-salles/",
+      "text": "Observatoire des salles"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/en-coulisses/",
+      "text": "En coulisses"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/auteur-compositeur-interprete-qui-cree-quoi/",
+      "text": "Auteur, compositeur, interprète"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/arrangeur-realisateur-artistique/",
+      "text": "Arrangement et réalisation"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/producteur-phonographique-label/",
+      "text": "Production et labels"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/editeur-musical-role/",
+      "text": "Édition musicale"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/manager-artiste-musique/",
+      "text": "Management artistique"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/producteur-spectacle-tourneur/",
+      "text": "Spectacle et tournée"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/programmateur-salle-festival/",
+      "text": "Programmation"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/distributeur-musical/",
+      "text": "Distribution musicale"
+    },
+    {
+      "href": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/attache-presse-promotion-musique/",
+      "text": "Presse et promotion"
+    },
+    {
+      "href": "/actualites/",
+      "text": "Voir l’actualité"
+    },
+    {
+      "href": "/entre-les-lignes/",
+      "text": "Explorer les dossiers"
+    },
+    {
+      "href": "/actualites/",
+      "text": "Voir tous les sujets →"
+    },
+    {
+      "href": "https://www.nrj.fr/music-awards/votes",
+      "text": "Voter sur NRJ ↗"
+    },
+    {
+      "href": "/actualites/",
+      "text": "Suivre l’actualité →"
+    },
+    {
+      "href": "https://www.nrj.fr/music-awards/actualites/marine-vitaa-ambre-les-nommes-reagissent-71367068",
+      "text": "NRJ"
+    },
+    {
+      "href": "/tricheur-peut-on-aimer-deux-personnes-a-la-fois/",
+      "text": "Lire le dossier →"
+    },
+    {
+      "href": "/observatoire-cfo/",
+      "text": "Voir les titres →"
+    },
+    {
+      "href": "/observatoire-cfo/",
+      "text": "Voir les audiences →"
+    },
+    {
+      "href": "/observatoire-cfo/",
+      "text": "Voir la radio →"
+    },
+    {
+      "href": "/actualites/",
+      "text": "Suivre l’actualité →"
+    },
+    {
+      "href": "/entre-les-lignes/",
+      "text": "Lire les dossiers →"
+    },
+    {
+      "href": "/la-grand-place/",
+      "text": "Entrer dans le forum →"
+    },
+    {
+      "href": "/observatoire-cfo/",
+      "text": "Voir le cockpit →"
+    },
+    {
+      "href": "/en-coulisses/",
+      "text": "Passer en coulisses →"
+    },
+    {
+      "href": "/actualites/",
+      "text": "Actualités →"
+    },
+    {
+      "href": "/gemme-traverser-le-deuil-et-faire-vivre-le-lien/",
+      "text": ""
+    },
+    {
+      "href": "/gemme-traverser-le-deuil-et-faire-vivre-le-lien/",
+      "text": "Lire le dossier →"
+    },
+    {
+      "href": "/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/",
+      "text": ""
+    },
+    {
+      "href": "/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/",
+      "text": "Lire le dossier →"
+    },
+    {
+      "href": "/restes-daverses-quand-le-succes-devient-difficile-a-porter/",
+      "text": ""
+    },
+    {
+      "href": "/restes-daverses-quand-le-succes-devient-difficile-a-porter/",
+      "text": "Lire le dossier →"
+    },
+    {
+      "href": "/entre-les-lignes/",
+      "text": "Voir les dix dossiers →"
+    },
+    {
+      "href": "/observatoire-cfo/",
+      "text": "Ouvrir le cockpit →"
+    },
+    {
+      "href": "/la-grand-place/",
+      "text": "Voir les discussions →"
+    },
+    {
+      "href": "/la-grand-place/",
+      "text": "Participer →"
+    },
+    {
+      "href": "/la-grand-place/",
+      "text": "Entrer sur la place →"
+    },
+    {
+      "href": "/mentions-legales/",
+      "text": "Mentions légales"
+    },
+    {
+      "href": "/contact/",
+      "text": "Contact"
+    },
+    {
+      "href": "/a-propos-de-lauteur/",
+      "text": "À propos de l’auteur"
+    },
+    {
+      "href": "/charte-editoriale/",
+      "text": "Charte éditoriale"
+    },
+    {
+      "href": "/charte-ia/",
+      "text": "Charte IA"
+    }
+  ],
+  "scripts": [
+    "https://chroniques-fille-ordinaire.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+    "https://chroniques-fille-ordinaire.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+    "https://chroniques-fille-ordinaire.com/wp-content/plugins/sugar-calendar-lite/assets/js/frontend/legacy/sc-ajax.min.js?ver=3.14.0",
+    "https://chroniques-fille-ordinaire.com/wp-content/themes/cfo/assets/js/alpine.min.js?ver=3.15.12",
+    "https://www.googletagmanager.com/gtag/js?id=GT-TX5XP9NG",
+    "https://chroniques-fille-ordinaire.com/wp-includes/js/wp-emoji-release.min.js?ver=7.1.3",
+    "https://chroniques-fille-ordinaire.com/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255",
+    "https://chroniques-fille-ordinaire.com/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216",
+    "https://chroniques-fille-ordinaire.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.7",
+    "https://chroniques-fille-ordinaire.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.7",
+    "https://cdn-reach.hostinger.com/js/embed.js",
+    "https://chroniques-fille-ordinaire.com/wp-content/themes/cfo/cfo-audio-tuner.js?ver=20260914-master9",
+    "https://chroniques-fille-ordinaire.com/wp-content/themes/cfo/assets/js/cfo-carnets-feed.js?ver=20260929-2",
+    "https://chroniques-fille-ordinaire.com/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-contact-form-7-fac2a8013ba5ba355cd0.js",
+    "https://chroniques-fille-ordinaire.com/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-content-events-c7172f3fd0e4d5ad62ef.js",
+    "https://chroniques-fille-ordinaire.com/wp-content/plugins/cfo-cockpit-hebdo/assets/cockpit.js?ver=1.5.0"
+  ],
+  "sections": [
+    {
+      "class": "hero",
+      "text": "MÉDIA LIBRE, INDÉPENDANT ET NON OFFICIEL\nLa musique de Marine,\net tout ce qu’elle raconte\n\nActualités, dossiers, données et coulisses pour écouter autrement l’œuvre de Marine Delplace — entre émotions, société et histoires humaines.\n\nVoir l’actualitéExplorer les dossiers"
+    },
+    {
+      "class": "cfo-weekly-front",
+      "text": "La une de la semaine\n\nLes sujets clés de l’actualité de Marine, éclairés par les données de l’Observatoire.\n\nVoir tous les sujets →\nÀ LA UNE\nMarine nommée aux NRJ Music Awards 2026 : le vote est ouvert\n\nMarine figure parmi les nommées de la catégorie Artiste Féminine Francophone. Le vote du public est ouvert jusqu’au 23 octobre à 12 h, à raison d’un vote par jour et par catégorie.\n\nVoter sur NRJ ↗\nSuivre l’actualité →\nSource : NRJ\nLa semaine en chiffres\n\n4 OCT. → 10 OCT.\n\nAuditeurs mensuels Spotify\n871 477\n-3,7 % sur la semaine\nS-1\nS\nStreams Spotify qualifiés\n954 610\n+0,5 % vs S-1\nS-1\nS\nPassages radio Marine\n2 179\n+5,1 % vs S-1\nS-1\nS\nOuvrir l’Observatoire →\nMUSIQUE\nTricheur gagne du terrain en radio\n\nLe signal principal vient de la radio : le titre entre plus fortement dans les rotations.\n\nStreams semaine\n128 151\n-15,7 % vs S-1\nPassages radio\n1 049\n+17,9 % vs S-1\nLire le dossier →\nCATALOGUE\nEscroc tire le catalogue vers le haut\n\nEscroc est le principal moteur positif de la semaine.\n\nMa faute\n239 951\n+1,9 %\nEscroc\n88 600\n+5,4 %\nCœur maladroit\n98 633\n+4,3 %\nRestes d’averses\n68 559\n-0,9 %\nVoir les titres →\nAUDIENCE\nL’attention se tasse\n\nSpotify et YouTube reculent simultanément : l’attention globale se contracte.\n\nSpotify mensuels\n871 477\n-33 942 · -3,7 %\nVues YouTube / jour\n63 275\n-5,1 % · au 4 oct.\nVoir les audiences →\nEXPOSITION\nLa présence radio reste stable\n\nLe volume radio progresse cette semaine, porté notamment par la montée rapide de Tricheur dans les rotations.\n\nMarine · total semaine\n2 179\n+5,1 %\nTricheur\n1 049\nEscroc\n472\nCoeur maladroit\n306\nPrincesse chaos (Marine's Version)\n190\nVoir la radio →\nRepères\n4 oct. → 10 oct.\nMarine Hebdo\nSpotify mensuels\n871 477\n-3,7 %\nCatalogue semaine\n954,6 k\n+0,5 %\nYouTube vues / jour\n63 275\n-5,1 %\nInstagram\n709 719\n+305 · au 10 oct.\nAirplay\n2 179\n+5,1 %"
+    },
+    {
+      "class": "univers",
+      "text": "CINQ PORTES D’ENTRÉE\nExplorer CFO\n\nUn média, cinq façons d’entrer dans l’univers de Marine.\n\nÀ l’affiche\n\nL’actualité, les sorties et ce qu’il faut retenir maintenant.\n\nSuivre l’actualité →\nEntre les lignes\n\nLes chansons comme portes d’entrée vers des sujets humains et sociaux.\n\nLire les dossiers →\nLa Grand-Place\n\nLe lieu où les lecteurs prolongent les sujets et confrontent leurs regards.\n\nEntrer dans le forum →\nL’Observatoire\n\nDonnées publiques, trajectoires, audiences et modèles CFO.\n\nVoir le cockpit →\nEn coulisses\n\nComprendre comment se fabriquent, s’identifient et deviennent visibles les chansons.\n\nPasser en coulisses →"
+    },
+    {
+      "class": "affiche",
+      "text": "À L’AFFICHE\nCe qui se passe maintenant\n\nRetrouvez les actualités et les faits marquants autour de Marine, avec une priorité : distinguer ce qui est établi, ce qui mérite d’être suivi et ce qui relève encore du signal.\n\nActualités →\nLe radar CFO\n\nActualités, signaux faibles et signaux forts : une lecture structurée pour ne pas confondre bruit, tendance et information."
+    },
+    {
+      "class": "dossiers",
+      "text": "ENTRE LES LIGNES\nUne chanson peut ouvrir bien plus qu’un refrain\n\nDix chansons, dix sujets. Voici trois portes d’entrée dans les dossiers CFO.\n\nGEMME\nTraverser le deuil\n\nFaire une place à l’absence, aux souvenirs et au lien qui continue.\n\nLire le dossier →\nD’ACCORD\nHarcèlement et haine en ligne\n\nComprendre les attaques, rompre le silence et trouver de l’aide.\n\nLire le dossier →\nRESTES D’AVERSES\nGérer le succès\n\nQuand la réussite publique avance plus vite que l’adaptation intérieure.\n\nLire le dossier →\n\nVoir les dix dossiers →"
+    },
+    {
+      "class": "obs",
+      "text": "L’OBSERVATOIRE\nLes données derrière l’histoire\n\nUne lecture factuelle des indicateurs publics pour suivre les tendances et replacer les chiffres dans leur contexte.\n\nSpotify cumulé\n121,09 M\n7 jours\n+954,6 k\nTendance\n+0,5 %\nLe Marine Hebdo\n\nLe cockpit rassemble audiences, écoutes, airplay, classements et projections CFO.\n\nOuvrir le cockpit →"
+    },
+    {
+      "class": "community",
+      "text": "LA GRAND-PLACE\nLes contenus continuent dans la discussion\n\nChaque dossier peut devenir un espace d’échange.\n\nAutour des dossiers\n\nProlonger les thèmes d’Entre les lignes.\n\nVoir les discussions →\nAutour de l’actualité\n\nRéagir aux informations sans perdre le contexte.\n\nParticiper →\nAutour de l’œuvre\n\nPartager une lecture, une émotion ou une interprétation.\n\nEntrer sur la place →"
+    },
+    {
+      "class": "coulisses",
+      "text": "EN COULISSES\nComprendre ce qu’on ne voit pas\n\nDes formats pédagogiques pour suivre le chemin d’une chanson, de l’idée jusqu’au public.\n\nComment se fabrique une chanson ?\n\nDe l’écriture à la mise à disposition du public.\n\nLes métiers de l’ombre\n\nQui intervient derrière un artiste et à quel moment ?\n\nPourquoi une chanson devient visible ?\n\nComprendre les mécanismes qui font émerger un titre."
+    },
+    {
+      "class": "manifesto",
+      "text": "CHRONIQUES D’UNE FILLE ORDINAIRE\nLibre. Indépendant. Non officiel.\n\nCFO est un média consacré à Marine et à son œuvre musicale."
+    }
+  ],
+  "title": "Marine Delplace : chansons, analyses et actualités"
+}

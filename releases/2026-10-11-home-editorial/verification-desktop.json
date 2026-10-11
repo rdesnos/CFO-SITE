@@ -1,0 +1,78 @@
+{
+  "title": true,
+  "links": true,
+  "images": true,
+  "scripts": true,
+  "sections": [
+    {
+      "class": "hero",
+      "unchanged": true
+    },
+    {
+      "class": "cfo-weekly-front",
+      "unchanged": true
+    },
+    {
+      "class": "univers",
+      "unchanged": true
+    },
+    {
+      "class": "affiche",
+      "unchanged": true
+    },
+    {
+      "class": "dossiers",
+      "unchanged": true
+    },
+    {
+      "class": "obs",
+      "unchanged": true
+    },
+    {
+      "class": "community",
+      "unchanged": true
+    },
+    {
+      "class": "coulisses",
+      "unchanged": true
+    },
+    {
+      "class": "manifesto",
+      "unchanged": true
+    }
+  ],
+  "charts": 0,
+  "overflow": false,
+  "module": [
+    {
+      "change": "↘\n−3,7 %",
+      "changeTop": 1065.6771240234375,
+      "color": "rgb(11, 52, 71)",
+      "insight": "Le recul des auditeurs se renforce depuis la fin septembre.",
+      "label": "Auditeurs mensuels Spotify",
+      "rowDisplay": "flex",
+      "value": "871 477",
+      "valueTop": 1057.6771240234375
+    },
+    {
+      "change": "→\n+0,5 %",
+      "changeTop": 1213.822998046875,
+      "color": "rgb(11, 52, 71)",
+      "insight": "Les écoutes restent globalement stables, malgré le recul de l’audience mensuelle.",
+      "label": "Streams Spotify - 7 jours",
+      "rowDisplay": "flex",
+      "value": "954 610",
+      "valueTop": 1205.822998046875
+    },
+    {
+      "change": "↗\n+3,9 %",
+      "changeTop": 1389.96875,
+      "color": "rgb(11, 52, 71)",
+      "insight": "La présence radio progresse légèrement sur la semaine, malgré les fluctuations quotidiennes.",
+      "label": "Passages radio - 7 jours",
+      "rowDisplay": "flex",
+      "value": "2 164",
+      "valueTop": 1381.96875
+    }
+  ]
+}
