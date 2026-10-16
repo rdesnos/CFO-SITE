@@ -15,4 +15,3 @@ export async function budgetedFetch(input: Request | URL | string, init?: Reques
   }
   return fetch(input,init);
 }
-

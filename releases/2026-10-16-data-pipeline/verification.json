@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-16",
+  "project": "fjpcuxsezeuajhlotzij",
+  "site": "https://chroniques-fille-ordinaire.com/observatoire-cfo/",
+  "soundcharts_calls": 32,
+  "shazam": {
+    "expected_tracks": 32,
+    "processed": 32,
+    "new_observations": 8,
+    "empty_responses": 24,
+    "run_id": "abc18219-6223-44c2-b253-17a926bc2cd1",
+    "dates": [
+      "2026-10-14",
+      "2026-10-15"
+    ],
+    "cron_active": true
+  },
+  "historical_preservation": {
+    "observations": {
+      "rows": 660755,
+      "max_id": 13876973,
+      "checksum_before": "-1277185763030275461432",
+      "checksum_after": "-1277185763030275461432"
+    },
+    "radio": {
+      "rows": 1605571,
+      "max_id": 3325024,
+      "checksum_before": "6987323057371320539037",
+      "checksum_after": "6987323057371320539037"
+    }
+  },
+  "public_comparison": {
+    "period_start": "2026-10-09",
+    "period_end": "2026-10-15",
+    "spotify_weekly": 951021,
+    "spotify_weekly_previous": 956603,
+    "spotify_change_pct": -0.6,
+    "spotify_cumulative": 121766904,
+    "qualified_tracks": 32,
+    "radio_weekly": 2088,
+    "radio_weekly_previous": 2141,
+    "radio_change_pct": -2.5
+  },
+  "tests": {
+    "pipeline": 18,
+    "existing_relevance_cases": 12,
+    "source_cache_home_match": true,
+    "exact_30d_dates": true,
+    "exact_30d_formulas": true,
+    "mm30_exact_dates": true,
+    "interpolated_rows": 0,
+    "immutable_replays": true,
+    "budget_cap_rollback": true,
+    "anonymous_writes_denied": true
+  },
+  "deployments": {
+    "daily_collector": 12,
+    "shazam_collector": 3,
+    "marine_utilities": {
+      "cfo-soundcharts-resolve-panel": 6,
+      "cfo-soundcharts-shazam-audit": 4,
+      "cfo-soundcharts-playlist-audit": 3
+    },
+    "wordpress": [
+      "assets/js/cfo-observatoire-live.js",
+      "functions.php",
+      "assets/cfo-observatoire-synthese.html"
+    ]
+  },
+  "pending_approval": [
+    "cfo-eddy-isrc-audit",
+    "cfo-eddy-isrc-probe",
+    "cfo-panel-new-artists-resolve",
+    "cfo-import-new-panel-catalogs",
+    "cfo-new-panel-isrc",
+    "cfo-soundcharts-full-init"
+  ],
+  "limitations": [
+    "YouTube provider lastCrawlDate 2026-10-04",
+    "24 Shazam empty recent responses, 2 tracks have no historical observation",
+    "Whole daily extraction replay refused by auto-review; replaced by transactional archived-response tests",
+    "Six legacy utilities still outside deployed shared monthly budget",
+    "Pre-instrumentation billed usage is not exactly reconstructible"
+  ]
+}
