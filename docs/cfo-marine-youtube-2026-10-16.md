@@ -34,7 +34,7 @@ Les 14 indicateurs de santé ne couvrent pas tous les champs secondaires (par ex
 
 ## Validation
 
-Avant publication : 27 tests de pipeline et les 12 cas de pertinence existants passent. Les nouveaux tests couvrent la sonde YouTube bornée à deux routes, la réponse fraîche, le retard, les valeurs nulles, un format inconnu, les erreurs fournisseur, une page restante, une panne du registre et le quota épuisé.
+Avant publication : 27 tests de pipeline et les 12 cas de pertinence existants passent sur la branche de préparation. Le lot YouTube est ensuite reporté seul sur la branche principale : ses 24 tests de pipeline et les 12 cas de pertinence passent également. Les trois tests supplémentaires de la branche de préparation concernent les utilitaires historiques non publiés. Les nouveaux tests couvrent la sonde YouTube bornée à deux routes, la réponse fraîche, le retard, les valeurs nulles, un format inconnu, les erreurs fournisseur, une page restante, une panne du registre et le quota épuisé.
 
 Production : migration `20261016204710_marine_collection_trace` appliquée ; collecteur principal version 13 et Shazam version 4 actifs. Sonde authentifiée limitée aux deux routes YouTube, requête 5069 : deux appels HTTP 200. La série musicale retourne explicitement `partial/source_delayed`, avec les mêmes 18 points. La série de chaîne avance au 16 octobre.
 
