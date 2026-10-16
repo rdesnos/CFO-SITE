@@ -328,7 +328,6 @@ begin
     where q.include_in_cfo_metrics is true and q.qualification_status='include' and t.is_active and t.acquisition_enabled
       and t.is_active is true
       and t.acquisition_enabled is true
-      and coalesce((t.metadata->'cfo_observatoire'->>'included')::boolean, false) is true
   ),
   track_week as (
     select qt.id,qt.title,qt.isrc,
@@ -895,4 +894,3 @@ begin
         refreshed_at = excluded.refreshed_at;
 end;
 $function$;
-

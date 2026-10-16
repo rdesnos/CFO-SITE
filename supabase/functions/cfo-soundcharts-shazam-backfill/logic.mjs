@@ -17,4 +17,3 @@ export function normalize(items, identifier, start, end) {
     return [{date, value:Number(plot.value), identifier}];
   });
 }
-

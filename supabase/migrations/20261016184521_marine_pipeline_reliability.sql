@@ -767,5 +767,3 @@ begin
   );
 end
 $function$;
-
-

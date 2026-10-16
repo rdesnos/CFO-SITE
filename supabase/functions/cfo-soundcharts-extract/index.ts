@@ -777,4 +777,3 @@ Deno.serve(async (req) => {
 
   return Response.json({ artist_slug: artistSlug, soundcharts_uuid: uuid, total_calls: totalCalls, datasets: summary });
 });
-
