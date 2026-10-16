@@ -41,7 +41,7 @@ function cfo_scripts() {
 			wp_enqueue_style( 'cfo-observatoire-projections', get_theme_file_uri( 'assets/cfo-observatoire-projections.css' ), array( 'cfo-style' ), '20260930-1' );
 			wp_enqueue_style( 'cfo-observatoire-tabs', get_theme_file_uri( 'assets/cfo-observatoire-tabs.css' ), array( 'cfo-style' ), '20260930-6' );
 			wp_enqueue_script( 'cfo-observatoire-tabs', get_theme_file_uri( 'assets/js/cfo-observatoire-tabs.js' ), array(), '20260930-6', false );
-			wp_enqueue_script( 'cfo-observatoire-live', get_theme_file_uri( 'assets/js/cfo-observatoire-live.js' ), array(), '20261003-1', false );
+			wp_enqueue_script( 'cfo-observatoire-live', get_theme_file_uri( 'assets/js/cfo-observatoire-live.js' ), array(), '20261016-1', false );
 			wp_enqueue_style( 'cfo-observatoire-tooltips', get_theme_file_uri( 'assets/cfo-observatoire-tooltips.css' ), array( 'cfo-observatoire-synthese' ), '20260930-1' );
 			wp_enqueue_script( 'cfo-observatoire-tooltips', get_theme_file_uri( 'assets/js/cfo-observatoire-tooltips.js' ), array(), '20261003-1', false );
 			
@@ -70,6 +70,13 @@ function cfo_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'cfo_scripts' );
+/* Editorial trends preview: scoped to the home, no speculative chart points. */
+function cfo_home_trends_assets() {
+ if ( ! is_front_page() ) return;
+ wp_enqueue_style( 'cfo-home-trends', get_theme_file_uri( 'assets/cfo-home-trends.css' ), array(), '20261011-25' );
+ // The editorial snapshot is rendered in front-page.php; no client-side metric overrides.
+}
+add_action( 'wp_enqueue_scripts', 'cfo_home_trends_assets', 30 );
 require_once get_theme_file_path( 'cfo-audio-tuner.php' );
 
 /** CFO narration player — Entre les lignes. Audio is generated once and cached in Supabase. */
