@@ -7,7 +7,7 @@ from pathlib import Path
 
 credential_path = Path(sys.argv[1])
 credentials = json.loads(credential_path.read_text(encoding="utf-8-sig"))
-relative = "functions.php" if "--version" in sys.argv else "assets/js/cfo-observatoire-live.js"
+relative = "functions.php" if "--version" in sys.argv else "assets/cfo-observatoire-synthese.html" if "--template" in sys.argv else "assets/js/cfo-observatoire-live.js"
 source = Path(__file__).resolve().parents[2] / "wordpress/theme" / relative
 destination = "wp-content/themes/cfo/" + relative
 data = source.read_bytes()
