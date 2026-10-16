@@ -41,7 +41,7 @@ function setup({items=[], budget=true, http=200, persistError=null, next=null}={
       .replace(/^import .*;\r?\n/gm,'').replace('export async function handler','async function handler');
     vm.runInNewContext(stripTypeScriptTypes(source),{
       Response,Request,URL,TextEncoder,TextDecoder,crypto:fakeCrypto,console,chooseIdentifier,normalize,
-      createClient:()=>db,Deno:{env:{get:()=>''},serve:fn=>{handler=fn;}},
+      createClient:()=>db,authorizeLegacy:async req=>req.headers.get('x-cfo-extractor-key')==='test-invoke',Deno:{env:{get:()=>''},serve:fn=>{handler=fn;}},
       fetch:async()=>{requests++;return new Response(JSON.stringify({items,page:{next}}),{status:http});}
     });
     return (body={},authorized=true)=>handler(new Request('https://example.test',{
@@ -92,4 +92,28 @@ test('archival errors cannot be reported as successful extraction',async()=>{
   const s=setup({persistError:{message:'archive unavailable'}});
   const r=await s.load('cfo-soundcharts-extract')({datasets:['streaming_audience']});
   const data=await r.json();assert.equal(data.datasets.streaming_audience.status,'partial');
+});
+for(const slug of ['cfo-soundcharts-playlist-audit','cfo-panel-new-artists-resolve','cfo-import-new-panel-catalogs','cfo-new-panel-isrc']){
+  test(slug+' rejects unauthenticated access before credentials or quota use',async()=>{
+    const s=setup(),run=s.load(slug);assert.equal((await run({},false)).status,401);assert.equal(s.calls.length,0);
+  });
+}
+test('legacy transport blocks exhausted quota and meters only Soundcharts requests',async()=>{
+  let allowance=false,reservations=0,network=0;
+  const source=stripTypeScriptTypes(fs.readFileSync(new URL('../supabase/functions/_shared/soundcharts-budget.ts',import.meta.url),'utf8')
+    .replace(/^import .*;\r?\n/gm,'').replaceAll('export async function','async function'));
+  let transport;
+  vm.runInNewContext(source+'; capture(budgetedFetch);',{
+    capture:fn=>transport=fn,URL,Request,Response,TextEncoder,crypto,
+    Deno:{env:{get:()=>''}},
+    createClient:()=>({rpc:async()=>{reservations++;return {data:allowance?1:null};}}),
+    fetch:async()=>{network++;return new Response('{}');}
+  });
+  assert.equal((await transport('https://customer.api.soundcharts.com/api/test')).status,429);
+  assert.equal(network,0);
+  allowance=true;
+  assert.equal((await transport('https://customer.api.soundcharts.com/api/test')).status,200);
+  assert.equal(reservations,2);assert.equal(network,1);
+  await transport('https://example.test/rest/v1/rpc');
+  assert.equal(reservations,2);assert.equal(network,2);
 });
