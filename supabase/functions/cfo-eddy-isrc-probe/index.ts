@@ -1,9 +1,9 @@
 import { budgetedFetch, authorizeLegacy } from "../_shared/soundcharts-budget.ts";
 import "jsr:@supabase/functions-js/edge-runtime.d.ts";
 import {createClient} from "jsr:@supabase/supabase-js@2.57.4";
-const ACCESS="eddy-isrc-probe-20260918";
 Deno.serve(async(req)=>{
- const u=new URL(req.url); if(u.searchParams.get("key")!==ACCESS)return Response.json({error:"unauthorized"},{status:401});
+ if(!await authorizeLegacy(req))return Response.json({error:"Unauthorized"},{status:401});
+ const u=new URL(req.url); 
  const db=createClient(Deno.env.get("SUPABASE_URL")!,Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!,{auth:{persistSession:false}});
  const {data:c,error:e}=await db.rpc("cfo_soundcharts_credentials"); if(e||!c?.app_id||!c?.api_key)return Response.json({error:e?.message??"credentials"},{status:500});
  const uuid=u.searchParams.get("uuid"); if(!uuid)return Response.json({error:"missing uuid"},{status:400});

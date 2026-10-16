@@ -621,6 +621,7 @@ async function extractPlatformHistory(
 }
 
 Deno.serve(async (req) => {
+ if(!await authorizeLegacy(req))return Response.json({error:"Unauthorized"},{status:401});
   if (req.method !== "POST") return Response.json({ error: "POST required" }, { status: 405 });
   const ureq = new URL(req.url);
   if (ureq.searchParams.get("token") !== "cfo-full-init-20260918") {

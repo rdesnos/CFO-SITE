@@ -93,7 +93,7 @@ test('archival errors cannot be reported as successful extraction',async()=>{
   const r=await s.load('cfo-soundcharts-extract')({datasets:['streaming_audience']});
   const data=await r.json();assert.equal(data.datasets.streaming_audience.status,'partial');
 });
-for(const slug of ['cfo-soundcharts-playlist-audit','cfo-panel-new-artists-resolve','cfo-import-new-panel-catalogs','cfo-new-panel-isrc']){
+for(const slug of ['cfo-soundcharts-playlist-audit','cfo-panel-new-artists-resolve','cfo-import-new-panel-catalogs','cfo-new-panel-isrc','cfo-eddy-isrc-audit','cfo-eddy-isrc-probe','cfo-soundcharts-full-init']){
   test(slug+' rejects unauthenticated access before credentials or quota use',async()=>{
     const s=setup(),run=s.load(slug);assert.equal((await run({},false)).status,401);assert.equal(s.calls.length,0);
   });
