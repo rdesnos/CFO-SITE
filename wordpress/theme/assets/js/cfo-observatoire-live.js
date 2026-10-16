@@ -198,7 +198,7 @@
       if(em)em.textContent='Catalogue qualifié · semaine';
       if(v)v.textContent=fmt(streaming.weekly_current);
       if(d)d.textContent=pct(streaming.weekly_rate);
-      if(meta)meta.textContent='S-1 : '+fmt(streaming.weekly_previous)+' · '+fmt(streaming.verified_titles)+' titres vérifiés · '+(streaming.source||'Soundcharts');
+      if(meta)meta.textContent=datefr(streaming.period_start)+'–'+datefr(streaming.period_end||streaming.observation_date)+' · S-1 : '+fmt(streaming.weekly_previous)+' · '+fmt(streaming.verified_titles)+' titres vérifiés · '+(streaming.source||'Soundcharts');
     }
 
     if(airplayCard){
@@ -206,12 +206,13 @@
       const v=airplayCard.querySelector('.value');
       const d=airplayCard.querySelector('.delta');
       const ul=airplayCard.querySelector('ul');
-      if(em)em.textContent='Passages radios · 7 jours';
+      if(em)em.textContent='Passages radios · '+datefr(airplay.period_start)+'–'+datefr(airplay.period_end);
       if(v)v.textContent=fmt(airplay.spins_7d);
       if(d)d.textContent=pct(airplay.change_7d_pct);
       if(ul){
-        const top=(airplay.top_30d||[]).slice(0,4);
-        ul.innerHTML=top.map(x=>'<li><span>'+x.title+'</span><b>'+fmt(x.spins_30d)+'</b></li>').join('');
+        const top=(airplay.top_7d||[]).slice(0,4);
+        ul.replaceChildren();
+        top.forEach(x=>{const li=document.createElement('li'),label=document.createElement('span'),value=document.createElement('b');label.textContent=x.title;value.textContent=fmt(x.spins_7d);li.append(label,value);ul.append(li);});
       }
     }
 
@@ -242,6 +243,7 @@
       if(td[4])td[4].textContent=fmt(t.current_streams);
       if(td[5])td[5].textContent='—';
       if(td[6])td[6].textContent='—';
+      if(td[7])td[7].textContent=streaming.weekly_current>0&&t.weekly_current!=null?pct(100*t.weekly_current/streaming.weekly_current):'—';
     });
 
     const channels=root.querySelectorAll('.cfo-synth-grid.channels .cfo-channel');
@@ -266,6 +268,7 @@
       channels[4].querySelector('.delta').textContent=pct(social.instagram_change_7d_pct);
     }
 
+    updateMarineNarrative(root,marine,series||{});
     updateMarineCharts(root,series||{});
     root.dataset.live='1';
   }
@@ -310,7 +313,32 @@
     return marine?.certification||{};
   }
 
-  function updateHealth(health){
+  function updateMarineNarrative(root,marine,series){
+    const streaming=marine.streaming||{}, audience=marine.audience||{}, social=marine.social||{};
+    const motors=root.querySelectorAll('.cfo-motor');
+    const cards=[
+      {title:'Dynamique du catalogue',signal:'Catalogue Spotify',a:'Streams sur 7 jours',av:fmt(streaming.weekly_current),b:'Variation S/S-1',bv:pct(streaming.weekly_rate),date:streaming.observation_date,rows:series.streaming_daily},
+      {title:'Dynamique de l’audience',signal:'Audience Spotify',a:'Auditeurs mensuels',av:fmt(audience.spotify_monthly_listeners),b:'Variation sur 7 jours',bv:pct(audience.change_7d_pct),date:audience.observation_date,rows:series.audience_spotify?.slice(-7)},
+      {title:'Lecture croisée',signal:'Social / Spotify',a:'Abonnements sociaux · 7 j',av:pct(social.change_7d_pct),b:'Auditeurs Spotify · 7 j',bv:pct(audience.change_7d_pct),date:audience.observation_date,rows:[]}
+    ];
+    motors.forEach((card,i)=>{
+      const data=cards[i];if(!data)return;
+      const title=card.querySelector('.motor-title b'),signal=card.querySelector('.signal'),pill=card.querySelector('.pill');
+      if(title)title.textContent=data.title;if(signal)signal.textContent=data.signal;
+      const pairs=card.querySelectorAll('.pair');
+      [[data.a,data.av],[data.b,data.bv]].forEach((pair,j)=>{const label=pairs[j]?.querySelector('span'),value=pairs[j]?.querySelector('b');if(label)label.textContent=pair[0];if(value)value.textContent=pair[1];});
+      if(pill)pill.textContent='Relevé au '+datefr(data.date)+' · Soundcharts';
+      const bars=card.querySelector('.motor-bars');if(bars){bars.replaceChildren();chartHeightSeries(bars,data.rows||[],data.signal);}
+    });
+    const watches=root.querySelectorAll('.cfo-watch');
+    const socialNote=watches[1]?.querySelector('p'),streamNote=watches[2]?.querySelector('p');
+    if(socialNote)socialNote.textContent='Abonnements sociaux : '+pct(social.change_7d_pct)+' · audience Spotify : '+pct(audience.change_7d_pct)+' sur 7 jours. Dates propres à chaque canal.';
+    if(streamNote)streamNote.textContent='Catalogue qualifié : '+pct(streaming.weekly_rate)+' vs S-1 · période du '+datefr(streaming.period_start)+' au '+datefr(streaming.period_end)+'.';
+    const streamTitle=watches[2]?.querySelector('strong');if(streamTitle)streamTitle.textContent='Dynamique du catalogue';
+    const heading=document.querySelector('.mhs-title span');if(heading)heading.textContent='du '+datefr(streaming.period_start)+' au '+datefr(streaming.period_end);
+  }
+
+  function updateHealth(health,changes=[],shazam=[]){
     const root=document.querySelector('#marine.cfo-synthese');
     if(!root)return;
     let details=root.querySelector('.cfo-data-health');
@@ -325,8 +353,23 @@
       const row=document.createElement('div');const dt=document.createElement('dt');const dd=document.createElement('dd');
       dt.textContent=(item.platform||'Source')+' · '+(item.metric_type||item.metric_key);
       dd.textContent=(labels[item.freshness_status]||'État inconnu')+' · '+(item.latest_observation_date||'Sans date')+' · '+(item.source_code||'CFO');
+      if(item.details?.fresh_tracks!=null)dd.textContent+=' · '+fmt(item.details.fresh_tracks)+'/'+fmt(item.details.expected_tracks)+' titres avec relevé récent';
       row.dataset.state=item.freshness_status;row.append(dt,dd);list.append(row);
     });details.append(list);
+    const addRow=(parent,label,value)=>{const row=document.createElement('div'),dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=label;dd.textContent=value;row.append(dt,dd);parent.append(row);};
+    if(changes.length){
+      const heading=document.createElement('h3');heading.textContent='Variations sur 30 jours · dates exactes';details.append(heading);
+      const changesList=document.createElement('dl');
+      changes.filter(x=>['followers','monthly_listeners','views_daily','views_total'].includes(x.metric_type)).forEach(x=>{
+        addRow(changesList,x.platform+' · '+x.metric_type,fmt(x.value)+' au '+x.date+' · '+(x.comparison_valid?pct(x.change_30d_pct)+' depuis le '+x.previous_date:'Comparaison indisponible')+(x.lag_days>3?' · Donnée ancienne':''));
+      });details.append(changesList);
+    }
+    if(shazam.length){
+      const heading=document.createElement('h3');heading.textContent='Comptages Shazam · titres qualifiés';details.append(heading);
+      const counts=document.createElement('dl');
+      shazam.forEach(x=>addRow(counts,x.title,fmt(x.value)+' · '+(x.date||'Sans relevé')+' · '+(labels[x.freshness_status]||'État inconnu')+' · Soundcharts'));
+      details.append(counts);
+    }
   }
 
   async function run(){
@@ -339,7 +382,7 @@
       updateProjections(projectionsFromMarine(marine),certificationFromMarine(marine));
       updateMarine(marine,dashboardResult.value?.series||{});
     }
-    updateHealth(healthResult.status==='fulfilled'?healthResult.value:null);
+    updateHealth(healthResult.status==='fulfilled'?healthResult.value:null,dashboardResult.value?.metrics_30d||[],dashboardResult.value?.shazam||[]);
     const complete=dashboardResult.status==='fulfilled'&&panelResult.status==='fulfilled';
     document.documentElement.dataset.cfoObservatoryLive=complete?'1':'partial';
     if(!complete){
