@@ -1,0 +1,61 @@
+{
+  "project": "fjpcuxsezeuajhlotzij",
+  "function_versions": {
+    "extract": 13,
+    "shazam": 4
+  },
+  "api_calls_added": 2,
+  "total_instrumented": 34,
+  "checks": [
+    {
+      "calls": 2,
+      "complete_traces": 2
+    }
+  ],
+  "youtube": [
+    {
+      "metric_type": "chart_position",
+      "observation_date": "2026-09-14",
+      "value_numeric": "59.0000",
+      "raw_response_id": 60422
+    },
+    {
+      "metric_type": "followers",
+      "observation_date": "2026-10-16",
+      "value_numeric": "116000.0000",
+      "raw_response_id": 63427
+    },
+    {
+      "metric_type": "posts_total",
+      "observation_date": "2026-10-16",
+      "value_numeric": "73.0000",
+      "raw_response_id": 63427
+    },
+    {
+      "metric_type": "views_daily",
+      "observation_date": "2026-10-04",
+      "value_numeric": "63275.0000",
+      "raw_response_id": 62071
+    },
+    {
+      "metric_type": "views_total",
+      "observation_date": "2026-10-16",
+      "value_numeric": "54434219.0000",
+      "raw_response_id": 63427
+    }
+  ],
+  "history": [
+    {
+      "historic_rows": 660755,
+      "hash": "-1277185763030275461432"
+    }
+  ],
+  "comparisons_30d": [
+    {
+      "comparisons": 15,
+      "invalid_comparisons": 0
+    }
+  ],
+  "cache_refreshed_at": "2026-10-16T20:52:45.458817Z",
+  "remaining_issue": "upstream youtube music daily last 2026-10-04; no trustworthy reconstruction"
+}

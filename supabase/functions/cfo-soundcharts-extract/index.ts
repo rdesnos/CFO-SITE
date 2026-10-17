@@ -82,7 +82,31 @@ async function soundchartsFetch(url: URL, appId: string, apiKey: string, db: Ret
   } catch (error) {
     payload = { error: error instanceof Error ? error.message : String(error) };
   }
-  return { requestedAt, status, payload, responseHeaders };
+  const { error: traceError } = await db.rpc("cfo_complete_soundcharts_call", {
+    p_call_id: reservation, p_request_parameters: Object.fromEntries(url.searchParams),
+    p_http_status: status, p_response_hash: await sha256(JSON.stringify(payload)),
+    p_summary: { source_crawl_date: ((payload as Json)?.related as Json | undefined)?.lastCrawlDate ?? null },
+  });
+  responseHeaders["x-cfo-call-id"] = String(reservation);
+  return { requestedAt, status, payload, responseHeaders, traceError };
+}
+
+function audienceIssues(payload: unknown, endpoint: string) {
+  const p = payload as Json;
+  if (!p || !Array.isArray(p.items)) return ["unexpected_response_format"];
+  const issues: string[] = [];
+  if (Array.isArray(p.errors) && p.errors.length) issues.push("provider_errors");
+  const items = p.items as Json[];
+  if (!items.length) issues.push("no_data");
+  const field = endpoint.startsWith("streaming_") ? "value" : "followerCount";
+  const valid = items.filter(i => i && typeof i.date === "string" && /^\d{4}-\d{2}-\d{2}T/.test(i.date as string)
+    && i[field] != null && i[field] !== "" && Number.isFinite(Number(i[field])) && Number(i[field]) >= 0);
+  if (valid.length !== items.length) issues.push("invalid_items");
+  const page = p.page as Json | undefined;
+  if (page?.next || (page?.total != null && Number(page.total) > items.length)) issues.push("pagination_incomplete");
+  const latest = valid.map(i => String(i.date).slice(0,10)).sort().at(-1);
+  if (latest && latest < isoDate(3)) issues.push("source_delayed");
+  return issues;
 }
 
 function chooseCanonicalIdentifier(items: Json[]) {
@@ -640,6 +664,11 @@ Deno.serve(async (req) => {
   const requested = Array.isArray(body.datasets) ? body.datasets : [
     "streaming_audience", "social_audience", "airplay", "charts", TRACK_DATASET,
   ];
+  if (body.endpoints !== undefined && (!Array.isArray(body.endpoints) || !body.endpoints.length ||
+      body.endpoints.some(e => typeof e !== "string" || !/^(streaming_(spotify|deezer|youtube)|audience_(instagram|tiktok|youtube|facebook|spotify|deezer))$/.test(e)) ||
+      requested.some(d => !["streaming_audience", "social_audience"].includes(String(d))))) {
+    return Response.json({ error: "Endpoint filtering requires supported audience endpoints and datasets" }, { status: 400 });
+  }
 
   const { data: context, error: contextError } = await db.rpc("cfo_soundcharts_context", { p_artist_slug: artistSlug });
   if (contextError || !context?.soundcharts_uuid || !context?.app_id || !context?.api_key) {
@@ -724,12 +753,13 @@ Deno.serve(async (req) => {
       continue;
     }
 
-    const datasetRoutes = routes[String(dataset)] ?? [];
+    const datasetRoutes = (routes[String(dataset)] ?? []).filter(route =>
+      !Array.isArray(body.endpoints) || body.endpoints.includes(route.name));
     if (!datasetRoutes.length) continue;
     const { data: runId, error: startError } = await db.rpc("cfo_start_extraction", {
       p_artist_slug: artistSlug,
       p_dataset_code: dataset,
-      p_parameters: { requested_at: new Date().toISOString(), routes: datasetRoutes.length },
+      p_parameters: { requested_at: new Date().toISOString(), routes: datasetRoutes.map(r => r.name) },
     });
     if (startError) {
       summary[String(dataset)] = { status: "failed", error: startError.message };
@@ -737,12 +767,15 @@ Deno.serve(async (req) => {
     }
 
     let records = 0;
-    const errors: Array<{ endpoint: string; status: number }> = [];
+    let datasetCalls = 0;
+    const errors: Array<{ endpoint: string; status: number; reason?: string }> = [];
     for (const route of datasetRoutes) {
+      try {
       const url = new URL(BASE + route.path);
       Object.entries(route.params ?? {}).forEach(([key, value]) => url.searchParams.set(key, String(value)));
       const response = await soundchartsFetch(url, context.app_id, context.api_key, db);
       totalCalls++;
+      datasetCalls++;
       records += countRecords(response.payload);
       if (response.status < 200 || response.status >= 300) errors.push({ endpoint: route.name, status: response.status });
       const { error: persistError } = await db.rpc("cfo_record_soundcharts_response", {
@@ -762,6 +795,13 @@ Deno.serve(async (req) => {
         p_next_url: null,
       });
       if (persistError) errors.push({ endpoint: route.name, status: 500 });
+      if (response.traceError) errors.push({ endpoint: route.name, status: 500, reason: "call_trace_failed" });
+      if (String(dataset).endsWith("_audience") && response.status === 200) {
+        for (const reason of audienceIssues(response.payload, route.name)) errors.push({ endpoint: route.name, status: 200, reason });
+      }
+      } catch {
+        errors.push({ endpoint: route.name, status: 0, reason: "request_or_budget_failure" });
+      }
     }
     const ok = errors.length === 0;
     await db.rpc("cfo_finish_extraction", {
@@ -770,9 +810,9 @@ Deno.serve(async (req) => {
       p_records: records,
       p_error_code: ok ? null : "SOUNDCHARTS_ENDPOINT_ERRORS",
       p_error_message: ok ? null : JSON.stringify(errors),
-      p_metadata: { api_calls: datasetRoutes.length, errors },
+      p_metadata: { api_calls: datasetCalls, errors },
     });
-    summary[String(dataset)] = { status: ok ? "success" : "partial", calls: datasetRoutes.length, records, errors };
+    summary[String(dataset)] = { status: ok ? "success" : "partial", calls: datasetCalls, records, errors };
   }
 
   return Response.json({ artist_slug: artistSlug, soundcharts_uuid: uuid, total_calls: totalCalls, datasets: summary });
