@@ -1,73 +1,61 @@
 <!doctype html>
-<html lang="fr">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Les chemins de mémoire — Dalida | Prototype CFO Marine</title>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chemins de mémoire — CFO Marine</title>
 <style>
-:root{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#172e38;background:#f6f4ef;font-size:18px;line-height:1.6}*{box-sizing:border-box}body{margin:0}button{font:inherit;cursor:pointer;border-radius:12px;border:2px solid #244c5c;padding:.7rem 1rem;background:white;color:#173744;min-height:48px}button:focus-visible,a:focus-visible{outline:4px solid #b25c13;outline-offset:4px}button:hover{background:#e8f0f2}header{background:#183846;color:white;padding:1rem max(1rem,calc((100vw - 1600px)/2))}header .bar{display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}header button{color:#183846}.brand{font-weight:700;letter-spacing:.03em}main{margin:auto;max-width:1600px;padding:clamp(1rem,3vw,3rem)}h1{font-size:clamp(2rem,4vw,3.7rem);line-height:1.18;margin:.15rem 0 1rem}h2{font-size:clamp(1.35rem,2vw,2rem);line-height:1.25}.lead{max-width:65ch;font-size:1.1rem}.eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:.8rem;font-weight:800;color:#496772}.frame{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(280px,.7fr);gap:clamp(1rem,2vw,2rem);align-items:start}.panel{background:white;border:1px solid #d4dbda;border-radius:18px;padding:clamp(1rem,2vw,2rem);box-shadow:0 2px 6px #1838460a}.hero{background:#e5e8e2;min-height:280px;display:flex;align-items:center;justify-content:center;text-align:center;border-radius:16px;padding:2rem;flex-direction:column}.hero .note{font-size:3rem;line-height:1}.actions{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1.25rem}.primary{background:#214e60;color:white}.primary:hover{background:#326579}.choices{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:1rem}.choice{text-align:left;display:flex;flex-direction:column;gap:.35rem;align-items:start;height:100%;width:100%;background:white}.choice strong{font-size:1.13rem}.choice span{font-size:.94rem}.trail{margin:0 0 1rem;color:#48606a}.muted{color:#48606a}.section{margin-top:2.5rem}.control-row{display:flex;flex-wrap:wrap;gap:.75rem}.pill{border-radius:999px}.hidden{display:none!important}#view-content{scroll-margin-top:1rem}.story{max-width:68ch}p{margin:.8rem 0}.footer{margin-top:3rem;border-top:1px solid #b5c1c3;padding-top:1rem;font-size:.9rem}.state{padding:.8rem;background:#e9f0ed;border-radius:10px}button[aria-pressed=true]{background:#214e60;color:white}a{color:#214e60}a:hover{text-decoration-thickness:3px}@media(max-width:820px){.frame{grid-template-columns:1fr}.hero{min-height:180px}}@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}@media(forced-colors:active){.panel,.hero{border:1px solid CanvasText}}@media(max-width:420px){button{width:100%}.bar button{width:auto}} 
-.facilitator{border-left:5px solid #b17c3f;background:#fffaf0}.session{border:2px solid #406477;border-radius:16px;padding:1.2rem;background:#f0f5f4}.session-actions{display:flex;flex-wrap:wrap;gap:.7rem}.quiet-mode .stimulus{display:none}.status{padding:.5rem .8rem;background:#e9f0ed;border-radius:8px}.note-guide{font-size:.96rem;color:#415a62}.session button{min-height:54px}@media(max-width:600px){.session-actions button{width:100%}}
-</style>
-</head>
-<body>
-<header><div class="bar"><span class="brand">CFO MARINE <span aria-hidden="true">·</span> LES CHEMINS DE MÉMOIRE</span><button id="home-header" type="button">Revenir à l'accueil</button></div></header>
-<main id="main" tabindex="-1">
-<p class="eyebrow">Prototype d'expérience culturelle · Non publié</p>
-<div id="view-home">
-<section class="panel facilitator" aria-labelledby="facilitator-title">
-<p class="eyebrow">Expérience à partager</p>
-<h2 id="facilitator-title">Pour la personne qui accompagne</h2>
-<p>Vous pouvez proposer une chanson, un thème ou une image. La personne reste libre d'écouter, de regarder, de participer ou de ne pas réagir.</p>
-<p class="note-guide">Commencez par une seule proposition à la fois. Observez le confort de la personne. Si elle semble gênée ou souhaite arrêter, interrompez la sollicitation.</p>
-<div class="actions"><button type="button" class="primary" id="launch-session">Commencer une expérience partagée</button></div>
-</section>
-<div class="frame">
-<section><h1>Dalida : une chanson, des chemins de mémoire</h1><p class="lead">Une chanson de Marine inspirée par sa grand-mère. Écouter, découvrir des repères culturels, regarder une image ou simplement prendre son temps : à chacun son chemin.</p>
-<div class="hero" role="img" aria-label="Illustration symbolique : une note de musique et des pages de souvenirs."><div class="note" aria-hidden="true">♫</div><strong>La musique et les souvenirs</strong><span>Un voyage sans question obligatoire</span></div></section>
-<aside class="panel"><h2>À votre rythme</h2><p>Vous pouvez explorer librement. Il n'y a rien à réussir, rien à retenir.</p><p><strong>La chanson n'est pas disponible dans ce prototype.</strong> Aucun extrait n'est joué sans source officielle et autorisation appropriée.</p><div class="actions"><button class="primary" id="start" type="button">Découvrir les chemins</button></div></aside>
-</div>
-<section class="section"><h2>Choisissez ce qui vous intéresse</h2><div class="choices" id="choices">
-<button class="choice" type="button" data-route="music"><strong>♫ La musique</strong><span>Découvrir la place des chansons et des voix dans nos souvenirs.</span></button>
-<button class="choice" type="button" data-route="times"><strong>◷ Les époques</strong><span>Retrouver des repères de la culture populaire.</span></button>
-<button class="choice" type="button" data-route="stories"><strong>♡ Les histoires</strong><span>Explorer les liens entre générations et la transmission.</span></button>
-</div></section>
-</div>
-<section id="view-session" class="section hidden" aria-labelledby="session-title">
-<div class="session">
-<p class="eyebrow">Moment partagé · sans évaluation</p>
-<h1 id="session-title">Un moment de musique et de souvenirs</h1>
-<p class="lead">Prenez votre temps. Il n'y a rien à réussir.</p>
-<div class="stimulus"><h2 id="stimulus-title">La musique</h2><p id="stimulus-copy">La chanson « Dalida » de Marine peut servir de point de départ à un échange sur les voix, les chansons et les histoires de famille.</p><p class="note-guide">Le prototype ne diffuse pas encore de musique : aucune source audio autorisée n'est intégrée.</p></div>
-<div class="session-actions" aria-label="Commandes de la séance"><button type="button" id="session-next" class="primary">Proposer un autre thème</button><button type="button" id="session-pause">Faire une pause</button><button type="button" id="session-end">Terminer</button></div>
-<p id="session-status" role="status" class="status">Thème actuel : la musique. Aucun retour de la personne n'est enregistré.</p>
-</div></section>
-<section id="view-content" class="hidden" aria-live="off">
-<p class="trail" id="trail">Accueil / Chemin</p><div class="frame"><div class="panel story"><p class="eyebrow" id="section-kicker">Chemin de mémoire</p><h1 id="section-title"></h1><div id="section-copy"></div><div class="actions"><button id="next" class="primary" type="button">Autre chemin</button><button id="back" type="button">Retour aux choix</button></div></div><aside class="panel"><h2>Un moment pour vous</h2><p id="prompt"></p><p class="muted">Aucune réponse n'est attendue. Vous pouvez aussi simplement profiter de ce moment.</p><button id="quiet" aria-pressed="false" type="button">Masquer cette suggestion</button><p class="state hidden" id="quiet-state">Suggestion masquée. Ce choix ne sera pas enregistré.</p></aside></div>
-</section>
-<section class="section panel" aria-labelledby="comfort-heading"><h2 id="comfort-heading">Confort de lecture</h2><p>Ces réglages sont facultatifs et ne sont pas enregistrés.</p><div class="control-row"><button id="larger" type="button">Agrandir le texte</button><button id="smaller" type="button">Réduire le texte</button><button id="reset" type="button">Taille initiale</button></div><p id="scale-status" role="status" class="muted">Taille initiale</p></section>
-<footer class="footer">Prototype exploratoire CFO Marine. Aucun diagnostic, aucun test de mémoire, aucune donnée personnelle collectée. Les repères culturels proposés ne présument pas des souvenirs de chacun.</footer>
+:root{font:18px/1.6 system-ui,-apple-system,Segoe UI,sans-serif;color:#203b46;background:#f6f3ed}*{box-sizing:border-box}body{margin:0}button,input,select,textarea{font:inherit}button{border:2px solid #315766;color:#214757;background:white;border-radius:12px;padding:.7rem 1rem;min-height:50px;cursor:pointer}button:hover{background:#e5efef}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:4px solid #b47b33;outline-offset:3px}.primary{color:#fff;background:#244f62}.primary:hover{background:#36697c}.soft{background:#e8f0ed}button:disabled{opacity:.6;cursor:not-allowed}header{background:#1f3e4c;color:#fff;padding:1rem clamp(1rem,3vw,3rem)}header>div{max-width:1640px;margin:auto;display:flex;gap:1rem;justify-content:space-between;align-items:center}header button{background:#fff}main{max-width:1640px;margin:auto;padding:clamp(1rem,3vw,3rem)}h1{font-size:clamp(2rem,4vw,3.5rem);line-height:1.2;margin:.3rem 0 1rem}h2{font-size:clamp(1.4rem,2vw,2rem);line-height:1.3}p{max-width:68ch}.eyebrow{color:#61737b;letter-spacing:.12em;text-transform:uppercase;font-size:.8rem;font-weight:700}.panel{background:#fff;border:1px solid #d6d9d6;border-radius:18px;padding:clamp(1rem,2vw,2rem)}.layout{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(290px,.75fr);gap:1.3rem}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:1rem}.stack{display:grid;gap:1rem}.row{display:flex;flex-wrap:wrap;gap:.8rem;align-items:center}.field{display:grid;gap:.35rem;margin:0 0 1rem}.field label{font-weight:650}.field small{color:#536873}input,select,textarea{width:100%;border:1.5px solid #607a82;border-radius:9px;padding:.75rem;background:#fff;color:#173944}textarea{min-height:100px;resize:vertical}.card{border:1px solid #b8c7c8;border-radius:12px;padding:1rem;background:#fff}.card h3{margin:.1rem 0}.small{font-size:.89rem;color:#50646d}.hidden{display:none!important}.quiet{background:#edf2ef;border-radius:10px;padding:1rem}.presentation{background:#e8ede6;border-radius:18px;padding:clamp(1rem,4vw,3rem);min-height:340px}.presentation h2{font-size:clamp(2rem,4vw,3.8rem)}.summary{border-left:4px solid #b28049;padding:.6rem 1rem;background:#fff8ee}.buttons{display:flex;flex-wrap:wrap;gap:.7rem}.buttons button{flex:0 1 auto}.tag{font-size:.8rem;padding:.25rem .6rem;background:#e7eeee;border-radius:999px}.notice{padding:1rem;background:#eef1eb;border-radius:10px}.step{color:#577079;font-weight:700;font-size:.9rem}#announce{min-height:1.3rem}.full-width{max-width:100%}footer{margin-top:3rem;border-top:1px solid #b7c7c7;padding-top:1rem;font-size:.87rem;color:#4d626b}@media(max-width:840px){.layout{grid-template-columns:1fr}}@media(max-width:480px){.buttons button{width:100%}header>div{align-items:flex-start;flex-direction:column}}@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}@media(forced-colors:active){.card,.panel,.presentation{border:1px solid CanvasText}}
+</style></head><body>
+<header><div><strong>CFO MARINE · LES CHEMINS DE MÉMOIRE</strong><button type="button" id="home">Revenir au début</button></div></header>
+<main id="main">
+<p class="eyebrow">Prototype expérimental · usage accompagné</p>
+<section id="prepare">
+<h1>Préparer un moment à partager</h1>
+<p>Quelques repères connus de l'accompagnant permettent de choisir des propositions culturelles. Rien n'est obligatoire et aucune information n'est envoyée ni enregistrée.</p>
+<div class="layout"><form id="form" class="panel">
+<h2>Ce que vous connaissez de la personne</h2>
+<div class="field"><label for="decade">Époque susceptible d'être familière</label><select id="decade"><option value="">Je ne sais pas</option><option value="1950">Années 1950</option><option value="1960">Années 1960</option><option value="1970">Années 1970</option><option value="1980">Années 1980</option><option value="other">Autre époque</option></select></div>
+<div class="field"><label for="artist">Artiste, chanson ou voix familière</label><input id="artist" maxlength="120" placeholder="Par exemple : Dalida"></div>
+<div class="field"><label for="reference">Lieu, objet ou souvenir à évoquer (facultatif)</label><textarea id="reference" maxlength="360" placeholder="Par exemple : radio familiale, bals du village..."></textarea><small>Évitez d'inscrire des informations de santé ou des données intimes.</small></div>
+<div class="field"><label for="avoid">Un thème à éviter (facultatif)</label><input id="avoid" maxlength="160" placeholder="Un sujet pouvant mettre mal à l'aise"></div>
+<fieldset class="field"><legend><strong>Quel support proposer en premier ?</strong></legend><label><input type="radio" name="medium" value="musique" checked style="width:auto"> Une chanson ou une voix</label><label><input type="radio" name="medium" value="images" style="width:auto"> Des images ou des objets</label><label><input type="radio" name="medium" value="recit" style="width:auto"> Un récit à partager</label></fieldset>
+<div class="buttons"><button type="submit" class="primary">Préparer des propositions</button><button type="reset">Tout effacer</button></div></form>
+<aside class="panel"><h2>Notre intention</h2><p>L'accompagnant apporte des repères personnels. CFO Marine apporte des propositions fondées sur le patrimoine culturel.</p><p>La personne peut écouter, regarder, échanger — ou ne pas participer. Rien n'est évalué.</p><p class="summary"><strong>Important :</strong> ce prototype ne diffuse pas encore de musique et ne présente pas d'archives sous licence. Les suggestions affichées sont des pistes éditoriales, non des contenus déjà vérifiés.</p></aside></div></section>
+<section id="suggestions" class="hidden" aria-labelledby="suggestions-title">
+<p class="step">Étape 2 · Choix de l'accompagnant</p><h1 id="suggestions-title" tabindex="-1">Choisir une sollicitation</h1>
+<p id="context" class="small"></p><div id="cards" class="grid"></div>
+<div class="buttons" style="margin-top:1rem"><button id="edit" type="button">Modifier les repères</button></div></section>
+<section id="session" class="hidden" aria-labelledby="session-title">
+<p class="step">Étape 3 · Expérience partagée</p><div class="layout"><div class="presentation"><p class="eyebrow">Un moment à votre rythme</p><h2 id="session-title" tabindex="-1"></h2><p id="session-copy" class="full-width"></p><div id="session-marker" class="quiet">Vous pouvez simplement profiter de ce moment.</div></div>
+<aside class="panel" aria-labelledby="guide-title"><h2 id="guide-title">Pour l'accompagnant</h2><p id="guide"></p><div class="buttons"><button class="primary" id="next" type="button">Autre proposition</button><button id="pause" type="button">Faire une pause</button><button id="finish" type="button">Terminer</button></div><p id="announce" class="small" role="status"></p></aside></div></section>
+<section class="panel" style="margin-top:1.5rem"><h2>Confort de lecture</h2><div class="buttons"><button id="large" type="button">Agrandir le texte</button><button id="normal" type="button">Taille habituelle</button></div></section>
+<footer>Prototype local sans serveur, profilage, diagnostic ou stockage. Aucune réponse ni réaction n'est collectée. Une expérimentation avec des personnes concernées reste nécessaire avant toute revendication d'efficacité.</footer>
 </main>
 <script>
 "use strict";
-const sections={
-music:{title:"La musique",copy:["Une mélodie peut être familière, même sans souvenir précis. Une chanson peut aussi simplement être agréable à écouter.","Le titre « Dalida » de Marine évoque la transmission familiale. Il ouvre ici un parcours culturel, sans supposer que cette histoire soit celle de chaque visiteur."],prompt:"Une voix ou une chanson vous semble-t-elle familière ? Il n'est pas nécessaire de répondre."},
-times:{title:"Les époques",copy:["Les chansons, les émissions et les objets du quotidien forment des repères culturels collectifs.","Ces repères sont différents d'une personne à l'autre. Nous présenterons ici des archives vérifiées, avec leurs dates et leurs sources, après validation des droits d'utilisation."],prompt:"Avez-vous envie de penser à une époque, à un lieu ou à un objet familier ?"},
-stories:{title:"Les histoires",copy:["Certaines chansons racontent les liens entre générations : les voix, les gestes et les moments partagés.","Il est possible d'apprécier une histoire sans se souvenir de sa propre histoire. Ici, il n'y a aucune obligation de raconter ou d'expliquer."],prompt:"Cette histoire vous évoque-t-elle une personne ? Vous pouvez aussi seulement la lire."}
-};
-const order=Object.keys(sections);let active=null;let font=18;let sessionStep=0;let sessionPaused=false;
-const sessionThemes=[
-{title:"La musique",copy:"La chanson « Dalida » de Marine peut ouvrir un échange sur les voix, les chansons et les histoires de famille."},
-{title:"Les époques",copy:"Des repères culturels des années 1950 à 1980 peuvent évoquer des lieux ou des moments de vie. Ces références ne sont pas familières à tout le monde."},
-{title:"Les histoires",copy:"Une histoire de transmission entre générations peut être simplement écoutée, sans demander à la personne de raconter un souvenir."}
-];
 const $=id=>document.getElementById(id);
-function gotoHome(focus=true){$("view-session").classList.add("hidden");$("view-session").classList.remove("quiet-mode");sessionPaused=false;active=null;$("view-home").classList.remove("hidden");$("view-content").classList.add("hidden");$("quiet").setAttribute("aria-pressed","false");$("quiet-state").classList.add("hidden");$("prompt").classList.remove("hidden");if(focus){document.querySelector("#view-home h1").setAttribute("tabindex","-1");document.querySelector("#view-home h1").focus();}}
-function showRoute(key){if(!sections[key])return;$("view-session").classList.add("hidden");active=key;const s=sections[key];$("view-home").classList.add("hidden");$("view-content").classList.remove("hidden");$("section-title").textContent=s.title;$("trail").textContent="Accueil / "+s.title;$("section-copy").replaceChildren(...s.copy.map(t=>{const p=document.createElement("p");p.textContent=t;return p;}));$("prompt").textContent=s.prompt;$("quiet").setAttribute("aria-pressed","false");$("quiet-state").classList.add("hidden");$("prompt").classList.remove("hidden");$("section-title").setAttribute("tabindex","-1");$("section-title").focus();window.scrollTo({top:0,behavior:"instant"});}
-function renderSession(){const theme=sessionThemes[sessionStep];$("stimulus-title").textContent=theme.title;$("stimulus-copy").textContent=theme.copy;$("view-session").classList.toggle("quiet-mode",sessionPaused);$("session-pause").textContent=sessionPaused?"Reprendre":"Faire une pause";$("session-next").disabled=sessionPaused;$("session-status").textContent=sessionPaused?"Pause en cours. Vous pouvez reprendre ou terminer.":"Thème actuel : "+theme.title+". Aucune réaction n'est enregistrée.";}
-$("launch-session").addEventListener("click",()=>{sessionStep=0;sessionPaused=false;$("view-home").classList.add("hidden");$("view-content").classList.add("hidden");$("view-session").classList.remove("hidden");renderSession();$("session-title").setAttribute("tabindex","-1");$("session-title").focus();});
-$("session-next").addEventListener("click",()=>{sessionStep=(sessionStep+1)%sessionThemes.length;renderSession();$("stimulus-title").setAttribute("tabindex","-1");$("stimulus-title").focus();});
-$("session-pause").addEventListener("click",()=>{sessionPaused=!sessionPaused;renderSession();});
-$("session-end").addEventListener("click",()=>gotoHome());
-$("home-header").addEventListener("click",()=>gotoHome());$("back").addEventListener("click",()=>gotoHome());$("start").addEventListener("click",()=>showRoute("music"));$("choices").addEventListener("click",e=>{const b=e.target.closest("[data-route]");if(b)showRoute(b.dataset.route);});$("next").addEventListener("click",()=>showRoute(order[(order.indexOf(active)+1)%order.length]));$("quiet").addEventListener("click",()=>{let off=$("quiet").getAttribute("aria-pressed")!=="true";$("quiet").setAttribute("aria-pressed",String(off));$("quiet").textContent=off?"Afficher cette suggestion":"Masquer cette suggestion";$("prompt").classList.toggle("hidden",off);$("quiet-state").classList.toggle("hidden",!off);});
-function setFont(n){font=Math.min(28,Math.max(16,n));document.documentElement.style.fontSize=font+"px";$("scale-status").textContent=font===18?"Taille initiale":"Taille du texte : "+Math.round(font/18*100)+" %";}
-$("larger").addEventListener("click",()=>setFont(font+2));$("smaller").addEventListener("click",()=>setFont(font-2));$("reset").addEventListener("click",()=>setFont(18));
+let profile={},options=[],current=0,paused=false;
+const ideas={
+musique:{title:"Une voix familière",text:"Proposer une chanson ou une voix appréciée, sans demander d'en retrouver le titre ou l'interprète.",guide:"Présentez un seul élément. Laissez du temps. Si la personne souhaite arrêter, interrompez l'expérience."},
+images:{title:"Une image d'une époque",text:"Proposer une photographie ou un objet quotidien associé à une époque connue, après vérification des sources et des droits.",guide:"N'interrogez pas la personne sur ce qu'elle devrait reconnaître. Une image peut être regardée sans commentaire."},
+recit:{title:"Une histoire partagée",text:"Évoquer simplement une scène du quotidien ou une histoire de transmission, sans exiger de souvenir personnel.",guide:"Parlez simplement, ménagez des silences, n'attendez pas de réponse précise."}
+};
+function view(id){["prepare","suggestions","session"].forEach(k=>$(k).classList.toggle("hidden",k!==id));}
+function description(type){
+const base=ideas[type];let extra="";
+if(type==="musique"&&profile.artist)extra=" Référence suggérée par l'accompagnant : « "+profile.artist+" ».";
+if(type==="images"&&profile.decade)extra=" Période suggérée : "+(profile.decade==="other"?"autre époque":"années "+profile.decade)+".";
+if(type==="recit"&&profile.reference)extra=" Point de départ proposé par l'accompagnant : « "+profile.reference+" ».";
+return {type,title:base.title,copy:base.text+extra,guide:base.guide};
+}
+function configure(e){e.preventDefault();const fd=new FormData($("form"));profile={decade:$("decade").value,artist:$("artist").value.trim(),reference:$("reference").value.trim(),avoid:$("avoid").value.trim(),medium:fd.get("medium")||"musique"};const order=[profile.medium,...Object.keys(ideas).filter(k=>k!==profile.medium)];options=order.map(description);$("context").textContent="Trois propositions à examiner avant de les présenter. Vérifiez vous-même leur pertinence. Les thèmes à éviter sont un rappel pour l'accompagnant, pas une analyse automatisée.";const wrap=$("cards");wrap.replaceChildren();options.forEach((o,i)=>{const card=document.createElement("article");card.className="card";const title=document.createElement("h3");title.textContent=o.title;const p=document.createElement("p");p.textContent=o.copy;const btn=document.createElement("button");btn.className=i===0?"primary":"";btn.type="button";btn.textContent="Présenter cette proposition";btn.addEventListener("click",()=>launch(i));card.append(title,p,btn);wrap.append(card)});if(profile.avoid){const warn=document.createElement("p");warn.className="notice";warn.textContent="À garder à l'esprit : "+profile.avoid;wrap.prepend(warn);}view("suggestions");$("suggestions-title").focus();}
+function launch(i){current=i;paused=false;render();view("session");$("session-title").focus();}
+function render(){const o=options[current];$("session-title").textContent=paused?"Un moment de pause":o.title;$("session-copy").textContent=paused?"Nous pouvons attendre, reprendre ou terminer.":o.copy;$("guide").textContent=paused?"Laissez la personne tranquille et reprenez uniquement si elle en a envie.":o.guide;$("pause").textContent=paused?"Reprendre":"Faire une pause";$("next").disabled=paused;$("session-marker").textContent=paused?"L'expérience est en pause.":"Aucune réponse n'est attendue.";$("announce").textContent=paused?"Pause en cours.":"Proposition "+(current+1)+" sur "+options.length+".";}
+$("form").addEventListener("submit",configure);
+$("form").addEventListener("reset",()=>{profile={};options=[];});
+$("edit").addEventListener("click",()=>view("prepare"));
+$("home").addEventListener("click",()=>view("prepare"));
+$("next").addEventListener("click",()=>{current=(current+1)%options.length;render();$("session-title").focus();});
+$("pause").addEventListener("click",()=>{paused=!paused;render();});
+$("finish").addEventListener("click",()=>{paused=false;view("suggestions");$("suggestions-title").focus();});
+$("large").addEventListener("click",()=>document.documentElement.style.fontSize="23px");
+$("normal").addEventListener("click",()=>document.documentElement.style.fontSize="18px");
 </script></body></html>
