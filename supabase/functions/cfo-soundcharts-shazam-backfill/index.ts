@@ -37,14 +37,26 @@ export async function handler(req) {
         if (be || !reserved) {budgetBlocked=true;throw new Error("Soundcharts budget unavailable or exhausted");}
         calls++;
         const requested_at = new Date().toISOString();
-        const response = await fetch(u,{headers:{"x-app-id":ctx.app_id,"x-api-key":ctx.api_key,accept:"application/json"}});
-        const payload = await response.json();
+        let response, payload, networkFailure = false;
+        try {
+          response = await fetch(u,{headers:{"x-app-id":ctx.app_id,"x-api-key":ctx.api_key,accept:"application/json"}});
+          const raw = await response.text();
+          try { payload = JSON.parse(raw); } catch { payload = {raw_text:raw.slice(0,100000)}; }
+        } catch { networkFailure = true; payload = {error:"network_failure"}; }
+        const {error:traceError} = await db.rpc("cfo_complete_soundcharts_call",{
+          p_call_id:reserved,p_request_parameters:Object.fromEntries(u.searchParams),
+          p_http_status:response?.status ?? 0,p_response_hash:await hash(JSON.stringify(payload)),
+          p_summary:{source_crawl_date:payload.related?.lastCrawlDate ?? null}
+        });
+        if (networkFailure) throw new Error("Soundcharts network failure");
         const items = Array.isArray(payload.items) ? payload.items : [];
         const page = {url:u.toString(),status:response.status,request_parameters:Object.fromEntries(u.searchParams),
-          response_headers:{"x-ratelimit-limit":response.headers.get("x-ratelimit-limit"),"x-ratelimit-remaining":response.headers.get("x-ratelimit-remaining")},
+          response_headers:{"x-cfo-call-id":String(reserved),"x-ratelimit-limit":response.headers.get("x-ratelimit-limit"),"x-ratelimit-remaining":response.headers.get("x-ratelimit-remaining")},
           payload,response_hash:await hash(JSON.stringify(payload)),offset,requested_at,items};
         pages.push(page);
+        if (traceError) throw new Error("Soundcharts call trace failed");
         if (!response.ok) throw new Error("Soundcharts HTTP "+response.status);
+        if (!Array.isArray(payload.items) || (Array.isArray(payload.errors) && payload.errors.length)) throw new Error("Invalid Shazam response");
         all.push(...items);
         if (!payload.page?.next || items.length<100) break;
         if (offset===100) throw new Error("Shazam pagination safety bound exceeded");

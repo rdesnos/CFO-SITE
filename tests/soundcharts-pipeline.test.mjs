@@ -5,7 +5,7 @@ import vm from 'node:vm';
 import { stripTypeScriptTypes } from 'node:module';
 import { chooseIdentifier, normalize } from '../supabase/functions/cfo-soundcharts-shazam-backfill/logic.mjs';
 
-function setup({items=[], budget=true, http=200, persistError=null, next=null}={}) {
+function setup({items=[], budget=true, http=200, persistError=null, next=null, extra={}, traceError=null}={}) {
   const calls=[], stored=[], audits=[];
   const tracks=[{id:'track-1',title:'Qualified track',soundcharts_uuid:'song-1'}];
   const db={
@@ -25,6 +25,7 @@ function setup({items=[], budget=true, http=200, persistError=null, next=null}={
       if(name==='cfo_soundcharts_context')return {data:{app_id:'private-app',api_key:'private-api',soundcharts_uuid:'artist-1'}};
       if(name==='cfo_track_extract_context')return {data:{tracks}};
       if(name==='cfo_reserve_soundcharts_call')return {data:budget?1:null};
+      if(name==='cfo_complete_soundcharts_call')return {error:traceError};
       if(name==='cfo_track_store_soundcharts_shazam'){stored.push(args);return {data:{records_inserted:args.p_pages.flatMap(x=>x.observations).length}};}
       if(name==='cfo_record_soundcharts_response')return {error:persistError};
       return {data:'run-1'};
@@ -42,7 +43,7 @@ function setup({items=[], budget=true, http=200, persistError=null, next=null}={
     vm.runInNewContext(stripTypeScriptTypes(source),{
       Response,Request,URL,TextEncoder,TextDecoder,crypto:fakeCrypto,console,chooseIdentifier,normalize,
       createClient:()=>db,authorizeLegacy:async req=>req.headers.get('x-cfo-extractor-key')==='test-invoke',Deno:{env:{get:()=>''},serve:fn=>{handler=fn;}},
-      fetch:async()=>{requests++;return new Response(JSON.stringify({items,page:{next}}),{status:http});}
+      fetch:async()=>{requests++;return new Response(JSON.stringify({items,page:{next},...extra}),{status:http});}
     });
     return (body={},authorized=true)=>handler(new Request('https://example.test',{
       method:'POST',headers:authorized?{'x-cfo-extractor-key':'test-invoke'}:{},body:JSON.stringify(body)
@@ -53,6 +54,56 @@ function setup({items=[], budget=true, http=200, persistError=null, next=null}={
 
 test('canonical identifier remains stable when another counter grows larger',()=>{
   assert.equal(chooseIdentifier([{date:'2026-10-15',plots:[{identifier:'a',value:10},{identifier:'b',value:20}]}],'a'),'a');
+});
+
+const youtubeProbe={datasets:['streaming_audience','social_audience'],endpoints:['streaming_youtube','audience_youtube']};
+test('YouTube probe is restricted to two calls and archives stale data with an explicit delay',async()=>{
+ const s=setup({items:[{date:'2026-10-04T00:00:00Z',value:63275,followerCount:115000}]});
+ const body=await (await s.load('cfo-soundcharts-extract')(youtubeProbe)).json();
+ assert.equal(s.requests,2);
+ assert.equal(body.datasets.streaming_audience.status,'partial');
+ assert.ok(body.datasets.streaming_audience.errors.some(e=>e.reason==='source_delayed'));
+ const traces=s.calls.filter(x=>x.name==='cfo_complete_soundcharts_call');
+ assert.equal(traces.length,2);assert.equal(traces[0].args.p_http_status,200);
+ assert.equal(traces[0].args.p_request_parameters.limit,'100');
+ assert.equal(s.calls.filter(x=>x.name==='cfo_record_soundcharts_response').length,2);
+});
+test('successful YouTube checks require a valid fresh response',async()=>{
+ const date=new Date().toISOString().slice(0,10)+'T00:00:00Z';
+ const s=setup({items:[{date,value:100,followerCount:115000}]});
+ const body=await (await s.load('cfo-soundcharts-extract')(youtubeProbe)).json();
+ assert.equal(body.datasets.streaming_audience.status,'success');
+ assert.equal(body.datasets.social_audience.status,'success');
+});
+for(const scenario of [
+ {name:'nulls',items:[{date:'2026-10-15T00:00:00Z',value:null}],reason:'invalid_items'},
+ {name:'new format',extra:{items:null},reason:'unexpected_response_format'},
+ {name:'provider errors',extra:{errors:[{message:'error'}]},reason:'provider_errors'},
+ {name:'remaining page',next:'next',reason:'pagination_incomplete'},
+]){
+ test('audience response detects '+scenario.name+' without inventing observations',async()=>{
+ const s=setup(scenario);
+ const body=await (await s.load('cfo-soundcharts-extract')({datasets:['streaming_audience'],endpoints:['streaming_youtube']})).json();
+ assert.equal(body.datasets.streaming_audience.status,'partial');
+ assert.ok(body.datasets.streaming_audience.errors.some(e=>e.reason===scenario.reason));
+ assert.equal(s.stored.length,0);
+ });
+}
+test('trace failure is explicit and does not suppress raw archival',async()=>{
+ const s=setup({traceError:{message:'unavailable'}});
+ const body=await (await s.load('cfo-soundcharts-extract')({datasets:['streaming_audience'],endpoints:['streaming_youtube']})).json();
+ assert.ok(body.datasets.streaming_audience.errors.some(e=>e.reason==='call_trace_failed'));
+ assert.equal(s.calls.filter(x=>x.name==='cfo_record_soundcharts_response').length,1);
+});
+test('audience quota exhaustion finalizes the run and records zero network calls',async()=>{
+ const s=setup({budget:false});
+ const body=await (await s.load('cfo-soundcharts-extract')(youtubeProbe)).json();
+ assert.equal(s.requests,0);assert.equal(body.total_calls,0);
+ assert.equal(s.calls.filter(x=>x.name==='cfo_finish_extraction').length,2);
+});
+test('invalid endpoint filters are rejected before reading credentials',async()=>{
+ const s=setup();assert.equal((await s.load('cfo-soundcharts-extract')({endpoints:['wrong']})).status,400);
+ assert.equal(s.calls.length,0);
 });
 test('null, negative and out-of-window values never become observations',()=>{
   const items=[null,-1,4].map((value,i)=>({date:'2026-10-'+(12+i),plots:[{identifier:'a',value}]}));
