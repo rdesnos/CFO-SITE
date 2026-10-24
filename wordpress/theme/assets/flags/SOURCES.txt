@@ -1,0 +1,9 @@
+Country flag SVG icons downloaded on 2026-10-24 from FlagCDN:
+https://flagcdn.com/fr.svg
+https://flagcdn.com/ca.svg
+https://flagcdn.com/be.svg
+https://flagcdn.com/ch.svg
+https://flagcdn.com/lu.svg
+
+Served locally by the CFO theme; no external image requests at runtime.
+Icons are decorative and accompanied by an explicit language/region label.
