@@ -4,14 +4,14 @@ if ( ! defined( 'ABSPATH' ) ) { exit; }
 
 function cfo_international_editions() {
 	return array(
-		'fr-FR' => array( 'label' => 'Français — France', 'available' => true ),
-		'fr-CA' => array( 'label' => 'Français — Canada', 'available' => true ),
-		'en-CA' => array( 'label' => 'English — Canada', 'available' => false ),
-		'nl-BE' => array( 'label' => 'Nederlands — België', 'available' => false ),
-		'de'    => array( 'label' => 'Deutsch', 'available' => false ),
-		'lb-LU' => array( 'label' => 'Lëtzebuergesch', 'available' => false ),
-		'it-CH' => array( 'label' => 'Italiano — Svizzera', 'available' => false ),
-		'rm-CH' => array( 'label' => 'Rumantsch — Svizra', 'available' => false ),
+		'fr-FR' => array( 'label' => 'Français — France', 'flags' => array( 'fr' ), 'available' => true ),
+		'fr-CA' => array( 'label' => 'Français — Canada', 'flags' => array( 'ca' ), 'available' => true ),
+		'en-CA' => array( 'label' => 'English — Canada', 'flags' => array( 'ca' ), 'available' => false ),
+		'nl-BE' => array( 'label' => 'Nederlands — België', 'flags' => array( 'be' ), 'available' => false ),
+		'de'    => array( 'label' => 'Deutsch', 'flags' => array( 'be', 'ch', 'lu' ), 'available' => false ),
+		'lb-LU' => array( 'label' => 'Lëtzebuergesch', 'flags' => array( 'lu' ), 'available' => false ),
+		'it-CH' => array( 'label' => 'Italiano — Svizzera', 'flags' => array( 'ch' ), 'available' => false ),
+		'rm-CH' => array( 'label' => 'Rumantsch — Svizra', 'flags' => array( 'ch' ), 'available' => false ),
 	);
 }
 
@@ -46,23 +46,33 @@ function cfo_international_language_attributes( $attributes ) {
 add_filter( 'language_attributes', 'cfo_international_language_attributes', 99 );
 
 function cfo_international_assets() {
-	wp_enqueue_style( 'cfo-international', get_theme_file_uri( 'assets/cfo-international.css' ), array(), '20261024-1' );
+	wp_enqueue_style( 'cfo-international', get_theme_file_uri( 'assets/cfo-international.css' ), array(), '20261024-2' );
 	wp_enqueue_script( 'cfo-international', get_theme_file_uri( 'assets/js/cfo-international.js' ), array(), '20261024-1', true );
 	wp_add_inline_script( 'cfo-international', 'window.cfoEdition=' . wp_json_encode( array( 'locale' => cfo_international_locale() ) ) . ';', 'before' );
 }
 add_action( 'wp_enqueue_scripts', 'cfo_international_assets', 99 );
 
-/** No country flags: a language and a country are different concepts. */
+/** Decorative country icons accompany the explicit language/region labels. */
+function cfo_international_flags( $locale ) {
+	$editions = cfo_international_editions();
+	if ( ! isset( $editions[ $locale ]['flags'] ) ) { return ''; }
+	$html = '<span class="cfo-edition-flags" aria-hidden="true">';
+	foreach ( $editions[ $locale ]['flags'] as $country ) {
+		$html .= '<img class="cfo-edition-flag" src="' . esc_url( get_theme_file_uri( 'assets/flags/' . $country . '.svg' ) ) . '" width="28" height="20" alt="" decoding="async">';
+	}
+	return $html . '</span>';
+}
+
 function cfo_international_switcher( $items, $args ) {
 	if ( ! isset( $args->theme_location ) || 'primary' !== $args->theme_location ) { return $items; }
 	$current = cfo_international_locale();
 	$request = isset( $_SERVER['REQUEST_URI'] ) ? wp_unslash( $_SERVER['REQUEST_URI'] ) : '/';
 	// Never take a host from the request URI.
 	$request = '/' . ltrim( $request, '/' );
-	$items .= '<li class="menu-item cfo-editions"><details><summary>' . esc_html( cfo_international_editions()[ $current ]['label'] ) . '</summary><ul class="cfo-editions-list" aria-label="Choisir une version linguistique">';
+	$items .= '<li class="menu-item cfo-editions"><details><summary>' . cfo_international_flags( $current ) . '<span>' . esc_html( cfo_international_editions()[ $current ]['label'] ) . '</span></summary><ul class="cfo-editions-list" aria-label="Choisir une version linguistique">';
 	foreach ( cfo_international_editions() as $locale => $edition ) {
 		if ( ! $edition['available'] ) { continue; }
-		$items .= '<li><a href="' . esc_url( cfo_international_url( $request, $locale ) ) . '" lang="' . esc_attr( $locale ) . '" hreflang="' . esc_attr( $locale ) . '"' . ( $current === $locale ? ' aria-current="true"' : '' ) . '>' . esc_html( $edition['label'] ) . '</a></li>';
+		$items .= '<li><a href="' . esc_url( cfo_international_url( $request, $locale ) ) . '" lang="' . esc_attr( $locale ) . '" hreflang="' . esc_attr( $locale ) . '"' . ( $current === $locale ? ' aria-current="true"' : '' ) . '>' . cfo_international_flags( $locale ) . '<span>' . esc_html( $edition['label'] ) . '</span></a></li>';
 	}
 	return $items . '</ul></details></li>';
 }

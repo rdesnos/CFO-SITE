@@ -34,7 +34,7 @@ Le module `wordpress/theme/cfo-international.php` ajoute un sélecteur France/Ca
 
 Le script compagnon applique la même adaptation aux textes chargés après le rendu. Les langues restantes sont enregistrées mais non exposées tant que leurs traductions complètes ne sont pas disponibles.
 
-La variante canadienne est provisoirement `noindex`, canonique existante conservée ; les `hreflang` SEO et des routes dédiées devront être activés après révision et disponibilité de chaque page traduite. Le sélecteur utilise déjà des liens étiquetés, sans drapeaux. La mise en cache de la variante canadienne est désactivée pour prévenir tout mélange avec la France.
+La variante canadienne est provisoirement `noindex`, canonique existante conservée ; les `hreflang` SEO et des routes dédiées devront être activés après révision et disponibilité de chaque page traduite. Sur demande de Rudy, le sélecteur associe désormais des drapeaux SVG aux noms explicites des langues et régions. Les icônes sont hébergées dans le thème, décoratives pour les lecteurs d’écran et indépendantes des polices emoji de Windows. La mise en cache de la variante canadienne est désactivée pour prévenir tout mélange avec la France.
 
 ## État réel
 
