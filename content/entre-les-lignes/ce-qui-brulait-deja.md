@@ -6,9 +6,9 @@
 - Page WordPress : 3277
 - URL : https://chroniques-fille-ordinaire.com/marine-ce-qui-brulait-deja/
 - Hub : page 599 — https://chroniques-fille-ordinaire.com/entre-les-lignes/
-- Illustration : aquarelle narrative « Oser prendre sa place », créée le 26 octobre 2026 après correction du visuel de une.
-- Asset Supabase : e947e72a-1461-40b2-8b4d-dd9ac0e91f7f
-- URL du visuel : https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/marine-ce-qui-brulait-deja/marine-ce-qui-brulait-deja-aquarelle-4d2463bd.png
+- Illustration : portrait intense de Marine, le feu, le brasier, le magma — version validée par Rudy Desnos le 26 octobre 2026.
+- Asset Supabase : b44df0ee-435a-42c3-96a7-68cee3bcff65
+- URL du visuel : https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/marine-ce-qui-brulait-deja/marine-feu-brasier-magma-portrait-intense-v3-1ae63f34.png
 - Dimensions : 1672 × 941. Composition intégrale, bordures diffuses, sans coins arrondis.
 - Texte : version sensible validée dans la conversation ; sources et retour à la rubrique ajoutés pour la publication.
 
@@ -19,7 +19,7 @@ Dans « Si j’essaie pas », dernier morceau de Cœur maladroit Deluxe, se trou
 ## Contenu WordPress
 
 <p><strong>Entre les lignes — Analyse éditoriale CFO</strong></p>
-<figure class="wp-block-image size-full cfo-dossier-illustration"><img src="https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/marine-ce-qui-brulait-deja/marine-ce-qui-brulait-deja-aquarelle-4d2463bd.png" alt="Aquarelle : une jeune femme franchit le seuil d’une porte, entre un intérieur bleu et la lumière douce d’une cour." width="1672" height="941" style="border-radius:0;height:auto"></figure>
+<figure class="wp-block-image size-full cfo-dossier-illustration"><img src="https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/marine-ce-qui-brulait-deja/marine-feu-brasier-magma-portrait-intense-v3-1ae63f34.png" alt="Portrait aquarelle de Marine, de face en rouge, sur fond de brasier et de magma incandescent." width="1672" height="941" style="border-radius:0;height:auto"></figure>
 <p>À la fin de <em>Cœur maladroit</em>, dans son édition Deluxe, il y a « Si j’essaie pas ». Une chanson qui pose une question intime : quelle vie se refuse-t-on lorsqu’on renonce à tenter sa chance ? C’est dans ce morceau que figurent les mots choisis pour nommer le deuxième album de Marine : <em>Le feu, le brasier, le magma</em>.</p>
 <p>Le rapprochement invite à réécouter.</p>
 <p>La chanson avance depuis un sentiment d’invisibilité. Elle évoque les autres que l’on regarde vivre, l’aisance qu’on leur prête, et l’effort nécessaire pour s’accorder à soi-même une possibilité de bonheur. Avant même d’oser se montrer, il faut parfois se convaincre qu’on en a le droit.</p>
@@ -41,23 +41,17 @@ Dans « Si j’essaie pas », dernier morceau de Cœur maladroit Deluxe, se trou
 <h2>Les dossiers</h2>
 <p><a href="https://chroniques-fille-ordinaire.com/marine-ce-qui-brulait-deja/"><strong>Marine : ce qui brûlait déjà</strong></a><br />Dans « Si j’essaie pas », les mots du prochain album ouvrent une passerelle entre le doute et l’élan.</p>
 
-## Correction du visuel de une — 26 octobre 2026
+## Visuel final validé — 26 octobre 2026
 
-La bannière générique CFO utilisée initialement a été rejetée par Rudy. Elle est remplacée sur l’accueil (page 48), dans la sélection éditoriale dynamique et dans l’article (page 3277) par une illustration spécifique : une jeune femme franchit un seuil, avec hésitation et détermination, d’un intérieur bleu vers une cour lumineuse. Le visuel représente le fond humain de la chanson. Référence : `docs/charte-visuelle-entre-les-lignes.md`.
+Rudy a rejeté le visuel de seuil, puis le portrait trop générique et trop paisible. La version finale a été validée par « voila » : vrai visage de Marine repris de photographies de référence, portrait frontal dominant, regard direct, rouge et cuivre, mouvement intense de brasier, couches de magma. La composition conserve les bords aquarellés et le fond blanc de la collection.
 
-Génération : outil imagegen intégré. Référence de collection : aquarelle « Marine, le phénix et le néant » pour la matière et les bordures. Aucun phénix ni feu littéral réutilisé.
+- Asset : b44df0ee-435a-42c3-96a7-68cee3bcff65
+- Fichier : dossiers/marine-ce-qui-brulait-deja/marine-feu-brasier-magma-portrait-intense-v3-1ae63f34.png
+- URL : https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/marine-ce-qui-brulait-deja/marine-feu-brasier-magma-portrait-intense-v3-1ae63f34.png
+- Format : PNG, 1672 × 941, 3 318 161 octets.
+- Lieux d’affichage : accueil WordPress 48, article 3277, sélection `home.a_la_une`, news éditoriale `24a36c02-9d9f-4b34-9bdd-d07adf4cc7b4`.
+- Brief : identité exacte de Marine d’après photo réelle ; visage très présent ; intensité dans le regard, le contraste et le mouvement ; lien feu-brasier-magma ; finition aquarelle sur fond blanc. Génération par l’outil imagegen intégré.
+- Référence photo principale : https://bocir-medias-prod.s3.fr-par.scw.cloud/medias/EzMRpetIvC/image/Marine_a_le_coeur_maladroit1751291709526.jpg
+- Référence photo complémentaire : https://i.scdn.co/image/ab6761610000e5eb1c861103994873b3b443377f
 
-Contrôles : URL publique HTTP 200, PNG 1672 × 941 ; nouveau visuel présent dans le rendu public de la une et de l’article ; `cfo_home_snapshot.featured_news.image_url` concordant ; texte conservé.
-
-### Brief de génération
-
-```text
-Use case: illustration-story.
-Create one finished panoramic editorial watercolor illustration for CFO Marine's "Entre les lignes" article "Marine : ce qui brûlait déjà".
-The attached image is ONLY a collection style reference and a reference for the illustrated young woman's face. It is NOT the scene to reproduce. Retain the recognisable illustrated likeness, age, soft brown/blond hair with fringe and facial proportions of the young woman in the reference, but invent a new scene.
-
-Narrative: the private, fragile yet decisive instant when someone who has felt invisible allows herself to take her place in the world. A young woman stands at the threshold of an open doorway, just beginning to step from a quiet, cool blue interior into a softly sunlit ordinary courtyard. Her body still carries hesitation; her gaze is lifted, present, quietly determined. One hand has just loosened its hold on the door frame. The emotional focus is this release and first step, not a heroic triumph. The exterior is open and breathable, a suggestion of everyday life, without detailed crowds. Her face and hands carry the story. Natural modest clothes, no glamour. Intimate eye-level three-quarter composition, woman around the middle-left, sufficient visible body to read the first step, airy space toward the right.
-
-Style: sophisticated sensitive semi-realistic hand-painted watercolor editorial art, subtle pencil detail, transparent washes and pigment grain, soft muted indigo/blue-grey inside and warm copper/ochre/peach reflected light outside. Warmth should seem quietly present in her face and clothing, not a supernatural glow. Fully illustrated figure, not a photoreal cutout. Match the reference's organic watercolor perimeter: irregular washes, delicate pigment flecks, ALL FOUR EDGES progressively dissolve into clean white page background, generous clear margins. Wide horizontal approximately 16:9, designed to stay legible in a homepage thumbnail and at article width. Distinctive, restrained, human, emotionally specific.
-No text, lettering, handwriting, title, logo, music notes, piano, stage, microphone, album mockup. No phoenix, no volcano, no literal fire or flames, no cliff, no grandiose motivational-poster atmosphere. No hard rectangular borders, no rounded-corner frame.
-```
+Vérifications : URL publique HTTP 200 et dimensions PNG contrôlées ; visuel final présent sur l’accueil et l’article ; ancienne URL absente ; sélection dynamique Supabase concordante ; texte de l’article conservé.
