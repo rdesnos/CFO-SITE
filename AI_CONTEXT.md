@@ -61,6 +61,8 @@ Ces trois chantiers concernent l'ensemble de CFO Marine et son exploitation. Ne 
 
 Reference : [Trois chantiers prioritaires — 27 octobre 2026](docs/cfo-marine-trois-chantiers-prioritaires-2026-10-27.md).
 
+Plans d'action detailles : [Coordination des trois chantiers](docs/plans-actions-cfo-marine-2026-10-27.md). Les actions I01-I08, D01-D08 et V01-V08 y sont ordonnees avec livrables, dependances, preuves et conditions de cloture.
+
 Le cadrage est valide ; sa presence dans Git n'atteste pas la realisation des chantiers. Controler le rendu public, les parcours et les resultats avant d'annoncer leur achevement.
 
 ## Architecture du POC

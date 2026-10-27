@@ -296,3 +296,11 @@ Avant toute intervention sur le Cockpit CFO :
 5. mettre ce fichier à jour après toute nouvelle décision structurante.
 
 Ce document est la mémoire opérationnelle du chantier, pas une simple note.
+
+## 14. Cadrage et plan d'action du 27 octobre 2026
+
+La donnée doit être **fiable, porteuse d'un message et lisible**. Cette exigence s'applique à l'accueil et à l'Observatoire. Le plan [D01–D08](plan-actions-donnee-cfo-marine-2026-10-27.md) organise le contrôle de la chaîne source/calcul/API/rendu, les corrections et la validation publique.
+
+Conserver les indicateurs et la composition validés ; hiérarchiser leur lecture. Les photographies et états de production des sections historiques ci-dessus sont datés et doivent être recontrôlés avant intervention ; ils ne valent pas constat de production au 27 octobre.
+
+La donnée est l'un des trois chantiers prioritaires, avec l'information et la diffusion Viraly. Voir les [plans coordonnés](plans-actions-cfo-marine-2026-10-27.md). Cet ajout formalise le travail à effectuer ; il n'atteste aucune mise en œuvre.

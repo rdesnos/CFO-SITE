@@ -78,3 +78,7 @@ La chaîne contenu CFO → publication sociale → visite → lecture doit être
 - Ne pas déclarer un chantier terminé sur la seule base d'une modification technique ou d'une promesse de fonctionnement.
 
 Ce document consigne les décisions et critères de réussite. Il n'atteste pas leur mise en œuvre.
+
+## Plans d'action opérationnels
+
+La déclinaison de ce cadrage est disponible dans les [plans d'action des trois chantiers](plans-actions-cfo-marine-2026-10-27.md) : information I01–I08, donnée D01–D08 et diffusion Viraly V01–V08. Ils précisent les livrables, dépendances, vérifications et conditions de clôture. Les actions restent à réaliser.
