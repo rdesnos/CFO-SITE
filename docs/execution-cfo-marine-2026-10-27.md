@@ -1,5 +1,7 @@
 # CFO Marine — exécution, premier lot du 27 octobre 2026
 
+**Correction de la recette éditoriale :** le contrôle HTTP/HTML des deux articles n'avait pas révélé leur rendu générique insuffisant. La reprise est décrite dans le [lot de correction des articles](correction-articles-cfo-marine-2026-10-27.md) ; contrôler visuellement les pages réelles avant de clôturer cette livraison.
+
 Le cadrage est passé en exécution. Les trois chantiers restent ouverts : les correctifs Supabase ci-dessous sont déployés ; le cockpit reste en prévisualisation ; les articles 3383 et 3384 sont publiés après accord explicite de Rudy. Aucun résultat d'acquisition n'est encore attribuable à ce lot.
 
 ## Livré et vérifié

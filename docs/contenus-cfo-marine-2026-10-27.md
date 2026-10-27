@@ -1,4 +1,6 @@
-# CFO Marine — textes proposés, 27 octobre 2026
+# CFO Marine — articles, 27 octobre 2026
+
+**Révision après retour visuel de Rudy :** le premier rendu était insuffisant. Les versions éditoriales enrichies font désormais référence dans [le lot de correction](correction-articles-cfo-marine-2026-10-27.md) et les fichiers HTML `wordpress/content/2026-10-27/3383-album.html` et `3384-spotify-radio.html`. Le texte ci-dessous conserve l'état validé de la première publication ; ne pas le réinjecter en remplacement de la nouvelle présentation.
 
 Statut : deux articles publiés après accord explicite de Rudy le 27 octobre 2026 à 12 h 42 (Europe/Paris). Les textes validés sont conservés ci-dessous. Les chiffres restent une photographie datée de la semaine du 20 au 26 octobre.
 
