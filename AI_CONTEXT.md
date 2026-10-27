@@ -1,6 +1,6 @@
 # CFO — AI Context
 
-Derniere mise a jour : 11 septembre 2026
+Derniere mise a jour : 27 octobre 2026
 
 ## Objet
 
@@ -49,15 +49,19 @@ CFO_Marine est le POC en cours et la priorite absolue. Il correspond au media li
 
 Ne pas transformer le chantier actuel en plateforme multi-artistes. Une plateforme editoriale multicanale generique pourra constituer un projet distinct apres stabilisation de CFO_Marine et retour d'experience des POC.
 
-## Priorite actuelle
+## Priorite actuelle — decision du 27 octobre 2026
 
-1. Finaliser CFO Theme, theme WordPress proprietaire et leger.
-2. Stabiliser CFO Actus.
-3. Stabiliser CFO Agenda.
-4. Integrer la Timeline.
-5. Controler l'ensemble desktop/mobile et publier apres validation.
+Trois chantiers prioritaires, valides par Rudy Desnos :
 
-MH Magazine reste le rollback tant que CFO Theme n'est pas valide et publie.
+1. **Information** : reactive, riche, verifiee et centralisee ; donner au lecteur une raison de consulter CFO et d'y revenir.
+2. **Donnee** : **fiable**, porteuse d'un message clair et lisible ; sourcer, dater, verifier, contextualiser et permettre l'approfondissement.
+3. **Viraly et diffusion sur les reseaux sociaux** : publications adaptees aux reseaux, mettant en valeur les contenus CFO et apportant des visites et des lectures mesurables au site.
+
+Ces trois chantiers concernent l'ensemble de CFO Marine et son exploitation. Ne pas reduire ce cadrage a la seule refonte de l'Observatoire.
+
+Reference : [Trois chantiers prioritaires — 27 octobre 2026](docs/cfo-marine-trois-chantiers-prioritaires-2026-10-27.md).
+
+Le cadrage est valide ; sa presence dans Git n'atteste pas la realisation des chantiers. Controler le rendu public, les parcours et les resultats avant d'annoncer leur achevement.
 
 ## Architecture du POC
 
