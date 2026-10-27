@@ -8,7 +8,7 @@ La première publication des articles 3383 et 3384 était insuffisante : contrô
 - Article 3384 : deux graphiques vectoriels accessibles, périodes comparées et échelles propres partant de zéro ; messages Spotify +4,5 % / radio −0,7 % (stable) ; valeurs et limites détaillées. Les figures ne comparent pas des unités différentes sur une même échelle.
 - Présentation : palette et polices existantes CFO (Cormorant Garamond / Source Sans 3), titre éditorial, corps 18 px, crédit visible « La rédaction CFO », adaptation sous 680 px. Le compte WordPress et les autres articles ne sont pas modifiés.
 
-Les sources HTML exactes et le CSS sont dans `wordpress/content/2026-10-27/`. Chaque article contient un bloc HTML WordPress autonome avec ses styles, limité aux identifiants des deux articles ; aucun JavaScript, plugin ou fichier PHP de production ajouté. La mise en forme fonctionne sans WPVibe. Les révisions WordPress et le checkpoint Git des anciens corps permettent la restauration.
+Les sources HTML exactes et le CSS du lot sont dans `wordpress/content/2026-10-27/`. Chaque article contient un bloc HTML WordPress. Les styles intégrés au corps ont été refusés par le filtrage WordPress et retirés immédiatement après contrôle réel. La feuille de style native « CSS additionnel » du thème `cfo` (post `custom_css` 1004) reçoit les styles limités aux deux articles. Son contenu précédent est préservé intégralement et sauvegardé ; sa version exacte figure dans `wordpress/theme/custom-css/cfo.css`. Aucun JavaScript, plugin ou fichier PHP de production ajouté. La mise en forme fonctionne sans WPVibe. Les révisions WordPress et le checkpoint Git des anciens corps permettent la restauration.
 
 ## Vérifications avant livraison
 
