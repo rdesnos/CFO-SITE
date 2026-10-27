@@ -1,0 +1,255 @@
+{
+  "date": "2026-10-27",
+  "scope": "CFO_Marine",
+  "phase": "premier_lot_execution",
+  "code_commit": "fe540ba7978368571770f6b1be8e3d91efab216d",
+  "production": {
+    "feed": {
+      "function": "cfo-actu-feed",
+      "version": 7,
+      "header": "2026-10-27.1",
+      "status": 200,
+      "count": 32,
+      "artist_slugs": [
+        "marine"
+      ]
+    },
+    "collector": {
+      "function": "cfo-news-collector",
+      "version": 10,
+      "controlled_run": {
+        "sources_checked": 3,
+        "items_seen": 0,
+        "items_inserted": 0,
+        "errors": [
+          "Marine YouTube: COLLECTOR_NOT_CONNECTED: youtube",
+          "Marine TikTok: COLLECTOR_NOT_CONNECTED: social_external",
+          "Marine Instagram: COLLECTOR_NOT_CONNECTED: social_external"
+        ],
+        "last_success_unchanged": true
+      }
+    },
+    "new_source": {
+      "id": "e7103ec4-ce23-4f48-ac93-4264434de941",
+      "name": "Boutique officielle Marine — Columbia / Sony",
+      "url": "https://marinemusique.fr/",
+      "mode": "manual"
+    }
+  },
+  "wordpress": {
+    "cockpit": "corrigé en Git et prévisualisation uniquement ; thème public non publié",
+    "preview_contains_unrelated_older_changes": true,
+    "legacy_request_error": "cfo_cockpit_snapshot HTTP 500",
+    "initial_preview_snapshot": "septembre affiché avant chargement ; à éliminer dans le lot de déploiement",
+    "articles": [
+      {
+        "slug": "marine-le-feu-le-brasier-le-magma-27-novembre",
+        "title": "Marine : « Le feu, le brasier, le magma » annoncé pour le 27 novembre",
+        "excerpt": "La boutique officielle de Marine présente le nouvel album, ses éditions et sa date de disponibilité. Les repères vérifiés par CFO.",
+        "content": "<p>La boutique officielle de Marine présente <em>Le feu, le brasier, le magma</em>, annoncé disponible le <strong>27 novembre 2026</strong>. Le site propose déjà plusieurs éditions en précommande.</p><h2>Le repère à retenir</h2><p>La date de disponibilité et les formats proposés sont à vérifier sur la <a href=\"https://marinemusique.fr/\" target=\"_blank\" rel=\"noopener noreferrer\">boutique officielle de Marine</a>. CFO renvoie directement à cette source professionnelle pour suivre les éventuelles mises à jour.</p><h2>Pour prolonger l’écoute</h2><p>Notre dossier <a href=\"/marine-ce-qui-brulait-deja/\">« Marine : ce qui brûlait déjà »</a> propose un regard éditorial autour de ce nouvel horizon. Les <a href=\"/entre-les-lignes/\">dossiers Entre les lignes</a> permettent aussi de revenir sur les chansons qui l’ont précédé.</p><p><small>Vérification CFO : 27 octobre 2026. Source : boutique officielle marinemusique.fr. CFO est un média indépendant et non officiel.</small></p>",
+        "wp_id": 3383,
+        "status": "draft",
+        "review_url": "https://chroniques-fille-ordinaire.com/wp-admin/post.php?post=3383&action=edit"
+      },
+      {
+        "slug": "marine-ecoutes-spotify-radio-semaine-20-26-octobre-2026",
+        "title": "Marine : les écoutes Spotify progressent, la radio reste stable",
+        "excerpt": "Du 20 au 26 octobre, le catalogue qualifié gagne 4,5 % d’écoutes sur Spotify. La présence radio reste globalement stable. Voici ce que ces chiffres permettent de dire.",
+        "content": "<p><strong>Du 20 au 26 octobre 2026, les écoutes Spotify progressent modérément tandis que la présence radio reste globalement stable.</strong> Les deux mesures décrivent des activités différentes : elles ne démontrent pas un lien de causalité.</p><h2>Une hausse de 4,5 % des écoutes</h2><p>Le catalogue qualifié par CFO totalise <strong>1 072 993 écoutes Spotify</strong> sur la période, contre <strong>1 027 104</strong> sur les sept jours précédents. L’écart est de 45 889 écoutes, soit <strong>+4,5 %</strong> après arrondi.</p><h2>Une présence radio globalement stable</h2><p>Sur les mêmes dates, le périmètre radio suivi compte <strong>2 123 passages</strong>, contre <strong>2 137</strong> sur la période précédente : <strong>−0,7 %</strong>. Cette variation est classée stable selon le seuil CFO inférieur à 1 % en valeur absolue.</p><h2>Ce que nous pouvons conclure</h2><p>L’écoute du catalogue progresse alors que la diffusion radio varie peu. Ce constat porte sur les périmètres suivis, sans attribuer la hausse à une émission, une récompense ou une campagne particulière.</p><p>Les chiffres et leurs dates sont consultables dans <a href=\"/observatoire-cfo/\">l’Observatoire CFO</a>. Le périmètre Spotify comprend 32 enregistrements qualifiés, avec application des règles de déduplication CFO ; il ne correspond pas à une mesure d’auditeurs uniques.</p><p><small>Source : relevés Soundcharts et calculs CFO, extraction vérifiée le 27 octobre 2026. Photographie éditoriale de la semaine du 20 au 26 octobre ; les données du cockpit peuvent ensuite évoluer.</small></p>",
+        "wp_id": 3384,
+        "status": "draft",
+        "review_url": "https://chroniques-fille-ordinaire.com/wp-admin/post.php?post=3384&action=edit"
+      }
+    ]
+  },
+  "diffusion": {
+    "initial_total": 83,
+    "initial_counts": {
+      "published": 77,
+      "draft": 6,
+      "scheduled": 0
+    },
+    "candidates": [
+      {
+        "key": "information",
+        "platform": "facebook",
+        "channel_id": "UryqSPGm",
+        "caption": "Marine annonce « Le feu, le brasier, le magma » pour le 27 novembre.\n\nLa boutique officielle présente déjà les éditions en précommande. Sur CFO, nous rassemblons la date, la source et les liens pour prolonger l’écoute.\n\nLes repères vérifiés : https://chroniques-fille-ordinaire.com/marine-le-feu-le-brasier-le-magma-27-novembre/?utm_source=facebook&utm_medium=social&utm_campaign=cfo_marine_20261027&utm_content=information_feed_a",
+        "url": "https://chroniques-fille-ordinaire.com/marine-le-feu-le-brasier-le-magma-27-novembre/?utm_source=facebook&utm_medium=social&utm_campaign=cfo_marine_20261027&utm_content=information_feed_a",
+        "post_id": "nHIWszs9",
+        "ready": false,
+        "blockers": [
+          "Article WordPress en brouillon ; accord de publication requis",
+          "Aperçu de partage à valider",
+          "Validation éditoriale avant diffusion"
+        ],
+        "status": "Draft",
+        "published_at": null,
+        "attachment_count": 0
+      },
+      {
+        "key": "information",
+        "platform": "instagram",
+        "channel_id": "SEgJIZq6",
+        "caption": "« Le feu, le brasier, le magma » : rendez-vous le 27 novembre.\n\nLa boutique officielle de Marine présente le nouvel album et ses éditions en précommande. CFO rassemble les repères vérifiés et les relie à notre dossier « Marine : ce qui brûlait déjà ».\n\nÀ lire sur chroniques-fille-ordinaire.com.\n\nSource : boutique officielle Marine, vérifiée le 27 octobre 2026.\n#Marine #CFO #Musique",
+        "url": "https://chroniques-fille-ordinaire.com/marine-le-feu-le-brasier-le-magma-27-novembre/?utm_source=instagram&utm_medium=social&utm_campaign=cfo_marine_20261027&utm_content=information_feed_a",
+        "post_id": "W7R5IHVP",
+        "ready": false,
+        "blockers": [
+          "Article WordPress en brouillon ; accord de publication requis",
+          "Visuel officiel CFO provisoire ; déclinaison propre au sujet à finaliser",
+          "Lien de profil et attribution à contrôler",
+          "Validation éditoriale avant diffusion"
+        ],
+        "status": "Draft",
+        "published_at": null,
+        "attachment_count": 1
+      },
+      {
+        "key": "information",
+        "platform": "x",
+        "channel_id": "DLEXyf2P",
+        "caption": "Marine : album annoncé pour le 27 novembre. Les repères CFO : https://chroniques-fille-ordinaire.com/marine-le-feu-le-brasier-le-magma-27-novembre/?utm_source=x&utm_medium=social&utm_campaign=cfo_marine_20261027&utm_content=information_feed_a",
+        "url": "https://chroniques-fille-ordinaire.com/marine-le-feu-le-brasier-le-magma-27-novembre/?utm_source=x&utm_medium=social&utm_campaign=cfo_marine_20261027&utm_content=information_feed_a",
+        "post_id": "SyQ1pxn4",
+        "ready": false,
+        "blockers": [
+          "Article WordPress en brouillon ; accord de publication requis",
+          "Aperçu de partage à valider",
+          "Validation éditoriale avant diffusion"
+        ],
+        "status": "Draft",
+        "published_at": null,
+        "attachment_count": 0
+      },
+      {
+        "key": "gemme",
+        "platform": "facebook",
+        "channel_id": "UryqSPGm",
+        "caption": "Continuer ne signifie pas oublier.\n\nÀ partir de « Gemme » de Marine, notre dossier explore la mémoire, les gestes et les objets qui font vivre le lien après une perte.\n\nUne lecture à retrouver, à garder ou à partager avec quelqu’un à qui elle pourrait parler.\n\nLire le dossier : https://chroniques-fille-ordinaire.com/gemme-traverser-le-deuil-et-faire-vivre-le-lien/?utm_source=facebook&utm_medium=social&utm_campaign=cfo_marine_20261027&utm_content=gemme_feed_a",
+        "url": "https://chroniques-fille-ordinaire.com/gemme-traverser-le-deuil-et-faire-vivre-le-lien/?utm_source=facebook&utm_medium=social&utm_campaign=cfo_marine_20261027&utm_content=gemme_feed_a",
+        "post_id": "xnMh1vBf",
+        "ready": false,
+        "blockers": [
+          "Aperçu de partage à valider",
+          "Validation éditoriale avant diffusion"
+        ],
+        "status": "Draft",
+        "published_at": null,
+        "attachment_count": 0
+      },
+      {
+        "key": "gemme",
+        "platform": "instagram",
+        "channel_id": "SEgJIZq6",
+        "caption": "Continuer ne signifie pas oublier.\n\nÀ partir de « Gemme » de Marine, CFO explore ces souvenirs, ces objets et ces gestes qui font vivre le lien après une perte.\n\nUn dossier pour prendre le temps de lire et de réfléchir à ce que l’on garde en soi.\n\n« Gemme : traverser le deuil et faire vivre le lien », sur chroniques-fille-ordinaire.com.\n#Marine #Gemme #CFO",
+        "url": "https://chroniques-fille-ordinaire.com/gemme-traverser-le-deuil-et-faire-vivre-le-lien/?utm_source=instagram&utm_medium=social&utm_campaign=cfo_marine_20261027&utm_content=gemme_feed_a",
+        "post_id": "SfJr7s2I",
+        "ready": false,
+        "blockers": [
+          "Visuel officiel CFO provisoire ; déclinaison propre au sujet à finaliser",
+          "Lien de profil et attribution à contrôler",
+          "Validation éditoriale avant diffusion"
+        ],
+        "status": "Draft",
+        "published_at": null,
+        "attachment_count": 1
+      },
+      {
+        "key": "gemme",
+        "platform": "x",
+        "channel_id": "DLEXyf2P",
+        "caption": "« Gemme » : mémoire et lien après une perte. Le dossier CFO : https://chroniques-fille-ordinaire.com/gemme-traverser-le-deuil-et-faire-vivre-le-lien/?utm_source=x&utm_medium=social&utm_campaign=cfo_marine_20261027&utm_content=gemme_feed_a",
+        "url": "https://chroniques-fille-ordinaire.com/gemme-traverser-le-deuil-et-faire-vivre-le-lien/?utm_source=x&utm_medium=social&utm_campaign=cfo_marine_20261027&utm_content=gemme_feed_a",
+        "post_id": "MJyiaDvd",
+        "ready": false,
+        "blockers": [
+          "Aperçu de partage à valider",
+          "Validation éditoriale avant diffusion"
+        ],
+        "status": "Draft",
+        "published_at": null,
+        "attachment_count": 0
+      },
+      {
+        "key": "donnee",
+        "platform": "facebook",
+        "channel_id": "UryqSPGm",
+        "caption": "Les écoutes Spotify progressent ; la radio reste globalement stable.\n\nDu 20 au 26 octobre, le catalogue qualifié de Marine compte 1 072 993 écoutes Spotify (+4,5 %) et 2 123 passages radio (−0,7 %).\n\nDeux mesures différentes, une même période : ces chiffres décrivent une évolution, sans en prouver la cause.\n\nComprendre les chiffres, leur source et leurs limites : https://chroniques-fille-ordinaire.com/marine-ecoutes-spotify-radio-semaine-20-26-octobre-2026/?utm_source=facebook&utm_medium=social&utm_campaign=cfo_marine_20261027&utm_content=donnee_feed_a",
+        "url": "https://chroniques-fille-ordinaire.com/marine-ecoutes-spotify-radio-semaine-20-26-octobre-2026/?utm_source=facebook&utm_medium=social&utm_campaign=cfo_marine_20261027&utm_content=donnee_feed_a",
+        "post_id": "NiO2CaXe",
+        "ready": false,
+        "blockers": [
+          "Article WordPress en brouillon ; accord de publication requis",
+          "Aperçu de partage à valider",
+          "Validation éditoriale avant diffusion"
+        ],
+        "status": "Draft",
+        "published_at": null,
+        "attachment_count": 0
+      },
+      {
+        "key": "donnee",
+        "platform": "instagram",
+        "channel_id": "SEgJIZq6",
+        "caption": "+4,5 % d’écoutes Spotify. Une radio globalement stable.\n\nDu 20 au 26 octobre 2026 :\n• 1 072 993 écoutes Spotify sur le catalogue qualifié CFO ;\n• 2 123 passages radio, soit −0,7 %.\n\nLes deux mesures portent sur des périmètres distincts. Elles décrivent des mouvements sans prouver de lien de causalité.\n\nSource : Soundcharts et calculs CFO. Le détail et les limites sont à lire sur chroniques-fille-ordinaire.com.\n#Marine #CFO #Musique",
+        "url": "https://chroniques-fille-ordinaire.com/marine-ecoutes-spotify-radio-semaine-20-26-octobre-2026/?utm_source=instagram&utm_medium=social&utm_campaign=cfo_marine_20261027&utm_content=donnee_feed_a",
+        "post_id": "byMgTj3P",
+        "ready": false,
+        "blockers": [
+          "Article WordPress en brouillon ; accord de publication requis",
+          "Visuel officiel CFO provisoire ; déclinaison propre au sujet à finaliser",
+          "Lien de profil et attribution à contrôler",
+          "Validation éditoriale avant diffusion"
+        ],
+        "status": "Draft",
+        "published_at": null,
+        "attachment_count": 1
+      },
+      {
+        "key": "donnee",
+        "platform": "x",
+        "channel_id": "DLEXyf2P",
+        "caption": "Marine, 20–26/10 : Spotify +4,5 %, radio stable (−0,7 %). Le détail CFO : https://chroniques-fille-ordinaire.com/marine-ecoutes-spotify-radio-semaine-20-26-octobre-2026/?utm_source=x&utm_medium=social&utm_campaign=cfo_marine_20261027&utm_content=donnee_feed_a",
+        "url": "https://chroniques-fille-ordinaire.com/marine-ecoutes-spotify-radio-semaine-20-26-octobre-2026/?utm_source=x&utm_medium=social&utm_campaign=cfo_marine_20261027&utm_content=donnee_feed_a",
+        "post_id": "u6enZR4p",
+        "ready": false,
+        "blockers": [
+          "Article WordPress en brouillon ; accord de publication requis",
+          "Aperçu de partage à valider",
+          "Validation éditoriale avant diffusion"
+        ],
+        "status": "Draft",
+        "published_at": null,
+        "attachment_count": 0
+      }
+    ],
+    "reused_drafts": [
+      "MJyiaDvd",
+      "xnMh1vBf"
+    ],
+    "new_drafts": 7,
+    "publication": "aucune ; tous Draft",
+    "tracking": "Convention UTM préparée pour FB/X ; réception GA4 et lecture qualifiée non vérifiées. Instagram : profil à raccorder."
+  },
+  "validation": {
+    "automated": "5 fichiers de tests, 9 tests Node et 12 cas de pertinence intégrés : réussis",
+    "browser": "Message, chiffres, dates et sens des tendances contrôlés en preview ; reprise accessibilité et lisibilité incluse au second commit",
+    "remaining": [
+      "Recette mobile/clavier/zoom et états vide/erreur",
+      "Alignement accueil/Observatoire",
+      "Raccordement des sources sociales",
+      "Traitement Arachnée 503 et Artmedia connexion interrompue",
+      "Santé des séries YouTube et Shazam anciennes",
+      "GA4 et événement lecture qualifiée",
+      "Déclinaisons visuelles propres aux sujets et lien Instagram",
+      "Observations 7 jours et revue 14 jours après activation"
+    ]
+  },
+  "approval": {
+    "action": "Publication des articles WordPress 3383 et 3384",
+    "status": "rejet automatique ; brouillons créés à la place",
+    "reason": "La revue automatique exige un accord sur les textes précis avant leur publication publique",
+    "no_retry_or_alternative_publish": true
+  }
+}

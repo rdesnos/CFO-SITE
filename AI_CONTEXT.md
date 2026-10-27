@@ -65,6 +65,10 @@ Plans d'action detailles : [Coordination des trois chantiers](docs/plans-actions
 
 Le cadrage est valide ; sa presence dans Git n'atteste pas la realisation des chantiers. Controler le rendu public, les parcours et les resultats avant d'annoncer leur achevement.
 
+## Execution des trois chantiers — 27 octobre 2026
+
+Premier lot engage : [etat verifie et reste a faire](docs/execution-cfo-marine-2026-10-27.md), [textes proposes](docs/contenus-cfo-marine-2026-10-27.md), [pilote Viraly](docs/pilote-viraly-cfo-marine-2026-10-27.md). Fonctions Supabase corrigees et deployees ; cockpit en previsualisation ; deux articles WordPress et neuf candidats Viraly en brouillon. Aucune publication de ce lot. Ne pas confondre preparation et activation publique. La publication des deux articles a ete refusee par la revue automatique en attente d'accord sur leurs textes precis.
+
 ## Architecture du POC
 
 - WordPress : publication et experience Web.

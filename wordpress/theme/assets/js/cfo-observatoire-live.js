@@ -158,6 +158,9 @@
     });
     const poly=svg.querySelector('polyline');
     if(poly)poly.setAttribute('points',pts.map(p=>p.x.toFixed(1)+','+p.y.toFixed(1)).join(' '));
+    // The server-rendered overlay belongs to the old snapshot. Current points
+    // carry their own dated tooltips and must not expose that stale series.
+    svg.parentElement?.querySelector('.cfo-spark-hit')?.remove();
     svg.querySelectorAll('.cfo-spark-point').forEach(n=>n.remove());
     pts.forEach(p=>{
       const c=document.createElementNS('http://www.w3.org/2000/svg','circle');
@@ -169,6 +172,7 @@
       c.dataset.cfoDate=String(p.row.date||'');
       c.dataset.cfoValue=String(p.row.value);
       c.dataset.cfoLabel=label;
+      c.setAttribute('aria-label',datefr(p.row.date)+' — '+fmt(p.row.value));
       svg.appendChild(c);
     });
     svg.setAttribute('aria-label',label+' : survolez chaque point pour la valeur exacte');
@@ -349,9 +353,12 @@
     reading.replaceChildren();
     const heading=document.createElement('h2');heading.textContent='Ce que montrent les relevés';
     const message=document.createElement('p');message.className='cfo-reading-message';
+    message.style.cssText='font-size:20px;line-height:1.5;font-weight:600;margin:0 0 12px';
     message.textContent=trendMessage(streaming.weekly_rate,'Écoutes Spotify')+' ; '+trendMessage(airplay.change_7d_pct,'présence radio')+'.';
     const evidence=document.createElement('p');evidence.textContent=fmt(streaming.weekly_current)+' écoutes, '+pct(streaming.weekly_rate)+' ; '+fmt(airplay.spins_7d)+' passages radio, '+pct(airplay.change_7d_pct)+'. Du '+datefr(streaming.period_start)+' au '+datefr(streaming.period_end)+', comparé aux sept jours précédents. Source : Soundcharts / CFO.';
     const detail=document.createElement('p');detail.textContent=trendMessage(audience.change_7d_pct,'Audience mensuelle Spotify')+' sur sept jours, relevé au '+datefr(audience.observation_date)+'. Ces mouvements ne prouvent pas un lien de causalité.';
+    evidence.style.cssText='font-size:16px;line-height:1.6;margin:0 0 10px;max-width:75ch';
+    detail.style.cssText='display:block;font-size:14px;line-height:1.6;max-width:85ch';
     reading.append(heading,message,evidence,detail);
     const motors=root.querySelectorAll('.cfo-motor');
     const cards=[
