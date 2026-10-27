@@ -3,7 +3,7 @@ const fs = require("node:fs");
 const path = require("node:path");
 
 const source = fs.readFileSync(
-  path.join(__dirname, "cfo-news-collector-index.ts"),
+  path.join(__dirname, "../supabase/functions/cfo-news-collector/index.ts"),
   "utf8",
 );
 
@@ -34,3 +34,4 @@ assert.match(
 );
 
 console.log("news collector editorial-preservation checks passed");
+

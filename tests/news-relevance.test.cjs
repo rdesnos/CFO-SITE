@@ -2,16 +2,14 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
+const { stripTypeScriptTypes } = require('node:module');
 
 // Exercise the actual collector predicate without fetching feeds or writing data.
 const source = fs.readFileSync(path.join(__dirname, '../supabase/functions/cfo-news-collector/index.ts'), 'utf8');
-const directTerms = source.match(/^const directTerms = .*;$/m)?.[0];
-const normalize = source.match(/^function normalize\(s:string\)\{.*\}$/m)?.[0];
-const predicate = source.match(/^function relevant\(title:string,description:string\)\{.*\}$/m)?.[0];
-assert.ok(directTerms && normalize && predicate, 'Collector relevance predicate must be found');
-const relevant = vm.runInNewContext(
-  `${directTerms}\n${normalize.replace('(s:string)', '(s)')}\n${predicate.replace('(title:string,description:string)', '(title,description)')}\nrelevant`
-);
+const executable = stripTypeScriptTypes(source).replace(/^import .*;$/gm, '');
+const relevant = vm.runInNewContext(executable+'\nrelevant', {
+  Deno:{env:{get:()=>''},serve:()=>{}},createClient:()=>({}),
+});
 const cases = [
   ['Marine Lorphelin donne de ses nouvelles', '', false],
   ['Marine Le Pen annonce une nouvelle campagne', '', false],
@@ -28,3 +26,4 @@ const cases = [
 ];
 for (const [title, description, expected] of cases) assert.equal(relevant(title, description), expected, title);
 console.log(`${cases.length} relevance cases passed`);
+

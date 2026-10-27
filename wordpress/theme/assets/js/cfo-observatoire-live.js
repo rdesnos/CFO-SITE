@@ -1,4 +1,22 @@
 (function(){
+  function trendState(value){
+    if(value==null||value===''||!Number.isFinite(Number(value)))return 'missing';
+    const n=Number(value);
+    return Math.abs(n)<1?'neutral':n>0?'up':'down';
+  }
+  function trendMessage(value,subject){
+    const state=trendState(value);
+    if(state==='missing')return subject+' : comparaison indisponible';
+    if(state==='neutral')return subject+' : stabilité globale';
+    const strength=Math.abs(Number(value))>=5?'marquée':'modérée';
+    return subject+' : '+(state==='up'?'hausse':'baisse')+' '+strength;
+  }
+  function validSeries(rows){
+    return (Array.isArray(rows)?rows:[]).filter(r=>r&&r.value!=null&&r.value!==''&&Number.isFinite(Number(r.value)));
+  }
+  // Pure helpers are also exercised by Node without a browser or network.
+  if(typeof module==='object'&&module.exports){module.exports={trendState,trendMessage,validSeries};return;}
+
   const RPC='https://fjpcuxsezeuajhlotzij.supabase.co/rest/v1/rpc/';
   const KEY='sb_publishable_VTwtMvGk29IDrz__M99Yag_TYrLzTRG';
 
@@ -113,7 +131,8 @@
 
 
   function chartHeightSeries(container,rows,label){
-    if(!container||!Array.isArray(rows)||!rows.length)return;
+    rows=validSeries(rows);
+    if(!container||!rows.length)return;
     const values=rows.map(r=>Number(r.value)).filter(Number.isFinite);
     if(!values.length)return;
     const min=Math.min.apply(null,values), max=Math.max.apply(null,values), span=max-min||1;
@@ -126,7 +145,8 @@
   }
 
   function chartSparkline(svg,rows,label){
-    if(!svg||!Array.isArray(rows)||rows.length<2)return;
+    rows=validSeries(rows);
+    if(!svg||rows.length<2)return;
     const values=rows.map(r=>Number(r.value)).filter(Number.isFinite);
     if(values.length<2)return;
     const min=Math.min.apply(null,values), max=Math.max.apply(null,values), span=max-min||1;
@@ -177,9 +197,17 @@
     const airplay=marine.airplay||{};
     const social=marine.social||{};
     const tracks=Array.isArray(marine.tracks)?marine.tracks:[];
+    const setTrend=(card,value)=>{
+      if(!card)return;
+      const state=trendState(value);
+      card.classList.remove('up','down','neutral');
+      card.classList.add(state==='missing'?'neutral':state);
+      card.dataset.trend=state;
+    };
 
     const kpis=root.querySelectorAll('.cfo-synth-grid.kpis .kpi-card');
     const audienceCard=kpis[0], streamsCard=kpis[1], airplayCard=kpis[2], socialCard=kpis[3];
+    [audience.change_7d_pct,streaming.weekly_rate,airplay.change_7d_pct,social.change_7d_pct].forEach((value,i)=>setTrend(kpis[i],value));
 
     if(audienceCard){
       const v=audienceCard.querySelector('.value');
@@ -221,7 +249,7 @@
       const d=socialCard.querySelector('.delta');
       const ul=socialCard.querySelector('ul');
       if(v)v.textContent=fmt(social.total);
-      if(d)d.textContent=pct(social.change_7d_pct);
+      if(d)d.textContent=pct(social.change_7d_pct)+' · dates propres à chaque réseau';
       if(ul)ul.innerHTML=
         '<li><span>Instagram</span><b>'+fmt(social.instagram)+'</b></li>'+
         '<li><span>TikTok</span><b>'+fmt(social.tiktok)+'</b></li>'+
@@ -238,7 +266,7 @@
       if(td[2])td[2].textContent=fmt(t.weekly_current);
       if(td[3]){
         td[3].textContent=pct(t.weekly_rate);
-        td[3].className=Number(t.weekly_rate)>=0?'up':'down';
+        td[3].className=trendState(t.weekly_rate)==='missing'?'neutral':trendState(t.weekly_rate);
       }
       if(td[4])td[4].textContent=fmt(t.current_streams);
       if(td[5])td[5].textContent='—';
@@ -247,6 +275,7 @@
     });
 
     const channels=root.querySelectorAll('.cfo-synth-grid.channels .cfo-channel');
+    [audience.change_7d_pct,streaming.weekly_rate,airplay.change_7d_pct,social.tiktok_change_7d_pct,social.instagram_change_7d_pct].forEach((value,i)=>setTrend(channels[i],value));
     if(channels[0]){
       channels[0].querySelector('.value').textContent=compact(audience.spotify_monthly_listeners);
       channels[0].querySelector('.delta').textContent=pct(audience.change_7d_pct);
@@ -314,15 +343,27 @@
   }
 
   function updateMarineNarrative(root,marine,series){
-    const streaming=marine.streaming||{}, audience=marine.audience||{}, social=marine.social||{};
+    const streaming=marine.streaming||{}, audience=marine.audience||{}, social=marine.social||{}, airplay=marine.airplay||{};
+    let reading=root.querySelector('.cfo-reading-summary');
+    if(!reading){reading=document.createElement('section');reading.className='cfo-synth-section cfo-synth-card cfo-reading-summary';reading.setAttribute('aria-label','Lecture de la semaine');root.prepend(reading);}
+    reading.replaceChildren();
+    const heading=document.createElement('h2');heading.textContent='Ce que montrent les relevés';
+    const message=document.createElement('p');message.className='cfo-reading-message';
+    message.textContent=trendMessage(streaming.weekly_rate,'Écoutes Spotify')+' ; '+trendMessage(airplay.change_7d_pct,'présence radio')+'.';
+    const evidence=document.createElement('p');evidence.textContent=fmt(streaming.weekly_current)+' écoutes, '+pct(streaming.weekly_rate)+' ; '+fmt(airplay.spins_7d)+' passages radio, '+pct(airplay.change_7d_pct)+'. Du '+datefr(streaming.period_start)+' au '+datefr(streaming.period_end)+', comparé aux sept jours précédents. Source : Soundcharts / CFO.';
+    const detail=document.createElement('p');detail.textContent=trendMessage(audience.change_7d_pct,'Audience mensuelle Spotify')+' sur sept jours, relevé au '+datefr(audience.observation_date)+'. Ces mouvements ne prouvent pas un lien de causalité.';
+    reading.append(heading,message,evidence,detail);
     const motors=root.querySelectorAll('.cfo-motor');
     const cards=[
-      {title:'Dynamique du catalogue',signal:'Catalogue Spotify',a:'Streams sur 7 jours',av:fmt(streaming.weekly_current),b:'Variation S/S-1',bv:pct(streaming.weekly_rate),date:streaming.observation_date,rows:series.streaming_daily},
-      {title:'Dynamique de l’audience',signal:'Audience Spotify',a:'Auditeurs mensuels',av:fmt(audience.spotify_monthly_listeners),b:'Variation sur 7 jours',bv:pct(audience.change_7d_pct),date:audience.observation_date,rows:series.audience_spotify?.slice(-7)},
-      {title:'Lecture croisée',signal:'Social / Spotify',a:'Abonnements sociaux · 7 j',av:pct(social.change_7d_pct),b:'Auditeurs Spotify · 7 j',bv:pct(audience.change_7d_pct),date:audience.observation_date,rows:[]}
+      {title:'Dynamique du catalogue',signal:trendMessage(streaming.weekly_rate,'Les écoutes'),rate:streaming.weekly_rate,a:'Streams sur 7 jours',av:fmt(streaming.weekly_current),b:'Variation S/S-1',bv:pct(streaming.weekly_rate),date:streaming.observation_date,rows:series.streaming_daily},
+      {title:'Dynamique de l’audience',signal:trendMessage(audience.change_7d_pct,'L’audience Spotify'),rate:audience.change_7d_pct,a:'Auditeurs mensuels',av:fmt(audience.spotify_monthly_listeners),b:'Variation sur 7 jours',bv:pct(audience.change_7d_pct),date:audience.observation_date,rows:series.audience_spotify?.slice(-7)},
+      {title:'Lecture croisée',signal:'Des périodes distinctes à comparer avec précaution',rate:null,a:'Abonnements sociaux · 7 j',av:pct(social.change_7d_pct),b:'Auditeurs Spotify · 7 j',bv:pct(audience.change_7d_pct),date:audience.observation_date,rows:[]}
     ];
     motors.forEach((card,i)=>{
       const data=cards[i];if(!data)return;
+      const state=trendState(data.rate);
+      card.classList.remove('up','down','neutral','watchtone');card.classList.add(state==='missing'?'neutral':state);
+      const arrow=card.querySelector('.motor-title span');if(arrow)arrow.textContent=state==='up'?'↗':state==='down'?'↘':state==='neutral'?'→':'—';
       const title=card.querySelector('.motor-title b'),signal=card.querySelector('.signal'),pill=card.querySelector('.pill');
       if(title)title.textContent=data.title;if(signal)signal.textContent=data.signal;
       const pairs=card.querySelectorAll('.pair');
@@ -335,7 +376,7 @@
     if(socialNote)socialNote.textContent='Abonnements sociaux : '+pct(social.change_7d_pct)+' · audience Spotify : '+pct(audience.change_7d_pct)+' sur 7 jours. Dates propres à chaque canal.';
     if(streamNote)streamNote.textContent='Catalogue qualifié : '+pct(streaming.weekly_rate)+' vs S-1 · période du '+datefr(streaming.period_start)+' au '+datefr(streaming.period_end)+'.';
     const streamTitle=watches[2]?.querySelector('strong');if(streamTitle)streamTitle.textContent='Dynamique du catalogue';
-    const heading=document.querySelector('.mhs-title span');if(heading)heading.textContent='du '+datefr(streaming.period_start)+' au '+datefr(streaming.period_end);
+    const periodHeading=document.querySelector('.mhs-title span');if(periodHeading)periodHeading.textContent='du '+datefr(streaming.period_start)+' au '+datefr(streaming.period_end);
   }
 
   function updateHealth(health,changes=[],shazam=[]){
@@ -395,3 +436,4 @@
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',run);
   else run();
 })();
+

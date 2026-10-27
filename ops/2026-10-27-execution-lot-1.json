@@ -1,0 +1,1005 @@
+{
+  "observed_at": "2026-10-27",
+  "scope": "CFO Marine",
+  "status": "execution_lot_1",
+  "information": {
+    "sources": [
+      {
+        "id": "626c990d-e4a5-4a04-829f-a668efb0f590",
+        "url": "https://bio.to/marined",
+        "feed": null,
+        "name": "Marine Hub officiel",
+        "tier": "platinum",
+        "error": null,
+        "active": true,
+        "status": "active",
+        "success": "2026-10-27T09:05:02.74+00:00",
+        "platform": "web",
+        "collector": "web"
+      },
+      {
+        "id": "2b1f265e-c2e4-4d48-ada1-c49d656324c3",
+        "url": "https://www.sonymusic.fr/artist/marine-2/",
+        "feed": null,
+        "name": "Sony Music France - Marine",
+        "tier": "gold",
+        "error": null,
+        "active": true,
+        "status": "active",
+        "success": "2026-10-27T09:05:09.821+00:00",
+        "platform": "web",
+        "collector": "web"
+      },
+      {
+        "id": "cb9f1e00-7d09-43d1-b7cd-63752df2fcf3",
+        "url": "https://www.arachnee-productions.com/artiste-arachnee-productions/marine/",
+        "feed": null,
+        "name": "Arachnée Productions - Marine",
+        "tier": "gold",
+        "error": "Error: homepage 503",
+        "active": true,
+        "status": "active",
+        "success": "2026-10-22T09:05:15.022+00:00",
+        "platform": "web",
+        "collector": "web"
+      },
+      {
+        "id": "f4ff4191-c651-4fd1-90ba-a791c94b98f9",
+        "url": "https://www.youtube.com/@marinedmusique",
+        "feed": null,
+        "name": "Marine YouTube",
+        "tier": "platinum",
+        "error": null,
+        "active": true,
+        "status": "active",
+        "success": "2026-10-27T09:05:11.88+00:00",
+        "platform": "youtube",
+        "collector": "youtube"
+      },
+      {
+        "id": "a897ed9a-3c57-4f44-bfe2-fc6e434ee275",
+        "url": "https://www.tiktok.com/@marinedmusique",
+        "feed": null,
+        "name": "Marine TikTok",
+        "tier": "platinum",
+        "error": null,
+        "active": true,
+        "status": "active",
+        "success": "2026-10-27T09:05:12.429+00:00",
+        "platform": "tiktok",
+        "collector": "social_external"
+      },
+      {
+        "id": "83ae7a9b-d9d8-4eb1-a406-ed02badd3e84",
+        "url": "https://www.instagram.com/marinedmusique/",
+        "feed": null,
+        "name": "Marine Instagram",
+        "tier": "platinum",
+        "error": null,
+        "active": true,
+        "status": "active",
+        "success": "2026-10-27T09:05:13.434+00:00",
+        "platform": "instagram",
+        "collector": "social_external"
+      },
+      {
+        "id": "30f8171a-fd43-4a77-8ff2-87aa70329532",
+        "url": "https://soirmag.lesoir.be/",
+        "feed": null,
+        "name": "Soirmag",
+        "tier": "silver",
+        "error": null,
+        "active": true,
+        "status": "active",
+        "success": "2026-10-27T09:20:20.889+00:00",
+        "platform": null,
+        "collector": "web"
+      },
+      {
+        "id": "23fbebaf-a875-40c4-b8f3-658ba1268ad3",
+        "url": "https://www.europe2.fr/",
+        "feed": null,
+        "name": "Europe 2",
+        "tier": "silver",
+        "error": null,
+        "active": true,
+        "status": "active",
+        "success": "2026-10-27T09:20:28.555+00:00",
+        "platform": null,
+        "collector": "web"
+      },
+      {
+        "id": "60a0b33d-0e47-4a3d-a645-f1cbb2763fb6",
+        "url": "https://www.nrj.fr/",
+        "feed": null,
+        "name": "NRJ",
+        "tier": "silver",
+        "error": null,
+        "active": true,
+        "status": "active",
+        "success": "2026-10-27T09:20:34.623+00:00",
+        "platform": null,
+        "collector": "web"
+      },
+      {
+        "id": "47b55923-3052-4cd2-b8ee-f4980bb6ddf3",
+        "url": "https://www.lavoixdunord.fr/",
+        "feed": null,
+        "name": "La Voix du Nord",
+        "tier": "silver",
+        "error": null,
+        "active": true,
+        "status": "active",
+        "success": "2026-10-27T09:35:24.121+00:00",
+        "platform": null,
+        "collector": "web"
+      },
+      {
+        "id": "4eeebd28-711f-4b52-926c-db779ce01ebd",
+        "url": "https://www.allocine.fr/",
+        "feed": null,
+        "name": "AlloCine",
+        "tier": "silver",
+        "error": null,
+        "active": true,
+        "status": "active",
+        "success": "2026-10-27T09:35:24.958+00:00",
+        "platform": null,
+        "collector": "web"
+      },
+      {
+        "id": "a042b6eb-c197-419a-b2d1-d45f484eadb2",
+        "url": "https://www.marieclaire.fr/",
+        "feed": null,
+        "name": "Marie Claire",
+        "tier": "silver",
+        "error": null,
+        "active": true,
+        "status": "active",
+        "success": "2026-10-27T09:35:26.041+00:00",
+        "platform": null,
+        "collector": "web"
+      },
+      {
+        "id": "81113460-f81f-4d45-8453-a659183f5c9e",
+        "url": "https://www.artmedia.fr/",
+        "feed": null,
+        "name": "Artmedia",
+        "tier": "gold",
+        "error": "TypeError: error sending request for url (https://www.artmedia.fr/): client error (Connect): Connection reset by peer (os error 104)",
+        "active": true,
+        "status": "active",
+        "success": null,
+        "platform": "web",
+        "collector": "web"
+      }
+    ],
+    "latest_news": [
+      {
+        "id": "8b4169c1-b787-42d8-aa9b-159b42461118",
+        "title": "LE VLOG des NRJ Music Awards : Mosimann me juge, Marine lâche une exclu, Bigflo me clashe, Nikos me coache",
+        "source_url": "https://www.nrj.fr/actus/le-vlog-des-nrj-music-awards-mosimann-me-juge-marine-lache-une-exclu-bigflo-me-clashe-nikos-me-coache-71367267",
+        "detected_at": "2026-10-26T19:20:45.137355+00:00",
+        "source_name": "NRJ",
+        "source_tier": "silver",
+        "published_at": "2026-10-26T18:07:00+00:00"
+      },
+      {
+        "id": "b6fe689d-9dac-44f0-9f7a-f4e8d415de9e",
+        "title": "“Il est là, il est trop beau !”, Marine retrouve son cavalier pour les NRJ Music Awards",
+        "source_url": "https://www.nrj.fr/music-awards/actualites/il-est-la-il-est-trop-beau-marine-retrouve-son-cavalier-pour-les-nrj-music-awards-71367262",
+        "detected_at": "2026-10-26T16:20:29.996746+00:00",
+        "source_name": "NRJ",
+        "source_tier": "silver",
+        "published_at": "2026-10-26T15:11:00+00:00"
+      },
+      {
+        "id": "24a36c02-9d9f-4b34-9bdd-d07adf4cc7b4",
+        "title": "Marine : ce qui brûlait déjà",
+        "source_url": "https://chroniques-fille-ordinaire.com/marine-ce-qui-brulait-deja/",
+        "detected_at": "2026-10-26T11:54:58.583139+00:00",
+        "source_name": "CFO — Entre les lignes",
+        "source_tier": "silver",
+        "published_at": "2026-10-26T11:50:27+00:00"
+      },
+      {
+        "id": "eec38e36-285a-4397-b09a-8a3c00326d9e",
+        "title": "Marine sacrée Artiste Féminine Francophone aux NRJ Music Awards 2026",
+        "source_url": "https://www.nrj.fr/music-awards/actualites/cest-incroyable-marine-confirme-avec-le-trophee-dartiste-feminine-francophone-71367251",
+        "detected_at": "2026-10-25T09:41:22.933555+00:00",
+        "source_name": "NRJ",
+        "source_tier": "silver",
+        "published_at": "2026-10-23T22:24:00+00:00"
+      },
+      {
+        "id": "3e12eb7a-0d2d-41a5-83a2-6f8674dad5a8",
+        "title": "&quot;Avec quels nommés...&quot; Marine confie ses coups de cœur aux NRJ Music Awards",
+        "source_url": "https://www.nrj.fr/music-awards/actualites/avec-quels-nommes-marine-confie-ses-coups-de-coeur-aux-nrj-music-awards-71367235",
+        "detected_at": "2026-10-23T17:20:42.024276+00:00",
+        "source_name": "NRJ",
+        "source_tier": "silver",
+        "published_at": "2026-10-23T16:23:06+00:00"
+      },
+      {
+        "id": "784f9cd5-d000-4575-9a55-a8208f309325",
+        "title": "Marine de la « Star Academy » annonce une bonne nouvelle à ses fans",
+        "source_url": "https://soirmag.lesoir.be/777450/article/2026-10-17/marine-de-la-star-academy-annonce-une-bonne-nouvelle-ses-fans",
+        "detected_at": "2026-10-17T13:20:50.08932+00:00",
+        "source_name": "Soirmag",
+        "source_tier": "silver",
+        "published_at": "2026-10-17T13:05:58+00:00"
+      },
+      {
+        "id": "c6a5256e-63b8-4ef1-b936-661cfe8f85b1",
+        "title": "Marine : une « Revenge Party » à Paris le 14 octobre pour le prochain album",
+        "source_url": "https://marinemusique.fr/pages/reglement-du-jeu-revenge-party",
+        "detected_at": "2026-10-04T06:28:04.291994+00:00",
+        "source_name": "Columbia / Sony Music — boutique Marine",
+        "source_tier": "silver",
+        "published_at": null
+      },
+      {
+        "id": "0187b45f-da37-48ec-baee-63b98c4676f4",
+        "title": "Philypa Phoenix — liens officiels et actualité",
+        "source_url": "https://linktr.ee/philypa_phoenix",
+        "detected_at": "2026-10-02T20:53:17.333357+00:00",
+        "source_name": "Linktree officiel Philypa",
+        "source_tier": "silver",
+        "published_at": null
+      },
+      {
+        "id": "27907dc0-2862-41ac-91b4-c89323ffcebb",
+        "title": "Philypa Phoenix — site officiel",
+        "source_url": "https://www.philypaphoenix.com/",
+        "detected_at": "2026-10-02T20:53:17.333357+00:00",
+        "source_name": "Site officiel Philypa Phoenix",
+        "source_tier": "silver",
+        "published_at": null
+      },
+      {
+        "id": "a0a684ba-78b5-4c03-b358-adcbc9058f0a",
+        "title": "Philypa Phoenix — filmographie",
+        "source_url": "https://www.allocine.fr/personne/fichepersonne-621402/filmographie/",
+        "detected_at": "2026-10-02T20:53:17.333357+00:00",
+        "source_name": "AlloCine",
+        "source_tier": "silver",
+        "published_at": null
+      },
+      {
+        "id": "c5a8d7e7-8428-4470-b5ec-bbbe3a75ad0d",
+        "title": "Zodiaque — Philypa Phoenix dans le rôle de Nadia Roman",
+        "source_url": "https://tf1pro.com/programmes/episode/zodiaque-episode-1",
+        "detected_at": "2026-10-02T20:53:17.333357+00:00",
+        "source_name": "TF1 Pro",
+        "source_tier": "silver",
+        "published_at": null
+      },
+      {
+        "id": "95717bea-b3ac-4338-93f7-a39062f93127",
+        "title": "NRJ confirme la présence de Marine aux NRJ Music Awards du 23 octobre",
+        "source_url": "https://www.nrj.fr/music-awards/actualites/angele-orelsan-decouvrez-les-premiers-artistes-presents-aux-nrj-music-awards-71367129",
+        "detected_at": "2026-10-04T06:28:04.291994+00:00",
+        "source_name": "NRJ",
+        "source_tier": "silver",
+        "published_at": "2026-10-01T06:30:00+00:00"
+      },
+      {
+        "id": "d3c3f69d-7df5-43ea-b520-54d2c972e9b0",
+        "title": "Le 16/19 sur NRJ reçoit Marine, jeudi 1er octobre !",
+        "source_url": "https://www.nrj.fr/actus/evenements-nrj/le-16-19-sur-nrj-recoit-marine-jeudi-1er-octobre-71367108",
+        "detected_at": "2026-09-25T13:17:21.382608+00:00",
+        "source_name": "NRJ",
+        "source_tier": "silver",
+        "published_at": "2026-09-24T15:12:00+00:00"
+      },
+      {
+        "id": "54d9575d-8317-4b3b-8339-7b6e1487811b",
+        "title": "NRJ Fan Power : Marine et Adèle Castillon en duo sur “Été avec toi”",
+        "source_url": "https://www.nrj.fr/actus/nrj-fan-power-marine-et-adele-castillon-en-duo-sur-ete-avec-toi-71367073",
+        "detected_at": "2026-09-17T15:17:08.880382+00:00",
+        "source_name": "NRJ",
+        "source_tier": "silver",
+        "published_at": "2026-09-17T14:23:05+00:00"
+      },
+      {
+        "id": "4b99c2cc-5c33-455d-aaba-cf1b45671070",
+        "title": "Marine, Vitaa, Ambre… Les nommés réagissent",
+        "source_url": "https://www.nrj.fr/music-awards/actualites/marine-vitaa-ambre-les-nommes-reagissent-71367068",
+        "detected_at": "2026-09-16T16:18:30.727565+00:00",
+        "source_name": "NRJ",
+        "source_tier": "silver",
+        "published_at": "2026-09-16T15:55:00+00:00"
+      }
+    ],
+    "recent_runs": [
+      {
+        "errors": [
+          {
+            "error": "TypeError: error sending request for url (https://www.artmedia.fr/): client error (Connect): Connection reset by peer (os error 104)",
+            "source": "Artmedia"
+          }
+        ],
+        "status": "partial",
+        "items_seen": 0,
+        "started_at": "2026-10-27T09:35:02.351932+00:00",
+        "finished_at": "2026-10-27T09:35:26.269+00:00",
+        "items_inserted": 0,
+        "sources_checked": 4
+      },
+      {
+        "errors": [],
+        "status": "success",
+        "items_seen": 2,
+        "started_at": "2026-10-27T09:20:03.160688+00:00",
+        "finished_at": "2026-10-27T09:20:34.697+00:00",
+        "items_inserted": 0,
+        "sources_checked": 3
+      },
+      {
+        "errors": [
+          {
+            "error": "Error: homepage 503",
+            "source": "Arachnée Productions - Marine"
+          }
+        ],
+        "status": "partial",
+        "items_seen": 6,
+        "started_at": "2026-10-27T09:05:02.512169+00:00",
+        "finished_at": "2026-10-27T09:05:13.471+00:00",
+        "items_inserted": 0,
+        "sources_checked": 6
+      },
+      {
+        "errors": [
+          {
+            "error": "TypeError: error sending request for url (https://www.artmedia.fr/): client error (Connect): Connection reset by peer (os error 104)",
+            "source": "Artmedia"
+          }
+        ],
+        "status": "partial",
+        "items_seen": 0,
+        "started_at": "2026-10-27T08:35:01.579217+00:00",
+        "finished_at": "2026-10-27T08:35:14.855+00:00",
+        "items_inserted": 0,
+        "sources_checked": 4
+      },
+      {
+        "errors": [],
+        "status": "success",
+        "items_seen": 2,
+        "started_at": "2026-10-27T08:20:03.974266+00:00",
+        "finished_at": "2026-10-27T08:21:01.527+00:00",
+        "items_inserted": 0,
+        "sources_checked": 3
+      },
+      {
+        "errors": [
+          {
+            "error": "Error: homepage 503",
+            "source": "Arachnée Productions - Marine"
+          }
+        ],
+        "status": "partial",
+        "items_seen": 6,
+        "started_at": "2026-10-27T08:05:02.128599+00:00",
+        "finished_at": "2026-10-27T08:05:11.836+00:00",
+        "items_inserted": 0,
+        "sources_checked": 6
+      }
+    ],
+    "findings": [
+      "Absence de filtre artiste dans cfo-actu-feed.",
+      "Sources social_external et youtube annoncées à tort comme collectées par le collecteur Web.",
+      "Boutique officielle absente du registre."
+    ]
+  },
+  "data": {
+    "cache_refreshed_at": "2026-10-27T09:17:00.083898+00:00",
+    "findings": [
+      "RPC Marine fonctionnel avec relevés récents.",
+      "Flèches de baisse malgré valeurs en hausse.",
+      "Appel concurrent cfo_cockpit_snapshot : HTTP 500.",
+      "Brouillon WPVibe ancien ; publication globale hors périmètre à éviter."
+    ]
+  },
+  "diffusion": {
+    "total": 83,
+    "counts": {
+      "Draft": 6,
+      "Published": 77
+    },
+    "posts": [
+      {
+        "id": "3yyiPs31",
+        "status": "Draft",
+        "platform": "Facebook",
+        "published_at": null
+      },
+      {
+        "id": "85mJIIlR",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-02-09T12:14:37Z",
+        "url": "https://www.facebook.com/122139972405241239/posts/122105387871241239"
+      },
+      {
+        "id": "hk96OurD",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-01-31T17:19:42Z",
+        "url": "https://www.facebook.com/122139972405241239/posts/122098693785241239?substory_index=1446878873789304"
+      },
+      {
+        "id": "mDz732Xk",
+        "status": "Draft",
+        "platform": "Facebook",
+        "published_at": null
+      },
+      {
+        "id": "MJyiaDvd",
+        "status": "Draft",
+        "platform": "Twitter",
+        "published_at": null
+      },
+      {
+        "id": "npuUQiQk",
+        "status": "Draft",
+        "platform": "Instagram",
+        "published_at": null
+      },
+      {
+        "id": "rKvV6Jwg",
+        "status": "Draft",
+        "platform": "Twitter",
+        "published_at": null
+      },
+      {
+        "id": "vZoWJ3IQ",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-01-31T17:18:23Z",
+        "url": "https://www.facebook.com/122139972405241239/posts/2338911329921467?substory_index=2338911329921467"
+      },
+      {
+        "id": "xnMh1vBf",
+        "status": "Draft",
+        "platform": "Facebook",
+        "published_at": null
+      },
+      {
+        "id": "tkdJtFJI",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-10-16T10:30:00Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122148672531241239"
+      },
+      {
+        "id": "4TdDupfA",
+        "status": "Published",
+        "platform": "Instagram",
+        "published_at": "2026-10-06T10:42:25.969466Z",
+        "url": "https://www.instagram.com/p/DeJmFjmIFTW/"
+      },
+      {
+        "id": "4mRoeUPx",
+        "status": "Published",
+        "platform": "Twitter",
+        "published_at": "2026-10-06T10:42:25.619667Z",
+        "url": "https://x.com/CFOMarine/status/2107421236028453073"
+      },
+      {
+        "id": "Z88jeg1c",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-10-06T10:42:25.227754Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122147316537241239"
+      },
+      {
+        "id": "iSjijdGo",
+        "status": "Published",
+        "platform": "Instagram",
+        "published_at": "2026-10-06T09:38:42.1145Z",
+        "url": "https://www.instagram.com/p/DeJeyv7luAi/"
+      },
+      {
+        "id": "xrp2QM73",
+        "status": "Published",
+        "platform": "Twitter",
+        "published_at": "2026-10-06T09:38:42.1145Z",
+        "url": "https://x.com/CFOMarine/status/2107405200445038962"
+      },
+      {
+        "id": "imP87sqv",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-10-06T09:38:42.103127Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122147308761241239"
+      },
+      {
+        "id": "XVePtfdf",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-26T15:00:00Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122142018165241239"
+      },
+      {
+        "id": "DYM7EKjc",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-26T11:00:00Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122141993847241239"
+      },
+      {
+        "id": "1O1Ma5Hs",
+        "status": "Published",
+        "platform": "Twitter",
+        "published_at": "2026-08-26T08:30:00Z",
+        "url": "https://x.com/CFOMarine/status/2092530023513063559"
+      },
+      {
+        "id": "u1nABxxB",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-26T07:00:00Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122141954463241239"
+      },
+      {
+        "id": "Srn1b6wM",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-25T17:30:00Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122141878827241239"
+      },
+      {
+        "id": "2St5Kymq",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-25T13:30:00Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122141855343241239"
+      },
+      {
+        "id": "sgulwWmu",
+        "status": "Published",
+        "platform": "Twitter",
+        "published_at": "2026-08-25T12:30:00Z",
+        "url": "https://x.com/CFOMarine/status/2092228034426183790"
+      },
+      {
+        "id": "ejqxc6QQ",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-25T10:30:00Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122141838339241239"
+      },
+      {
+        "id": "2n0ElNoy",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-25T07:00:00Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122141815887241239"
+      },
+      {
+        "id": "rgpmUJw1",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-25T06:00:00Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122141812311241239"
+      },
+      {
+        "id": "q8SQmRdS",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-24T18:35:00Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122141755269241239"
+      },
+      {
+        "id": "xChPF8tV",
+        "status": "Published",
+        "platform": "Twitter",
+        "published_at": "2026-08-24T17:15:00Z",
+        "url": "https://x.com/CFOMarine/status/2091937369096176024"
+      },
+      {
+        "id": "ADsade6R",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-24T17:10:00Z",
+        "url": "https://facebook.com/reel/3502085683273221"
+      },
+      {
+        "id": "kMnAZBz1",
+        "status": "Published",
+        "platform": "Twitter",
+        "published_at": "2026-08-24T17:10:00Z",
+        "url": "https://x.com/CFOMarine/status/2091936111677288540"
+      },
+      {
+        "id": "t7eKuAtm",
+        "status": "Published",
+        "platform": "Instagram",
+        "published_at": "2026-08-24T17:10:00Z",
+        "url": "https://www.instagram.com/reel/Dcbj3NxE8DL/"
+      },
+      {
+        "id": "7vKPJt4p",
+        "status": "Published",
+        "platform": "Instagram",
+        "published_at": "2026-08-24T16:15:00Z",
+        "url": "https://www.instagram.com/reel/DcbW6c5D36a/"
+      },
+      {
+        "id": "IBwftJ3x",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-24T16:15:00Z",
+        "url": "https://facebook.com/reel/1684833172592432"
+      },
+      {
+        "id": "2iUbW5S1",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-24T16:05:00Z",
+        "url": "https://facebook.com/reel/1075249211647866"
+      },
+      {
+        "id": "3aXg0WgT",
+        "status": "Published",
+        "platform": "Twitter",
+        "published_at": "2026-08-24T16:05:00Z",
+        "url": "https://x.com/CFOMarine/status/2091919741388554473"
+      },
+      {
+        "id": "lHrsyiN7",
+        "status": "Published",
+        "platform": "Instagram",
+        "published_at": "2026-08-24T16:05:00Z",
+        "url": "https://www.instagram.com/reel/DcbXgJslZ7F/"
+      },
+      {
+        "id": "9Xzh74d4",
+        "status": "Published",
+        "platform": "Twitter",
+        "published_at": "2026-08-24T16:00:00Z",
+        "url": "https://x.com/CFOMarine/status/2091918496405794996"
+      },
+      {
+        "id": "cShd9lSQ",
+        "status": "Published",
+        "platform": "Instagram",
+        "published_at": "2026-08-24T16:00:00Z",
+        "url": "https://www.instagram.com/reel/DcbXginiDM9/"
+      },
+      {
+        "id": "FfyrDx5Z",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-24T16:00:00Z",
+        "url": "https://facebook.com/reel/918284188011585"
+      },
+      {
+        "id": "EkM11Bzq",
+        "status": "Published",
+        "platform": "Twitter",
+        "published_at": "2026-08-24T15:55:00Z",
+        "url": "https://x.com/CFOMarine/status/2091917224684478787"
+      },
+      {
+        "id": "JfYDK7T6",
+        "status": "Published",
+        "platform": "Instagram",
+        "published_at": "2026-08-24T15:55:00Z",
+        "url": "https://www.instagram.com/reel/DcbXZPUCCtZ/"
+      },
+      {
+        "id": "s71tVNL9",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-24T15:55:00Z",
+        "url": "https://facebook.com/reel/1367007708372329"
+      },
+      {
+        "id": "GB56y8fF",
+        "status": "Published",
+        "platform": "Instagram",
+        "published_at": "2026-08-24T15:50:00Z",
+        "url": "https://www.instagram.com/reel/DcbXY4zkdHN/"
+      },
+      {
+        "id": "nkj7b5M7",
+        "status": "Published",
+        "platform": "Twitter",
+        "published_at": "2026-08-24T15:50:00Z",
+        "url": "https://x.com/CFOMarine/status/2091915966309367865"
+      },
+      {
+        "id": "RfrNgefi",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-24T15:50:00Z",
+        "url": "https://facebook.com/reel/1457395296444933"
+      },
+      {
+        "id": "bsWjvYlJ",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-24T15:45:00Z",
+        "url": "https://facebook.com/reel/4159535031005757"
+      },
+      {
+        "id": "KHPnPDQh",
+        "status": "Published",
+        "platform": "Twitter",
+        "published_at": "2026-08-24T15:45:00Z",
+        "url": "https://x.com/CFOMarine/status/2091914709066813710"
+      },
+      {
+        "id": "qYIW2peM",
+        "status": "Published",
+        "platform": "Instagram",
+        "published_at": "2026-08-24T15:45:00Z",
+        "url": "https://www.instagram.com/reel/DcbXZEpgIeJ/"
+      },
+      {
+        "id": "i3VgyIw2",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-24T15:40:00Z",
+        "url": "https://facebook.com/reel/1573032207652525"
+      },
+      {
+        "id": "StiII1VI",
+        "status": "Published",
+        "platform": "Twitter",
+        "published_at": "2026-08-24T15:40:00Z",
+        "url": "https://x.com/CFOMarine/status/2091913450398048291"
+      },
+      {
+        "id": "ugpbbqS8",
+        "status": "Published",
+        "platform": "Instagram",
+        "published_at": "2026-08-24T15:40:00Z",
+        "url": "https://www.instagram.com/reel/DcbXYu-na_w/"
+      },
+      {
+        "id": "k3NMX7iZ",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-24T15:35:00Z",
+        "url": "https://facebook.com/reel/1581205563740791"
+      },
+      {
+        "id": "NgTOaE27",
+        "status": "Published",
+        "platform": "Twitter",
+        "published_at": "2026-08-24T15:35:00Z",
+        "url": "https://x.com/CFOMarine/status/2091912202479415620"
+      },
+      {
+        "id": "wVEK62Bn",
+        "status": "Published",
+        "platform": "Instagram",
+        "published_at": "2026-08-24T15:35:00Z",
+        "url": "https://www.instagram.com/reel/DcbXY6xFOy8/"
+      },
+      {
+        "id": "5CpY68DE",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-24T15:30:00Z",
+        "url": "https://facebook.com/reel/927130163793976"
+      },
+      {
+        "id": "6ULdByCh",
+        "status": "Published",
+        "platform": "Twitter",
+        "published_at": "2026-08-24T15:30:00Z",
+        "url": "https://x.com/CFOMarine/status/2091910945673031723"
+      },
+      {
+        "id": "MUiI2btc",
+        "status": "Published",
+        "platform": "Instagram",
+        "published_at": "2026-08-24T15:30:00Z",
+        "url": "https://www.instagram.com/reel/DcbXRpcCJDR/"
+      },
+      {
+        "id": "zXR1QVRL",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-23T17:20:00Z",
+        "url": "https://facebook.com/reel/1941095980628222"
+      },
+      {
+        "id": "jRHOt6LD",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-23T16:15:00Z",
+        "url": "https://facebook.com/reel/1724009472167123"
+      },
+      {
+        "id": "JloMItAV",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-23T16:05:00Z",
+        "url": "https://facebook.com/reel/1090421833816506"
+      },
+      {
+        "id": "wJGdZ5k1",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-23T15:55:00Z",
+        "url": "https://facebook.com/reel/4632420453681827"
+      },
+      {
+        "id": "D1U8tQj8",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-23T10:42:00Z",
+        "url": "https://facebook.com/reel/1387870666250067"
+      },
+      {
+        "id": "Jgo91QgV",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-22T23:43:17.642Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122141536965241239"
+      },
+      {
+        "id": "lVyyEKpV",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-21T17:30:00Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122141396025241239"
+      },
+      {
+        "id": "tz8AZnqV",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-19T17:24:49.770564Z",
+        "url": "https://facebook.com/reel/1820323439128210"
+      },
+      {
+        "id": "FbBW7hRT",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-19T16:46:50.429102Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122141141331241239"
+      },
+      {
+        "id": "fEvltVVR",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-19T10:30:00Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122141093907241239"
+      },
+      {
+        "id": "SXO9uyV1",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-18T17:15:03.442386Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122140996233241239"
+      },
+      {
+        "id": "EsJTtkU2",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-18T10:30:00Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122140942185241239"
+      },
+      {
+        "id": "FXBblDUG",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-17T17:08:36.716171Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122140845501241239"
+      },
+      {
+        "id": "LYcxx5ho",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-17T10:30:00Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122140810707241239"
+      },
+      {
+        "id": "XYaZgdtE",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-16T17:12:10.457401Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122140728987241239"
+      },
+      {
+        "id": "TqkDINCs",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-16T10:30:00Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122140692213241239"
+      },
+      {
+        "id": "37UQFe7h",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-15T17:05:17.002184Z",
+        "url": "https://facebook.com/reel/1072501255456450"
+      },
+      {
+        "id": "r9UxfSdb",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-15T10:30:00Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122140545675241239"
+      },
+      {
+        "id": "1OFbkwkG",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-14T17:13:34.554983Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122140458567241239"
+      },
+      {
+        "id": "RjIPlh29",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-14T10:30:00Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122140422531241239"
+      },
+      {
+        "id": "Ci6ddX5J",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-13T10:30:00Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122140296897241239"
+      },
+      {
+        "id": "9ATXjYU5",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-12T10:30:00Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122140145973241239"
+      },
+      {
+        "id": "0GRnDkt1",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-11T18:37:09.869515Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122140041579241239"
+      },
+      {
+        "id": "IJBsLIXW",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-11T13:52:31Z",
+        "url": "https://facebook.com/reel/2226546931455369"
+      },
+      {
+        "id": "uLRm1VX0",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-11T13:25:55Z",
+        "url": "https://facebook.com/reel/3357031107809073"
+      },
+      {
+        "id": "utFwRT0o",
+        "status": "Published",
+        "platform": "Facebook",
+        "published_at": "2026-08-11T12:59:00.562431Z",
+        "url": "https://www.facebook.com/935802112953521/posts/935802112953521_122139973035241239"
+      }
+    ],
+    "findings": [
+      "83/83 entrées inventoriées : 77 publiées, 6 brouillons, aucune programmée.",
+      "Dernière publication réelle : Facebook, 16 octobre 2026."
+    ]
+  },
+  "actions": {
+    "I01": "En cours — sources existantes relevées, couverture à compléter",
+    "I02": "En cours — comparaison sept jours à poursuivre",
+    "I03": "En cours",
+    "I04": "En cours",
+    "D01": "En cours — KPI principaux contrôlés",
+    "D03": "En cours — tests ajoutés",
+    "D04": "En cours",
+    "D05": "En cours — brouillon",
+    "V01": "Vérifié — 83/83",
+    "V02": "En cours"
+  }
+}

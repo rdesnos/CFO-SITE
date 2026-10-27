@@ -1,5 +1,6 @@
 import "jsr:@supabase/functions-js/edge-runtime.d.ts";
 import { createClient } from "jsr:@supabase/supabase-js@2";
+import { buildMarineFeedQuery } from "./logic.mjs";
 
 const sb = createClient(
   Deno.env.get("SUPABASE_URL")!,
@@ -7,26 +8,23 @@ const sb = createClient(
 );
 
 Deno.serve(async (req) => {
+  const cors = {
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET, OPTIONS",
+    "Access-Control-Allow-Headers": "authorization, apikey, content-type, x-client-info",
+    "X-CFO-Feed-Version": "2026-10-27.1",
+  };
+  if (req.method === "OPTIONS") return new Response(null, { status: 204, headers: cors });
   if (req.method !== "GET") {
-    return new Response("GET only", { status: 405 });
+    return new Response("GET only", { status: 405, headers: cors });
   }
 
   const url = new URL(req.url);
-  const limit = Math.min(50, Math.max(1, Number(url.searchParams.get("limit") || 20)));
-  const tier = url.searchParams.get("tier");
-  const category = url.searchParams.get("category");
-
-  let q = sb
-    .from("cfo_actu_feed")
-    .select("*")
-    .limit(limit);
-
-  if (tier && ["platinum","gold","silver"].includes(tier)) q = q.eq("source_tier", tier);
-  if (category) q = q.eq("category", category);
+  const q = buildMarineFeedQuery(sb, url);
 
   const { data, error } = await q;
   if (error) {
-    return Response.json({ ok:false, error:error.message }, { status:500 });
+    return Response.json({ ok:false, error:"Le fil est temporairement indisponible." }, { status:500, headers: cors });
   }
 
   return Response.json({
@@ -37,7 +35,7 @@ Deno.serve(async (req) => {
   }, {
     headers:{
       "Cache-Control":"public, max-age=300, s-maxage=300",
-      "Access-Control-Allow-Origin":"*"
+      ...cors
     }
   });
 });

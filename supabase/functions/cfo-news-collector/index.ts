@@ -5,7 +5,7 @@ const supabase = createClient(
   Deno.env.get("SUPABASE_URL")!,
   Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!,
 );
-const UA = "CFO-News-Radar/1.2 (+https://chroniques-fille-ordinaire.com)";
+const UA = "CFO-News-Radar/1.3 (+https://chroniques-fille-ordinaire.com)";
 const directTerms = [
   "marine delplace",
   "coeur maladroit",
@@ -96,7 +96,7 @@ Deno.serve(async (req) => {
     ? body.source_names.filter((x: unknown) => typeof x === "string")
     : [];
   const run = (await supabase.from("cfo_news_ingestion_runs").insert({ status: "running" }).select("id").single()).data;
-  let sourceQuery = supabase.from("cfo_news_sources").select("*").eq("active", true);
+  let sourceQuery = supabase.from("cfo_news_sources").select("*").eq("active", true).eq("source_status", "active");
   if (sourceNames.length) sourceQuery = sourceQuery.in("name", sourceNames);
   const { data: sources } = await sourceQuery;
   let checked = 0;
@@ -107,6 +107,9 @@ Deno.serve(async (req) => {
   for (const s of sources || []) {
     checked++;
     try {
+      if (s.collector_type && s.collector_type !== "web") {
+        throw new Error(`COLLECTOR_NOT_CONNECTED: ${s.collector_type}; lecture des publications non vérifiée`);
+      }
       const home = await fetch(s.homepage_url, {
         headers: { "user-agent": UA },
         signal: AbortSignal.timeout(7000),
@@ -138,6 +141,9 @@ Deno.serve(async (req) => {
           const visual = isImage(image) ? image : null;
           const payload: Record<string, unknown> = {
             artist_slug: "marine",
+            source_id: s.id,
+            source_tier: s.source_tier,
+            source_tier_weight: s.tier_weight,
             canonical_url: canonical,
             source_name: s.name,
             source_domain: s.domain,
@@ -155,7 +161,7 @@ Deno.serve(async (req) => {
             priority_score: s.source_type === "official" ? 85 : 65,
             is_official_source: s.source_type === "official",
             metadata: {
-              collector: "direct-v1.2",
+              collector: "direct-v1.3",
               visual_policy: "news>snapshot>source_logo>cfo_generic",
             },
           };
@@ -222,3 +228,4 @@ Deno.serve(async (req) => {
     errors,
   });
 });
+
