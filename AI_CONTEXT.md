@@ -67,7 +67,7 @@ Le cadrage est valide ; sa presence dans Git n'atteste pas la realisation des ch
 
 ## Execution des trois chantiers — 27 octobre 2026
 
-Premier lot engage : [etat verifie et reste a faire](docs/execution-cfo-marine-2026-10-27.md), [textes proposes](docs/contenus-cfo-marine-2026-10-27.md), [pilote Viraly](docs/pilote-viraly-cfo-marine-2026-10-27.md). Fonctions Supabase corrigees et deployees ; cockpit en previsualisation ; deux articles WordPress et neuf candidats Viraly en brouillon. Aucune publication de ce lot. Ne pas confondre preparation et activation publique. La publication des deux articles a ete refusee par la revue automatique en attente d'accord sur leurs textes precis.
+Premier lot engage : [etat verifie et reste a faire](docs/execution-cfo-marine-2026-10-27.md), [textes proposes](docs/contenus-cfo-marine-2026-10-27.md), [pilote Viraly](docs/pilote-viraly-cfo-marine-2026-10-27.md). Fonctions Supabase corrigees et deployees ; cockpit en previsualisation ; deux articles WordPress publies le 27 octobre apres accord explicite sur leurs textes ; neuf candidats Viraly restent en brouillon. Les deux pages publiques ont ete controlees sans session ni previsualisation (HTTP 200, titres et corps attendus). Le blocage initial de publication des articles est leve ; le cockpit reste en previsualisation et les posts sociaux ne sont pas publies.
 
 ## Architecture du POC
 

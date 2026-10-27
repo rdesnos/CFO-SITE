@@ -1,10 +1,10 @@
 # CFO Marine — textes proposés, 27 octobre 2026
 
-Statut : deux brouillons WordPress. Aucun article de ce lot n'est publié. Les chiffres correspondent à une photographie datée ; revérifier la source au moment de la publication.
+Statut : deux articles publiés après accord explicite de Rudy le 27 octobre 2026 à 12 h 42 (Europe/Paris). Les textes validés sont conservés ci-dessous. Les chiffres restent une photographie datée de la semaine du 20 au 26 octobre.
 
 ## Marine : « Le feu, le brasier, le magma » annoncé pour le 27 novembre
 
-Brouillon WordPress : 3383 · [Modifier et relire](https://chroniques-fille-ordinaire.com/wp-admin/post.php?post=3383&action=edit)
+Article publié WordPress : 3383 · [Page publique](https://chroniques-fille-ordinaire.com/marine-le-feu-le-brasier-le-magma-27-novembre/) · [Modifier et relire](https://chroniques-fille-ordinaire.com/wp-admin/post.php?post=3383&action=edit)
 
 Slug prévu : `marine-le-feu-le-brasier-le-magma-27-novembre`
 
@@ -12,7 +12,7 @@ Slug prévu : `marine-le-feu-le-brasier-le-magma-27-novembre`
 
 ## Marine : les écoutes Spotify progressent, la radio reste stable
 
-Brouillon WordPress : 3384 · [Modifier et relire](https://chroniques-fille-ordinaire.com/wp-admin/post.php?post=3384&action=edit)
+Article publié WordPress : 3384 · [Page publique](https://chroniques-fille-ordinaire.com/marine-ecoutes-spotify-radio-semaine-20-26-octobre-2026/) · [Modifier et relire](https://chroniques-fille-ordinaire.com/wp-admin/post.php?post=3384&action=edit)
 
 Slug prévu : `marine-ecoutes-spotify-radio-semaine-20-26-octobre-2026`
 
