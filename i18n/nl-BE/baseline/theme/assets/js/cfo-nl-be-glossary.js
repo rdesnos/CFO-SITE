@@ -67,4 +67,3 @@ window.cfoNlBeLabels = Object.freeze({
   '« D'accord » : quand la haine en ligne reste dans la tête':'« D'accord »: wanneer online haat blijft nazinderen',
   '« Escroc » : quand le succès ne suffit pas à se sentir légitime':'« Escroc »: wanneer succes niet volstaat om je erkend te voelen'
 });
-

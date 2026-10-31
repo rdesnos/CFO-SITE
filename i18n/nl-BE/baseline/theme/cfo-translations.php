@@ -45,4 +45,3 @@ function cfo_translation_title( $title, $id = 0 ) {
     return $translated && ! empty( $translated['translated_title'] ) ? $translated['translated_title'] : $title;
 }
 add_filter( 'the_title', 'cfo_translation_title', 20, 2 );
-

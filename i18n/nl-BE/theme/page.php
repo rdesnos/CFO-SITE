@@ -27,4 +27,3 @@ get_header();
 	<?php endwhile; endif; ?>
 </main>
 <?php get_footer(); ?>
-
