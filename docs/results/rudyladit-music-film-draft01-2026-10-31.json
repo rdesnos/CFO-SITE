@@ -1,0 +1,54 @@
+{
+  "final_duration_seconds": 40,
+  "sample_rate_hz": 48000,
+  "channels": 2,
+  "decoded_frames": 1920000,
+  "mp3_bytes": 961388,
+  "sha256": "174d6ef3875c354e4409fcaf6c3494c6708471115bb743d9c5315d970f67924e",
+  "provider_duration_seconds": 38.04,
+  "silence_seconds": [
+    24,
+    26
+  ],
+  "silence_core_peak_pcm": 0,
+  "provider_calls": 1,
+  "temporary_access_revoked": true,
+  "timing": [
+    {
+      "start": 0,
+      "end": 8,
+      "music": "Upper-register expressive piano; arpeggio pickup"
+    },
+    {
+      "start": 8,
+      "end": 16,
+      "music": "Piano continues; violins join"
+    },
+    {
+      "start": 16,
+      "end": 20,
+      "music": "Piano and violins continue; cello joins"
+    },
+    {
+      "start": 20,
+      "end": 24,
+      "music": "All continue; pizzicato double bass joins"
+    },
+    {
+      "start": 24,
+      "end": 26,
+      "music": "Full silence"
+    },
+    {
+      "start": 26,
+      "end": 31,
+      "music": "Acoustic drum kit alone"
+    },
+    {
+      "start": 31,
+      "end": 40,
+      "music": "All return; foreground electric guitar riff"
+    }
+  ],
+  "quality_note": "Timing, silence and decodability verified; musical arrangement requires listening review."
+}
