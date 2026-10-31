@@ -1,29 +1,34 @@
-# Eleven Music — pilote RudyLadit
+# Eleven Music — piano RudyLadit
 
-Fonction isolée : `supabase/functions/cfo-elevenlabs-music-pilot/index.ts`.
-Projet Supabase : `fjpcuxsezeuajhlotzij`.
+[Écouter le MP3 de 8 secondes](audio/rudyladit-piano-8s.mp3)
 
-## API vérifiée
+## Résultat du 31 octobre 2026
 
-POST https://api.elevenlabs.io/v1/music?output_format=mp3_48000_192
-Modèle `music_v2_5`, `music_length_ms: 8000`, `force_instrumental: true`.
-Prompt fixe de piano acoustique mélodique et expressif, sans instrument additionnel.
-Source : https://elevenlabs.io/docs/api-reference/music/compose
+Une seule génération Eleven Music `music_v2_5` a réussi : piano acoustique instrumental, mélodique et expressif. Requête fixe `music_length_ms: 8000`, `force_instrumental: true`, format `mp3_48000_192`.
 
-## Sécurité et exécution
+Le fichier fournisseur mesure 8,04 s. Les 40 ms finales ont été retirées et le MP3 réencodé avec libmp3lame à 192 kbit/s pour livrer exactement **8,00 s décodées** : 384 000 échantillons par canal à 48 kHz, stéréo. Décodage complet sans erreur ; signal non silencieux. Ceci ne constitue pas une validation artistique à l'écoute.
 
-Déployer uniquement cette fonction avec `verify_jwt=true`. Le handler exige aussi une égalité avec le secret serveur `SUPABASE_SERVICE_ROLE_KEY` ; les clés publiques et les JWT utilisateur ordinaires ne suffisent pas. Ne jamais désactiver les contrôles pour invoquer ce pilote.
+Le MP3 livré est versionné dans `docs/audio/rudyladit-piano-8s.mp3`. Le fichier original reste dans le bucket Supabase privé `rudyladit-music-pilot`, objet `piano-8s-2026-10-31.mp3`.
 
-Le bucket dédié `rudyladit-music-pilot` est privé. Une réservation atomique persistante, créée sans upsert avant l'appel ElevenLabs, limite ce pilote à une tentative totale. Le verrou est conservé après toute erreur ou délai d'attente pour éviter une double facturation. Ne pas supprimer le verrou pour réessayer sans vérification et nouvelle autorisation.
+## Fonction et sécurité
 
-Si le MP3 existe, un nouvel appel administrateur renvoie un lien signé valable sept jours sans nouvelle génération. Le lien signé est un accès temporaire au fichier : ne pas le versionner. Aucun secret n'est retourné ni journalisé. Aucun prompt ni durée du client n'est utilisé.
+Code : `supabase/functions/cfo-elevenlabs-music-pilot/index.ts`. Projet : `fjpcuxsezeuajhlotzij`. Déploiement final ACTIVE v3 avec `verify_jwt=true`.
 
-## État du 31 octobre 2026
+La fonction conserve la vérification JWT et exige une autorisation supplémentaire. Le pilote a été invoqué côté serveur via pg_net avec le JWT existant et un jeton aléatoire de 256 bits limité au pilote, explicitement autorisé par l'utilisateur. Le jeton a été généré dans Vault sans être retourné ; seule son empreinte SHA-256 a servi au déploiement temporaire. Il a ensuite été supprimé du coffre et l'accès temporaire désactivé dans le déploiement final. L'authentification administrateur reste disponible pour récupérer l'objet existant.
 
-Fonction déployée ACTIVE, version 1, JWT activé. Les 44 fonctions préexistantes sont inchangées (identifiants, versions et empreintes comparés).
+Le verrou atomique persistant est conservé. Une relance autorisée réutilise le MP3 et ne crée pas une deuxième génération. Ne pas supprimer le verrou pour réessayer sans vérification et autorisation.
 
-Tests locaux : `node supabase/functions/cfo-elevenlabs-music-pilot/check.mjs` avec Node 24, tous les appels fournisseur simulés. Tests réussis : autorisation, paramètres fixes, cache, erreurs expurgées et verrou concurrent/persistant.
+Aucun secret ni lien signé n'est versionné. Les fonctions de lecture des articles CFO restent inchangées.
 
-**Aucun MP3 produit, aucun appel ElevenLabs lancé.** Le contrôle automatique a refusé l'action « Add secret key » dans le formulaire de test du tableau de bord Supabase, car cet usage du secret privilégié dans le navigateur exige une autorisation spécifique ; il a également relevé la compatibilité JWT à vérifier. Aucun contournement ni désactivation des protections n'a été effectué. La disponibilité musicale effective de la clé reste donc non testée.
+## Vérifications
 
-Résultat structuré : `docs/results/eleven-music-pilot-2026-10-31.json`.
+Avec Node 24 :
+
+- `node supabase/functions/cfo-elevenlabs-music-pilot/check.mjs`
+- `node supabase/functions/cfo-elevenlabs-music-pilot/check-temporary-access.mjs`
+
+Les tests simulent les appels fournisseur : méthode, autorisation, paramètres fixes, cache, erreurs expurgées, verrou après échec et appels concurrents, jeton temporaire invalide/expiré. La vérification du MP3 réel repose sur FFmpeg et le comptage des trames PCM.
+
+Détails et empreintes : `docs/results/eleven-music-pilot-2026-10-31.json`.
+
+API officielle : https://elevenlabs.io/docs/api-reference/music/compose

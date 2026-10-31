@@ -1,34 +1,44 @@
 {
   "date": "2026-10-31",
+  "status": "completed",
   "project": "fjpcuxsezeuajhlotzij",
   "function": "cfo-elevenlabs-music-pilot",
-  "deployment_version": 1,
+  "deployment_version": 3,
   "verify_jwt": true,
-  "status": "blocked_before_generation",
-  "elevenlabs_generation_calls": 0,
-  "mp3_created": false,
-  "existing_functions_unchanged": true,
-  "validation": {
-    "mock_tests": "passed",
-    "checks": [
-      "method restrictions",
-      "service credential required",
-      "fixed music_v2_5 / 8000ms / instrumental",
-      "cached audio reused",
-      "provider error sanitized",
-      "persistent attempt reservation on failure",
-      "concurrent requests limited to one provider call"
-    ]
+  "model_id": "music_v2_5",
+  "elevenlabs_generation_calls": 1,
+  "requested_duration_ms": 8000,
+  "provider_audio": {
+    "duration_seconds": 8.04,
+    "bytes": 193004,
+    "sha256": "d9b6f31be5aac97bcc8a7d6ba4d564492edaad1b91e5f75ccc961fb0fc6469bc",
+    "private_storage_object": "rudyladit-music-pilot/piano-8s-2026-10-31.mp3"
   },
-  "blocker": {
-    "action": "Supabase dashboard: Add secret key in Edge Function test form",
-    "source": "automatic approval review",
-    "reason": "Privileged secret insertion into browser form not specifically authorized; possible conflict with verify_jwt=true",
-    "resolution_required": "Explicit approval for administrator credential use in the Supabase test UI, then verify compatible JWT authentication without disabling security checks"
+  "delivered_audio": {
+    "path": "docs/audio/rudyladit-piano-8s.mp3",
+    "decoded_duration_seconds": 8,
+    "decoded_frames": 384000,
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "bitrate_bps": 192000,
+    "bytes": 193580,
+    "sha256": "30e971d7ff3437c1038f8eb85512810892c43de42395b799d57e9035389cd83f",
+    "base64_length": 258108,
+    "processing": "Trimmed final 40ms and encoded with libmp3lame at 192kbps; no second generation",
+    "full_decode": "passed, no errors",
+    "non_silent": true
   },
-  "notes": [
-    "No ElevenLabs secret was retrieved or exposed.",
-    "No generation was attempted; provider music permissions and output remain unverified.",
-    "No existing CFO article/TTS function was modified."
+  "security": {
+    "temporary_credential": "explicitly authorized, generated only in Vault, never returned",
+    "temporary_credential_revoked": true,
+    "temporary_auth_deployed_state": "DISABLED",
+    "persistent_attempt_lock_retained": true,
+    "existing_cfo_audio_functions_unchanged": true
+  },
+  "tests": [
+    "Existing mocked auth/cache/error/concurrency tests passed",
+    "Temporary token invalid/expired/reuse tests passed",
+    "Real provider request returned 200",
+    "Full MP3 decode and PCM frame count verified"
   ]
 }

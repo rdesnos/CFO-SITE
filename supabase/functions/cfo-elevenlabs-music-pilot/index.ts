@@ -1,5 +1,8 @@
 // RudyLadit: one fixed pilot, isolated from CFO article/TTS functions.
-// Deploy ONLY with verify_jwt=true; additionally require the server service-role key.
+// Deploy ONLY with verify_jwt=true; additionally require an explicit pilot credential.
+// Temporary access is disabled until a separately authorized credential is provisioned.
+const pilotTokenSha256 = "DISABLED";
+const pilotTokenExpiresAt = 0;
 const headers = { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-store" };
 const prompt = [
   "Create exactly eight seconds of original instrumental solo acoustic concert grand piano music.",
@@ -29,7 +32,14 @@ Deno.serve(async (req: Request) => {
   const key = Deno.env.get("ELEVENLABS_API_KEY");
   if(!service || !url || !key) return json({ok:false,error:"Server configuration missing"},503);
   const token = req.headers.get("Authorization")?.replace(/^Bearer /,"") || "";
-  if(!await equalSecret(token,service)) return json({ok:false,error:"Administrator service credential required"},403);
+  const pilotToken = req.headers.get("x-pilot-token") || "";
+  let temporaryAccess = false;
+  if(pilotToken && Date.now() < pilotTokenExpiresAt && /^[a-f0-9]{64}$/.test(pilotTokenSha256)) {
+    const digest = await crypto.subtle.digest("SHA-256",new TextEncoder().encode(pilotToken));
+    const hex = Array.from(new Uint8Array(digest),b=>b.toString(16).padStart(2,"0")).join("");
+    temporaryAccess = await equalSecret(hex,pilotTokenSha256);
+  }
+  if(!temporaryAccess && !await equalSecret(token,service)) return json({ok:false,error:"Authorized pilot credential required"},403);
   const storage = (path: string, init: RequestInit = {}) => fetch(url+"/storage/v1/"+path, {
     ...init, headers: {"apikey":service,"Authorization":"Bearer "+service,...init.headers},
     signal: AbortSignal.timeout(20000)
