@@ -1,4 +1,4 @@
-// RudyLadit film draft 01: one fixed 38-second generation; insert 2-second silence locally at 24s.
+// RudyLadit film draft 02: one fixed 40-second generation; add 0.5s silence at 30s and compress 3s drum solo to 2.5s locally.
 // Isolated from the initial piano pilot and all CFO article/TTS functions.
 // Deploy ONLY with verify_jwt=true; additionally require an explicit pilot credential.
 // Temporary access is disabled until a separately authorized credential is provisioned.
@@ -18,7 +18,9 @@ const compositionPlan = {
         "Natural dynamics, acoustic realism, polished recording, 120 BPM with expressive phrasing",
         "Solo acoustic grand piano only",
         "Bright upper-register melody, singing expressive right hand, subtle left hand",
-        "No strings or percussion yet, arpeggio pickup at the end"
+        "No strings or percussion yet, arpeggio pickup at the end",
+        "Clearly high piano register C5 to C7, bright lyrical melody with real acoustic dynamics",
+        "A deliberate small rising arpeggio pickup just before the violins enter at the end"
       ],
       "negative_styles": [
         "vocals",
@@ -48,7 +50,9 @@ const compositionPlan = {
         "Natural dynamics, acoustic realism, polished recording, 120 BPM with expressive phrasing",
         "Piano continues without stopping",
         "Warm bowed acoustic violins join and remain",
-        "Cumulative arrangement, no instrument drops out"
+        "Cumulative arrangement, no instrument drops out",
+        "Violins gradually rise in intensity during this section, then sustain their presence",
+        "Piano stays continuous and audible, no replacement of earlier instruments"
       ],
       "negative_styles": [
         "vocals",
@@ -66,7 +70,7 @@ const compositionPlan = {
       "context_adherence": "high"
     },
     {
-      "duration_ms": 4000,
+      "duration_ms": 8000,
       "text": "[Instrumental: cello joins piano and violins]\n[All earlier instruments continue]",
       "positive_styles": [
         "Original instrumental cinematic chamber-rock score",
@@ -76,7 +80,9 @@ const compositionPlan = {
         "Natural dynamics, acoustic realism, polished recording, 120 BPM with expressive phrasing",
         "Piano and bowed violins remain clearly audible",
         "Expressive bowed cello enters with a lyrical counterline",
-        "Three acoustic layers accumulating"
+        "Three acoustic layers accumulating",
+        "Cello begins gently and swells progressively, while piano and violins remain",
+        "Long expressive crescendo, do not introduce plucked double bass yet"
       ],
       "negative_styles": [
         "vocals",
@@ -93,7 +99,7 @@ const compositionPlan = {
       "context_adherence": "high"
     },
     {
-      "duration_ms": 4000,
+      "duration_ms": 6000,
       "text": "[Instrumental: plucked double bass joins]\n[Piano, violins and cello all continue to an abrupt ensemble stop]",
       "positive_styles": [
         "Original instrumental cinematic chamber-rock score",
@@ -103,7 +109,9 @@ const compositionPlan = {
         "Natural dynamics, acoustic realism, polished recording, 120 BPM with expressive phrasing",
         "Piano, bowed violins and bowed cello all continue",
         "Acoustic double bass enters in pizzicato, played with fingers, distinctly plucked",
-        "Cumulative crescendo, abrupt clean stop at section end"
+        "Cumulative crescendo, abrupt clean stop at section end",
+        "Powerful continuous cumulative crescendo toward the abrupt full stop",
+        "Finger-plucked upright double bass, not arco, stays audible with all earlier instruments"
       ],
       "negative_styles": [
         "vocals",
@@ -120,17 +128,16 @@ const compositionPlan = {
       "context_adherence": "high"
     },
     {
-      "duration_ms": 5000,
+      "duration_ms": 3000,
       "text": "[Instrumental: acoustic drum kit solo]\n[Only drums, energetic expressive toms and snare, setting up the full-band return]",
       "positive_styles": [
         "Original instrumental cinematic chamber-rock score",
         "No vocals, no singing, no spoken words",
-        "One memorable lyrical motif in D major, coherent harmonic development",
-        "Expressive real acoustic concert grand piano in a bright upper register, nuanced touch",
         "Natural dynamics, acoustic realism, polished recording, 120 BPM with expressive phrasing",
         "Acoustic drum kit alone",
         "Tight live drum solo, tom fills, snare, kick, cymbals",
-        "All pitched instruments and all strings completely absent"
+        "All pitched instruments and all strings completely absent",
+        "Absolutely solo live acoustic drums, dramatic short fill ending with a pickup for the tutti return"
       ],
       "negative_styles": [
         "vocals",
@@ -149,10 +156,10 @@ const compositionPlan = {
         "bass guitar",
         "orchestra"
       ],
-      "context_adherence": "high"
+      "context_adherence": "low"
     },
     {
-      "duration_ms": 9000,
+      "duration_ms": 7000,
       "text": "[Instrumental full ensemble climax]\n[Prominent catchy electric guitar riff over the entire returning ensemble]\n[Decisive resolved ending]",
       "positive_styles": [
         "Original instrumental cinematic chamber-rock score",
@@ -164,7 +171,10 @@ const compositionPlan = {
         "The electric guitar riff is the lead and clearly audible, not buried background guitar",
         "Full return of acoustic piano, bowed violins, bowed cello, pizzicato double bass and acoustic drums",
         "All instruments play together behind the electric guitar riff",
-        "Powerful joyful cinematic climax, memorable motif, final resolved chord"
+        "Powerful joyful cinematic climax, memorable motif, final resolved chord",
+        "Immediate electric guitar-led full-band re-entry, strong memorable repeated rock riff",
+        "Electric guitar is loud and upfront with amp distortion and sustain, distinct rhythmic riff rather than strummed chords",
+        "Piano, violins, cello, plucked double bass and drums are all clearly behind the electric guitar"
       ],
       "negative_styles": [
         "vocals",
@@ -182,8 +192,8 @@ const compositionPlan = {
 
 
 const bucket = "rudyladit-music-pilot";
-const audioPath = "film-draft01-38s-2026-10-31.mp3";
-const lockPath = "film-draft01-38s-2026-10-31.attempt.json";
+const audioPath = "film-draft02-40s-2026-11-01.mp3";
+const lockPath = "film-draft02-40s-2026-11-01.attempt.json";
 const json = (data: unknown, status = 200) => new Response(JSON.stringify(data), {status, headers});
 async function equalSecret(a: string, b: string) {
   const enc = new TextEncoder();
@@ -217,7 +227,7 @@ Deno.serve(async (req: Request) => {
     });
     if(!r.ok) return json({ok:false,error:"Audio stored; signing failed. Do not regenerate."},502);
     const data=await r.json();
-    return json({ok:true,model_id:"music_v2_5",generated_duration_ms:38000,final_duration_ms:40000,
+    return json({ok:true,model_id:"music_v2_5",generated_duration_ms:40000,final_duration_ms:40000,
       audio_url:url+"/storage/v1"+data.signedURL,expires_in:604800,object:bucket+"/"+audioPath});
   };
   try {
@@ -236,7 +246,7 @@ Deno.serve(async (req: Request) => {
     // Retain this lock even on failure/timeout: provider may already have billed.
     const lock = await storage("object/"+bucket+"/"+lockPath,{method:"POST",
       headers:{"Content-Type":"application/json","x-upsert":"false"},
-      body:JSON.stringify({attempted_at:new Date().toISOString(),model_id:"music_v2_5",music_length_ms:38000})});
+      body:JSON.stringify({attempted_at:new Date().toISOString(),model_id:"music_v2_5",music_length_ms:40000})});
     if(!lock.ok) return json({ok:false,error:"Attempt already reserved or storage unavailable; generation NOT retried"},409);
     const response=await fetch("https://api.elevenlabs.io/v1/music?output_format=mp3_48000_192",{
       method:"POST",headers:{"xi-api-key":key,"Content-Type":"application/json","Accept":"audio/mpeg"},
