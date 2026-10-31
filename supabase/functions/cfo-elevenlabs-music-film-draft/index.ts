@@ -1,4 +1,4 @@
-// RudyLadit film draft 02: one fixed 40-second generation; add 0.5s silence at 30s and compress 3s drum solo to 2.5s locally.
+// RudyLadit film draft 03, warm lyrical French pop: one fixed 40-second generation; add 0.5s silence at 30s and compress 3s drum solo to 2.5s locally.
 // Isolated from the initial piano pilot and all CFO article/TTS functions.
 // Deploy ONLY with verify_jwt=true; additionally require an explicit pilot credential.
 // Temporary access is disabled until a separately authorized credential is provisioned.
@@ -9,18 +9,18 @@ const compositionPlan = {
   "chunks": [
     {
       "duration_ms": 8000,
-      "text": "[Instrumental piano opening]\n[Upper-register lyrical solo piano]\n[Small ascending piano arpeggio in the final second, leading into violin entry]",
+      "text": "[Instrumental]\n{Intimate high-register acoustic piano, heartfelt pop melody}\n{Small rising piano arpeggio in the final second}",
       "positive_styles": [
-        "Original instrumental cinematic chamber-rock score",
-        "No vocals, no singing, no spoken words",
-        "One memorable lyrical motif in D major, coherent harmonic development",
-        "Expressive real acoustic concert grand piano in a bright upper register, nuanced touch",
-        "Natural dynamics, acoustic realism, polished recording, 120 BPM with expressive phrasing",
-        "Solo acoustic grand piano only",
-        "Bright upper-register melody, singing expressive right hand, subtle left hand",
-        "No strings or percussion yet, arpeggio pickup at the end",
-        "Clearly high piano register C5 to C7, bright lyrical melody with real acoustic dynamics",
-        "A deliberate small rising arpeggio pickup just before the violins enter at the end"
+        "Original contemporary French pop instrumental, heartfelt and organic",
+        "A memorable singable melody, bittersweet warmth and hopeful emotional lift",
+        "Natural human phrasing and dynamics, intimate detailed recording",
+        "100 BPM, flowing pop pulse, harmonically coherent from start to finish",
+        "Entirely instrumental, no vocals or spoken words",
+        "Solo real acoustic grand piano only",
+        "Warm bright upper-middle register C5 to E6, lyrical right-hand melody, subtle spacious left hand",
+        "Tender vocal-like melodic phrasing played only on piano, simple emotionally direct tune",
+        "A small elegant rising arpeggio in the final second introduces the violins",
+        "No percussion or strings yet"
       ],
       "negative_styles": [
         "vocals",
@@ -28,31 +28,39 @@ const compositionPlan = {
         "spoken words",
         "acoustic guitar",
         "nylon guitar",
+        "trailer music",
+        "epic orchestral soundtrack",
+        "Hollywood fanfare",
+        "brass",
+        "hybrid cinematic drums",
         "synth pads",
-        "electronic drums",
+        "EDM",
+        "heavy metal",
+        "aggressive distortion",
+        "virtuosic shredding",
+        "bombastic orchestral hits",
         "strings",
         "violin",
         "cello",
         "double bass",
         "drums",
-        "guitar"
+        "electric guitar"
       ],
       "context_adherence": "high"
     },
     {
       "duration_ms": 8000,
-      "text": "[Instrumental: violins join the continuing piano]\n[Piano stays audible throughout, violins expand the same melody]",
+      "text": "[Instrumental]\n{Violins join and gently swell; piano keeps playing the melody}",
       "positive_styles": [
-        "Original instrumental cinematic chamber-rock score",
-        "No vocals, no singing, no spoken words",
-        "One memorable lyrical motif in D major, coherent harmonic development",
-        "Expressive real acoustic concert grand piano in a bright upper register, nuanced touch",
-        "Natural dynamics, acoustic realism, polished recording, 120 BPM with expressive phrasing",
-        "Piano continues without stopping",
-        "Warm bowed acoustic violins join and remain",
-        "Cumulative arrangement, no instrument drops out",
-        "Violins gradually rise in intensity during this section, then sustain their presence",
-        "Piano stays continuous and audible, no replacement of earlier instruments"
+        "Original contemporary French pop instrumental, heartfelt and organic",
+        "A memorable singable melody, bittersweet warmth and hopeful emotional lift",
+        "Natural human phrasing and dynamics, intimate detailed recording",
+        "100 BPM, flowing pop pulse, harmonically coherent from start to finish",
+        "Entirely instrumental, no vocals or spoken words",
+        "The same piano melody continues clearly without stopping",
+        "Soft real bowed violins enter, embrace and gently lift the piano melody",
+        "Intimate French pop string arrangement, gradual rise in emotion without symphonic bombast",
+        "Earlier piano remains present, violin layer stays after entry"
       ],
       "negative_styles": [
         "vocals",
@@ -60,29 +68,37 @@ const compositionPlan = {
         "spoken words",
         "acoustic guitar",
         "nylon guitar",
+        "trailer music",
+        "epic orchestral soundtrack",
+        "Hollywood fanfare",
+        "brass",
+        "hybrid cinematic drums",
         "synth pads",
-        "electronic drums",
+        "EDM",
+        "heavy metal",
+        "aggressive distortion",
+        "virtuosic shredding",
+        "bombastic orchestral hits",
         "cello",
         "double bass",
         "drums",
-        "guitar"
+        "electric guitar"
       ],
       "context_adherence": "high"
     },
     {
       "duration_ms": 8000,
-      "text": "[Instrumental: cello joins piano and violins]\n[All earlier instruments continue]",
+      "text": "[Instrumental]\n{Warm cello joins; piano and violins remain, emotional cumulative build}",
       "positive_styles": [
-        "Original instrumental cinematic chamber-rock score",
-        "No vocals, no singing, no spoken words",
-        "One memorable lyrical motif in D major, coherent harmonic development",
-        "Expressive real acoustic concert grand piano in a bright upper register, nuanced touch",
-        "Natural dynamics, acoustic realism, polished recording, 120 BPM with expressive phrasing",
-        "Piano and bowed violins remain clearly audible",
-        "Expressive bowed cello enters with a lyrical counterline",
-        "Three acoustic layers accumulating",
-        "Cello begins gently and swells progressively, while piano and violins remain",
-        "Long expressive crescendo, do not introduce plucked double bass yet"
+        "Original contemporary French pop instrumental, heartfelt and organic",
+        "A memorable singable melody, bittersweet warmth and hopeful emotional lift",
+        "Natural human phrasing and dynamics, intimate detailed recording",
+        "100 BPM, flowing pop pulse, harmonically coherent from start to finish",
+        "Entirely instrumental, no vocals or spoken words",
+        "Piano and violins continue, sustained natural warmth",
+        "A warm bowed cello enters at the start, tender lyrical counter-melody",
+        "Gradual emotional swell with breathing space, each layer remains audible",
+        "No double bass or drums yet"
       ],
       "negative_styles": [
         "vocals",
@@ -90,28 +106,37 @@ const compositionPlan = {
         "spoken words",
         "acoustic guitar",
         "nylon guitar",
+        "trailer music",
+        "epic orchestral soundtrack",
+        "Hollywood fanfare",
+        "brass",
+        "hybrid cinematic drums",
         "synth pads",
-        "electronic drums",
+        "EDM",
+        "heavy metal",
+        "aggressive distortion",
+        "virtuosic shredding",
+        "bombastic orchestral hits",
         "double bass",
         "drums",
-        "guitar"
+        "electric guitar"
       ],
       "context_adherence": "high"
     },
     {
       "duration_ms": 6000,
-      "text": "[Instrumental: plucked double bass joins]\n[Piano, violins and cello all continue to an abrupt ensemble stop]",
+      "text": "[Instrumental]\n{Finger-plucked double bass joins; all earlier layers continue and swell, then stop together}",
       "positive_styles": [
-        "Original instrumental cinematic chamber-rock score",
-        "No vocals, no singing, no spoken words",
-        "One memorable lyrical motif in D major, coherent harmonic development",
-        "Expressive real acoustic concert grand piano in a bright upper register, nuanced touch",
-        "Natural dynamics, acoustic realism, polished recording, 120 BPM with expressive phrasing",
-        "Piano, bowed violins and bowed cello all continue",
-        "Acoustic double bass enters in pizzicato, played with fingers, distinctly plucked",
-        "Cumulative crescendo, abrupt clean stop at section end",
-        "Powerful continuous cumulative crescendo toward the abrupt full stop",
-        "Finger-plucked upright double bass, not arco, stays audible with all earlier instruments"
+        "Original contemporary French pop instrumental, heartfelt and organic",
+        "A memorable singable melody, bittersweet warmth and hopeful emotional lift",
+        "Natural human phrasing and dynamics, intimate detailed recording",
+        "100 BPM, flowing pop pulse, harmonically coherent from start to finish",
+        "Entirely instrumental, no vocals or spoken words",
+        "Piano, violins and bowed cello all continue",
+        "Finger-plucked acoustic double bass enters in pizzicato, round woody notes",
+        "The low pizzicato pulse lifts the same pop theme, expressive cumulative growth",
+        "Crescendo stays intimate and melodic, no trailer tension or orchestral fanfare",
+        "Abrupt full-ensemble stop at the end"
       ],
       "negative_styles": [
         "vocals",
@@ -119,25 +144,35 @@ const compositionPlan = {
         "spoken words",
         "acoustic guitar",
         "nylon guitar",
+        "trailer music",
+        "epic orchestral soundtrack",
+        "Hollywood fanfare",
+        "brass",
+        "hybrid cinematic drums",
         "synth pads",
-        "electronic drums",
+        "EDM",
+        "heavy metal",
+        "aggressive distortion",
+        "virtuosic shredding",
+        "bombastic orchestral hits",
         "bowed double bass",
         "drums",
-        "guitar"
+        "electric guitar"
       ],
       "context_adherence": "high"
     },
     {
       "duration_ms": 3000,
-      "text": "[Instrumental: acoustic drum kit solo]\n[Only drums, energetic expressive toms and snare, setting up the full-band return]",
+      "text": "[Instrumental drum solo]\n{Acoustic drums only; brief tasteful pop fill into the ensemble return}",
       "positive_styles": [
-        "Original instrumental cinematic chamber-rock score",
-        "No vocals, no singing, no spoken words",
-        "Natural dynamics, acoustic realism, polished recording, 120 BPM with expressive phrasing",
-        "Acoustic drum kit alone",
-        "Tight live drum solo, tom fills, snare, kick, cymbals",
-        "All pitched instruments and all strings completely absent",
-        "Absolutely solo live acoustic drums, dramatic short fill ending with a pickup for the tutti return"
+        "Original contemporary French pop instrumental, heartfelt and organic",
+        "A memorable singable melody, bittersweet warmth and hopeful emotional lift",
+        "Natural human phrasing and dynamics, intimate detailed recording",
+        "100 BPM, flowing pop pulse, harmonically coherent from start to finish",
+        "Entirely instrumental, no vocals or spoken words",
+        "Live acoustic drum kit alone, all harmonic instruments completely absent",
+        "Short musical pop drum solo, tasteful kick snare and toms, natural room",
+        "Human groove and a decisive pickup into the returning ensemble, not a loud rock showcase"
       ],
       "negative_styles": [
         "vocals",
@@ -145,36 +180,42 @@ const compositionPlan = {
         "spoken words",
         "acoustic guitar",
         "nylon guitar",
+        "trailer music",
+        "epic orchestral soundtrack",
+        "Hollywood fanfare",
+        "brass",
+        "hybrid cinematic drums",
         "synth pads",
-        "electronic drums",
+        "EDM",
+        "heavy metal",
+        "aggressive distortion",
+        "virtuosic shredding",
+        "bombastic orchestral hits",
         "piano",
         "strings",
         "violin",
         "cello",
         "double bass",
         "guitar",
-        "bass guitar",
         "orchestra"
       ],
       "context_adherence": "low"
     },
     {
       "duration_ms": 7000,
-      "text": "[Instrumental full ensemble climax]\n[Prominent catchy electric guitar riff over the entire returning ensemble]\n[Decisive resolved ending]",
+      "text": "[Instrumental final chorus]\n{Electric guitar melodic riff enters immediately, all earlier instruments return behind it}\n{Warm powerful resolved ending}",
       "positive_styles": [
-        "Original instrumental cinematic chamber-rock score",
-        "No vocals, no singing, no spoken words",
-        "One memorable lyrical motif in D major, coherent harmonic development",
-        "Expressive real acoustic concert grand piano in a bright upper register, nuanced touch",
-        "Natural dynamics, acoustic realism, polished recording, 120 BPM with expressive phrasing",
-        "Foreground electric guitar with an identifiable melodic rock RIFF, crunchy amplified tone",
-        "The electric guitar riff is the lead and clearly audible, not buried background guitar",
-        "Full return of acoustic piano, bowed violins, bowed cello, pizzicato double bass and acoustic drums",
-        "All instruments play together behind the electric guitar riff",
-        "Powerful joyful cinematic climax, memorable motif, final resolved chord",
-        "Immediate electric guitar-led full-band re-entry, strong memorable repeated rock riff",
-        "Electric guitar is loud and upfront with amp distortion and sustain, distinct rhythmic riff rather than strummed chords",
-        "Piano, violins, cello, plucked double bass and drums are all clearly behind the electric guitar"
+        "Original contemporary French pop instrumental, heartfelt and organic",
+        "A memorable singable melody, bittersweet warmth and hopeful emotional lift",
+        "Natural human phrasing and dynamics, intimate detailed recording",
+        "100 BPM, flowing pop pulse, harmonically coherent from start to finish",
+        "Entirely instrumental, no vocals or spoken words",
+        "Full pop-band return: piano, violins, cello, pizzicato double bass and live drums together",
+        "Electric guitar enters immediately with a memorable repeated melodic RIFF clearly at the front",
+        "Warm clean-to-light-overdrive electric amp tone, singing sustain, emotionally uplifting recognizable hook",
+        "The guitar riff carries the same lyrical motif while the piano and strings support it behind",
+        "Strong emotional French pop climax with clarity and warmth, powerful without aggression",
+        "A decisive musical ending, not an endless fade"
       ],
       "negative_styles": [
         "vocals",
@@ -182,8 +223,17 @@ const compositionPlan = {
         "spoken words",
         "acoustic guitar",
         "nylon guitar",
+        "trailer music",
+        "epic orchestral soundtrack",
+        "Hollywood fanfare",
+        "brass",
+        "hybrid cinematic drums",
         "synth pads",
-        "electronic drums"
+        "EDM",
+        "heavy metal",
+        "aggressive distortion",
+        "virtuosic shredding",
+        "bombastic orchestral hits"
       ],
       "context_adherence": "high"
     }
@@ -192,8 +242,8 @@ const compositionPlan = {
 
 
 const bucket = "rudyladit-music-pilot";
-const audioPath = "film-draft02-40s-2026-11-01.mp3";
-const lockPath = "film-draft02-40s-2026-11-01.attempt.json";
+const audioPath = "film-draft03-pop-40s-2026-11-01.mp3";
+const lockPath = "film-draft03-pop-40s-2026-11-01.attempt.json";
 const json = (data: unknown, status = 200) => new Response(JSON.stringify(data), {status, headers});
 async function equalSecret(a: string, b: string) {
   const enc = new TextEncoder();
