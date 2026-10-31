@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-31",
+  "project": "fjpcuxsezeuajhlotzij",
+  "function": "cfo-elevenlabs-music-pilot",
+  "deployment_version": 1,
+  "verify_jwt": true,
+  "status": "blocked_before_generation",
+  "elevenlabs_generation_calls": 0,
+  "mp3_created": false,
+  "existing_functions_unchanged": true,
+  "validation": {
+    "mock_tests": "passed",
+    "checks": [
+      "method restrictions",
+      "service credential required",
+      "fixed music_v2_5 / 8000ms / instrumental",
+      "cached audio reused",
+      "provider error sanitized",
+      "persistent attempt reservation on failure",
+      "concurrent requests limited to one provider call"
+    ]
+  },
+  "blocker": {
+    "action": "Supabase dashboard: Add secret key in Edge Function test form",
+    "source": "automatic approval review",
+    "reason": "Privileged secret insertion into browser form not specifically authorized; possible conflict with verify_jwt=true",
+    "resolution_required": "Explicit approval for administrator credential use in the Supabase test UI, then verify compatible JWT authentication without disabling security checks"
+  },
+  "notes": [
+    "No ElevenLabs secret was retrieved or exposed.",
+    "No generation was attempted; provider music permissions and output remain unverified.",
+    "No existing CFO article/TTS function was modified."
+  ]
+}

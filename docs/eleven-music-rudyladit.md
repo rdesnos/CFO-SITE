@@ -1,20 +1,29 @@
-# Eleven Music — piano pilote RudyLadit
+# Eleven Music — pilote RudyLadit
 
-## Origine
-Supabase CFO Marine : projet `fjpcuxsezeuajhlotzij`, clé existante `ELEVENLABS_API_KEY` employée dans les fonctions actives `cfo-elevenlabs-tts` et `cfo-elevenlabs-article`. Ne jamais modifier ces fonctions pour produire de la musique.
+Fonction isolée : `supabase/functions/cfo-elevenlabs-music-pilot/index.ts`.
+Projet Supabase : `fjpcuxsezeuajhlotzij`.
 
-## Endpoint
-Code source : `supabase/functions/cfo-elevenlabs-music-pilot/index.ts`.
-Génération de 8 secondes de piano acoustique instrumental via `POST https://api.elevenlabs.io/v1/music`, modèle `music_v2_5`.
-L'endpoint ne reçoit pas de prompt libre ; la durée est fixée pour contrôler le coût.
-Déploiement avec `verify_jwt=true` ; ne jamais exposer de clé ElevenLabs dans GitHub, WordPress ou le navigateur.
+## API vérifiée
 
-## Prudence
-Chaque appel POST qui aboutit consomme des crédits ElevenLabs. Ne pas ouvrir publiquement cette fonction ni la faire appeler automatiquement. Avant un usage répétitif, ajouter contrôle de rôle, limitation serveur des appels et journalisation. Prévoir un stockage privé des MP3 et un suivi des coûts.
+POST https://api.elevenlabs.io/v1/music?output_format=mp3_48000_192
+Modèle `music_v2_5`, `music_length_ms: 8000`, `force_instrumental: true`.
+Prompt fixe de piano acoustique mélodique et expressif, sans instrument additionnel.
+Source : https://elevenlabs.io/docs/api-reference/music/compose
 
-## Direction artistique
-0–8 piano mélodique; 8–16 violons; 16–24 violoncelle et contrebasse pizzicato; 24–26 silence; 26–31 batterie seule; 31–40 climax orchestre + guitare électrique.
+## Sécurité et exécution
 
-La génération pilote n'atteste pas encore de la qualité sonore. Validation d'écoute requise avant de poursuivre.
+Déployer uniquement cette fonction avec `verify_jwt=true`. Le handler exige aussi une égalité avec le secret serveur `SUPABASE_SERVICE_ROLE_KEY` ; les clés publiques et les JWT utilisateur ordinaires ne suffisent pas. Ne jamais désactiver les contrôles pour invoquer ce pilote.
 
-Documentation : https://elevenlabs.io/docs/api-reference/music/compose
+Le bucket dédié `rudyladit-music-pilot` est privé. Une réservation atomique persistante, créée sans upsert avant l'appel ElevenLabs, limite ce pilote à une tentative totale. Le verrou est conservé après toute erreur ou délai d'attente pour éviter une double facturation. Ne pas supprimer le verrou pour réessayer sans vérification et nouvelle autorisation.
+
+Si le MP3 existe, un nouvel appel administrateur renvoie un lien signé valable sept jours sans nouvelle génération. Le lien signé est un accès temporaire au fichier : ne pas le versionner. Aucun secret n'est retourné ni journalisé. Aucun prompt ni durée du client n'est utilisé.
+
+## État du 31 octobre 2026
+
+Fonction déployée ACTIVE, version 1, JWT activé. Les 44 fonctions préexistantes sont inchangées (identifiants, versions et empreintes comparés).
+
+Tests locaux : `node supabase/functions/cfo-elevenlabs-music-pilot/check.mjs` avec Node 24, tous les appels fournisseur simulés. Tests réussis : autorisation, paramètres fixes, cache, erreurs expurgées et verrou concurrent/persistant.
+
+**Aucun MP3 produit, aucun appel ElevenLabs lancé.** Le contrôle automatique a refusé l'action « Add secret key » dans le formulaire de test du tableau de bord Supabase, car cet usage du secret privilégié dans le navigateur exige une autorisation spécifique ; il a également relevé la compatibilité JWT à vérifier. Aucun contournement ni désactivation des protections n'a été effectué. La disponibilité musicale effective de la clé reste donc non testée.
+
+Résultat structuré : `docs/results/eleven-music-pilot-2026-10-31.json`.
