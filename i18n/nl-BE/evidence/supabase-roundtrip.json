@@ -1,0 +1,11 @@
+{
+  "records": 42,
+  "failures": [],
+  "fields": [
+    "source_hash",
+    "translated_content",
+    "translated_title",
+    "translated_excerpt"
+  ],
+  "all_match": true
+}

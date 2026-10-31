@@ -1,0 +1,1761 @@
+[
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 3277,
+    "url": "https://chroniques-fille-ordinaire.com/marine-ce-qui-brulait-deja/",
+    "title": "Marine : ce qui brûlait déjà",
+    "source_revision": "2026-10-31T10:39:21",
+    "source_hash": "674ab90492e3bee0a6bf5386fbd8e46724e500127ccc202ec434eb72617b3210",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 2437,
+    "attribute_labels": [
+      "Portrait aquarelle de Marine, de face en rouge, sur fond de brasier et de magma incandescent."
+    ],
+    "links": [
+      "https://www.youtube.com/watch?v=mZ7SzelQst4",
+      "https://www.nrj.fr/artistes/marine/albums/coeur-maladroit-deluxe",
+      "https://marinemusique.fr/",
+      "/entre-les-lignes/"
+    ],
+    "media": [
+      "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/marine-ce-qui-brulait-deja/marine-feu-brasier-magma-portrait-intense-v3-1ae63f34.png"
+    ],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 1704,
+    "url": "https://chroniques-fille-ordinaire.com/gemme-entre-les-lignes/",
+    "title": "Gemme — Entre les lignes",
+    "source_revision": "2026-10-31T10:39:21",
+    "source_hash": "13d696d62bddb9cdfb680aeaa3f4c6eb30b86adf970e4788531cf0d436f35421",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 383,
+    "attribute_labels": [
+      "Deux lectures de Gemme",
+      "Aquarelle du dossier Gemme : une femme parcourt des photographies et des souvenirs face à un fauteuil vide près d’une fenêtre.",
+      "Aquarelle de Marine pensive entre un disque sombre et un phénix lumineux."
+    ],
+    "links": [
+      "https://chroniques-fille-ordinaire.com/gemme-traverser-le-deuil-et-faire-vivre-le-lien/",
+      "https://chroniques-fille-ordinaire.com/gemme-traverser-le-deuil-et-faire-vivre-le-lien/",
+      "https://chroniques-fille-ordinaire.com/gemme-traverser-le-deuil-et-faire-vivre-le-lien/",
+      "https://chroniques-fille-ordinaire.com/marine-le-phenix-et-le-neant/",
+      "https://chroniques-fille-ordinaire.com/marine-le-phenix-et-le-neant/",
+      "https://chroniques-fille-ordinaire.com/marine-le-phenix-et-le-neant/"
+    ],
+    "media": [
+      "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/gemme-traverser-le-deuil-et-faire-vivre-le-lien/gemme-traverser-le-deuil-et-faire-vivre-le-lien-webp-960-fdd1fbe0.webp",
+      "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/marine-le-phenix-et-le-neant/marine-le-phenix-et-le-neant-bordures-diffuses-484c79e4.png"
+    ],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 1516,
+    "url": "https://chroniques-fille-ordinaire.com/marine-le-phenix-et-le-neant/",
+    "title": "Marine, le phénix et le néant",
+    "source_revision": "2026-10-31T10:39:21",
+    "source_hash": "cf6cda248ddf44ae440876859c1652b575415500b45ae04032694e22817c1231",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 2852,
+    "attribute_labels": [
+      "Aquarelle de Marine pensive entre un disque sombre et un phénix lumineux."
+    ],
+    "links": [
+      "https://www.lemonde.fr/m-perso/article/2026/10/02/un-apero-avec-marine-delplace-il-y-a-quoi-de-mal-a-etre-ordinaire_6787186_4497916.html",
+      "https://www.lemonde.fr/m-perso/article/2026/10/02/un-apero-avec-marine-delplace-il-y-a-quoi-de-mal-a-etre-ordinaire_6787186_4497916.html"
+    ],
+    "media": [
+      "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/marine-le-phenix-et-le-neant/marine-le-phenix-et-le-neant-bordures-diffuses-484c79e4.png"
+    ],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 1092,
+    "url": "https://chroniques-fille-ordinaire.com/observatoire-cfo-v1-preview/univers-mgp/",
+    "title": "Univers MGP",
+    "source_revision": "2026-10-31T10:39:21",
+    "source_hash": "e2802aad660d93323f4f0909dd61abd4f2e76bcd3921fe4b6f26d7fa6832ce89",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 23,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [
+      "cfo_mgp_visualisation"
+    ],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 971,
+    "url": "https://chroniques-fille-ordinaire.com/observatoire-cfo-v1-preview/",
+    "title": "Observatoire CFO — V1 Preview",
+    "source_revision": "2026-10-31T10:39:21",
+    "source_hash": "62475c929c5ebd1f4ed8f694117a79bc8394b68d880860e558c2d09053bb7485",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 20,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [
+      "cfo_cockpit_marine"
+    ],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 947,
+    "url": "https://chroniques-fille-ordinaire.com/charte-numerique-ecoresponsable/",
+    "title": "Charte numérique écoresponsable",
+    "source_revision": "2026-10-31T10:39:21",
+    "source_hash": "49c7f12a2883d10e633fe2611309beff62304ed63297af75d974201d691b0540",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 1885,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 930,
+    "url": "https://chroniques-fille-ordinaire.com/test-cockpit-cfo-150-exact/",
+    "title": "TEST Cockpit CFO 1.5.0 exact",
+    "source_revision": "2026-10-31T10:39:21",
+    "source_hash": "a142c19ea4ed4660556cad14f58470cc3f70931e29de81952b11f6f651c9867a",
+    "scope": "excluded",
+    "reason": "Test Cockpit exact",
+    "text_characters": 465,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 928,
+    "url": "https://chroniques-fille-ordinaire.com/cockpit-cfo-v0/",
+    "title": "Cockpit CFO — V0",
+    "source_revision": "2026-10-31T10:39:21",
+    "source_hash": "d6a020cd551d121b40063d85970a45ed85dfc8db9b23e9478d381a4f5ead27bc",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 4593,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 924,
+    "url": "https://chroniques-fille-ordinaire.com/test-cockpit-cfo-150-historique/",
+    "title": "TEST Cockpit CFO 1.5.0 restauré",
+    "source_revision": "2026-10-31T10:39:21",
+    "source_hash": "36f80c69425f6388b92ffe1c9586f5cd22eb2ca0cc2122bfbacd021be247aa0c",
+    "scope": "excluded",
+    "reason": "Test Cockpit restauré",
+    "text_characters": 3637,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 881,
+    "url": "https://chroniques-fille-ordinaire.com/tricheur-peut-on-aimer-deux-personnes-a-la-fois/",
+    "title": "« Tricheur » : peut-on aimer deux personnes à la fois ?",
+    "source_revision": "2026-10-31T10:39:21",
+    "source_hash": "909bcdc21aa902f0d3fdebcf0be7ee141eb90f75e3792ba92f0a74fea69d255b",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 13672,
+    "attribute_labels": [
+      "Illustration aquarelle du dossier Tricheur : un homme face à un miroir où apparaissent deux relations amoureuses."
+    ],
+    "links": [
+      "https://www.nrj.fr/artistes/marine/actus/backstage-nrj-marine-offre-un-gateau-special-a-manu-71367009",
+      "https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2019.00230/full",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5436896/",
+      "https://www.pigeonvoyageur.fr/pages/livret_des_jeunes.pdf"
+    ],
+    "media": [
+      "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/tricheur-peut-on-aimer-deux-personnes-a-la-fois-webp-960-8a0bc61a.webp"
+    ],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 878,
+    "url": "https://chroniques-fille-ordinaire.com/a-ses-cotes-carnets-de-bord/",
+    "title": "À ses côtés",
+    "source_revision": "2026-10-31T10:44:14",
+    "source_hash": "9eb4756c7b72d900059b870dd16adbbdf1aa764e91659ecc8b1551b9839ff5d8",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 4359,
+    "attribute_labels": [
+      "Les portraits de la rubrique",
+      "Sources du portrait de Marc Hernandez"
+    ],
+    "links": [
+      "#marc-hernandez",
+      "#carnet-de-bord-marine",
+      "https://www.allocine.fr/tvactu/articles/article-1000215346.html",
+      "https://www.dalidainstitute.com/ecole/parrains-intervenants-fondateurs/",
+      "https://podcast.ausha.co/sold-out/s05e23-hors-serie-manager-d-artiste-marc-hernadndez-benjamin-biolay-mika-zaz",
+      "https://www.nylon.fr/musique/louane-celebrity-skin/",
+      "https://www.facebook.com/profile.php?id=61582419478190",
+      "https://www.instagram.com/carnetdebordmarine/",
+      "https://www.tiktok.com/@carnetdebordmarine",
+      "https://www.facebook.com/profile.php?id=61582419478190",
+      "https://www.facebook.com/profile.php?id=61582419478190",
+      "https://www.instagram.com/carnetdebordmarine/",
+      "https://www.tiktok.com/@carnetdebordmarine"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 875,
+    "url": "https://chroniques-fille-ordinaire.com/politique-de-confidentialite/",
+    "title": "Confidentialité &amp; RGPD",
+    "source_revision": "2026-10-31T10:44:14",
+    "source_hash": "06242ee6264fa0e7e0a1a84b4b7bc080f6b6effd963df4ec481d85c6b33b7990",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 2179,
+    "attribute_labels": [],
+    "links": [
+      "/contact/"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 873,
+    "url": "https://chroniques-fille-ordinaire.com/charte-editoriale/",
+    "title": "Charte éditoriale",
+    "source_revision": "2026-10-31T10:44:14",
+    "source_hash": "2e5e6a6995593876d3c76be422b66b6f5f8650e4e7e2ae71ca58ddb1fddc86a0",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 1677,
+    "attribute_labels": [],
+    "links": [
+      "/charte-ia/"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 859,
+    "url": "https://chroniques-fille-ordinaire.com/charte-ia/",
+    "title": "Charte IA",
+    "source_revision": "2026-10-31T10:44:14",
+    "source_hash": "9e52a1522596002f44005e8dcedbafbb0207a05c41faa1757f49eeaed12ea256",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 8310,
+    "attribute_labels": [
+      "Le processus de création d’un contenu CFO : de la veille à la publication, avec une IA d’assistance et une validation humaine"
+    ],
+    "links": [
+      "#charte-commune",
+      "/a-propos/"
+    ],
+    "media": [
+      "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/editorial/2026/09/cfo-charte-ia-processus-de6d5563.jpg"
+    ],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 819,
+    "url": "https://chroniques-fille-ordinaire.com/a-ses-cotes-test/",
+    "title": "À ses côtés",
+    "source_revision": "2026-10-31T10:44:14",
+    "source_hash": "972cb960550ed41c265aa2d2710452df43a418559cd4eb2c1c263381a6c7e76c",
+    "scope": "excluded",
+    "reason": "À ses côtés — page de test explicite",
+    "text_characters": 2365,
+    "attribute_labels": [
+      "Portrait dessiné de Marine — Des gens bien",
+      "Carnet de bord — Marine"
+    ],
+    "links": [
+      "#carnet",
+      "#communaute",
+      "#temoignages",
+      "#liens",
+      "https://www.facebook.com/",
+      "https://www.instagram.com/carnetdebordmarine/",
+      "https://www.tiktok.com/@carnetdebordmarine",
+      "https://www.facebook.com/groups/1120839473396935/",
+      "https://www.facebook.com/groups/9329753493754012/",
+      "https://www.facebook.com/groups/1118259882901379/",
+      "https://www.facebook.com/groups/587459140727623/"
+    ],
+    "media": [
+      "https://chroniques-fille-ordinaire.com/wp-content/uploads/2026/09/Marine-—-Des-gens-bien.png",
+      "https://chroniques-fille-ordinaire.com/wp-content/uploads/2026/09/Carnet-de-bord-Marine.png"
+    ],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 815,
+    "url": "https://chroniques-fille-ordinaire.com/a-propos/",
+    "title": "À propos",
+    "source_revision": "2026-10-31T10:44:14",
+    "source_hash": "c7c1ade44b81ea808ded144b47075e2addfe02e69aa009cd985a3ac9085ead79",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 2894,
+    "attribute_labels": [],
+    "links": [
+      "/charte-ia/"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 781,
+    "url": "https://chroniques-fille-ordinaire.com/tricheur-elle-le-savait-deja/",
+    "title": "Tricheur — Elle le savait déjà",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "a7e6defeb9e4bfa9eb7fb8cc0e4cb00033df45c9652486fd0cd18beba83c706f",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 4573,
+    "attribute_labels": [
+      "Illustration du dossier Tricheur : un homme devant un miroir, deux dames de cœur suggérées dans le reflet."
+    ],
+    "links": [
+      "https://www.lavoixdunord.fr/instant/1734216/article/2026-09-04/ca-fait-quoi-d-etre-un-tricheur-marine-regle-ses-comptes-dans-un-nouveau-titre",
+      "https://www.nrj.fr/artistes/marine/actus/marine-devoile-tricheur-une-revenge-song-qui-annonce-son-second-album-71367005"
+    ],
+    "media": [
+      "https://chroniques-fille-ordinaire.com/wp-content/uploads/2026/09/Tricheur-—-Deux-dames-de-coeur.jpg"
+    ],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 769,
+    "url": "https://chroniques-fille-ordinaire.com/a-propos-de-lauteur/",
+    "title": "À propos de l’auteur",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "dae33bdd59bdde70a1c6753b6cff1923065b64980633beeb0761a8be60b10af0",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 1798,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 681,
+    "url": "https://chroniques-fille-ordinaire.com/agenda/",
+    "title": "Agenda",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "0d43b120761373329a7cd13d9fb407f45f63b3e310894ffdd382500ea16a4024",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 245,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [
+      "cfo_agenda"
+    ],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 662,
+    "url": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/attache-presse-promotion-musique/",
+    "title": "Presse et promotion",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "983e01829db3c6fa17ff1df3d8798229e33b2c78fe71ac90913fc741ff83ab45",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 1433,
+    "attribute_labels": [],
+    "links": [
+      "https://cnm.fr/"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 661,
+    "url": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/distributeur-musical/",
+    "title": "Distribution musicale",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "b854512c97c599b216fd1e503a7ec049077b4dce897bd1a0e538227191d82c0c",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 1454,
+    "attribute_labels": [],
+    "links": [
+      "https://cnm.fr/",
+      "https://snepmusique.com/"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 660,
+    "url": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/programmateur-salle-festival/",
+    "title": "Programmation",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "cda55a9d0c906eedc94659e8ae91094863941c42c923eec9ba95d9b6a4d68888",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 1372,
+    "attribute_labels": [],
+    "links": [
+      "https://cnm.fr/"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 659,
+    "url": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/producteur-spectacle-tourneur/",
+    "title": "Spectacle et tournée",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "6766566e62d814b3464d01243d9ca7b1d108388820ed1388c63fee460300f948",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 1333,
+    "attribute_labels": [],
+    "links": [
+      "https://cnm.fr/"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 658,
+    "url": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/manager-artiste-musique/",
+    "title": "Management artistique",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "e2eca0413c8a74fe0c8bf641d0511cd5bc68a079533ec9fcc553fed4fd44194d",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 1373,
+    "attribute_labels": [],
+    "links": [
+      "https://cnm.fr/"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 657,
+    "url": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/editeur-musical-role/",
+    "title": "Édition musicale",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "3bf9304cbe3e63b539516def6f6c304382806ecbf82f8cef87162de468b3f496",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 1432,
+    "attribute_labels": [],
+    "links": [
+      "https://www.sacem.fr/",
+      "https://cnm.fr/"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 651,
+    "url": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/producteur-phonographique-label/",
+    "title": "Production et labels",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "b2f397de497a2a7f6d28f8e0a88ebc9cb3cb727e966bc06b413125cbd1f81d4d",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 1721,
+    "attribute_labels": [],
+    "links": [
+      "https://cnm.fr/",
+      "https://snepmusique.com/"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 650,
+    "url": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/arrangeur-realisateur-artistique/",
+    "title": "Arrangement et réalisation",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "e3d41124001e2b8a44da9598d1e1549e07ce9fcbca4753dd51a22aa34dfe4e29",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 1876,
+    "attribute_labels": [],
+    "links": [
+      "https://cnm.fr/",
+      "https://www.sacem.fr/"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 649,
+    "url": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/auteur-compositeur-interprete-qui-cree-quoi/",
+    "title": "Auteur, compositeur, interprète",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "e5dc9ea7914656130d4b1ea743573b637c57c044446029312e138298472c2445",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 1850,
+    "attribute_labels": [],
+    "links": [
+      "https://musee.sacem.fr/index.php/ExhibitionCMS/RessourcesPedagogiques/View?id=2731",
+      "https://cnm.fr/formations/"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 645,
+    "url": "https://chroniques-fille-ordinaire.com/en-coulisses/observatoire-des-salles/",
+    "title": "Observatoire des salles",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "4e2bd03e53dd17f749084521527d114fe96f6cf2be225ce1a561596e4ed9b922",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 4988,
+    "attribute_labels": [],
+    "links": [
+      "https://www.ticketmaster.be/artist/marine-billets/1320024?language=fr-be",
+      "https://www.francebillet.com/en/artist/marine/marine-tournee-3918815/",
+      "https://www.fnacspectacles.com/en/artist/marine/marine-tournee-3918815/",
+      "https://theatreroyalmons.be/",
+      "https://www.forest-national.be/evenement/marine-c59dbfe5",
+      "https://www.cheyenneprod.com/artistes/marine/"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 644,
+    "url": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/",
+    "title": "Les métiers de la musique",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "71deb274f576f6309327a84618260044d724939e8b54096c263795613d3b9c16",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 1738,
+    "attribute_labels": [],
+    "links": [
+      "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/auteur-compositeur-interprete-qui-cree-quoi/",
+      "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/arrangeur-realisateur-artistique/",
+      "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/producteur-phonographique-label/",
+      "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/editeur-musical-role/",
+      "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/manager-artiste-musique/",
+      "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/producteur-spectacle-tourneur/",
+      "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/programmateur-salle-festival/",
+      "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/distributeur-musical/",
+      "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/attache-presse-promotion-musique/",
+      "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-lombre-derriere-un-artiste/"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 599,
+    "url": "https://chroniques-fille-ordinaire.com/entre-les-lignes/",
+    "title": "Entre les lignes",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "14965919d395f8514b1ec7f61ec2f66759b7237e06478a6527cac2bf46d092ec",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 1636,
+    "attribute_labels": [],
+    "links": [
+      "https://chroniques-fille-ordinaire.com/marine-ce-qui-brulait-deja/",
+      "https://chroniques-fille-ordinaire.com/marine-le-phenix-et-le-neant/",
+      "https://chroniques-fille-ordinaire.com/dalida-alzheimer/",
+      "https://chroniques-fille-ordinaire.com/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/",
+      "https://chroniques-fille-ordinaire.com/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/",
+      "https://chroniques-fille-ordinaire.com/tricheur-peut-on-aimer-deux-personnes-a-la-fois/",
+      "https://chroniques-fille-ordinaire.com/que-ca-dure-la-relation-entre-une-artiste-et-son-public/",
+      "https://chroniques-fille-ordinaire.com/des-gens-bien-marine-le-coeur-au-nord/",
+      "https://chroniques-fille-ordinaire.com/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/",
+      "https://chroniques-fille-ordinaire.com/gemme-traverser-le-deuil-et-faire-vivre-le-lien/",
+      "https://chroniques-fille-ordinaire.com/a-la-maison-la-nostalgie-de-lenfance/",
+      "https://chroniques-fille-ordinaire.com/restes-daverses-quand-le-succes-devient-difficile-a-porter/"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 591,
+    "url": "https://chroniques-fille-ordinaire.com/en-coulisses/pourquoi-une-chanson-devient-visible/",
+    "title": "Pourquoi certaines chansons deviennent-elles visibles ?",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "098a0efa322c78abea9c6d195474412d6543d1409e661228b8b8095786d56a46",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 2488,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 590,
+    "url": "https://chroniques-fille-ordinaire.com/en-coulisses/comment-se-fabrique-une-chanson/",
+    "title": "De l’idée au public : comment se fabrique une chanson ?",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "b955c7d497e82198bbf11a26dfef48ea9771f71ed1a74821b4eb698a3ed9858a",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 2243,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 589,
+    "url": "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-lombre-derriere-un-artiste/",
+    "title": "Les métiers de l’ombre : qui fait quoi derrière un artiste ?",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "00662dd27b01042d8ad93a038b260555afbdfa126e12ae70a9272eab61d3f8f5",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 1953,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 582,
+    "url": "https://chroniques-fille-ordinaire.com/observatoire-cfo/methodologie-mgp/",
+    "title": "Méthodologie MGP",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "bfaf0934ddd46c1958ea8f5c04d227887b61668571f16d8def35e98c7ec3acf0",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 7163,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [
+      "Mᵢ"
+    ],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 577,
+    "url": "https://chroniques-fille-ordinaire.com/observatoire-cfo/mgp-3d/",
+    "title": "MGP 3D",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "af73c762ac2afa976bd830b2b8d4fcdb3bac0bfdb4df8d71e0208a2cece7e7ba",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 42,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [
+      "mgp_trajectory_3d"
+    ],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 561,
+    "url": "https://chroniques-fille-ordinaire.com/observatoire-cfo/observatoire-cfo-mgp/",
+    "title": "MGP — Orbite de carrière de Marine",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "96e8b616d31f39bb97b908ae49aba895648ee7e92df3091607fe36cda3b1e473",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 231,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [
+      "cfo_mgp"
+    ],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 477,
+    "url": "https://chroniques-fille-ordinaire.com/observatoire-cfo/",
+    "title": "Observatoire CFO",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "b510fc25efe0a52658f8497158746542e572a46e0fd0d0265c8405f092321850",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 9351,
+    "attribute_labels": [
+      "Navigation Observatoire CFO"
+    ],
+    "links": [
+      "#marine",
+      "#panel",
+      "#projections",
+      "#these",
+      "#audiences",
+      "#titres",
+      "#radio",
+      "#classements",
+      "#concerts",
+      "#methodologie"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 467,
+    "url": "https://chroniques-fille-ordinaire.com/mgp-orbite-carriere-marine/",
+    "title": "MGP — Orbite de carrière de Marine",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "711b05ce02715d26e8337ecd11022bb724665555f33c18fa9e7b5282c1271f2d",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 9322,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [
+      "a",
+      "new",
+      "new",
+      "new",
+      "v",
+      "a",
+      "Math",
+      "mp",
+      "idx-1"
+    ],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 453,
+    "url": "https://chroniques-fille-ordinaire.com/mgp-laboratoire-gravitationnel/",
+    "title": "MGP — Laboratoire gravitationnel",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "95a401c2d5512b73b93c76816a917dd0b9116e6862997179d00a1bfb80716751",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 14690,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [
+      "i",
+      "i",
+      "i",
+      "T",
+      "j",
+      "j",
+      "T",
+      "force",
+      "new",
+      "new",
+      "new",
+      "z",
+      "f",
+      "f",
+      "start",
+      "m",
+      "m",
+      "m",
+      "f",
+      "ix",
+      "p"
+    ],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 446,
+    "url": "https://chroniques-fille-ordinaire.com/test-mgp/",
+    "title": "Test MGP",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "988365e3818f50e9f64619effe271724f621aeb7b441f2572b438e804ff4f4f6",
+    "scope": "excluded",
+    "reason": "Test MGP",
+    "text_characters": 17770,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [
+      "cfo_mgp",
+      "a",
+      "pts",
+      "idx",
+      "idx",
+      "p",
+      "idx",
+      "idx",
+      "key",
+      "W",
+      "idx",
+      "x",
+      "f",
+      "i",
+      "idx",
+      "idx",
+      "idx"
+    ],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 404,
+    "url": "https://chroniques-fille-ordinaire.com/en-coulisses/",
+    "title": "En coulisses",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "826ff0c20dadfdb084bc4aaaed25348d9d25f4d88f6da5f7e6109609e5ddd72f",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 2155,
+    "attribute_labels": [],
+    "links": [
+      "https://chroniques-fille-ordinaire.com/en-coulisses/metiers-de-la-musique/",
+      "https://chroniques-fille-ordinaire.com/en-coulisses/observatoire-des-salles/"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 402,
+    "url": "https://chroniques-fille-ordinaire.com/ipi-identifier-les-auteurs-compositeurs-et-editeurs/",
+    "title": "IPI : identifier les auteurs, compositeurs et éditeurs",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "53f68300f452f6095e614933309fc90e9e23093831a6d00f58a3d3f9526acf94",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 2174,
+    "attribute_labels": [],
+    "links": [
+      "https://www.cisac.org/services/information-services/ipi"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 400,
+    "url": "https://chroniques-fille-ordinaire.com/iswc-la-carte-didentite-de-loeuvre-musicale/",
+    "title": "ISWC : la carte d’identité de l’œuvre musicale",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "2c3cba35660ffdb36df8fe33e746798c60a90b9b145f1e7ca37818d9395d6eb7",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 1847,
+    "attribute_labels": [],
+    "links": [
+      "https://www.iswc.org/iswc",
+      "https://www.iswc.org/get-iswc"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 398,
+    "url": "https://chroniques-fille-ordinaire.com/isrc-la-carte-didentite-de-lenregistrement/",
+    "title": "ISRC : la carte d’identité de l’enregistrement",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "4643bed9715f902cd9837b2782685b670efe17a5375896cf8eba3f02070b4e30",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 1884,
+    "attribute_labels": [],
+    "links": [
+      "https://isrc.ifpi.org/images/downloads/ISRC_Handbook.pdf"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 396,
+    "url": "https://chroniques-fille-ordinaire.com/une-chanson-plusieurs-identites-comprendre-iswc-isrc-et-ipi/",
+    "title": "Une chanson, plusieurs identités : comprendre ISWC, ISRC et IPI",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "214e3d29b13fd72d1c7c2ea700fe078441d8299d6290380477c4783d05807bee",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 3817,
+    "attribute_labels": [],
+    "links": [
+      "https://www.iswc.org/iswc",
+      "https://isrc.ifpi.org/images/downloads/ISRC_Handbook.pdf",
+      "https://www.cisac.org/services/information-services/ipi"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 389,
+    "url": "https://chroniques-fille-ordinaire.com/methodologie-de-lobservatoire-cfo/",
+    "title": "Méthodologie de l’Observatoire CFO",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "0dbaac3a529d225327b354c0b52af1d546584444c615962ab14ed6a8bef77119",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 5664,
+    "attribute_labels": [],
+    "links": [
+      "https://snepmusique.com/top-radios/a-propos-des-tops/",
+      "https://snepmusique.com/les-certifications/a-propos-des-certifications/",
+      "https://snepmusique.com/les-certifications/"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 344,
+    "url": "https://chroniques-fille-ordinaire.com/restes-daverses-quand-le-succes-devient-difficile-a-porter/",
+    "title": "« Restes d’averses » : quand le regard des autres ne suffit pas",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "ef0ce3a06eb60b52447b737361e2c4d726a9c57b8abea643ec257467dc64f845",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 6868,
+    "attribute_labels": [
+      "Illustration dessinée du dossier Restes d’averses : fenêtre couverte de pluie et feuille d’automne."
+    ],
+    "links": [
+      "https://chroniques-fille-ordinaire.com/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/",
+      "https://chroniques-fille-ordinaire.com/que-ca-dure-la-relation-entre-une-artiste-et-son-public/",
+      "https://www.youtube.com/watch?v=jpGw6GWjGbE",
+      "https://www.paroles.net/marine/paroles-restes-d-averses",
+      "https://www.shazam.com/song/1819694566/restes-daverses"
+    ],
+    "media": [
+      "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/restes-daverses-quand-le-succes-devient-difficile-a-porter/restes-daverses-quand-le-succes-devient-difficile-a-porter-webp-960-0c1ab181.webp"
+    ],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 341,
+    "url": "https://chroniques-fille-ordinaire.com/a-la-maison-la-nostalgie-de-lenfance/",
+    "title": "« À la maison » : la nostalgie de l’enfance",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "6b87167d5e2002e1ff7c68633683ff2066cb83e2fe497bf52050e3759a0317cf",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 6180,
+    "attribute_labels": [
+      "Illustration aquarelle du dossier À la maison : une femme observe une scène d’enfance dans une chambre, avec une paire de rollers au premier plan."
+    ],
+    "links": [
+      "https://chroniques-fille-ordinaire.com/des-gens-bien-marine-le-coeur-au-nord/",
+      "https://chroniques-fille-ordinaire.com/dalida-alzheimer/",
+      "https://www.youtube.com/watch?v=D9ZoOh6JOls",
+      "https://dictionary.apa.org/autobiographical-memory",
+      "https://www.apa.org/news/podcasts/speaking-of-psychology/nostalgia",
+      "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2020.570621/full",
+      "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1440536/full"
+    ],
+    "media": [
+      "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/a-la-maison-la-nostalgie-de-lenfance/a-la-maison-la-nostalgie-de-lenfance-webp-960-722391ad.webp"
+    ],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 338,
+    "url": "https://chroniques-fille-ordinaire.com/gemme-traverser-le-deuil-et-faire-vivre-le-lien/",
+    "title": "« Gemme » : traverser le deuil et faire vivre le lien",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "de81447e22bb3e4085b0465bb250487aae79d3d886576fcbd00f3a2511119216",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 6004,
+    "attribute_labels": [
+      "Illustration aquarelle du dossier Gemme : une femme parcourt des photographies et des souvenirs face à un fauteuil vide. près d’une fenêtre."
+    ],
+    "links": [
+      "https://3114.fr/",
+      "https://chroniques-fille-ordinaire.com/dalida-alzheimer/",
+      "https://chroniques-fille-ordinaire.com/a-la-maison-la-nostalgie-de-lenfance/",
+      "https://www.youtube.com/watch?v=7k7CFVj5J3Q",
+      "https://www.nrj.fr/artistes/marine/actus/des-parties-de-moi-marine-nous-en-dit-plus-sur-le-contenu-de-son-premier-album-71364668",
+      "https://www.psycom.org/sorienter/les-lignes-decoute/",
+      "https://www.ameli.fr/assure/actualites/sante-mentale-mon-soutien-psy-pour-un-accompagnement-psychologique-accessible-tous",
+      "https://3114.fr/"
+    ],
+    "media": [
+      "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/gemme-traverser-le-deuil-et-faire-vivre-le-lien/gemme-traverser-le-deuil-et-faire-vivre-le-lien-webp-960-fdd1fbe0.webp"
+    ],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 335,
+    "url": "https://chroniques-fille-ordinaire.com/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/",
+    "title": "« Ma faute » : reconnaître les relations toxiques, en amour comme en amitié",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "68e1960a1b13378623892061990c27077af2ad5086bd375912a205837f54df49",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 7154,
+    "attribute_labels": [
+      "Illustration aquarelle du dossier Ma faute : un couple en tension autour d’une table, dans un intérieur baigné de lumière."
+    ],
+    "links": [
+      "https://arretonslesviolences.gouv.fr/",
+      "https://chroniques-fille-ordinaire.com/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/",
+      "https://chroniques-fille-ordinaire.com/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/",
+      "https://www.youtube.com/watch?v=KoDQnOEV8nA",
+      "https://arretonslesviolences.gouv.fr/besoin-d-aide/violences-au-sein-du-couple",
+      "https://www.service-public.fr/particuliers/vosdroits/R50511",
+      "https://www.psycom.org/"
+    ],
+    "media": [
+      "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie/ma-faute-reconnaitre-les-relations-toxiques-en-amour-comme-en-amitie-webp-960-09157cb9.webp"
+    ],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 332,
+    "url": "https://chroniques-fille-ordinaire.com/des-gens-bien-marine-le-coeur-au-nord/",
+    "title": "« Des gens bien » : Marine, le cœur au Nord",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "cc56a4a59f9fdd0ba7e5796415c783511d29ac41e007ce78d41645343fe6a6cb",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 6597,
+    "attribute_labels": [
+      "Illustration aquarelle du dossier Des gens bien : une famille dans une rue du Nord, avec une grand-mère, un enfant, un chien et un chevalement minier à l’horizon.."
+    ],
+    "links": [
+      "https://chroniques-fille-ordinaire.com/a-la-maison-la-nostalgie-de-lenfance/",
+      "https://chroniques-fille-ordinaire.com/que-ca-dure-la-relation-entre-une-artiste-et-son-public/",
+      "https://www.youtube.com/watch?v=wG6Nx4A6Ik0",
+      "https://www.metropolys.com/la-nordiste-marine-rend-hommage-a-sa-region",
+      "https://www.youtube.com/watch?v=Cuzvxz8icjo",
+      "https://fr.wikipedia.org/wiki/Les_Corons_(chanson)"
+    ],
+    "media": [
+      "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/des-gens-bien-marine-le-coeur-au-nord/des-gens-bien-marine-le-coeur-au-nord-webp-960-c993131d.webp"
+    ],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 329,
+    "url": "https://chroniques-fille-ordinaire.com/que-ca-dure-la-relation-entre-une-artiste-et-son-public/",
+    "title": "« Que ça dure » : la relation entre une artiste et son public",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "06c8fcd08a58cb2087d2f19455877ed3bec99a555a1b6492fae0cf9079f65d7b",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 6498,
+    "attribute_labels": [
+      "Illustration aquarelle du dossier Que ça dure : une artiste salue son public à la fin d’un concert.."
+    ],
+    "links": [
+      "https://chroniques-fille-ordinaire.com/restes-daverses-quand-le-succes-devient-difficile-a-porter/",
+      "https://chroniques-fille-ordinaire.com/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/",
+      "https://www.youtube.com/watch?v=Pa8lh9DCAdI",
+      "https://cnm.fr/formation/analyser-et-comprendre-les-fans-dun-projet-musique-a-partir-de-ses-donnees/",
+      "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1418564/full",
+      "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.648448/full"
+    ],
+    "media": [
+      "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/que-ca-dure-la-relation-entre-une-artiste-et-son-public/que-ca-dure-la-relation-entre-une-artiste-et-son-public-webp-960-2c781cb4.webp"
+    ],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 322,
+    "url": "https://chroniques-fille-ordinaire.com/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/",
+    "title": "« Escroc » : quand le succès ne suffit pas à se sentir légitime",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "2c74af8b9e62e227d1304c4935e2145043c3c10c2a5acd7104cfdc4c1dc7549b",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 6701,
+    "attribute_labels": [
+      "Illustration aquarelle du dossier Escroc : le succès extérieur confronté au doute et au sentiment de ne pas être légitime."
+    ],
+    "links": [
+      "https://chroniques-fille-ordinaire.com/restes-daverses-quand-le-succes-devient-difficile-a-porter/",
+      "https://chroniques-fille-ordinaire.com/que-ca-dure-la-relation-entre-une-artiste-et-son-public/",
+      "https://www.nrj.fr/artistes/marine/actus/marine-devoile-escroc-le-cri-du-coeur-de-la-gagnante-de-la-star-academy-71366010",
+      "https://mradio.fr/news/musique/56424/marine-devoile-le-clip-de-escroc-et-evoque-son-syndrome-de-l-imposteur",
+      "https://dictionary.apa.org/impostor-phenomenon",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7174434/",
+      "https://www.apa.org/monitor/2021/06/cover-impostor-phenomenon"
+    ],
+    "media": [
+      "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime/escroc-quand-le-succes-ne-suffit-pas-a-se-sentir-legitime-webp-960-25fc4fc8.webp"
+    ],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 317,
+    "url": "https://chroniques-fille-ordinaire.com/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/",
+    "title": "« D’accord » : quand la haine en ligne reste dans la tête",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "3dc6f0caf275585ecf36f3dc0b17d7f151aa2bae5a55f52a1a826a6d102a59d1",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 6360,
+    "attribute_labels": [
+      "Illustration aquarelle du dossier D’accord : une jeune femme isolée tandis qu’un groupe regarde un téléphone."
+    ],
+    "links": [
+      "https://e-enfance.org/le3018/",
+      "https://mradio.fr/news/people/55081/marine-a-subi-du-cyberharcelement-apres-la-fin-de-la-star-academy",
+      "https://www.education.gouv.fr/non-au-harcelement",
+      "https://www.education.gouv.fr/non-au-harcelement/phare-un-dispositif-de-lutte-contre-le-harcelement-l-ecole-323435",
+      "https://e-enfance.org/le3018/",
+      "https://e-enfance.org/informer/cyber-harcelement/"
+    ],
+    "media": [
+      "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/daccord-quand-la-haine-en-ligne-reste-dans-la-tete-webp-960-0009b7df.webp"
+    ],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 235,
+    "url": "https://chroniques-fille-ordinaire.com/dalida-alzheimer/",
+    "title": "« Dalida » : le cerf-volant s’est froissé",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "38ecf81fd63cbed708b87e363cc90d8afdae3ed1aaae7d76f0debc8e2d8e42bf",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 9695,
+    "attribute_labels": [
+      "Illustration aquarelle du dossier Dalida : deux générations partagent des souvenirs, avec Dalida à la télévision et un cerf-volant."
+    ],
+    "links": [
+      "https://www.tf1info.fr/culture/video-replay-interview-tf1-le-portrait-tout-en-sincerite-de-marine-de-la-star-academy-dans-sept-a-huit-2390466.html",
+      "https://www.tf1info.fr/culture/programme-tv-tf1-les-enfoires-2026-marine-ma-grand-mere-etait-benevole-aux-restos-du-coeur-chanter-avec-les-enfoires-est-tres-symbolique-2421634.html",
+      "https://www.dailymotion.com/video/x9m5bqc",
+      "https://www.paroles.net/marine/paroles-dalida",
+      "https://www.chartsinfrance.net/Marine/interview-132976.html",
+      "https://www.chartsinfrance.net/Marine/news-133004.html",
+      "https://www.inserm.fr/dossier/alzheimer-maladie/",
+      "https://www.has-sante.fr/jcms/p_3351732/fr/repit-des-aidants",
+      "https://chroniques-fille-ordinaire.com/gemme-traverser-le-deuil-et-faire-vivre-le-lien/",
+      "https://chroniques-fille-ordinaire.com/a-la-maison-la-nostalgie-de-lenfance/"
+    ],
+    "media": [
+      "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/dalida-alzheimer/dalida-alzheimer-webp-960-5ff2a435.webp"
+    ],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 138,
+    "url": "https://chroniques-fille-ordinaire.com/la-grand-place/",
+    "title": "La Grand-Place",
+    "source_revision": "2026-10-31T10:44:12",
+    "source_hash": "d5a06a2d326c94248d7e900577ba3728efbb66d553c399336562b598e905f73a",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 81,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [
+      "wpforo"
+    ],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 124,
+    "url": "https://chroniques-fille-ordinaire.com/actualites/",
+    "title": "Actualités",
+    "source_revision": "2026-10-31T10:44:12",
+    "source_hash": "a532dba4dd795794c0553c9b86d3df1ca7d29e646ffaf874d3d1a2f4c4d76ca4",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 351,
+    "attribute_labels": [
+      "Filtrer les actualités"
+    ],
+    "links": [],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 70,
+    "url": "https://chroniques-fille-ordinaire.com/mentions-legales/",
+    "title": "Mentions légales",
+    "source_revision": "2026-10-31T10:44:12",
+    "source_hash": "efb26a1c4e45685d6d1fcd554cf9680407dc0c04788abc1800f58b3a11c82324",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 547,
+    "attribute_labels": [],
+    "links": [
+      "https://annuaire-entreprises.data.gouv.fr/entreprise/109396010"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 67,
+    "url": "https://chroniques-fille-ordinaire.com/details-du-billet/",
+    "title": "Détails du billet",
+    "source_revision": "2026-10-31T10:44:12",
+    "source_hash": "3758e7c23eddccaa6516b2a86a77a0c2592789d5b96e96ff13be73d7b0bb9d69",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 26,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [
+      "sc_event_tickets_details"
+    ],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 66,
+    "url": "https://chroniques-fille-ordinaire.com/recu-de-billet/",
+    "title": "Reçu de billet",
+    "source_revision": "2026-10-31T10:44:12",
+    "source_hash": "61cdb5f2ecc8e558feae6bc21fb6a726a143012926d8ac14da98ecef636b158e",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 26,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [
+      "sc_event_tickets_receipt"
+    ],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 49,
+    "url": "https://chroniques-fille-ordinaire.com/chroniques/",
+    "title": "Chroniques",
+    "source_revision": "2026-10-31T10:44:12",
+    "source_hash": "3ab73fe9815e2a4ebc2a4b59427b495cad6a44edc9c887e3419e9412f1d7f9ea",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 0,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 48,
+    "url": "https://chroniques-fille-ordinaire.com/",
+    "title": "",
+    "source_revision": "2026-10-31T10:44:12",
+    "source_hash": "a2f03e1ac73bdf72bfbdedd446904f0cf3ea9aecc61a699d99d80cb069ae70b7",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 4220,
+    "attribute_labels": [
+      "Visuel NRJ Music Awards 2026",
+      "Comparaison semaine précédente et semaine actuelle",
+      "Comparaison semaine précédente et semaine actuelle",
+      "Comparaison semaine précédente et semaine actuelle",
+      "Illustration aquarelle du dossier Tricheur : un homme face à un miroir où apparaissent deux relations amoureuses.",
+      "Repères de la semaine",
+      "Illustration du dossier Gemme",
+      "Illustration du dossier D’accord",
+      "Illustration du dossier Restes d’averses"
+    ],
+    "links": [
+      "/actualites/",
+      "/entre-les-lignes/",
+      "/actualites/",
+      "https://chroniques-fille-ordinaire.com/marine-victoire-nrj-music-awards-2026/",
+      "/entre-les-lignes/",
+      "/observatoire-cfo/",
+      "/tricheur-peut-on-aimer-deux-personnes-a-la-fois/",
+      "/observatoire-cfo/",
+      "/observatoire-cfo/",
+      "/observatoire-cfo/",
+      "/actualites/",
+      "/entre-les-lignes/",
+      "/la-grand-place/",
+      "/observatoire-cfo/",
+      "/en-coulisses/",
+      "/actualites/",
+      "/gemme-traverser-le-deuil-et-faire-vivre-le-lien/",
+      "/gemme-traverser-le-deuil-et-faire-vivre-le-lien/",
+      "/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/",
+      "/daccord-quand-la-haine-en-ligne-reste-dans-la-tete/",
+      "/restes-daverses-quand-le-succes-devient-difficile-a-porter/",
+      "/restes-daverses-quand-le-succes-devient-difficile-a-porter/",
+      "/entre-les-lignes/",
+      "/observatoire-cfo/",
+      "/la-grand-place/",
+      "/la-grand-place/",
+      "/la-grand-place/"
+    ],
+    "media": [
+      "https://chroniques-fille-ordinaire.com/wp-content/uploads/2026/09/NRJ-Music-Awards-2026-—-visuel-NRJ.jpg",
+      "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/tricheur-peut-on-aimer-deux-personnes-a-la-fois/tricheur-peut-on-aimer-deux-personnes-a-la-fois-webp-960-8a0bc61a.webp",
+      "/wp-content/uploads/2026/08/cfo-gemme.jpg",
+      "/wp-content/uploads/2026/08/cfo-daccord.jpg",
+      "/wp-content/uploads/2026/08/cfo-restes-daverses.jpg"
+    ],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "page",
+    "source_id": 43,
+    "url": "https://chroniques-fille-ordinaire.com/contact/",
+    "title": "Contact",
+    "source_revision": "2026-10-31T10:44:13",
+    "source_hash": "b776eb8ddf56000c41cc5a3e2c79db02f70f9c863a4b6dc5acd1d8b119d8265b",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 52,
+    "attribute_labels": [
+      "Microphone sur une scène éclairée avant un concert"
+    ],
+    "links": [],
+    "media": [
+      "https://chroniques-fille-ordinaire.com/wp-content/uploads/2026/01/0865cc23af625927cd51828da1fea09fb5a94b37.jpg"
+    ],
+    "shortcodes": [
+      "contact-form-7"
+    ],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "post",
+    "source_id": 3384,
+    "url": "https://chroniques-fille-ordinaire.com/marine-ecoutes-spotify-radio-semaine-20-26-octobre-2026/",
+    "title": "Marine : les écoutes Spotify progressent, la radio reste stable",
+    "source_revision": "2026-10-31T10:39:21",
+    "source_hash": "fd86952915b380a50124ac67d1a7be7a5e77cbc572b6cc2d365f2c611872532a",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 3227,
+    "attribute_labels": [
+      "Lecture des données de Marine"
+    ],
+    "links": [
+      "/observatoire-cfo/",
+      "/observatoire-cfo/"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "post",
+    "source_id": 3383,
+    "url": "https://chroniques-fille-ordinaire.com/marine-le-feu-le-brasier-le-magma-27-novembre/",
+    "title": "Marine : « Le feu, le brasier, le magma » annoncé pour le 27 novembre",
+    "source_revision": "2026-10-31T10:39:21",
+    "source_hash": "aecb873ee3132e922683d00861700f9a719b978c40c66ea00c19ab8e2d291889",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 1900,
+    "attribute_labels": [
+      "Actualité de Marine",
+      "Portrait aquarelle de Marine, en rouge, dans un paysage de feu et de magma."
+    ],
+    "links": [
+      "https://marinemusique.fr/products/cd-le-feu-le-brasier-le-magma",
+      "https://marinemusique.fr/products/vinyle-edition-le-feu",
+      "https://marinemusique.fr/products/vinyle-edition-le-brasier",
+      "https://marinemusique.fr/products/vinyle-editon-le-magma",
+      "/marine-ce-qui-brulait-deja/",
+      "/marine-ce-qui-brulait-deja/",
+      "https://marinemusique.fr/"
+    ],
+    "media": [
+      "https://fjpcuxsezeuajhlotzij.supabase.co/storage/v1/object/public/cfo-media/dossiers/marine-ce-qui-brulait-deja/marine-feu-brasier-magma-portrait-intense-v3-1ae63f34.png"
+    ],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "post",
+    "source_id": 3097,
+    "url": "https://chroniques-fille-ordinaire.com/marine-victoire-nrj-music-awards-2026/",
+    "title": "Marine sacrée Artiste Féminine Francophone aux NRJ Music Awards 2026",
+    "source_revision": "2026-10-31T10:39:21",
+    "source_hash": "bed6897527578604fba1a2a3cf297dd0b54cf1e0acdc6173d8e7dea53db33b6c",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 528,
+    "attribute_labels": [],
+    "links": [
+      "https://www.nrj.fr/music-awards/actualites/cest-incroyable-marine-confirme-avec-le-trophee-dartiste-feminine-francophone-71367251"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "post",
+    "source_id": 2236,
+    "url": "https://chroniques-fille-ordinaire.com/carnet-de-bord-regard-cfo-chaos-identitaire-princesse/",
+    "title": "Carnet de bord — « Princesse », identité et chaos : au-delà de l'image",
+    "source_revision": "2026-10-31T10:39:21",
+    "source_hash": "d1ee4281767109f6c9822cf7aaa99746c50621307cdcc1b41313761b2e106a05",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 1839,
+    "attribute_labels": [],
+    "links": [
+      "https://www.instagram.com/carnetdebordmarine/reel/Dd_V0HQIEhY/",
+      "https://www.facebook.com/p/Carnet-de-bord-Marine-61582419478190/"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "post",
+    "source_id": 719,
+    "url": "https://chroniques-fille-ordinaire.com/marine-pellicu-live-4-septembre-2026/",
+    "title": "Marine à Pellicu-Live le 4 septembre avec Kendji et Pfel &amp; Greem",
+    "source_revision": "2026-10-31T10:39:20",
+    "source_hash": "d0dab88f7a1a8093710a77f72b79c1619bac43f090295ff7b711375ad11f9cce",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 730,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "post",
+    "source_id": 717,
+    "url": "https://chroniques-fille-ordinaire.com/marine-attrapsons-29-aout-2026/",
+    "title": "Attrap’Sons : Marine absente le 29 août, Black M rejoint la programmation",
+    "source_revision": "2026-10-31T10:39:20",
+    "source_hash": "90a7806475075ad483ea5c7009dd2cd3304b93c943b8809338372bb898083ad5",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 684,
+    "attribute_labels": [],
+    "links": [
+      "https://www.attrapsons.fr/"
+    ],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "post",
+    "source_id": 711,
+    "url": "https://chroniques-fille-ordinaire.com/marine-deuxieme-album-termine/",
+    "title": "Marine confirme que son deuxième album est terminé",
+    "source_revision": "2026-10-31T10:39:20",
+    "source_hash": "2a31a96f6666efd73feba5aaf96ae40da2facd021adb83ec65b384a55ee6d7f4",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 801,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "post",
+    "source_id": 735,
+    "url": "https://chroniques-fille-ordinaire.com/marine-nrj-music-tour-toulouse-retour-images-2026/",
+    "title": "NRJ Music Tour Toulouse : Marine dans le retour en images officiel",
+    "source_revision": "2026-10-31T10:39:20",
+    "source_hash": "d0531a5ce782e1966f0213cd5fc60e5989fd9df449151e8bc847d870eef28be9",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 585,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "post",
+    "source_id": 723,
+    "url": "https://chroniques-fille-ordinaire.com/marine-pierre-de-maere-duo-toulouse-2026/",
+    "title": "Marine et Pierre de Maere réunis sur scène au NRJ Music Tour de Toulouse",
+    "source_revision": "2026-10-31T10:39:20",
+    "source_hash": "8065c733fc89a6453622fde081b1786fcfd1f9ad1172f92ec8a6004a0325e97c",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 536,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "post",
+    "source_id": 731,
+    "url": "https://chroniques-fille-ordinaire.com/marine-star-academy-all-stars-nrj-2026/",
+    "title": "Marine se dit prête pour une Star Academy All Stars",
+    "source_revision": "2026-10-31T10:39:20",
+    "source_hash": "62b2420673d0fc3f4c2a94c65010b23a3778994bd6186d6d95ae495ada44ec23",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 599,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "post",
+    "source_id": 725,
+    "url": "https://chroniques-fille-ordinaire.com/marine-princesse-chaos-yoa-reprise-2026/",
+    "title": "Marine reprend « Princesse chaos » de Yoa : un choix qui n’a rien d’anodin",
+    "source_revision": "2026-10-31T10:39:20",
+    "source_hash": "c50256cb6db19546c402f11d62e2ae310470f6f1831ef470cd9f3ac12cc2f192",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 472,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "post",
+    "source_id": 727,
+    "url": "https://chroniques-fille-ordinaire.com/marine-invitee-star-academy-tour-accor-arena-2026/",
+    "title": "Marine invitée surprise du Star Academy Tour à l’Accor Arena",
+    "source_revision": "2026-10-31T10:39:20",
+    "source_hash": "ca80046c6708c8c66150f6b6a8f07ab799ce5cb09dc922dbc1c0a5b89d16cb25",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 546,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "post",
+    "source_id": 729,
+    "url": "https://chroniques-fille-ordinaire.com/coeur-maladroit-disque-platine-marine-2026/",
+    "title": "« Cœur maladroit » franchit le cap du disque de platine",
+    "source_revision": "2026-10-31T10:39:20",
+    "source_hash": "3b1aa2317ad40e961a5eff94119dedc3335bc9b122c28a83fe085504d86c82ef",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 520,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  },
+  {
+    "source_system": "wordpress",
+    "source_type": "post",
+    "source_id": 733,
+    "url": "https://chroniques-fille-ordinaire.com/marine-documentaire-a-la-maison-doutes-succes-2026/",
+    "title": "Dans « À la maison », Marine montre aussi les doutes derrière le succès",
+    "source_revision": "2026-10-31T10:39:20",
+    "source_hash": "1e639915d9c14db91bd5870a03867eb62e6b1049eee1e92027a3779a71c2ca99",
+    "scope": "included",
+    "reason": "Publié ; conservé par défaut, y compris les anciennes URLs accessibles.",
+    "text_characters": 674,
+    "attribute_labels": [],
+    "links": [],
+    "media": [],
+    "shortcodes": [],
+    "inline_scripts": 0
+  }
+]

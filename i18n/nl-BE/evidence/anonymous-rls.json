@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-10-31T11:11:31.148619+00:00",
+  "checks": [
+    {
+      "query": "?select=source_id,status&locale=eq.nl-BE",
+      "http": 200,
+      "rows": 0,
+      "passed": true
+    },
+    {
+      "query": "?select=source_id,status&status=eq.review",
+      "http": 200,
+      "rows": 0,
+      "passed": true
+    },
+    {
+      "query": "?select=source_id,status&status=eq.draft",
+      "http": 200,
+      "rows": 0,
+      "passed": true
+    },
+    {
+      "table": "cfo_interface_translations",
+      "http": 200,
+      "rows": 0,
+      "passed": true
+    }
+  ]
+}

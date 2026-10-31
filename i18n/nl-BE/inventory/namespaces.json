@@ -1,0 +1,20 @@
+{
+  "namespaces": [
+    "oembed/1.0",
+    "cfo-forum/v1",
+    "cfo-mgp/v1",
+    "cfo-observatoire/v1",
+    "contact-form-7/v1",
+    "mgp/v1",
+    "wpvibe/v1",
+    "hostinger-reach/v1",
+    "viraly/v1",
+    "google-site-kit/v1",
+    "wp/v2",
+    "jwt-auth/v1",
+    "code-snippets/v1",
+    "wp-site-health/v1",
+    "wp-block-editor/v1",
+    "wp-abilities/v1"
+  ]
+}

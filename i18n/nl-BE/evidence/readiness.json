@@ -1,0 +1,180 @@
+{
+  "checked_at": "2026-10-31T11:13:20.836498+00:00",
+  "ready": false,
+  "wordpress_included": 74,
+  "wordpress_translated": 42,
+  "wordpress_coverage": 56.76,
+  "missing": [
+    {
+      "type": "page",
+      "id": 1092,
+      "title": "Univers MGP"
+    },
+    {
+      "type": "page",
+      "id": 971,
+      "title": "Observatoire CFO — V1 Preview"
+    },
+    {
+      "type": "page",
+      "id": 928,
+      "title": "Cockpit CFO — V0"
+    },
+    {
+      "type": "page",
+      "id": 881,
+      "title": "« Tricheur » : peut-on aimer deux personnes à la fois ?"
+    },
+    {
+      "type": "page",
+      "id": 878,
+      "title": "À ses côtés"
+    },
+    {
+      "type": "page",
+      "id": 859,
+      "title": "Charte IA"
+    },
+    {
+      "type": "page",
+      "id": 781,
+      "title": "Tricheur — Elle le savait déjà"
+    },
+    {
+      "type": "page",
+      "id": 645,
+      "title": "Observatoire des salles"
+    },
+    {
+      "type": "page",
+      "id": 582,
+      "title": "Méthodologie MGP"
+    },
+    {
+      "type": "page",
+      "id": 577,
+      "title": "MGP 3D"
+    },
+    {
+      "type": "page",
+      "id": 561,
+      "title": "MGP — Orbite de carrière de Marine"
+    },
+    {
+      "type": "page",
+      "id": 477,
+      "title": "Observatoire CFO"
+    },
+    {
+      "type": "page",
+      "id": 467,
+      "title": "MGP — Orbite de carrière de Marine"
+    },
+    {
+      "type": "page",
+      "id": 453,
+      "title": "MGP — Laboratoire gravitationnel"
+    },
+    {
+      "type": "page",
+      "id": 402,
+      "title": "IPI : identifier les auteurs, compositeurs et éditeurs"
+    },
+    {
+      "type": "page",
+      "id": 400,
+      "title": "ISWC : la carte d’identité de l’œuvre musicale"
+    },
+    {
+      "type": "page",
+      "id": 398,
+      "title": "ISRC : la carte d’identité de l’enregistrement"
+    },
+    {
+      "type": "page",
+      "id": 396,
+      "title": "Une chanson, plusieurs identités : comprendre ISWC, ISRC et IPI"
+    },
+    {
+      "type": "page",
+      "id": 389,
+      "title": "Méthodologie de l’Observatoire CFO"
+    },
+    {
+      "type": "page",
+      "id": 344,
+      "title": "« Restes d’averses » : quand le regard des autres ne suffit pas"
+    },
+    {
+      "type": "page",
+      "id": 341,
+      "title": "« À la maison » : la nostalgie de l’enfance"
+    },
+    {
+      "type": "page",
+      "id": 338,
+      "title": "« Gemme » : traverser le deuil et faire vivre le lien"
+    },
+    {
+      "type": "page",
+      "id": 335,
+      "title": "« Ma faute » : reconnaître les relations toxiques, en amour comme en amitié"
+    },
+    {
+      "type": "page",
+      "id": 332,
+      "title": "« Des gens bien » : Marine, le cœur au Nord"
+    },
+    {
+      "type": "page",
+      "id": 329,
+      "title": "« Que ça dure » : la relation entre une artiste et son public"
+    },
+    {
+      "type": "page",
+      "id": 322,
+      "title": "« Escroc » : quand le succès ne suffit pas à se sentir légitime"
+    },
+    {
+      "type": "page",
+      "id": 317,
+      "title": "« D’accord » : quand la haine en ligne reste dans la tête"
+    },
+    {
+      "type": "page",
+      "id": 235,
+      "title": "« Dalida » : le cerf-volant s’est froissé"
+    },
+    {
+      "type": "page",
+      "id": 67,
+      "title": "Détails du billet"
+    },
+    {
+      "type": "page",
+      "id": 66,
+      "title": "Reçu de billet"
+    },
+    {
+      "type": "page",
+      "id": 49,
+      "title": "Chroniques"
+    },
+    {
+      "type": "page",
+      "id": 48,
+      "title": ""
+    }
+  ],
+  "stale": [],
+  "incomplete_checks": [
+    "metadata",
+    "forum",
+    "agenda",
+    "dynamic-feeds",
+    "responsive",
+    "media-links",
+    "french-regression",
+    "french-residuals"
+  ]
+}
