@@ -1,0 +1,72 @@
+{
+  "version": 5,
+  "stage": "first_phrase_only",
+  "requested_duration_seconds": 30,
+  "decoded_duration_seconds": 30.024,
+  "sample_rate_hz": 48000,
+  "channels": 2,
+  "mp3_bytes": 720620,
+  "sha256": "d97d09d1a05027e1506b1f4f8b372b4df4cb711506854f6fc3dc35ab1e295f1a",
+  "provider_calls": 1,
+  "post_processing": "None. Original provider MP3 delivered byte-for-byte; no trimming, fade, inserted silence or concatenation.",
+  "tail_energy_windows": [
+    {
+      "start_seconds": 27,
+      "rms_pcm": 1689.3280583563394
+    },
+    {
+      "start_seconds": 28,
+      "rms_pcm": 464.2893546862775
+    },
+    {
+      "start_seconds": 28.5,
+      "rms_pcm": 327.5817013865905
+    },
+    {
+      "start_seconds": 29,
+      "rms_pcm": 187.09669926270746
+    },
+    {
+      "start_seconds": 29.25,
+      "rms_pcm": 129.6755831874297
+    },
+    {
+      "start_seconds": 29.5,
+      "rms_pcm": 31.60753140735079
+    },
+    {
+      "start_seconds": 29.75,
+      "rms_pcm": 4.5949927457323945
+    }
+  ],
+  "tail_to_body_ratio": 0.0013056034825276338,
+  "low_energy_tail_detected": true,
+  "planned_final_timeline": {
+    "first_phrase": [
+      0,
+      30
+    ],
+    "silence": [
+      30,
+      31
+    ],
+    "drums_only": [
+      31,
+      33
+    ],
+    "electric_riff_and_ensemble": [
+      33,
+      40
+    ]
+  },
+  "review": "Full decode verified. Musical cadence and naturalness require listening approval before producing the second phrase.",
+  "temporary_access_revoked": true,
+  "verify_jwt": true,
+  "final_deployment_version": 10,
+  "predeployment_rejected_request": {
+    "request": 10774,
+    "status": 403,
+    "provider_calls": 0
+  },
+  "completed_generation_request": 10775
+}

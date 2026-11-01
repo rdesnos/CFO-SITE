@@ -1,0 +1,29 @@
+{
+  "duration_seconds": 40,
+  "breath_seconds": 0.3,
+  "effective_near_silent_bounds_seconds": [
+    28.68,
+    29.01
+  ],
+  "drums_solo_seconds": [
+    29,
+    33
+  ],
+  "electric_finale_seconds": [
+    33,
+    40
+  ],
+  "first_source_active_bounds_seconds": [
+    2.14,
+    24.23
+  ],
+  "finale_source_active_bounds_seconds": [
+    0.01,
+    8.91
+  ],
+  "provider_generations_this_version": 2,
+  "reused": "V8 drum solo, first 4 seconds",
+  "review": "Listening proposal for user judgment. Durations and signal energy verified. Instrument identity, melody, harmonic fit and resemblance to references not independently certified.",
+  "arrangement_proposal": "Piano 0-5; violin requested at 5; pizzicato cello requested at 9; phrase develops to 28.7; breath 28.7-29; drums 29-33; full electric finale 33-40. New 40-second proposal extends the earlier 27.3-second structure.",
+  "sha256": "bcce2d58b9092abd556561568e72283a646168bd2d485f5318e5263ec4b0a3af"
+}
