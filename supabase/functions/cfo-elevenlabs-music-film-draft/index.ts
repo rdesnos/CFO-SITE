@@ -1,4 +1,5 @@
-// RudyLadit film draft 04, completed first phrase then breath and intense second phrase: one fixed 40-second generation; add 0.5s silence at 30s and compress 3s drum solo to 2.5s locally.
+// RudyLadit V5: generate ONLY a complete first musical phrase, with natural cadence and decay.
+// Provider MP3 is delivered unchanged: no inserted silence, fade, trimming, time stretch or concatenation.
 // Isolated from the initial piano pilot and all CFO article/TTS functions.
 // Deploy ONLY with verify_jwt=true; additionally require an explicit pilot credential.
 // Temporary access is disabled until a separately authorized credential is provisioned.
@@ -12,13 +13,14 @@ const compositionPlan = {
       "text": "[First phrase: opening]\n{Solo lyrical acoustic piano, tender upper-middle melody, space between notes}\n{A small arpeggio prepares the violin entrance at the end}",
       "positive_styles": [
         "Original instrumental French piano ballad, intimate vulnerable and deeply melodic",
-        "64 BPM in 4/4; one complete 8-bar emotional first phrase spanning 0 to 30 seconds",
+        "64 BPM in 4/4; ONE complete self-contained eight-bar piece, 30 seconds TOTAL, ending naturally",
         "A memorable original lyrical theme, wistful minor-key warmth and restrained harmonic movement",
         "Human rubato over a slow underlying pulse, acoustic detail and breathing space",
         "No vocals, no singing, no spoken words",
         "Solo acoustic grand piano only, warm upper-middle register",
         "The beginning of ONE long musical sentence, not a self-contained loop",
-        "Fragile personal emotion, piano phrased like a human breathing"
+        "Fragile personal emotion, piano phrased like a human breathing",
+        "This entire generation is only the first musical phrase: it MUST finish and resolve as a complete standalone piece"
       ],
       "negative_styles": [
         "vocals",
@@ -39,7 +41,10 @@ const compositionPlan = {
         "cello",
         "double bass",
         "drums",
-        "electric guitar"
+        "electric guitar",
+        "unfinished ending",
+        "cut-off melody",
+        "preparation for another section after the end"
       ],
       "context_adherence": "high"
     },
@@ -48,12 +53,13 @@ const compositionPlan = {
       "text": "[First phrase continues]\n{Violins enter and swell around the continuing piano theme}",
       "positive_styles": [
         "Original instrumental French piano ballad, intimate vulnerable and deeply melodic",
-        "64 BPM in 4/4; one complete 8-bar emotional first phrase spanning 0 to 30 seconds",
+        "64 BPM in 4/4; ONE complete self-contained eight-bar piece, 30 seconds TOTAL, ending naturally",
         "A memorable original lyrical theme, wistful minor-key warmth and restrained harmonic movement",
         "Human rubato over a slow underlying pulse, acoustic detail and breathing space",
         "No vocals, no singing, no spoken words",
         "Soft real bowed violins join the piano, both remain",
-        "Continue the same unfinished melodic sentence, tender rising emotion"
+        "Continue the same unfinished melodic sentence, tender rising emotion",
+        "This entire generation is only the first musical phrase: it MUST finish and resolve as a complete standalone piece"
       ],
       "negative_styles": [
         "vocals",
@@ -72,7 +78,10 @@ const compositionPlan = {
         "cello",
         "double bass",
         "drums",
-        "electric guitar"
+        "electric guitar",
+        "unfinished ending",
+        "cut-off melody",
+        "preparation for another section after the end"
       ],
       "context_adherence": "high"
     },
@@ -81,13 +90,14 @@ const compositionPlan = {
       "text": "[First phrase develops]\n{Warm cello joins the piano and violins; all earlier layers continue}",
       "positive_styles": [
         "Original instrumental French piano ballad, intimate vulnerable and deeply melodic",
-        "64 BPM in 4/4; one complete 8-bar emotional first phrase spanning 0 to 30 seconds",
+        "64 BPM in 4/4; ONE complete self-contained eight-bar piece, 30 seconds TOTAL, ending naturally",
         "A memorable original lyrical theme, wistful minor-key warmth and restrained harmonic movement",
         "Human rubato over a slow underlying pulse, acoustic detail and breathing space",
         "No vocals, no singing, no spoken words",
         "Bowed cello counter-melody, piano and violins remain audible",
         "The long first phrase develops toward its eventual cadence at 30 seconds",
-        "Slow expressive cumulative swell, space and nuance"
+        "Slow expressive cumulative swell, space and nuance",
+        "This entire generation is only the first musical phrase: it MUST finish and resolve as a complete standalone piece"
       ],
       "negative_styles": [
         "vocals",
@@ -105,7 +115,10 @@ const compositionPlan = {
         "shredding",
         "double bass",
         "drums",
-        "electric guitar"
+        "electric guitar",
+        "unfinished ending",
+        "cut-off melody",
+        "preparation for another section after the end"
       ],
       "context_adherence": "high"
     },
@@ -114,13 +127,14 @@ const compositionPlan = {
       "text": "[First phrase approaches its conclusion]\n{Pizzicato double bass enters with all previous instruments still present}",
       "positive_styles": [
         "Original instrumental French piano ballad, intimate vulnerable and deeply melodic",
-        "64 BPM in 4/4; one complete 8-bar emotional first phrase spanning 0 to 30 seconds",
+        "64 BPM in 4/4; ONE complete self-contained eight-bar piece, 30 seconds TOTAL, ending naturally",
         "A memorable original lyrical theme, wistful minor-key warmth and restrained harmonic movement",
         "Human rubato over a slow underlying pulse, acoustic detail and breathing space",
         "No vocals, no singing, no spoken words",
         "Acoustic upright double bass enters at 24 seconds, clearly finger-plucked pizzicato",
         "Piano, violin and cello continue, the whole first sentence reaches its emotional crest",
-        "Harmonically prepare a clear resolving cadence in the following section"
+        "Harmonically prepare a clear resolving cadence in the following section",
+        "This entire generation is only the first musical phrase: it MUST finish and resolve as a complete standalone piece"
       ],
       "negative_styles": [
         "vocals",
@@ -138,110 +152,37 @@ const compositionPlan = {
         "shredding",
         "bowed double bass",
         "drums",
-        "electric guitar"
-      ],
-      "context_adherence": "high"
-    },
-    {
-      "duration_ms": 3000,
-      "text": "[First phrase: completed cadence and natural resonance]\n{Resolve the melody and harmony now; final shared note then let its resonance decay}\n{The musical sentence is FINISHED before the next section}",
-      "positive_styles": [
-        "Original instrumental French piano ballad, intimate vulnerable and deeply melodic",
-        "64 BPM in 4/4; one complete 8-bar emotional first phrase spanning 0 to 30 seconds",
-        "A memorable original lyrical theme, wistful minor-key warmth and restrained harmonic movement",
-        "Human rubato over a slow underlying pulse, acoustic detail and breathing space",
-        "No vocals, no singing, no spoken words",
-        "This is the END of the first 30-second musical phrase, a genuine resolved cadence",
-        "Final resolving piano and strings note around 28.5 seconds absolute, then natural acoustic decay",
-        "All instruments release together; no new notes during the final one-second resonance tail",
-        "By the section boundary the first phrase has fully concluded, quiet natural decay, no abrupt cutoff",
-        "A musical breath after a complete sentence, not a mute inserted in ongoing music"
-      ],
-      "negative_styles": [
-        "vocals",
-        "singing",
-        "spoken words",
-        "trailer music",
-        "Hollywood fanfare",
-        "epic orchestral hits",
-        "brass",
-        "EDM",
-        "synth pads",
-        "acoustic guitar",
-        "nylon guitar",
-        "heavy metal",
-        "shredding",
-        "drums",
         "electric guitar",
-        "new unfinished melody",
-        "continuous ostinato",
-        "abrupt hard stop",
-        "unresolved sustained chord"
+        "unfinished ending",
+        "cut-off melody",
+        "preparation for another section after the end"
       ],
       "context_adherence": "high"
     },
     {
       "duration_ms": 3000,
-      "text": "[Second phrase: dramatic restart, drum solo]\n{After the completed first phrase and brief breath, drums alone launch a VERY INTENSE new phrase}\n{Build an unmistakable pickup into the electric guitar entrance}",
+      "text": "[Final cadence of the COMPLETE piece]\n{Land the final resolving note at the beginning of this last section}\n{Release the keys and bows, let the acoustic resonance decay naturally; the piece is finished}",
       "positive_styles": [
-        "No vocals, no singing, no spoken words",
-        "Acoustic drum kit ALONE, no pitched instruments",
-        "Strong decisive snare kick and tom attack, dramatic energy contrast with the first phrase",
-        "This launches the second phrase as a powerful new statement, not another continuation of the intro"
+        "Final three seconds of a complete intimate acoustic piano-and-strings ballad",
+        "The last resolving chord arrives immediately at 27 seconds, melody settles on the tonic",
+        "Piano, violins, cello and plucked bass all finish their shared musical sentence together",
+        "Natural acoustic resonance decays after that last chord; no new melodic attacks in the final two seconds",
+        "The final quarter-second is naturally quiet after the sound has decayed",
+        "A genuine completed cadence, emotional closure, no abrupt cutoff, no loop, no crossfade to a different passage",
+        "Entirely instrumental, no voices",
+        "64 BPM in 4/4; this completes the eighth and final bar of the piece"
       ],
       "negative_styles": [
-        "vocals",
-        "singing",
-        "spoken words",
-        "trailer music",
-        "Hollywood fanfare",
-        "epic orchestral hits",
-        "brass",
-        "EDM",
-        "synth pads",
-        "acoustic guitar",
-        "nylon guitar",
-        "heavy metal",
-        "shredding",
-        "piano",
-        "strings",
-        "cello",
-        "double bass",
+        "new melody",
+        "new section",
+        "pickup into another verse",
+        "continuous ostinato",
+        "unfinished ending",
+        "unresolved harmony",
+        "drums",
         "guitar",
-        "orchestra"
-      ],
-      "context_adherence": "low"
-    },
-    {
-      "duration_ms": 7000,
-      "text": "[Second phrase: very intense full ensemble release]\n{Electric guitar RIFF enters immediately with the entire ensemble behind it}\n{Big emotional release, all layers together, decisive ending}",
-      "positive_styles": [
-        "Original instrumental French piano ballad, intimate vulnerable and deeply melodic",
-        "64 BPM in 4/4; one complete 8-bar emotional first phrase spanning 0 to 30 seconds",
-        "A memorable original lyrical theme, wistful minor-key warmth and restrained harmonic movement",
-        "Human rubato over a slow underlying pulse, acoustic detail and breathing space",
-        "No vocals, no singing, no spoken words",
-        "At the start electric guitar enters with an unmistakable repeated melodic RIFF right at the front",
-        "Very intense emotional release, much stronger and fuller than the first phrase",
-        "Piano, bowed violins, bowed cello, pizzicato bass and live drums all return together behind the guitar",
-        "Warm electric amp with singing sustain and controlled overdrive, a strong melodic riff not generic chord strumming",
-        "The second phrase answers the completed first phrase; recognizable original theme grows into a powerful final statement",
-        "A firm resolved final chord and contained natural resonance"
-      ],
-      "negative_styles": [
-        "vocals",
-        "singing",
-        "spoken words",
-        "trailer music",
-        "Hollywood fanfare",
-        "epic orchestral hits",
-        "brass",
-        "EDM",
-        "synth pads",
-        "acoustic guitar",
-        "nylon guitar",
-        "heavy metal",
-        "shredding"
+        "voices",
+        "sudden mute"
       ],
       "context_adherence": "high"
     }
@@ -250,8 +191,8 @@ const compositionPlan = {
 
 
 const bucket = "rudyladit-music-pilot";
-const audioPath = "film-draft04-phrases-40s-2026-11-01.mp3";
-const lockPath = "film-draft04-phrases-40s-2026-11-01.attempt.json";
+const audioPath = "phrase05-natural-ending-30s-2026-11-01.mp3";
+const lockPath = "phrase05-natural-ending-30s-2026-11-01.attempt.json";
 const json = (data: unknown, status = 200) => new Response(JSON.stringify(data), {status, headers});
 async function equalSecret(a: string, b: string) {
   const enc = new TextEncoder();
@@ -285,7 +226,7 @@ Deno.serve(async (req: Request) => {
     });
     if(!r.ok) return json({ok:false,error:"Audio stored; signing failed. Do not regenerate."},502);
     const data=await r.json();
-    return json({ok:true,model_id:"music_v2_5",generated_duration_ms:40000,final_duration_ms:40000,
+    return json({ok:true,model_id:"music_v2_5",phrase_duration_ms:30000,planned_film_duration_ms:40000,
       audio_url:url+"/storage/v1"+data.signedURL,expires_in:604800,object:bucket+"/"+audioPath});
   };
   try {
@@ -304,7 +245,7 @@ Deno.serve(async (req: Request) => {
     // Retain this lock even on failure/timeout: provider may already have billed.
     const lock = await storage("object/"+bucket+"/"+lockPath,{method:"POST",
       headers:{"Content-Type":"application/json","x-upsert":"false"},
-      body:JSON.stringify({attempted_at:new Date().toISOString(),model_id:"music_v2_5",music_length_ms:40000})});
+      body:JSON.stringify({attempted_at:new Date().toISOString(),model_id:"music_v2_5",music_length_ms:30000})});
     if(!lock.ok) return json({ok:false,error:"Attempt already reserved or storage unavailable; generation NOT retried"},409);
     const response=await fetch("https://api.elevenlabs.io/v1/music?output_format=mp3_48000_192",{
       method:"POST",headers:{"xi-api-key":key,"Content-Type":"application/json","Accept":"audio/mpeg"},
