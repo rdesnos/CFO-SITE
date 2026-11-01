@@ -1,0 +1,13 @@
+.cfo-editions{position:relative;list-style:none}
+.cfo-editions summary{display:flex;align-items:center;gap:8px;padding:12px 8px;cursor:pointer;font-size:.8rem;white-space:nowrap;color:#183d4b;list-style:none}
+.cfo-editions summary::-webkit-details-marker{display:none}
+.cfo-editions summary::after{content:"";width:6px;height:6px;margin:0 2px 3px 4px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg);flex-shrink:0}
+.cfo-editions details[open]>summary::after{transform:rotate(225deg);margin-bottom:-3px}
+.cfo-edition-flags{display:inline-flex;align-items:center;gap:3px;flex-shrink:0}
+.cfo-edition-flag{display:block!important;width:28px!important;height:20px!important;max-width:none!important;object-fit:contain;background:#fff;border:1px solid #183d4b26;border-radius:2px;box-sizing:border-box}
+.cfo-editions-list{position:absolute;right:0;z-index:1000;min-width:240px;list-style:none;padding:8px!important;margin:0;background:#fffdfa;border:1px solid #e5d9d2;box-shadow:0 8px 20px #183d4b15}
+.cfo-editions-list a{display:flex!important;align-items:center;gap:10px;padding:10px!important;font-size:.9rem!important}
+.cfo-editions-list a[aria-current=true]{font-weight:800;text-decoration:underline}
+.cfo-editions summary:focus-visible,.cfo-editions-list a:focus-visible{outline:2px solid #7c233e;outline-offset:3px}
+@media(max-width:1100px){.cfo-editions summary{max-width:180px;white-space:normal}}
+@media(max-width:780px){.cfo-editions-list{position:static;box-shadow:none;border:0;min-width:0}.cfo-editions summary{max-width:none;padding:12px 4px}}
