@@ -1,0 +1,81 @@
+{
+  "version": 4,
+  "date": "2026-11-01",
+  "final_duration_seconds": 40,
+  "sample_rate_hz": 48000,
+  "channels": 2,
+  "decoded_frames": 1920000,
+  "mp3_bytes": 961388,
+  "sha256": "dc677291b9da603fa46ad50ef93ffc7cfe706f1d7159d0b9c4b3028dbe527a83",
+  "provider_duration_seconds": 40.032,
+  "silence_seconds": [
+    30,
+    30.5
+  ],
+  "silence_core_peak_pcm": 0,
+  "provider_calls": 1,
+  "drum_processing": "Pitch-preserving time compression of provider 3s solo to 2.5s, tempo factor 1.2",
+  "requested_timing": [
+    {
+      "start": 0,
+      "end": 8,
+      "music": "High lyrical acoustic piano, arpeggio pickup"
+    },
+    {
+      "start": 8,
+      "end": 16,
+      "music": "Violins join and swell; piano continues"
+    },
+    {
+      "start": 16,
+      "end": 24,
+      "music": "Cello joins and swells; earlier instruments continue"
+    },
+    {
+      "start": 24,
+      "end": 30,
+      "music": "Pizzicato double bass joins; all earlier layers continue"
+    },
+    {
+      "start": 30,
+      "end": 30.5,
+      "music": "Full silence"
+    },
+    {
+      "start": 30.5,
+      "end": 33,
+      "music": "Acoustic drum kit alone"
+    },
+    {
+      "start": 33,
+      "end": 40,
+      "music": "Full ensemble return with foreground electric guitar riff"
+    }
+  ],
+  "artistic_direction": "Slow 64 BPM original piano ballad: completed first phrase and natural resonance before the breath, followed by a very intense second phrase",
+  "quality_note": "Duration, decodability and exact silence verified; instrument identity and artistic fidelity require listening review.",
+  "temporary_access_revoked": true,
+  "final_deployment_version": 8,
+  "verify_jwt": true,
+  "phrase_structure": {
+    "first_phrase_seconds": [
+      0,
+      30
+    ],
+    "explicit_cadence_section_seconds": [
+      27,
+      30
+    ],
+    "requested_final_note_at": 28.5,
+    "breath_seconds": [
+      30,
+      30.5
+    ],
+    "second_phrase_seconds": [
+      30.5,
+      40
+    ],
+    "electric_guitar_entry_seconds": 33
+  },
+  "listening_review": "Pending: cadential completion and naturalness of the breath are musical judgments, not proven by silence or duration checks."
+}

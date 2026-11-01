@@ -6,7 +6,7 @@ globalThis.fetch=async (url,init={})=>{
   if(url.startsWith('https://api.elevenlabs.io/')){
     providerCalls++; await new Promise(resolve=>setTimeout(resolve,10));
     const body=JSON.parse(init.body);
-    assert.equal(body.model_id,'music_v2_5'); assert.equal(body.composition_plan.chunks.reduce((n,c)=>n+c.duration_ms,0),40000); assert.equal(body.composition_plan.chunks.length,6); assert.deepEqual(body.composition_plan.chunks.map(c=>c.duration_ms),[8000,8000,8000,6000,3000,7000]); assert.ok(!body.composition_plan.chunks[4].positive_styles.some(s=>s.includes('piano'))); assert.equal(body.prompt,undefined); assert.ok(body.composition_plan.chunks[5].positive_styles.some(s=>s.includes('RIFF')));
+    assert.equal(body.model_id,'music_v2_5'); assert.equal(body.composition_plan.chunks.reduce((n,c)=>n+c.duration_ms,0),40000); assert.equal(body.composition_plan.chunks.length,7); assert.deepEqual(body.composition_plan.chunks.map(c=>c.duration_ms),[8000,8000,8000,3000,3000,3000,7000]); assert.ok(!body.composition_plan.chunks[5].positive_styles.some(s=>s.includes('piano'))); assert.equal(body.prompt,undefined); assert.ok(body.composition_plan.chunks[6].positive_styles.some(s=>s.includes('RIFF')));
     if(failure)return Response.json({detail:{status:'missing_permissions',message:'must never echo arbitrary provider text'}},{status:403});
     const b=new Uint8Array(192000); b.set([0x49,0x44,0x33]);return new Response(b,{headers:{'Content-Type':'audio/mpeg'}});
   }
